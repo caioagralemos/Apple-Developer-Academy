@@ -6,7 +6,9 @@
 	<array>
 		<dict>
 			<key>ModifiedContent</key>
-			<string>class Local {
+			<string>import Foundation
+
+class Local {
     private let cidade: String;
     private let pais: String;
  
@@ -75,6 +77,7 @@ class Sistema {
 }
 
 class Usuario {
+    let id = UUID().uuidString
     private let login: String
     private let password: String
     private let nome: String
@@ -125,13 +128,80 @@ sis.contas.append(CiaAerea(login: "gol", password: "gla2024", nome: "Gol Linhas 
 sis.contas.append(CiaAerea(login: "ltmBR", password: "102030latam", nome: "Latam Airlines", pais: "Brasil"))
 sis.contas.append(CiaAerea(login: "tap", password: "portug4l", nome: "TAP Portugal", pais: "Portugal"))
 sis.contas.append(Passageiro(login: "logito", password: "cal123", nome: "Caio Agra Lemos", cpf: "14171458463", email: "caioagralemos@live.com"))
+
+
+class Assento {
+    private let fileira: Int;
+    private let assento: Character;
+    var passageiro: Passageiro?;
+    init(fileira: Int, assento: Character) {
+        self.fileira = fileira
+        self.assento = assento
+    }
+    func ocupado() -&gt; Bool{
+        if self.passageiro == nil {return true}
+        return false
+    }
+    func setPassageiro(passageiro: Passageiro) {
+        self.passageiro = passageiro
+    }
+    func removerPassageiro() {
+        self.passageiro = nil
+    }
+}
+
+class Aviao {
+    let id = UUID().uuidString
+    private let modelo: String;
+    private let capacidade: Int;
+    var assentos: [Assento] = [];
+    init(modelo: String, capacidade: Int) {
+        for i in 1 ... Int(capacidade / 6) {
+            assentos.append(Assento(fileira: i, assento: "A"))
+            assentos.append(Assento(fileira: i, assento: "B"))
+            assentos.append(Assento(fileira: i, assento: "C"))
+            assentos.append(Assento(fileira: i, assento: "D"))
+            assentos.append(Assento(fileira: i, assento: "E"))
+            assentos.append(Assento(fileira: i, assento: "F"))
+        }
+        self.capacidade = capacidade
+        self.modelo = modelo
+    }
+}
+
+class Voo {
+    let id = UUID().uuidString
+    private let origem: String;
+    private let destino: String;
+    private let aviao: String;
+    private let ciaAerea: String;
+    init (origem: String, destino: String, aviao: String, ciaAerea: String) {
+        self.origem = origem
+        self.destino = destino
+        self.aviao = aviao
+        self.ciaAerea = ciaAerea
+    }
+}
+
+class Passagem {
+    let id = UUID().uuidString
+    private let passageiro: String
+    private let voo: String
+    init (passageiro: String, voo: String) {
+        self.passageiro = passageiro
+        self.voo = voo
+    }
+}
+
+let aviao = Aviao(modelo: "Boeing A1", capacidade: 6*8)
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 5445}</string>
+			<string>{0, 7347}</string>
 			<key>OriginalContent</key>
-			<string></string>
+			<string>
+</string>
 			<key>OriginalRange</key>
-			<string>{1, 0}</string>
+			<string>{0, 1}</string>
 		</dict>
 	</array>
 	<key>File</key>

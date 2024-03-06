@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>class Local {
+    private let cidade: String;
+    private let pais: String;
+ 
+    init (cidade: String, pais: String) {
+        self.cidade = cidade.uppercased()
+        self.pais = pais.uppercased()
+    }
+    
+    func getCidade() -&gt; String {
+        return self.cidade
+    }
+    
+}
+
+class Aeroporto: Local {
+    private let nome: String;
+    private let codigo: String;
+    init (nome: String, codigo: String, cidade: String, pais: String) {
+        self.nome = nome.uppercased()
+        self.codigo = codigo.uppercased()
+        super.init(cidade: cidade, pais: pais)
+    }
+}
+
+extension Aeroporto: CustomStringConvertible {
+    // equivalente a tostring
+    var description: String {
+        return "\(self.getCidade()) - \(self.codigo)"
+    }
+}
+
+var aeroportos: [Aeroporto] = [];
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Zumbi dos Palmares", codigo: "MCZ", cidade: "Maceio", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Guarulhos", codigo: "GRU", cidade: "São Paulo", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Los Angeles", codigo: "LAX", cidade: "Los Angeles", pais: "Estados Unidos"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Heathrow", codigo: "LHR", cidade: "Londres", pais: "Reino Unido"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Haneda", codigo: "HND", cidade: "Tóquio", pais: "Japão"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Dubai", codigo: "DXB", cidade: "Dubai", pais: "Emirados Árabes Unidos"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Frankfurt", codigo: "FRA", cidade: "Frankfurt", pais: "Alemanha"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Charles de Gaulle", codigo: "CDG", cidade: "Paris", pais: "França"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Changi", codigo: "SIN", cidade: "Singapura", pais: "Singapura"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Sydney", codigo: "SYD", cidade: "Sydney", pais: "Austrália"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Auckland", codigo: "AKL", cidade: "Auckland", pais: "Nova Zelândia"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Brasília", codigo: "BSB", cidade: "Brasília", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Confins", codigo: "CNF", cidade: "Belo Horizonte", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional do Galeão", codigo: "GIG", cidade: "Rio de Janeiro", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Salvador", codigo: "SSA", cidade: "Salvador", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Recife", codigo: "REC", cidade: "Recife", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Porto Alegre", codigo: "POA", cidade: "Porto Alegre", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Curitiba", codigo: "CWB", cidade: "Curitiba", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Fortaleza", codigo: "FOR", cidade: "Fortaleza", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Manaus", codigo: "MAO", cidade: "Manaus", pais: "Brasil"))
+aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Florianópolis", codigo: "FLN", cidade: "Florianópolis", pais: "Brasil"))
+
+class Sistema {
+    var contas: [Usuario] = [];
+    func entrar(usuario: String, senha: String) -&gt; Usuario? {
+        var acesso: Usuario?;
+        for conta in contas {
+            if conta.getUsername() == usuario &amp;&amp; conta.getPassword() == senha {
+                acesso = conta
+            }
+        }
+        return acesso ?? nil
+    }
+}
+
+class Usuario {
+    private let login: String
+    private let password: String
+    private let nome: String
+    init(login: String, password: String, nome: String) {
+        self.login = login
+        self.password = password
+        self.nome = nome
+    }
+    func getUsername() -&gt; String {
+        return login
+    }
+    func getPassword() -&gt; String {
+        return password
+    }
+    func getNome() -&gt; String {
+        return nome
+    }
+}
+
+extension Usuario: CustomStringConvertible {
+    // equivalente a tostring
+    var description: String {
+        return self.getNome()
+    }
+}
+
+class CiaAerea: Usuario {
+    private let pais: String;
+    let voos: [String] = [];
+    init(login: String, password: String, nome: String, pais: String) {
+        self.pais = pais
+        super.init(login: login, password: password, nome: nome)
+    }
+}
+
+class Passageiro: Usuario {
+    private let cpf: String;
+    private let email: String;
+    init(login: String, password: String, nome: String, cpf: String, email: String) {
+        self.cpf = cpf
+        self.email = email
+        super.init(login: login, password: password, nome: nome)
+    }
+}
+
+var sis = Sistema()
+sis.contas.append(CiaAerea(login: "gol", password: "gla2024", nome: "Gol Linhas Aereas", pais: "Brasil"))
+sis.contas.append(CiaAerea(login: "ltmBR", password: "102030latam", nome: "Latam Airlines", pais: "Brasil"))
+sis.contas.append(CiaAerea(login: "tap", password: "portug4l", nome: "TAP Portugal", pais: "Portugal"))
+sis.contas.append(Passageiro(login: "logito", password: "cal123", nome: "Caio Agra Lemos", cpf: "14171458463", email: "caioagralemos@live.com"))
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 5445}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

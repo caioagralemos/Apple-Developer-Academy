@@ -31,6 +31,10 @@ class Aeroporto: Local {
         self.codigo = codigo.uppercased()
         super.init(cidade: cidade, pais: pais)
     }
+    
+    func getCod () -&gt; String {
+        return codigo
+    }
 }
 
 extension Aeroporto: CustomStringConvertible {
@@ -40,31 +44,11 @@ extension Aeroporto: CustomStringConvertible {
     }
 }
 
-var aeroportos: [Aeroporto] = [];
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Zumbi dos Palmares", codigo: "MCZ", cidade: "Maceio", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Guarulhos", codigo: "GRU", cidade: "São Paulo", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Los Angeles", codigo: "LAX", cidade: "Los Angeles", pais: "Estados Unidos"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Heathrow", codigo: "LHR", cidade: "Londres", pais: "Reino Unido"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Haneda", codigo: "HND", cidade: "Tóquio", pais: "Japão"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Dubai", codigo: "DXB", cidade: "Dubai", pais: "Emirados Árabes Unidos"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Frankfurt", codigo: "FRA", cidade: "Frankfurt", pais: "Alemanha"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Charles de Gaulle", codigo: "CDG", cidade: "Paris", pais: "França"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Changi", codigo: "SIN", cidade: "Singapura", pais: "Singapura"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Sydney", codigo: "SYD", cidade: "Sydney", pais: "Austrália"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Auckland", codigo: "AKL", cidade: "Auckland", pais: "Nova Zelândia"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Brasília", codigo: "BSB", cidade: "Brasília", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Confins", codigo: "CNF", cidade: "Belo Horizonte", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional do Galeão", codigo: "GIG", cidade: "Rio de Janeiro", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Salvador", codigo: "SSA", cidade: "Salvador", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Recife", codigo: "REC", cidade: "Recife", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Porto Alegre", codigo: "POA", cidade: "Porto Alegre", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Curitiba", codigo: "CWB", cidade: "Curitiba", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Fortaleza", codigo: "FOR", cidade: "Fortaleza", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Manaus", codigo: "MAO", cidade: "Manaus", pais: "Brasil"))
-aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Florianópolis", codigo: "FLN", cidade: "Florianópolis", pais: "Brasil"))
-
 class Sistema {
-    var contas: [Usuario] = [];
+    var contas: [Passageiro] = [];
+    var airlines: [CiaAerea] = [];
+    var voos: [Voo] = [];
+    var aeroportos: [Aeroporto] = [];
     func entrar(usuario: String, senha: String) -&gt; Usuario? {
         var acesso: Usuario?;
         for conta in contas {
@@ -77,7 +61,6 @@ class Sistema {
 }
 
 class Usuario {
-    let id = UUID().uuidString
     private let login: String
     private let password: String
     private let nome: String
@@ -95,6 +78,9 @@ class Usuario {
     func getNome() -&gt; String {
         return nome
     }
+    func verDados() {
+        print("Esse tipo de usuário não tem passagens")
+    }
 }
 
 extension Usuario: CustomStringConvertible {
@@ -106,41 +92,95 @@ extension Usuario: CustomStringConvertible {
 
 class CiaAerea: Usuario {
     private let pais: String;
+    var avioes: [Aviao] = [];
     let voos: [String] = [];
     init(login: String, password: String, nome: String, pais: String) {
         self.pais = pais
         super.init(login: login, password: password, nome: nome)
+    }
+    
+    
+    override func verDados() {
+        for p in voos {
+            print(p)
+        }
     }
 }
 
 class Passageiro: Usuario {
     private let cpf: String;
     private let email: String;
+    var passagens: [Passagem] = [];
     init(login: String, password: String, nome: String, cpf: String, email: String) {
         self.cpf = cpf
         self.email = email
         super.init(login: login, password: password, nome: nome)
     }
+    
+    func comprarPassagem(voo: Voo) {
+        var encontrou = false;
+        for assento in voo.assentos {
+            if assento.ocupado() == false {
+                assento.passageiro = self
+                encontrou = true;
+                break
+            }
+        }
+        if encontrou {
+            let p = Passagem(passageiro: self.getNome(), voo: voo)
+            passagens.append(p)
+            print(p)
+        } else {
+            print("Não foram encontrados assentos vazios nesse vôo.")
+        }
+    }
+    
+    override func verDados() {
+        for p in passagens {
+            print(p)
+        }
+    }
 }
 
 var sis = Sistema()
-sis.contas.append(CiaAerea(login: "gol", password: "gla2024", nome: "Gol Linhas Aereas", pais: "Brasil"))
-sis.contas.append(CiaAerea(login: "ltmBR", password: "102030latam", nome: "Latam Airlines", pais: "Brasil"))
-sis.contas.append(CiaAerea(login: "tap", password: "portug4l", nome: "TAP Portugal", pais: "Portugal"))
+sis.airlines.append(CiaAerea(login: "gol", password: "gla2024", nome: "Gol Linhas Aereas", pais: "Brasil"))
+sis.airlines.append(CiaAerea(login: "ltmBR", password: "102030latam", nome: "Latam Airlines", pais: "Brasil"))
+sis.airlines.append(CiaAerea(login: "tap", password: "portug4l", nome: "TAP Portugal", pais: "Portugal"))
 sis.contas.append(Passageiro(login: "logito", password: "cal123", nome: "Caio Agra Lemos", cpf: "14171458463", email: "caioagralemos@live.com"))
-
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Zumbi dos Palmares", codigo: "MCZ", cidade: "Maceio", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Guarulhos", codigo: "GRU", cidade: "São Paulo", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Los Angeles", codigo: "LAX", cidade: "Los Angeles", pais: "Estados Unidos"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Heathrow", codigo: "LHR", cidade: "Londres", pais: "Reino Unido"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Haneda", codigo: "HND", cidade: "Tóquio", pais: "Japão"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Dubai", codigo: "DXB", cidade: "Dubai", pais: "Emirados Árabes Unidos"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Frankfurt", codigo: "FRA", cidade: "Frankfurt", pais: "Alemanha"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Charles de Gaulle", codigo: "CDG", cidade: "Paris", pais: "França"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Changi", codigo: "SIN", cidade: "Singapura", pais: "Singapura"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Sydney", codigo: "SYD", cidade: "Sydney", pais: "Austrália"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Auckland", codigo: "AKL", cidade: "Auckland", pais: "Nova Zelândia"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Brasília", codigo: "BSB", cidade: "Brasília", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Confins", codigo: "CNF", cidade: "Belo Horizonte", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional do Galeão", codigo: "GIG", cidade: "Rio de Janeiro", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Salvador", codigo: "SSA", cidade: "Salvador", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Recife", codigo: "REC", cidade: "Recife", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Porto Alegre", codigo: "POA", cidade: "Porto Alegre", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Curitiba", codigo: "CWB", cidade: "Curitiba", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Fortaleza", codigo: "FOR", cidade: "Fortaleza", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Manaus", codigo: "MAO", cidade: "Manaus", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Florianópolis", codigo: "FLN", cidade: "Florianópolis", pais: "Brasil"))
+sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Nápoles", codigo: "NAP", cidade: "Nápoles", pais: "Itália"))
 
 class Assento {
     private let fileira: Int;
     private let assento: Character;
-    var passageiro: Passageiro?;
+    var passageiro: Passageiro? = nil;
     init(fileira: Int, assento: Character) {
         self.fileira = fileira
         self.assento = assento
     }
     func ocupado() -&gt; Bool{
-        if self.passageiro == nil {return true}
-        return false
+        if self.passageiro == nil {return false}
+        return true
     }
     func setPassageiro(passageiro: Passageiro) {
         self.passageiro = passageiro
@@ -154,9 +194,31 @@ class Aviao {
     let id = UUID().uuidString
     private let modelo: String;
     private let capacidade: Int;
-    var assentos: [Assento] = [];
+    
     init(modelo: String, capacidade: Int) {
-        for i in 1 ... Int(capacidade / 6) {
+        self.capacidade = capacidade
+        self.modelo = modelo
+    }
+    
+    func getCapacidade() -&gt; Int {
+        return capacidade
+    }
+}
+
+class Voo {
+    private let origem: String;
+    private let destino: String;
+    let aviao: Aviao;
+    private let ciaAerea: String;
+    private let data: String;
+    var assentos: [Assento] = [];
+    init (origem: String, destino: String, data: String, aviao: Aviao, ciaAerea: String) {
+        self.origem = origem
+        self.destino = destino
+        self.data = data
+        self.ciaAerea = ciaAerea
+        self.aviao = aviao
+        for i in 1 ... Int(aviao.getCapacidade() / 6) {
             assentos.append(Assento(fileira: i, assento: "A"))
             assentos.append(Assento(fileira: i, assento: "B"))
             assentos.append(Assento(fileira: i, assento: "C"))
@@ -164,39 +226,48 @@ class Aviao {
             assentos.append(Assento(fileira: i, assento: "E"))
             assentos.append(Assento(fileira: i, assento: "F"))
         }
-        self.capacidade = capacidade
-        self.modelo = modelo
+    }
+    
+    func getData() -&gt; String {
+        return data
     }
 }
 
-class Voo {
-    let id = UUID().uuidString
-    private let origem: String;
-    private let destino: String;
-    private let aviao: String;
-    private let ciaAerea: String;
-    init (origem: String, destino: String, aviao: String, ciaAerea: String) {
-        self.origem = origem
-        self.destino = destino
-        self.aviao = aviao
-        self.ciaAerea = ciaAerea
+extension Voo: CustomStringConvertible {
+    var description: String {
+        return "\(self.origem) -&gt; \(self.destino) via \(self.ciaAerea)"
     }
 }
 
 class Passagem {
-    let id = UUID().uuidString
     private let passageiro: String
-    private let voo: String
-    init (passageiro: String, voo: String) {
+    private let voo: Voo
+    init (passageiro: String, voo: Voo) {
         self.passageiro = passageiro
         self.voo = voo
     }
 }
 
-let aviao = Aviao(modelo: "Boeing A1", capacidade: 6*8)
+extension Passagem: CustomStringConvertible {
+    var description: String {
+        return "\(self.passageiro) viaja em \(self.voo) no dia \(self.voo.getData())"
+    }
+}
+
+sis.airlines[0].avioes.append(Aviao(modelo: "Boeing A1", capacidade: 6*8))
+
+sis.voos.append(Voo(origem: "MCZ", destino: "LAX", data: "01/06/2024", aviao: sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
+sis.voos.append(Voo(origem: "LAX", destino: "MCZ", data: "10/06/2024", aviao: sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
+sis.voos.append(Voo(origem: "MCZ", destino: "NAP", data: "10/06/2024", aviao: sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
+
+sis.contas[0].comprarPassagem(voo: sis.voos[0])
+sis.contas[0].comprarPassagem(voo: sis.voos[1])
+sis.contas[0].comprarPassagem(voo: sis.voos[2])
+
+sis.contas[0].passagens
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 7347}</string>
+			<string>{0, 9610}</string>
 			<key>OriginalContent</key>
 			<string>
 </string>

@@ -44,7 +44,17 @@ extension Aeroporto: CustomStringConvertible {
     }
 }
 
-class Sistema {
+protocol Sistema {
+    func entrar(usuario: String, senha: String) -&gt; Usuario?
+}
+
+class Singleton: Sistema {
+    struct Static {
+        static let instance = Singleton()
+    }
+    class var sis: Singleton{
+        return Static.instance
+    }
     var contas: [Passageiro] = [];
     var airlines: [CiaAerea] = [];
     var voos: [Voo] = [];
@@ -142,33 +152,32 @@ class Passageiro: Usuario {
     }
 }
 
-var sis = Sistema()
-sis.airlines.append(CiaAerea(login: "gol", password: "gla2024", nome: "Gol Linhas Aereas", pais: "Brasil"))
-sis.airlines.append(CiaAerea(login: "ltmBR", password: "102030latam", nome: "Latam Airlines", pais: "Brasil"))
-sis.airlines.append(CiaAerea(login: "tap", password: "portug4l", nome: "TAP Portugal", pais: "Portugal"))
-sis.contas.append(Passageiro(login: "logito", password: "cal123", nome: "Caio Agra Lemos", cpf: "14171458463", email: "caioagralemos@live.com"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Zumbi dos Palmares", codigo: "MCZ", cidade: "Maceio", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Guarulhos", codigo: "GRU", cidade: "São Paulo", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Los Angeles", codigo: "LAX", cidade: "Los Angeles", pais: "Estados Unidos"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Heathrow", codigo: "LHR", cidade: "Londres", pais: "Reino Unido"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Haneda", codigo: "HND", cidade: "Tóquio", pais: "Japão"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Dubai", codigo: "DXB", cidade: "Dubai", pais: "Emirados Árabes Unidos"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Frankfurt", codigo: "FRA", cidade: "Frankfurt", pais: "Alemanha"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Charles de Gaulle", codigo: "CDG", cidade: "Paris", pais: "França"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Changi", codigo: "SIN", cidade: "Singapura", pais: "Singapura"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Sydney", codigo: "SYD", cidade: "Sydney", pais: "Austrália"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Auckland", codigo: "AKL", cidade: "Auckland", pais: "Nova Zelândia"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Brasília", codigo: "BSB", cidade: "Brasília", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Confins", codigo: "CNF", cidade: "Belo Horizonte", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional do Galeão", codigo: "GIG", cidade: "Rio de Janeiro", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Salvador", codigo: "SSA", cidade: "Salvador", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Recife", codigo: "REC", cidade: "Recife", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Porto Alegre", codigo: "POA", cidade: "Porto Alegre", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Curitiba", codigo: "CWB", cidade: "Curitiba", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Fortaleza", codigo: "FOR", cidade: "Fortaleza", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Manaus", codigo: "MAO", cidade: "Manaus", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Florianópolis", codigo: "FLN", cidade: "Florianópolis", pais: "Brasil"))
-sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Nápoles", codigo: "NAP", cidade: "Nápoles", pais: "Itália"))
+Singleton.sis.airlines.append(CiaAerea(login: "gol", password: "gla2024", nome: "Gol Linhas Aereas", pais: "Brasil"))
+Singleton.sis.airlines.append(CiaAerea(login: "ltmBR", password: "102030latam", nome: "Latam Airlines", pais: "Brasil"))
+Singleton.sis.airlines.append(CiaAerea(login: "tap", password: "portug4l", nome: "TAP Portugal", pais: "Portugal"))
+Singleton.sis.contas.append(Passageiro(login: "logito", password: "cal123", nome: "Caio Agra Lemos", cpf: "14171458463", email: "caioagralemos@live.com"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Zumbi dos Palmares", codigo: "MCZ", cidade: "Maceio", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Guarulhos", codigo: "GRU", cidade: "São Paulo", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Los Angeles", codigo: "LAX", cidade: "Los Angeles", pais: "Estados Unidos"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Heathrow", codigo: "LHR", cidade: "Londres", pais: "Reino Unido"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Haneda", codigo: "HND", cidade: "Tóquio", pais: "Japão"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Dubai", codigo: "DXB", cidade: "Dubai", pais: "Emirados Árabes Unidos"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Frankfurt", codigo: "FRA", cidade: "Frankfurt", pais: "Alemanha"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional Charles de Gaulle", codigo: "CDG", cidade: "Paris", pais: "França"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Changi", codigo: "SIN", cidade: "Singapura", pais: "Singapura"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Sydney", codigo: "SYD", cidade: "Sydney", pais: "Austrália"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Auckland", codigo: "AKL", cidade: "Auckland", pais: "Nova Zelândia"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Brasília", codigo: "BSB", cidade: "Brasília", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Confins", codigo: "CNF", cidade: "Belo Horizonte", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional do Galeão", codigo: "GIG", cidade: "Rio de Janeiro", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Salvador", codigo: "SSA", cidade: "Salvador", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Recife", codigo: "REC", cidade: "Recife", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Porto Alegre", codigo: "POA", cidade: "Porto Alegre", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Curitiba", codigo: "CWB", cidade: "Curitiba", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Fortaleza", codigo: "FOR", cidade: "Fortaleza", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Manaus", codigo: "MAO", cidade: "Manaus", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Florianópolis", codigo: "FLN", cidade: "Florianópolis", pais: "Brasil"))
+Singleton.sis.aeroportos.append(Aeroporto(nome: "Aeroporto Internacional de Nápoles", codigo: "NAP", cidade: "Nápoles", pais: "Itália"))
 
 class Assento {
     private let fileira: Int;
@@ -246,6 +255,10 @@ class Passagem {
         self.passageiro = passageiro
         self.voo = voo
     }
+    
+    func getData() {
+        voo.getData() // delegation
+    }
 }
 
 extension Passagem: CustomStringConvertible {
@@ -254,20 +267,20 @@ extension Passagem: CustomStringConvertible {
     }
 }
 
-sis.airlines[0].avioes.append(Aviao(modelo: "Boeing A1", capacidade: 6*8))
+Singleton.sis.airlines[0].avioes.append(Aviao(modelo: "Boeing A1", capacidade: 6*8))
 
-sis.voos.append(Voo(origem: "MCZ", destino: "LAX", data: "01/06/2024", aviao: sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
-sis.voos.append(Voo(origem: "LAX", destino: "MCZ", data: "10/06/2024", aviao: sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
-sis.voos.append(Voo(origem: "MCZ", destino: "NAP", data: "10/06/2024", aviao: sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
+Singleton.sis.voos.append(Voo(origem: "MCZ", destino: "LAX", data: "01/06/2024", aviao: Singleton.sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
+Singleton.sis.voos.append(Voo(origem: "LAX", destino: "MCZ", data: "10/06/2024", aviao: Singleton.sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
+Singleton.sis.voos.append(Voo(origem: "MCZ", destino: "NAP", data: "10/06/2024", aviao: Singleton.sis.airlines[0].avioes[0], ciaAerea: "Gol Linhas Aereas"))
 
-sis.contas[0].comprarPassagem(voo: sis.voos[0])
-sis.contas[0].comprarPassagem(voo: sis.voos[1])
-sis.contas[0].comprarPassagem(voo: sis.voos[2])
+Singleton.sis.contas[0].comprarPassagem(voo: Singleton.sis.voos[0])
+Singleton.sis.contas[0].comprarPassagem(voo: Singleton.sis.voos[1])
+Singleton.sis.contas[0].comprarPassagem(voo: Singleton.sis.voos[2])
 
-sis.contas[0].passagens
+Singleton.sis.contas[0].passagens
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 9610}</string>
+			<string>{0, 10286}</string>
 			<key>OriginalContent</key>
 			<string>
 </string>

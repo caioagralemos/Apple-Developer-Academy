@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>protocol Driveable {
+    mutating func start()
+    mutating func accelerate()
+    mutating func park()
+}
+
+protocol Fillable {
+    func fillTank()
+}
+
+protocol Chargeable {
+    mutating func charge()
+}
+
+extension Chargeable where Self == ElectricCar {
+    mutating func charge() {
+        self.batteryLevel = 100;
+    }
+}
+
+
+struct ElectricCar: Driveable, Chargeable {
+    var isOn: Bool;
+    var batteryLevel: Int;
+    var speed: Int;
+    init() {
+        self.isOn = false;
+        self.batteryLevel = 100;
+        self.speed = 0;
+    }
+    mutating func start() {
+        if self.batteryLevel &gt; 0 {
+            if !self.isOn {
+                self.isOn = true
+                self.batteryLevel -= 50
+            } else {
+                print("Car is already on!")
+            }
+        } else {
+            print("Not enough battery.")
+        }
+    }
+    mutating func accelerate() {
+        if self.isOn {
+            self.speed += 20
+        } else {
+            print("Car is off!")
+        }
+    }
+    mutating func park() {
+        if self.isOn {
+            self.isOn = false
+        } else {
+            print("Car is already parked!")
+        }
+    }
+}
+
+var tesla = ElectricCar()
+tesla.start()
+tesla.park()
+tesla.start()
+tesla.park()
+tesla.charge()
+tesla.start()
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1273}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

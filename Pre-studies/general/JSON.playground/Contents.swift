@@ -184,7 +184,7 @@ let json1 = """
 }
 """
 
-struct Coordinate: Decodable {
+struct Coordinate: Codable {
     let latitude: Double
     let longitude: Double
 }
@@ -211,7 +211,7 @@ let json3 = """
  }
 """
 
-struct Planet: Decodable {
+struct Planet: Codable {
     let name: String
     let foundingYear: Int
     let location: Coordinate
@@ -242,7 +242,7 @@ let json4 = """
  }
 """
 
-struct OtherPlanet: Decodable {
+struct OtherPlanet: Codable {
     let name: String
     let foundingYear: Int
     let location: Coordinate

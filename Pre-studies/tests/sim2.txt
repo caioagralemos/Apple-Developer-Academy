@@ -1,0 +1,369 @@
+Alright, here are 60 new questions covering logical reasoning, number series, Swift language basics, and object-oriented and protocol-oriented programming principles in Swift. Please remember, the answers will not be provided until you request them.
+
+1. If "var" and "let" are used in Swift, which one declares a mutable variable?
+   - a. var
+   - b. let
+   - c. Both
+   - d. Neither
+
+2. What is the result of the following Swift operation: `5 % 2`?
+   - a. 2
+   - b. 2.5
+   - c. 1
+   - d. 0
+
+3. Which principle in OOP allows multiple classes to be treated as instances of a parent class?
+   - a. Polymorphism
+   - b. Encapsulation
+   - c. Inheritance
+   - d. Abstraction
+
+4. In Swift, what is a closure?
+   - a. A method
+   - b. A named function
+   - c. A self-contained block of functionality
+   - d. A property
+
+5. Consider the sequence: 2, 4, 8, 16, ... What is the next number?
+   - a. 24
+   - b. 32
+   - c. 18
+   - d. 20
+
+6. Which Swift feature ensures a variable does not hold a nil value without checking for nil each time it’s accessed?
+   - a. Optionals
+   - b. Forced unwrapping
+   - c. Optional binding
+   - d. Implicit unwrapping
+
+7. In OOP, what does the concept of encapsulation involve?
+   - a. Storing data in public fields
+   - b. Hiding the internal state of an object
+   - c. Inheriting from multiple superclasses
+   - d. Implementing all methods in a single class
+
+8. What is the output of the Swift code: `print("Swift" + "Language")`?
+   - a. SwiftLanguage
+   - b. Swift Language
+   - c. Compiler error
+   - d. Swift+Language
+
+9. A logic puzzle states: "If it rains, the ground will be wet." It rained. What can be concluded?
+   - a. The ground is dry.
+   - b. The ground may be wet.
+   - c. The ground will be wet.
+   - d. It did not rain.
+
+10. What does the Swift `guard` statement do?
+    - a. Repeats a block of code
+    - b. Ensures a condition is true
+    - c. Declares a new variable
+    - d. None of the above
+
+11. The sequence 1, 1, 2, 3, 5, 8, 13, ... follows a specific pattern. What is the next number?
+    - a. 20
+    - b. 21
+    - c. 18
+    - d. 34
+
+12. Which Swift data type is used to store a value that can be true or false?
+    - a. String
+    - b. Int
+    - c. Boolean
+    - d. Double
+
+13. In OOP, which term describes a blueprint from which individual objects are created?
+    - a. Method
+    - b. Class
+    - c. Variable
+    - d. Property
+
+14. Swift enums are:
+    - a. A way to group related values
+    - b. A method for error handling
+    - c. Used for defining constants
+    - d. None of the above
+
+15. If a train travels 60 miles in 2 hours, how long will it take to travel 180 miles at the same speed?
+    - a. 3 hours
+    - b. 4 hours
+    - c. 5 hours
+    - d. 6 hours
+
+16. What is the Swift keyword to define a protocol?
+    - a. class
+    - b. struct
+    - c. enum
+    - d. protocol
+
+17. In Swift, which method is automatically called when a new instance of a class is created?
+    - a. init()
+    - b. start()
+    - c. new()
+    - d. create()
+
+18. A logical reasoning question: "All cats are animals. Some animals are pets. Therefore, ..."
+    - a. All cats are pets.
+    - b. Some pets are cats.
+    - c. No cats are pets.
+    - d. Some cats are not pets.
+
+19. The sequence: 10, 20, 30, 40, 50, ... What number is missing?
+    - a. 60
+    - b. 70
+    - c. 80
+    - d. 90
+
+20.
+
+ In Swift, to create a constant, which keyword is used?
+    - a. var
+    - b. const
+    - c. let
+    - d. static
+
+21. Which concept in Swift allows a class to inherit from multiple protocols?
+    - a. Polymorphism
+    - b. Protocol inheritance
+    - c. Multiple inheritance
+    - d. Protocol conformance
+
+22. In the pattern: 2, 4, 7, 11, 16, ... What is the next number?
+    - a. 20
+    - b. 22
+    - c. 24
+    - d. 26
+
+23. What does the principle of 'least privilege' in software design advocate?
+    - a. Giving users minimum permissions necessary
+    - b. Ensuring all users have equal access
+    - c. Providing maximum flexibility in user roles
+    - d. None of the above
+
+24. Swift’s approach to error handling is to:
+    - a. Ignore errors by default
+    - b. Use try-catch blocks
+    - c. Return nil when an error occurs
+    - d. Print an error message to the console
+
+25. Four people need to cross a bridge at night. They have one torch and the bridge can only support two people at a time. Person A can cross in 1 minute, B in 2 minutes, C in 5 minutes, and D in 10 minutes. What is the minimum time needed for all four to cross the bridge?
+    - a. 12 minutes
+    - b. 17 minutes
+    - c. 19 minutes
+    - d. 21 minutes
+
+26. What is an array in Swift?
+    - a. A set of key-value pairs
+    - b. A single variable used to store a list of values
+    - c. A type of loop
+    - d. A function
+
+27. In OOP, what is meant by 'method overloading'?
+    - a. Changing the method's code at runtime
+    - b. Removing a method from a class
+    - c. Having methods with the same name but different parameters
+    - d. Copying a method from one class to another
+
+28. Swift protocols:
+    - a. Cannot be adopted by classes
+    - b. Define a blueprint of methods, properties, and other requirements
+    - c. Are only used for enums
+    - d. Provide default implementations for methods
+
+29. Identify the next number in the series: 3, 9, 27, 81, ...
+    - a. 243
+    - b. 162
+    - c. 108
+    - d. 324
+
+30. In Swift, an optional value that is currently nil is unwrapped using:
+    - a. An exclamation mark (!)
+    - b. A question mark (?)
+    - c. The `nil` keyword
+    - d. A `guard` statement
+
+31. The concept of 'inheritance' in OOP allows for:
+    - a. Creating new classes that are completely independent of each other
+    - b. The creation of complex data types
+    - c. The reuse of code across multiple classes
+    - d. Encapsulation of methods within a single class
+
+32. When using Swift, what is the main purpose of using `struct`?
+    - a. To create complex data types
+    - b. To define a protocol
+    - c. To subclass another structure
+    - d. To encapsulate simple data values
+
+33. If "x" is an array in Swift containing [1, 2, 3, 4, 5], what will `x.count` return?
+    - a. 4
+    - b. 5
+    - c. 6
+    - d. The code will result in an error
+
+34. In logic, if "all A are B" and "all B are C," what can be inferred?
+    - a. Some A are not C
+    - b. No A are C
+    - c. All A are C
+    - d. Some A are C
+
+35. In a room, if 6 devices are connected to a Wi-Fi network and each device can connect to 5 other devices, how many total connections are possible?
+    - a. 15
+    - b. 30
+    - c. 60
+    - d. 5
+
+36. Swift’s `for-in` loops are used to:
+    - a. Execute a set of statements a fixed number of times
+    - b. Loop over arrays, dictionaries, ranges, and other sequences
+    - c. Define a sequence of values
+    - d. Perform error handling
+
+37. What defines an abstract class in OOP?
+    - a. A class that can be instantiated
+
+
+    - b. A class that cannot be instantiated and serves as a blueprint
+    - c. A class without any methods
+    - d. A final class that cannot have subclasses
+
+38. The Swift function `print(_:separator:terminator:)` has how many parameters?
+    - a. 1
+    - b. 2
+    - c. 3
+    - d. 4
+
+39. A logic puzzle states: "If you are not a friend, you are an enemy. Everyone is a friend except for Bob." What is true about Bob?
+    - a. Bob is a friend.
+    - b. Bob is not a friend but not an enemy either.
+    - c. Bob is an enemy.
+    - d. Bob's status is unclear.
+
+40. In Swift, which type of property does not store a value but instead provides a getter and optionally a setter to retrieve and set other properties and values indirectly?
+    - a. Stored property
+    - b. Computed property
+    - c. Static property
+    - d. Constant property
+
+41. If a class `Dog` inherits from `Animal`, which of the following is true?
+    - a. `Dog` can use `Animal`'s properties and methods
+    - b. `Animal` inherits properties and methods from `Dog`
+    - c. Inheritance is not supported in Swift
+    - d. `Dog` and `Animal` are unrelated in terms of OOP
+
+42. What is Dependency Injection in software development?
+    - a. A design pattern where a class receives its dependencies from external sources rather than creating them itself
+    - b. Injecting malicious code into a software application
+    - c. A programming technique used exclusively in Swift
+    - d. A method for resolving dependencies in object graphs
+
+43. In a binary search algorithm operating on a sorted array of numbers, what is the initial step?
+    - a. Divide the array into two halves
+    - b. Search the middle element of the array
+    - c. Sort the array
+    - d. Compare the target value to the first element
+
+44. Swift properties that belong to the type itself rather than to instances of the type are called:
+    - a. Instance properties
+    - b. Static properties
+    - c. Dynamic properties
+    - d. Constant properties
+
+45. A pattern of numbers goes as follows: 1, -1, 3, -3, 5, -5, ... What is the next number?
+    - a. 7
+    - b. -7
+    - c. 6
+    - d. -6
+
+46. In Swift, how is memory management handled for class instances?
+    - a. Manual counting
+    - b. Automatic Reference Counting (ARC)
+    - c. Garbage collection
+    - d. Reference deletion
+
+47. What principle allows a function in Swift to return another function as its value?
+    - a. Encapsulation
+    - b. Inheritance
+    - c. Higher-order functions
+    - d. Polymorphism
+
+48. What is true about the Model-View-Controller (MVC) architecture?
+    - a. It's a networking protocol
+    - b. It separates an application into three interconnected components
+    - c. It's a data storage format
+    - d. It defines how objects in Swift communicate
+
+49. If today is Tuesday, what day will it be in 100 days?
+    - a. Monday
+    - b. Tuesday
+    - c. Wednesday
+    - d. Thursday
+
+50. In Swift, what is a Tuple?
+    - a. A type that groups multiple values into a single compound value
+    - b. A function that returns multiple values
+    - c. A collection similar to an array
+    - d. An optional type
+
+51. What does the acronym SOLID stand for in software development?
+    - a. Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion
+    - b. Systematic organization, Logical integration, Integrated development, Dynamic typing
+    - c. Simple object, Logical design, Interface design, Development principles
+    - d. Secure, Observable, Logical, Integrated, Documented
+
+52. In the sequence: 12, 24, 48, 96, ... What is the rule for generating the next number?
+    - a. Add 12
+    - b. Multiply by 2
+    - c. Subtract 12
+    - d. Divide by 2
+
+53. Swift's `if let` syntax is used to:
+    - a. Declare a new optional variable
+    - b. Check and unwrap an optional if it contains a value
+    - c. Compare two optional values
+    - d. None of the above
+
+54. A logic gate that outputs true only if all
+
+ its inputs are true is called:
+    - a. OR gate
+    - b. AND gate
+    - c. NOT gate
+    - d. XOR gate
+
+55. When defining a Swift enumeration, what keyword is used to specify a type for the enum’s cases?
+    - a. type
+    - b. typealias
+    - c. caseType
+    - d. rawValue
+
+56. In software development, what does the term "refactoring" refer to?
+    - a. Rewriting existing code to improve structure without changing behavior
+    - b. Adding new features to the software
+    - c. Fixing bugs in the software
+    - d. Changing the software's user interface
+
+57. A logical argument states: "If the sky is clear, then it will be sunny. The sky is not clear." What can be concluded?
+    - a. It will be sunny.
+    - b. It will not be sunny.
+    - c. It might rain.
+    - d. Nothing can be concluded about the weather.
+
+58. In Swift, an `enum` can:
+    - a. Only contain integer values
+    - b. Contain methods
+    - c. Not be used within a class
+    - d. Only contain string values
+
+59. What is the primary function of the `deinit` method in Swift?
+    - a. To initialize an object
+    - b. To add initial values to properties
+    - c. To perform clean-up activities before an object is deallocated
+    - d. To declare an object as uninitialized
+
+60. Considering a right-angled triangle, if one angle is 90 degrees and another is 30 degrees, what is the measure of the third angle?
+    - a. 60 degrees
+    - b. 30 degrees
+    - c. 90 degrees
+    - d. 45 degrees
+
+Feel free to ask for the answers whenever you're ready!

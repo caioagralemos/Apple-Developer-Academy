@@ -1,0 +1,62 @@
+Here are the answers to the 60 questions provided:
+
+1. a. let
+2. a. Encapsulation
+3. a. The class can't be subclassed
+4. b. 6
+5. c. Sequence
+6. a. A design pattern that ensures a class only has one instance and provides a global point of access to it
+7. b. A variable that is automatically unwrapped whenever it is accessed
+8. d. The use of protocols and structs
+9. b. 3
+10. d. `var names: [String: Int] = []`
+11. d. There is no built-in method, but you can compare the string with its reversed version.
+12. b. To release resources or perform cleanup before the object is deallocated
+13. d. It cannot be determined from the given information
+14. b. Typecasting
+15. c. The call to the function must be prefixed with the try keyword
+16. b. Second
+17. a. Subclasses should be substitutable for their base classes
+18. b. Using do-try-catch blocks
+19. b. `[2, 4, 6, 8]`
+20. b. 1/4
+21. d. Any of the above, as long as it exits the current scope
+22. b. It can only contain elements of a single, specified type
+23. b. Automatic Reference Counting (ARC)
+24. b. Polymorphism
+25. c. `struct` instances are passed by value, and `class` instances are passed by reference
+26. b. `var greeting = "hello"; greeting += ", world"`
+27. c. A structure that repeats code a certain number of times
+28. a. Using the `init` keyword followed by the initializer's parameters
+29. b. var
+30. a. The process of combining elements to create a new entity for the purpose of hiding complexity
+31. c. To prevent strong reference cycles by creating a weak reference
+32. b. A data type that allows you to group multiple values into a single compound value
+33. d. There is no specific keyword; protocols only specify the required interface
+34. d. Using a `repeat-while` loop
+35. a. Open/closed principle
+36. a. It can be called multiple times without changing the result beyond the initial application
+37. c. Both a and b
+38. b. That the method or property belongs to the class itself, rather than any instance
+39. d. Nothing can be deduced about the relationship between A and C
+40. a. That the method can change the instance itself
+41. a. The process by which the Swift compiler deduces the type of a variable or constant from its initial value
+42. a. `true`
+43. b. Immediately after the property's value is set
+44. b. An optional that is automatically unwrapped whenever it is accessed
+45. a. To delay the execution of code until the current scope is exited
+46. a. 5 minutes
+47. a. To indicate that a method, property, or subscript of a superclass is being overridden in a subclass
+48. a. A self-contained block of functionality that can be passed around and used in your code
+49. a. Dependency inversion principle
+50. c. To define a named type with a finite set of cases
+51. b. By using serial dispatch queues
+52. a. To indicate that the closure can escape the function it is passed to and be called after the function returns
+53. a. A form of reasoning in which a conclusion is drawn from two given or assumed propositions (premises)
+54. b. `var myVariable: Any`
+55. b. Conditions that types must meet to conform to a protocol
+56. b. Swift does not allow manual memory management; it uses Automatic Reference Counting (ARC)
+57. a. Functions that operate on other functions, either by taking them as arguments or by returning them
+58. c. Through protocol conformance
+59. a. It unwraps an optional, or returns a default value if the optional is nil
+60. a. They force you to exit a block of code if certain conditions are not met

@@ -1,0 +1,64 @@
+Here are the answers to the 60 questions provided:
+
+1. a. var
+2. c. 1
+3. c. Inheritance
+4. c. A self-contained block of functionality
+5. b. 32
+6. c. Optional binding
+7. b. Hiding the internal state of an object
+8. a. SwiftLanguage
+9. c. The ground will be wet.
+10. b. Ensures a condition is true
+11. b. 21
+12. c. Boolean
+13. b. Class
+14. a. A way to group related values
+15. d. 6 hours
+16. d. protocol
+17. a. init()
+18. b. Some pets are cats.
+19. a. 60
+20. c. let
+21. b. Protocol inheritance
+22. b. 22
+23. a. Giving users minimum permissions necessary
+24. b. Use try-catch blocks
+25. b. 17 minutes
+26. b. A single variable used to store a list of values
+27. c. Having methods with the same name but different parameters
+28. b. Define a blueprint of methods, properties, and other requirements
+29. a. 243
+30. a. An exclamation mark (!)
+31. c. The reuse of code across multiple classes
+32. a. To create complex data types
+33. b. 5
+34. c. All A are C
+35. b. 30
+36. b. Loop over arrays, dictionaries, ranges, and other sequences
+37. b. A class that cannot be instantiated and serves as a blueprint
+38. c. 3
+39. c. Bob is an enemy.
+40. b. Computed property
+41. a. `Dog` can use `Animal`'s properties and methods
+42. a. A design pattern where a class receives its dependencies from external sources rather than creating them itself
+43. a. Divide the array into two halves
+44. b. Static properties
+45. b. -7
+46. b. Automatic Reference Counting (ARC)
+47. c. Higher-order functions
+48. b. It separates an application into three interconnected components
+49. c. Wednesday
+50. a. A type that groups multiple values into a single compound value
+51. a. Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion
+52. b. Multiply by 2
+53. b. Check and unwrap an optional if it contains a value
+54. b. AND gate
+55. d. rawValue
+56. a. Rewriting existing code to improve structure without changing behavior
+57. b. It will not be sunny.
+58. b. Contain methods
+59. c. To perform clean-up activities before an object is deallocated
+60. a. 60 degrees
+
+Let me know if you need any further explanation or have more questions!

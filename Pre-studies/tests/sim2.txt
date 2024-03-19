@@ -114,9 +114,7 @@ Alright, here are 60 new questions covering logical reasoning, number series, Sw
     - c. 80
     - d. 90
 
-20.
-
- In Swift, to create a constant, which keyword is used?
+20. In Swift, to create a constant, which keyword is used?
     - a. var
     - b. const
     - c. let
@@ -220,8 +218,6 @@ Alright, here are 60 new questions covering logical reasoning, number series, Sw
 
 37. What defines an abstract class in OOP?
     - a. A class that can be instantiated
-
-
     - b. A class that cannot be instantiated and serves as a blueprint
     - c. A class without any methods
     - d. A final class that cannot have subclasses
@@ -322,9 +318,7 @@ Alright, here are 60 new questions covering logical reasoning, number series, Sw
     - c. Compare two optional values
     - d. None of the above
 
-54. A logic gate that outputs true only if all
-
- its inputs are true is called:
+54. A logic gate that outputs true only if all its inputs are true is called:
     - a. OR gate
     - b. AND gate
     - c. NOT gate

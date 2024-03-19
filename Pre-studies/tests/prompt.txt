@@ -1,0 +1,506 @@
+Prompt CHATGPT with this to get mock tests!
+
+give me exactly 60 more questions like that on logical reasoning, number series theory and swift language basics and swift language oop and pop. dont separate them on themes, just give me all of them mixed and together just like my assesment test. and dont give me the answers until i ask for them. Just recalling that i need specifically sixty new questions, dont give me any less than it!
+
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the OOP paradigm, how do we call the property of having the same operation (method) behaving differently (override) in each descendant class OR having the same operation/method with different signatures (overload)?
+
+
+Select one:
+a. Louse Coupling
+b. Polymorphism
+c. Encapsulation
+d. Multiple Inheritance
+Feedback
+Your answer is correct.
+The correct answer is: Polymorphism
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+Inheritance allows sharing attributes and methods by classes and they are used mainly with the goal of reusing code or to define a general behavior for an object of this class and descendants. Given the OOP paradigm, can we say the previous sentence is CORRECT?
+
+
+Select one:
+a. No
+b. Yes, it is true for the objects of this class and false for descendants
+c. Yes
+d. Yes,  it is true for the descendants of this class and false for objects instantiated directly from this class
+Feedback
+Your answer is correct.
+The correct answer is: Yes
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the OOP paradigm, the "overload" of a method is related to the OOP property called...
+
+
+Select one:
+a. Encapsulation
+b. Polymorphism
+c. Inheritance
+d. Aggregation
+Feedback
+Your answer is correct.
+The correct answer is: Polymorphism
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the OOP paradigm, the definitions which are the base to create objects are called...
+
+
+Select one:
+a. Instance
+b. Methods
+c. Entity
+d. Classes
+Feedback
+Your answer is correct.
+The correct answer is: Classes
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the OOP paradigm, it is true that...
+
+
+Select one:
+a. By applying the OOP concept, it makes possible for a program to access areas or partitions of memory where it can find objects (data + procedures) representing each reality.
+b. An object can be an icon on the screen, to which are associated data and relationships to be executed.
+c. An object is defined as any element used in software in which are associated data, routines and relationships.
+d. The concept of object-oriented programming is very similar, but was not responsible for introducing the user-machine interface that came to be called GUI (Graphical User Interface).
+Feedback
+Your answer is correct.
+The correct answer is: By applying the OOP concept, it makes possible for a program to access areas or partitions of memory where it can find objects (data + procedures) representing each reality.
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the OOP paradigm, attributes define...
+
+
+Select one:
+a. The services that can be requested to an object
+b. The methods
+c. The properties of an object
+d. The classes
+Feedback
+Your answer is correct.
+The correct answer is: The properties of an object
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+What is the diference between a class and a object?
+
+
+Select one:
+a. 
+An Object is an instance of a Class
+b. 
+A Class inherits from an Object
+c. 
+A Class is an instance of an Object
+d. 
+An Object is a subclass of a Class
+Feedback
+Your answer is correct.
+The correct answer is: 
+An Object is an instance of a Class
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+What is class method?
+
+
+Select one:
+a. 
+An instance of the class
+b. 
+A chunk of code in the form of a procedure
+c. 
+A way of subclassing
+d. 
+A class attribute that can be set
+Feedback
+Your answer is correct.
+The correct answer is: 
+A chunk of code in the form of a procedure
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+What is the initializer function ?
+
+
+Select one:
+a. 
+A function that sets every computed properties initial value equal to zero
+b. 
+A function that provides an initial value to the computed properties
+c. 
+A function that provides an initial value to the stored properties
+d. 
+A function that sets every stored properties initial value equal to zero
+Feedback
+Your answer is correct.
+The correct answer is: 
+A function that provides an initial value to the stored properties
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+What is a computed property?
+
+
+Select one:
+a. 
+A property provided by the computer by default
+b. 
+A calculated property which is out of the scope of the class
+c. 
+A method that can be called 
+d. 
+A calculated property that has an associated value computed based on some form of calculation
+Feedback
+Your answer is correct.
+The correct answer is: 
+A calculated property that has an associated value computed based on some form of calculation
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Remove flag
+Question text
+
+In the Swift programming language what is a "Protocol?"
+
+
+Select one:
+a. The description of command sequences.
+b. The function that your app may include.
+c. The function that your app may include or must include if the function is optional.
+d. The function that your app must include or may include if some functions are optional.
+Feedback
+Your answer is correct.
+The correct answer is: The function that your app must include or may include if some functions are optional.
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+let valore = "That's the second biggest monkey head I've ever seen!"
+what is the right Swift type of "valore"?
+
+
+Select one:
+a. let
+b. String
+c. FullText
+d. Integer
+Feedback
+Your answer is correct.
+The correct answer is: String
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Remove flag
+Question text
+
+In the Swift programming language what is an "optional?"
+
+
+Select one:
+a. A variable which must have a value.
+b. A value which can have a value or not (nil).
+c. A variable that can be defined or not.
+d. A value which has no value.
+Feedback
+Your answer is correct.
+The correct answer is: A value which can have a value or not (nil).
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the output of the following snippet of code?
+let a = 3
+a += 1
+print(a)
+Select one:
+1. compiler error
+2. put 4 into a
+3. will output "4" on the console
+4. put 1 into a
+Feedback
+Your answer is correct.
+The correct answer is: compiler error
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the following Swift code:
+let a = 10
+let b = 5
+let c = a == a + b
+what is the value of “c”?
+
+
+Select one:
+1. false
+2. none
+3. nil
+4. true
+Feedback
+Your answer is correct.
+The correct answer is: false
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+What is the type of output of func "test" ?
+func test() -> [Int]
+
+
+Select one:
+a. Nothing
+b. Double
+c. Int
+d. Array of Int
+Feedback
+Your answer is correct.
+The correct answer is: Array of Int
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Remove flag
+Question text
+What does the following code means? 
+
++= 3
+Select one:
+a. Divide by 3.
+b. Put 3 into a value.
+c. Add 3 to an existing string value.
+d. Add 3 to an existing numerical value.
+Feedback
+Your answer is correct.
+The correct answer is: Add 3 to an existing numerical value.
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+var str = "I wanna be a pirate" 
+str = str + "!"
+What is the final value of the variable "str"?
+Select one:
+a. I wanna be a pirate!
+b. I wanna be a pirate
+c. Error
+d. I wanna be a pirate !
+Feedback
+Your answer is correct.
+The correct answer is: I wanna be a pirate!
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+
+In the Swift programming language what is an extension?
+
+
+Select one:
+a. A method to add some functions to an existing class.
+b. A method to add other class to a class.
+c. A method to add a var to an existing class.
+d. A method to redefine a class.
+Feedback
+Your answer is correct.
+The correct answer is: A method to add some functions to an existing class.
+
+Question
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+var c = 0
+var b = 1
+var a = 2
+c = a + b + 5
+What is the value of var "c"?
+
+
+Select one:
+a. 8
+b. 1
+c. 3
+d. 0
+Feedback
+Your answer is correct.
+The correct answer is: 8
+
+Question
+Correct
+Mark 1 out of 1
+Flag question
+Question text
+Consider this series of numbers: 
+8, 6, 9, 23, 87... 
+
+What number should come next in the series?
+Select one:
+a. 429
+b. 226
+c. 324
+d. 128
+Feedback
+Your answer is correct.
+The correct answer is: 429
+
+Question
+Correct
+Mark 1 out of 1
+Flag question
+Question text
+If I throw a 6 faced die what is the probability of obtaining 5 or 6?
+Select one:
+a. 66.6%
+b. 50%
+c. 33.3%
+d. 25%
+Feedback
+Your answer is correct.
+The correct answer is: 33.3%
+
+Question
+Correct
+Mark 1 out of 1
+Flag question
+Question text
+Six foxes catch six hens in six minutes. How many foxes will be needed to catch sixty hens in sixty minutes?
+Select one:
+a. 16
+b. 60
+c. 6
+d. 10
+Feedback
+Your answer is correct.
+The correct answer is: 6
+
+Question
+Correct
+Mark 1 out of 1
+Flag question
+Question text
+Look at your hands: you have 10 fingers!
+
+How many fingers do 10 hands have?
+Select one:
+a. 10
+b. 150
+c. 50
+d. 100
+Feedback
+Your answer is correct.
+The correct answer is: 50
+
+Question
+Correct
+Mark 1 out of 1
+Flag question
+Question text
+Which number is missing from this sequence?
+
+32 31 32 29 32 27 32  … 32
+Select one:
+a. 32
+b. 27
+c. 25
+d. 31
+Feedback
+Your answer is correct.
+The correct answer is: 25
+
+Question
+Incorrect
+Mark 0 out of 1
+Flag question
+Question text
+In the system of equations below, what is the value of x? 
+
+2x + 2y = - 4 
+4x + y = 1
+Select one:
+a. -1
+b. 1
+c. 2/5
+d. -3
+Feedback
+Your answer is incorrect.
+The correct answer is: 1
+
+Question
+Correct
+Mark 1 out of 1
+Flag question
+Question text
+If Luisa was 32 years old 8 years ago, how old was she x years ago?
+Select one:
+a. x - 40
+b. 40 - x
+c. x - 24
+d. 24 - x
+Feedback
+Your answer is correct.
+The correct answer is: 40 - x
+

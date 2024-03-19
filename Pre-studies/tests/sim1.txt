@@ -187,9 +187,7 @@ Sure, here are 60 questions covering logical reasoning, Swift language basics, a
 
 30. What is encapsulation in the context of object-oriented programming?
     - a. The process of combining elements to create a new entity for the purpose of hiding complexity
-    - b. The inclusion of one class's methods and properties
-
- inside another class
+    - b. The inclusion of one class's methods and properties inside another class
     - c. The practice of keeping classes separated and independent to avoid tight coupling
     - d. A design principle that dictates that the internal representation of an object should not be visible from outside the object
 

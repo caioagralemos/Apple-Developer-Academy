@@ -1,0 +1,62 @@
+Here are the answers to the 60 questions provided:
+
+1. d. `class Car: Vehicle {}`
+2. a. `let string: String? = nil`
+3. c. Inheritance
+4. c. `protocol`
+5. a. 10
+6. b. 64
+7. a. Some A are C
+8. b. `for-in`
+9. b. To refer to the current instance of a class
+10. b. Encapsulation
+11. b. Using optional binding
+12. d. Strong reference cycles
+13. b. 30
+14. a. `Sequence`
+15. a. It allows for the creation of flexible and reusable code that can be adapted to the needs of specific tasks or data types.
+16. b. The function can be passed as a parameter and called after the function it was passed to returns.
+17. b. `[4, 5]`
+18. b. `var`
+19. b. 10
+20. c. By defining multiple methods with the same name but different parameter lists
+21. c. Polymorphism
+22. a. The class or method can no longer be overridden.
+23. a. 243
+24. a. Throwing and catching exceptions
+25. b. They enable protocols to be generic and adaptable to many different types.
+26. b. To deallocate memory and clean up resources before an object is destroyed.
+27. a. 5 minutes
+28. c. Structs are always copied when passed, while classes are passed by reference.
+29. d. Observer pattern
+30. b. 23
+31. b. It allows you to check and interpret the type of a class instance at runtime.
+32. b. A mechanism that allows you to run custom code in response to changes in a property's value.
+33. b. No
+34. b. By using an extension to provide a default implementation.
+35. a. Extensions
+36. d. 3
+37. b. To bundle data and methods that operate on the data under a single class definition.
+38. b. Automatic Reference Counting (ARC)
+39. b. 21
+40. a. It indicates that the method can change the struct’s properties.
+41. a. Methods to perform differently based on the calling object.
+42. a. `!`
+43. d. `:`
+44. b. It ensures that conditions are met; otherwise, it exits the scope.
+45. a. 121
+46. a. To group related values under a common type.
+47. a. By using the `var` keyword and enclosing the definition in braces.
+48. b. Delaying the creation of an object until it is needed.
+49. b. 23
+50. b. Call properties, methods, and subscripts on an optional that might currently be `nil`.
+51. c. Value semantics
+52. a. There is no missing dollar; it's a misunderstanding of how the money is distributed.
+53. a. To allow the compiler to automatically deduce the type of a variable or constant.
+54. c. `final`
+55. c. 21
+56. b. Number or type of parameters
+57. a. It is automatically observed for changes, useful in SwiftUI for state management.
+58. c. All S are L
+59. a. Optionals
+60. b. POP offers a more flexible way to use and reuse code through protocols and protocol extensions, promoting loose coupling.

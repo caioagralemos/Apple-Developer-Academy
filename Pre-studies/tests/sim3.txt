@@ -98,9 +98,7 @@ Here are 60 new questions covering logical reasoning, number series, Swift langu
 
 17. Given an array `[1, 2, 3, 4, 5]`, what is the result of applying the `filter` method to select elements greater than 3?
     a. `[3, 4, 5]`
-    b. `[
-
-4, 5]`
+    b. `[4, 5]`
     c. `[1, 2, 3]`
     d. `[]`
 
@@ -198,9 +196,7 @@ Here are 60 new questions covering logical reasoning, number series, Swift langu
     a. Yes
     b. No
     c. Maybe
-    d. Ins
-
-ufficient information
+    d. Insufficient information
 
 34. In Swift, how do you ensure that a protocol method is optional to implement for conforming types?
     a. By marking the method with `@optional`.
@@ -302,9 +298,7 @@ ufficient information
     a. Chain multiple optional values together.
     b. Call properties, methods, and subscripts on an optional that might currently be `nil`.
     c. Ensure that all optional values in a chain are non-nil.
-    d. Create a sequence of optional
-
- operations.
+    d. Create a sequence of optional operations.
 
 51. What is a characteristic feature of Swift's `struct`?
     a. Inheritance

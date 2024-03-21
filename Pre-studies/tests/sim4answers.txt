@@ -1,0 +1,62 @@
+Here are the answers to the questions:
+
+1. d. Int
+2. b. var
+3. c. Accessibility
+4. b. Navigation Bars
+5. d. Navigation bar
+6. b. A blueprint of methods, properties, and other requirements
+7. b. Polymorphism
+8. b. Proposition
+9. b. 64
+10. b. Type Casting
+11. b. The time to acquire a target
+12. d. conforms
+13. a. 21
+14. d. Feedback
+15. c. lazy
+16. a. Giving users the minimum permissions necessary
+17. b. Users can navigate it without prior training
+18. a. do-try-catch
+19. a. Consistency
+20. b. The technique of hiding the internal state and requiring all interaction to be performed through an object's methods
+21. a. Sparrows can fly
+22. a. 60
+23. b. Picker Views
+24. b. To perform cleanup before an object is deallocated
+25. c. To allow one class to acquire the properties and methods of another
+26. c. Mobile-first design
+27. a. var optionalString: String?
+28. a. Table View
+29. b. 22
+30. a. For-in loop
+31. d. Recognition rather than recall
+32. b. Composition
+33. b. It directly follows from the premises
+34. b. 243
+35. c. The properties that indicate how an object is to be used
+36. b. let
+37. c. Responsive
+38. b. To add new functionality to an existing class, structure, enumeration, or protocol type
+39. b. Abstraction
+40. a. At least one of the premises is false
+41. b. 36
+42. c. Intuitive navigation
+43. b. A blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality
+44. d. Dependency Inversion Principle
+45. b. Industrial design
+46. b. 63
+47. b. To define the app's user interface visually
+48. b. A self-contained block of functionality that can be passed around and used in your code
+49. c. Use given premises to reach a logical conclusion
+50. a. Users should be able to interact with virtual objects as they do with physical ones
+51. c. Determining the method to invoke at runtime
+52. b. 162
+53. b. Declare a variable type that can be one of several predefined options
+54. b. Functional and understandable
+55. a. The principle of least astonishment
+56. b. Instance
+57. c. Classes are blueprints from which objects are created.
+58. c. To design the app's user interface
+59. c. Protocols
+60. a. Syllogism

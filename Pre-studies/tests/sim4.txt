@@ -1,0 +1,359 @@
+1. Given a function in Swift that takes an array of integers and returns the sum of its elements, what keyword would you use to define this function's return type?
+   - a. var
+   - b. let
+   - c. func
+   - d. Int
+
+2. What Swift keyword is used to define a variable that can be changed after it's initially set?
+   - a. let
+   - b. var
+   - c. const
+   - d. static
+
+3. In UI/UX design, what principle focuses on designing interfaces in a way that makes them accessible to people with disabilities?
+   - a. Color Theory
+   - b. Responsive Design
+   - c. Accessibility
+   - d. Grid System
+
+4. Which Apple Human Interface Guidelines component is crucial for creating a navigation hierarchy in an iOS app?
+   - a. Buttons
+   - b. Navigation Bars
+   - c. Sliders
+   - d. Text Fields
+
+5. When designing an app according to the Apple Human Interface Guidelines, which element is essential for indicating the current location within the app's hierarchy?
+   - a. Status bar
+   - b. Tab bar
+   - c. Toolbar
+   - d. Navigation bar
+
+6. In the context of Swift's Protocol-Oriented Programming (POP), what is a protocol?
+   - a. A method
+   - b. A blueprint of methods, properties, and other requirements
+   - c. An extension
+   - d. A subclass
+
+7. What term describes the concept in OOP where different classes can be treated as instances of the same superclass?
+   - a. Encapsulation
+   - b. Polymorphism
+   - c. Inheritance
+   - d. Abstraction
+
+8. In logical reasoning, what is the term for a statement that can either be true or false, but not both?
+   - a. Argument
+   - b. Proposition
+   - c. Inference
+   - d. Hypothesis
+
+9. Consider the series: 2, 4, 8, 16, 32. What is the next number in this series?
+   - a. 48
+   - b. 64
+   - c. 40
+   - d. 56
+
+10. What Swift feature allows you to check and cast the type of a class instance?
+    - a. Generics
+    - b. Type Casting
+    - c. Extensions
+    - d. Optionals
+
+11. In UI/UX design, what does 'Fitts’s Law' primarily relate to?
+    - a. Color theory
+    - b. The time to acquire a target
+    - c. Typography
+    - d. Grid systems
+
+12. When applying POP in Swift, what keyword do you use to declare conformance to a protocol?
+    - a. extends
+    - b. implements
+    - c. adopts
+    - d. conforms
+
+13. In number series theory, what comes next in the sequence: 1, 1, 2, 3, 5, 8, 13?
+    - a. 21
+    - b. 34
+    - c. 26
+    - d. 20
+
+14. Which principle of the Apple Human Interface Guidelines emphasizes the importance of feedback in user interface design?
+    - a. Direct Manipulation
+    - b. Consistency
+    - c. User Control
+    - d. Feedback
+
+15. In Swift, what keyword defines a constant whose value is not computed until it is first used?
+    - a. let
+    - b. var
+    - c. lazy
+    - d. const
+
+16. What is the principle of least privilege in the context of software development?
+    - a. Giving users the minimum permissions necessary
+    - b. Reducing the size of your codebase
+    - c. Ensuring all variables are private
+    - d. Limiting the use of third-party libraries
+
+17. A user interface is said to be intuitive when:
+    - a. It includes comprehensive documentation
+    - b. Users can navigate it without prior training
+    - c. It uses advanced animations and graphics
+    - d. It is customizable by the user
+
+18. In Swift, how do you handle errors that might occur during program execution?
+    - a. do-try-catch
+    - b. if-then-else
+    - c. for-in loops
+    - d. switch-case
+
+19. What design principle emphasizes the importance of predictable actions in a user interface?
+    - a. Consistency
+    - b. Accessibility
+    - c. Usability
+    - d. Scalability
+
+20. What is encapsulation in the context of OOP?
+    - a. The process of inheriting properties and methods from a parent class
+    - b. The technique of hiding the internal state and requiring all interaction to be performed through an object's methods
+    - c. The method of creating new objects from existing ones
+    - d. The ability of different objects to respond to the same message in different ways
+
+21. In a logical reasoning test, if all birds can fly and a sparrow is a bird, what can be inferred about sparrows?
+    - a. Sparrows can fly
+    - b. Sparrows are the only birds that can fly
+    - c. Not all sparrows can fly
+    - d. Some sparrows cannot fly
+
+22. What comes next in the sequence: 10, 20, 30, 40, 50?
+    - a. 60
+    - b. 70
+    - c. 80
+    - d. 90
+
+23. Which component is crucial for creating effective navigation in iOS apps according to the Apple Human Interface Guidelines?
+    - a. Activity Indicators
+    - b. Picker Views
+    - c. Progress Bars
+    - d. Segmented Controls
+
+24. In Swift, what is the purpose of the `deinit` method?
+    - a. To initialize a new instance of a class
+    - b. To perform cleanup before an object is deallocated
+    - c. To declare a variable within a class
+    - d. To inherit properties from another class
+
+25. When considering the principles of OOP, what is the primary purpose of inheritance?
+    - a. To ensure that classes are loosely coupled
+    - b. To allow for the creation of complex data types
+    - c. To allow one class to acquire the properties and methods of another
+    - d. To encapsulate data within objects
+
+26. What is the term for the design approach that starts with mobile considerations and then scales up to larger screens?
+    - a. Progressive enhancement
+    - b. Adaptive design
+    - c. Mobile-first design
+    - d. Responsive design
+
+27. In Swift, which statement correctly declares an optional string variable that can be nil?
+    - a. var optionalString: String?
+    - b. let optionalString: Optional<String>
+    - c. var optionalString: String!
+    - d. let optionalString: String=nil
+
+28. What UI component is recommended for displaying a list of items vertically in an iOS app?
+    - a. Table View
+    - b. Collection View
+    - c. Stack View
+    - d. Scroll View
+
+29. In number series theory, what is the next number in this sequence: 2, 4, 7, 11, 16?
+    - a. 20
+    - b. 22
+    - c. 24
+    - d. 26
+
+30. What Swift feature allows you to run a block of code for each item in a collection?
+    - a. For-in loop
+    - b. While loop
+    - c. Repeat-while loop
+    - d. If-else statement
+
+31. What principle of UI design emphasizes the importance of minimizing the user's memory load?
+    - a. Visibility
+    - b. Feedback
+    - c. Consistency
+    - d. Recognition rather than recall
+
+32. In OOP, which concept allows for the creation of complex behaviors by combining simpler ones?
+    - a. Aggregation
+    - b. Composition
+    - c. Encapsulation
+    - d. Polymorphism
+
+33. In logical reasoning, a conclusion is valid if:
+    - a. It is based on personal beliefs
+    - b. It directly follows from the premises
+    - c. It is widely accepted by experts
+    - d. It can be proven with physical evidence
+
+34. The next number in the series 3, 9, 27, 81 is:
+    - a. 162
+    - b. 243
+    - c. 324
+    - d. 405
+
+35. What does the term 'affordance' mean in UI/UX design?
+    - a. The cost associated with a design
+    - b. The visual attractiveness of a design
+    - c. The properties that indicate how an object is to be used
+    - d. The accessibility of a design for people with disabilities
+
+36. In Swift, to ensure a property cannot be modified after an object’s initialization, you would declare it as:
+    - a. var
+    - b. let
+    - c. static
+    - d. const
+
+37. A user interface that adapts smoothly to different screen sizes is said to be:
+    - a. Scalable
+    - b. Flexible
+    - c. Responsive
+    - d. Adaptive
+
+38. In the Swift programming language, what is the keyword `extension` used for?
+    - a. To define a new subclass
+    - b. To add new functionality to an existing class, structure, enumeration, or protocol type
+    - c. To declare a variable
+    - d. To create a new protocol
+
+39. What principle of OOP involves hiding the complexity of the system and showing only the necessary features of an object to the outside world?
+    - a. Encapsulation
+    - b. Abstraction
+    - c. Inheritance
+    - d. Polymorphism
+
+40. In logical reasoning, if two premises contradict each other, what can be inferred?
+    - a. At least one of the premises is false
+    - b. The premises need more clarification
+    - c. Both premises can still be true under certain conditions
+    - d. The argument is valid regardless of the contradiction
+
+41. What number follows in the sequence: 1, 4, 9, 16, 25?
+    - a. 34
+    - b. 36
+    - c. 49
+    - d. 64
+
+42. In UI/UX design, which element is essential for guiding users through the use of an application?
+    - a. High-fidelity graphics
+    - b. User feedback
+    - c. Intuitive navigation
+    - d. Detailed documentation
+
+43. Swift protocols define:
+    - a. The exact implementation details for methods and properties
+    - b. A blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality
+    - c. A series of functions that can be called directly
+    - d. The inheritance hierarchy for classes and structs
+
+44. What concept in software design emphasizes using interfaces for dependencies rather than concrete classes?
+    - a. Dependency Injection
+    - b. Interface Segregation
+    - c. Inversion of Control
+    - d. Dependency Inversion Principle
+
+45. The principle of "Form follows function" is most closely related to which field?
+    - a. Software development
+    - b. Industrial design
+    - c. Graphic design
+    - d. UI/UX design
+
+46. In a number series that begins with 3, and where each subsequent number is the previous number multiplied by 2 plus 1, what is the fifth number in the series?
+    - a. 31
+    - b. 63
+    - c. 47
+    - d. 95
+
+47. What is the main purpose of using Storyboards in iOS app development?
+    - a. To manage the app's data model
+    - b. To define the app's user interface visually
+    - c. To handle user interactions and events
+    - d. To perform background processing
+
+48. In Swift, what is a closure?
+    - a. A constant value that cannot be changed
+    - b. A self-contained block of functionality that can be passed around and used in your code
+    - c. An error-handling mechanism
+    - d. A way to define optional properties
+
+49. Logical reasoning puzzles often require you to:
+    - a. Guess the author's intentions
+    - b. Make assumptions beyond the provided information
+    - c. Use given premises to reach a logical conclusion
+    - d. Disregard inconsistencies in the information
+
+50. The principle of direct manipulation in UI design suggests that:
+    - a. Users should be able to interact with virtual objects as they do with physical ones
+    - b. All user inputs should be validated directly by the UI
+    - c. User interfaces should be designed with minimal user input
+    - d. Direct feedback should be provided for every user action
+
+51. In OOP, which of the following best describes the concept of 'dynamic dispatch'?
+    - a. Selecting the method to invoke at compile time
+    - b. Allowing an object to pass through different states dynamically
+    - c. Determining the method to invoke at runtime
+    - d. Dispatching methods to objects based on their class hierarchy
+
+52. What is the next number in the sequence: 2, 6, 18, 54?
+    - a. 108
+    - b. 162
+    - c. 216
+    - d. 162
+
+53. In Swift, an `enum` is used to:
+    - a. Define a method
+    - b. Declare a variable type that can be one of several predefined options
+    - c. Specify a numerical value
+    - d. Create a loop
+
+54. A key principle of the Apple Human Interface Guidelines is to ensure that UI elements are:
+    - a. Decorative
+    - b. Functional and understandable
+    - c. Complex and detailed
+    - d. Constantly changing to keep the interface dynamic
+
+55. Which design principle suggests that interfaces should be designed with familiarity in mind, making it easier for users to understand them quickly?
+    a. The principle of least astonishment
+    b. The principle of consistency
+    c. The principle of direct manipulation
+    d. The principle of feedback
+
+56. In OOP, what is the term used to describe an object created from a class?
+    a. Prototype
+    b. Instance
+    c. Model
+    d. Template
+
+57. If you were to describe the relationship between classes and objects in Swift, which of the following would be accurate?
+    a. Classes are specific instances of objects.
+    b. Objects are templates from which classes are derived.
+    c. Classes are blueprints from which objects are created.
+    d. Objects and classes are interchangeable terms.
+
+58. What is the main purpose of using storyboards in iOS app development?
+    a. To write the app's code
+    b. To manage the app's data model
+    c. To design the app's user interface
+    d. To debug the app's performance issues
+
+59. Which concept in Swift allows you to ensure that a class, structure, or enumeration implements a particular set of methods and properties?
+    a. Extensions
+    b. Inheritance
+    c. Protocols
+    d. Generics
+
+60. In the context of logical reasoning, which type of argument is formed by two premises and a conclusion?
+    a. Syllogism
+    b. Hypothetical
+    c. Inductive
+    d. Deductive

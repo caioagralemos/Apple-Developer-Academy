@@ -1,6 +1,20 @@
 Prompt CHATGPT with this to get mock tests!
 
-give me exactly 60 more questions like that on logical reasoning, number series theory and swift language basics and swift language oop and pop. dont separate them on themes, just give me all of them mixed and together just like my assesment test. and dont give me the answers until i ask for them. Just recalling that i need specifically sixty new questions, dont give me any less than it!
+Give me thirty new questions like those upon the following topics:
+•⁠  ⁠logical reasoning;
+•⁠  ⁠coding:
+	- basic concepts
+	- Object Oriented Programming
+	- Swift programming basics
+	- Design Patterns;
+•⁠  ⁠design:
+	- basic concepts
+	- responsive and adaptive design
+	- Human Interface Guidelines
+	- user-centered design processes
+	- sketches, prototypes, wireframes (i.e., interaction specifications), etc.
+
+Don’t separate them on themes, just give me all of them mixed and together just like my assessment test. And don’t give me the answers until i ask for them. Just recalling that I need specifically thirty new questions, don’t give me any less than it!
 
 
 Question

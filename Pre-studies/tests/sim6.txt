@@ -1,0 +1,179 @@
+1. In Swift, how can you safely unwrap an optional value?
+   - a. Using `!` after the optional name
+   - b. Using the `if let` syntax
+   - c. By declaring the variable as non-optional
+   - d. Using the `unwrap()` method
+
+2. What design pattern is commonly used to create a single shared instance of a class throughout a Swift application?
+   - a. Singleton
+   - b. Adapter
+   - c. Observer
+   - d. Prototype
+
+3. In terms of user-centered design, what is the primary focus during the development process?
+   - a. The preferences of the development team
+   - b. The technology stack used in development
+   - c. The needs and wants of the end-users
+   - d. The guidelines of the platform
+
+4. When applying logical reasoning to solve problems, what is the term for a statement that can be proven true or false?
+   - a. Hypothesis
+   - b. Variable
+   - c. Proposition
+   - d. Conjecture
+
+5. How does adaptive design differ from responsive design in web development?
+   - a. Adaptive design uses fixed layouts
+   - b. Responsive design uses multiple fixed layouts
+   - c. Adaptive design adjusts to the screen size dynamically
+   - d. Responsive design does not adjust to screen size
+
+6. In Swift, which keyword is used to define a constant value that cannot be changed after it's set?
+   - a. var
+   - b. let
+   - c. const
+   - d. static
+
+7. Which principle of object-oriented programming involves hiding the internal state of an object and requiring all interaction to be performed through an object's methods?
+   - a. Polymorphism
+   - b. Encapsulation
+   - c. Inheritance
+   - d. Composition
+
+8. What is a common use case for employing the Delegation design pattern in Swift?
+   - a. To allow an object to alter its appearance
+   - b. To allow one object to perform actions on behalf of another object
+   - c. To distribute tasks among different classes
+   - d. To monitor changes in an object's state
+
+9. When creating wireframes, what is the main purpose?
+   - a. To detail the final visual design
+   - b. To outline the basic structure and layout of a page
+   - c. To define the color scheme
+   - d. To finalize the copy and content
+
+10. In a logical sequence, if the pattern follows an increment of 3, 5, 9, what is the next increment?
+    - a. 15
+    - b. 17
+    - c. 13
+    - d. 11
+
+11. For a Swift enum, what is the purpose of using the `caseIterable` protocol?
+    - a. To iterate over all cases
+    - b. To add new cases at runtime
+    - c. To remove cases
+    - d. To compare enum cases
+
+12. How can a UI designer ensure their application is accessible to visually impaired users?
+    - a. By using a fixed font size
+    - b. By ensuring there is sufficient contrast between text and background
+    - c. By using as many colors as possible
+    - d. By limiting the application to text-only interfaces
+
+13. In object-oriented programming, which term describes an instance of a class?
+    - a. Method
+    - b. Property
+    - c. Object
+    - d. Function
+
+14. What is the main advantage of using MVC (Model-View-Controller) architecture in a Swift application?
+    - a. It enhances the app's performance
+    - b. It allows easier code duplication
+    - c. It simplifies the debugging process
+    - d. It separates concerns, making the code more manageable
+
+15. Which Swift operator can be used to check for equality?
+    - a. `=`
+    - b. `==`
+    - c. `===`
+    - d. `!=`
+
+16. When implementing responsive design, what CSS feature is most commonly used to adjust styles based on different screen sizes?
+    - a. Classes
+    - b. IDs
+    - c. Media queries
+    - d. Inline styles
+
+17. In Swift, what is a closure?
+    - a. A constant
+    - b. A self-contained block of functionality
+    - c. An optional value
+    - d. A type of variable
+
+18. What guideline is essential in Human Interface Guidelines for mobile app development?
+    - a. Use bright colors for all app icons
+    - b. Design for the smallest screen size
+    - c. Ensure text is small and concise
+    - d. Maintain a consistent design language throughout the app
+
+19. In Swift, how do you handle errors thrown by functions?
+    - a. Using `do-try-catch` blocks
+    - b. With `if-else` statements
+    - c. By using `error` keyword before function call
+    - d. Swift functions do not throw errors
+
+20. What is the primary purpose of using prototypes in the design process?
+    - a. To create the final version of a product
+    - b. To test design concepts and usability
+    - c. To choose color schemes and fonts
+    - d. To finalize the content of the application
+
+21. How do you define a computed property in Swift?
+    - a. By using the `computed` keyword
+    - b. By using getters and setters
+    - c. By declaring it as a function
+    - d. By initializing it with a value
+
+22. What concept allows Swift classes to inherit methods, properties, and other characteristics from another class?
+    - a. Encapsulation
+    - b. Polymorphism
+    - c. Inheritance
+    - d. Extension
+
+23. In logical reasoning, what kind of argument is made when it's claimed that if 'A' is true, then 'B' must also be true?
+    - a. Inductive reasoning
+    - b. Deductive reasoning
+    - c. Circular reasoning
+    - d. Analogical reasoning
+
+24. What is the advantage of adaptive design over responsive design?
+    - a. It uses less CSS and JavaScript
+    - b. It provides tailored layouts to specific devices
+    - c. It is easier to implement
+    - d. It requires less testing
+
+25. Which Swift feature allows you to extend the functionality of an existing class, structure, enumeration, or protocol type?
+    - a. Inheritance
+    - b. Protocols
+    - c. Extensions
+    - d. Closures
+
+26. In user-centered design processes, what is the significance of conducting user interviews?
+    - a. To finalize the product's visual design
+    - b. To understand user needs and problems
+    - c. To determine the product's price
+    - d. To choose the technology stack
+
+27. How does Swift's `guard` statement differ from an `if` statement?
+    - a. `guard` can only be used inside loops
+    - b. `guard` ensures conditions are met before executing the following code
+    - c. There is no difference
+    - d. `if` statements can't handle optionals
+
+28. In the context of responsive and adaptive design, what does the term 'breakpoint' refer to?
+    - a. The point at which an application crashes due to design flaws
+    - b. The screen sizes at which the website layout changes
+    - c. A bug in the CSS code
+    - d. The maximum number of users the website can handle
+
+29. Which design pattern would be best for managing a shared resource in a Swift application?
+    - a. Singleton
+    - b. Strategy
+    - c. Decorator
+    - d. Factory
+
+30. When discussing sketches, wireframes, and prototypes, which is typically produced first in the design process?
+    - a. Prototypes
+    - b. Wireframes
+    - c. Sketches
+    - d. It varies depending on the project

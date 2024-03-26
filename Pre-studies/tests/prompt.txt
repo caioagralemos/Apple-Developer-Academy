@@ -2,12 +2,12 @@ Prompt CHATGPT with this to get mock tests!
 
 Give me thirty new questions like those upon the following topics:
 •⁠  ⁠logical reasoning;
-•⁠  ⁠coding:
+•⁠  ⁠coding in swift:
 	- basic concepts
 	- Object Oriented Programming
 	- Swift programming basics
 	- Design Patterns;
-•⁠  ⁠design:
+•⁠  ⁠design in swift:
 	- basic concepts
 	- responsive and adaptive design
 	- Human Interface Guidelines

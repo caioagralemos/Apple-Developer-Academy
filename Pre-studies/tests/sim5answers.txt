@@ -1,62 +1,61 @@
-Here are the answers to the questions:
+Here are the answers to your questions:
 
-1. d. Int
-2. b. var
-3. c. Accessibility
-4. b. Navigation Bars
-5. d. Navigation bar
-6. b. A blueprint of methods, properties, and other requirements
-7. b. Polymorphism
-8. b. Proposition
-9. b. 64
-10. b. Type Casting
-11. b. The time to acquire a target
-12. d. conforms
-13. a. 21
-14. d. Feedback
-15. c. lazy
-16. a. Giving users the minimum permissions necessary
-17. b. Users can navigate it without prior training
-18. a. do-try-catch
-19. a. Consistency
-20. b. The technique of hiding the internal state and requiring all interaction to be performed through an object's methods
-21. a. Sparrows can fly
-22. a. 60
-23. b. Picker Views
-24. b. To perform cleanup before an object is deallocated
-25. c. To allow one class to acquire the properties and methods of another
-26. c. Mobile-first design
-27. a. var optionalString: String?
-28. a. Table View
-29. b. 22
-30. a. For-in loop
-31. d. Recognition rather than recall
-32. b. Composition
-33. b. It directly follows from the premises
-34. b. 243
-35. c. The properties that indicate how an object is to be used
-36. b. let
-37. c. Responsive
-38. b. To add new functionality to an existing class, structure, enumeration, or protocol type
-39. b. Abstraction
-40. a. At least one of the premises is false
-41. b. 36
-42. c. Intuitive navigation
-43. b. A blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality
-44. d. Dependency Inversion Principle
-45. b. Industrial design
-46. b. 63
-47. b. To define the app's user interface visually
-48. b. A self-contained block of functionality that can be passed around and used in your code
-49. c. Use given premises to reach a logical conclusion
-50. a. Users should be able to interact with virtual objects as they do with physical ones
-51. c. Determining the method to invoke at runtime
-52. b. 162
-53. b. Declare a variable type that can be one of several predefined options
-54. b. Functional and understandable
-55. a. The principle of least astonishment
-56. b. Instance
-57. c. Classes are blueprints from which objects are created.
-58. c. To design the app's user interface
-59. c. Protocols
-60. a. Syllogism
+1. **b. Using the `if let` syntax** - This syntax safely unwraps an optional value.
+
+2. **a. Singleton** - This pattern is used to create a single shared instance of a class.
+
+3. **c. The needs and wants of the end-users** - User-centered design primarily focuses on the users' needs.
+
+4. **c. Proposition** - A proposition is a statement that can be proven true or false.
+
+5. **a. Adaptive design uses fixed layouts** - Adaptive design uses fixed layouts that match common screen sizes.
+
+6. **b. let** - The `let` keyword is used to define a constant value.
+
+7. **b. Encapsulation** - Encapsulation involves hiding the internal state of an object.
+
+8. **b. To allow one object to perform actions on behalf of another object** - This is a common use of the Delegation pattern.
+
+9. **b. To outline the basic structure and layout of a page** - Wireframes are used for outlining structure and layout.
+
+10. **c. 13** - The sequence seems to be increasing by adding 4 more than the previous increment, making the next increment 13 (3 to 5 is +2, 5 to 9 is +4, so 9 to 13 is +4).
+
+11. **a. To iterate over all cases** - The `CaseIterable` protocol allows for iterating over all cases in an enum.
+
+12. **b. By ensuring there is sufficient contrast between text and background** - This is important for accessibility.
+
+13. **c. Object** - An object is an instance of a class in object-oriented programming.
+
+14. **d. It separates concerns, making the code more manageable** - MVC architecture is used for separating concerns.
+
+15. **b. `==`** - This operator checks for equality.
+
+16. **c. Media queries** - Media queries are used in responsive design to adjust styles based on screen size.
+
+17. **b. A self-contained block of functionality** - A closure is a block of functionality that can be passed around in code.
+
+18. **d. Maintain a consistent design language throughout the app** - This is essential in Human Interface Guidelines.
+
+19. **a. Using `do-try-catch` blocks** - This is how Swift handles errors thrown by functions.
+
+20. **b. To test design concepts and usability** - Prototypes are used for testing before finalizing a product.
+
+21. **b. By using getters and setters** - This is how computed properties are defined.
+
+22. **c. Inheritance** - Inheritance allows a class to inherit traits from another class.
+
+23. **b. Deductive reasoning** - This type of reasoning argues from the general to the specific.
+
+24. **b. It provides tailored layouts to specific devices** - This is an advantage of adaptive over responsive design.
+
+25. **c. Extensions** - Extensions are used to add new functionality to existing types.
+
+26. **b. To understand user needs and problems** - User interviews are conducted to understand users' needs.
+
+27. **b
+
+28. **b. The screen sizes at which the website layout changes** - Breakpoints are used in responsive and adaptive design for this purpose.
+
+29. **a. Singleton** - This pattern is suitable for managing a shared resource.
+
+30. **c. Sketches** - Sketches are typically the first step in the design process, used for initial ideas.

@@ -1,359 +1,179 @@
-1. In a logical reasoning scenario, if all roses are flowers and some flowers fade quickly, which of the following must be true?
-   - a. All roses fade quickly.
-   - b. Some roses may fade quickly.
-   - c. No roses fade quickly.
-   - d. None of the above can be concluded.
+1. In Swift, how can you safely unwrap an optional value?
+   - a. Using `!` after the optional name
+   - b. Using the `if let` syntax
+   - c. By declaring the variable as non-optional
+   - d. Using the `unwrap()` method
 
-2. Consider the number series: 2, 4, 8, 16, 32. What is the rule governing this series?
-   - a. Each number is the sum of the two preceding numbers.
-   - b. Each number is twice the previous number.
-   - c. Each number is the previous number plus two.
-   - d. Each number is the square of its position in the series.
+2. What design pattern is commonly used to create a single shared instance of a class throughout a Swift application?
+   - a. Singleton
+   - b. Adapter
+   - c. Observer
+   - d. Prototype
 
-3. In Swift, which keyword is used to define a constant value that cannot be changed after it's set initially?
+3. In terms of user-centered design, what is the primary focus during the development process?
+   - a. The preferences of the development team
+   - b. The technology stack used in development
+   - c. The needs and wants of the end-users
+   - d. The guidelines of the platform
+
+4. When applying logical reasoning to solve problems, what is the term for a statement that can be proven true or false?
+   - a. Hypothesis
+   - b. Variable
+   - c. Proposition
+   - d. Conjecture
+
+5. How does adaptive design differ from responsive design in web development?
+   - a. Adaptive design uses fixed layouts
+   - b. Responsive design uses multiple fixed layouts
+   - c. Adaptive design adjusts to the screen size dynamically
+   - d. Responsive design does not adjust to screen size
+
+6. In Swift, which keyword is used to define a constant value that cannot be changed after it's set?
    - a. var
    - b. let
    - c. const
-   - d. final
+   - d. static
 
-4. What Swift feature allows you to ensure that a class, structure, or enumeration conforms to a particular protocol?
-   - a. Extension
-   - b. Inheritance
-   - c. Implementation
-   - d. Conformance
-
-5. What is the concept in Swift that allows a class to inherit properties, methods, and other characteristics from another class?
-   - a. Protocol
-   - b. Extension
+7. Which principle of object-oriented programming involves hiding the internal state of an object and requiring all interaction to be performed through an object's methods?
+   - a. Polymorphism
+   - b. Encapsulation
    - c. Inheritance
-   - d. Encapsulation
+   - d. Composition
 
-6. In Swift's Protocol-Oriented Programming (POP), which of the following statements is true?
-   - a. Protocols can inherit from multiple other protocols.
-   - b. A class can conform to only one protocol at a time.
-   - c. Protocols can contain only method declarations, not implementations.
-   - d. Protocols are used to define concrete implementations of methods and properties.
+8. What is a common use case for employing the Delegation design pattern in Swift?
+   - a. To allow an object to alter its appearance
+   - b. To allow one object to perform actions on behalf of another object
+   - c. To distribute tasks among different classes
+   - d. To monitor changes in an object's state
 
-7. How does Swift differentiate between value types and reference types?
-   - a. Classes are value types, while structures and enumerations are reference types.
-   - b. Structures and enumerations are value types, while classes are reference types.
-   - c. All types in Swift are reference types.
-   - d. All types in Swift are value types.
+9. When creating wireframes, what is the main purpose?
+   - a. To detail the final visual design
+   - b. To outline the basic structure and layout of a page
+   - c. To define the color scheme
+   - d. To finalize the copy and content
 
-8. In Swift, what is the main purpose of using a protocol with associated types?
-   - a. To define a generic interface that can work with any type.
-   - b. To enforce class inheritance.
-   - c. To specify fixed data types for all protocol methods.
-   - d. To create a type-safe collection of constants.
+10. In a logical sequence, if the pattern follows an increment of 3, 5, 9, what is the next increment?
+    - a. 15
+    - b. 17
+    - c. 13
+    - d. 11
 
-9. According to the Apple Human Interface Guidelines, what is crucial for designing an app's navigation?
-   - a. Ensuring that all buttons are of the same size.
-   - b. Keeping navigation consistent across the app.
-   - c. Using unique icons for every action.
-   - d. Avoiding the use of text in navigation elements.
+11. For a Swift enum, what is the purpose of using the `caseIterable` protocol?
+    - a. To iterate over all cases
+    - b. To add new cases at runtime
+    - c. To remove cases
+    - d. To compare enum cases
 
-10. In UI/UX Design, what principle emphasizes the importance of anticipating user needs and making information easily accessible?
-    - a. Color Theory
-    - b. Usability
-    - c. Typography
-    - d. Gestalt Principles
+12. How can a UI designer ensure their application is accessible to visually impaired users?
+    - a. By using a fixed font size
+    - b. By ensuring there is sufficient contrast between text and background
+    - c. By using as many colors as possible
+    - d. By limiting the application to text-only interfaces
 
-11. When designing a user interface in compliance with Apple's Human Interface Guidelines, what is the recommended approach for utilizing color?
-   - a. Use bright and contrasting colors for all app elements to attract attention.
-   - b. Use color to indicate interactivity and provide feedback.
-   - c. Limit the color palette to two colors to ensure simplicity.
-   - d. Use a different color for each button to support navigation.
+13. In object-oriented programming, which term describes an instance of a class?
+    - a. Method
+    - b. Property
+    - c. Object
+    - d. Function
 
-12. In the context of OOP (Object-Oriented Programming), what does the term 'inheritance' refer to?
-   - a. The ability of a program to perform different actions based on the input data.
-   - b. The mechanism by which one class acquires the properties of another class.
-   - c. The encapsulation of data within objects and the hiding of their internal state.
-   - d. The capability to use the same interface for different underlying forms of data.
+14. What is the main advantage of using MVC (Model-View-Controller) architecture in a Swift application?
+    - a. It enhances the app's performance
+    - b. It allows easier code duplication
+    - c. It simplifies the debugging process
+    - d. It separates concerns, making the code more manageable
 
-13. What principle of UI/UX design focuses on reducing the user's effort to absorb and understand information?
-   - a. Consistency
-   - b. Visibility
-   - c. Simplicity
-   - d. Feedback
+15. Which Swift operator can be used to check for equality?
+    - a. `=`
+    - b. `==`
+    - c. `===`
+    - d. `!=`
 
-14. Consider the following sequence: 1, 1, 2, 3, 5, 8. What is the rule governing this series?
-   - a. Each number is the sum of the two preceding numbers.
-   - b. Each number is obtained by multiplying the previous number by 2.
-   - c. Each number is the previous number squared.
-   - d. Each number is the previous number plus one.
+16. When implementing responsive design, what CSS feature is most commonly used to adjust styles based on different screen sizes?
+    - a. Classes
+    - b. IDs
+    - c. Media queries
+    - d. Inline styles
 
-15. In Swift, what does the 'optional chaining' feature allow you to do?
-   - a. Chain together multiple operations on optional values without needing to unwrap them each time.
-   - b. Optionally include or exclude properties from a class at runtime.
-   - c. Connect multiple strings together in a more efficient way.
-   - d. Create optional functions that may or may not be implemented.
+17. In Swift, what is a closure?
+    - a. A constant
+    - b. A self-contained block of functionality
+    - c. An optional value
+    - d. A type of variable
 
-16. In the Swift programming language, what is a 'closure'?
-   - a. A self-contained block of functionality that can be passed around and used in your code.
-   - b. A special type of loop that automatically closes when it's done executing.
-   - c. A method for closing files and connections.
-   - d. A feature for encapsulating variables within a scope.
+18. What guideline is essential in Human Interface Guidelines for mobile app development?
+    - a. Use bright colors for all app icons
+    - b. Design for the smallest screen size
+    - c. Ensure text is small and concise
+    - d. Maintain a consistent design language throughout the app
 
-17. How do protocols in Swift support the concept of Protocol-Oriented Programming (POP)?
-   - a. By allowing multiple inheritance.
-   - b. By defining a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
-   - c. By providing default implementations for other types to use.
-   - d. By preventing classes from adopting certain behaviors.
+19. In Swift, how do you handle errors thrown by functions?
+    - a. Using `do-try-catch` blocks
+    - b. With `if-else` statements
+    - c. By using `error` keyword before function call
+    - d. Swift functions do not throw errors
 
-18. Which statement accurately describes the relationship between classes and objects in Object-Oriented Programming?
-   - a. Objects are blueprints from which classes are created.
-   - b. Classes are specific instances of objects.
-   - c. Classes are blueprints from which objects are created.
-   - d. Objects and classes are interchangeable terms.
+20. What is the primary purpose of using prototypes in the design process?
+    - a. To create the final version of a product
+    - b. To test design concepts and usability
+    - c. To choose color schemes and fonts
+    - d. To finalize the content of the application
 
-19. What is 'protocol extension' in Swift and how is it used?
-   - a. It allows for the extension of existing protocols to provide method implementations.
-   - b. It is a way to extend the functionality of classes, structs, and enumerations.
-   - c. It extends protocols by adding new properties and methods.
-   - d. It is a method of extending network protocols to improve app performance.
+21. How do you define a computed property in Swift?
+    - a. By using the `computed` keyword
+    - b. By using getters and setters
+    - c. By declaring it as a function
+    - d. By initializing it with a value
 
-20. In the development of UI/UX design, what tool or concept is essential for creating a wireframe?
-    - a. Color palettes
-    - b. Typography
-    - c. Grid systems
-    - d. High-fidelity prototypes
+22. What concept allows Swift classes to inherit methods, properties, and other characteristics from another class?
+    - a. Encapsulation
+    - b. Polymorphism
+    - c. Inheritance
+    - d. Extension
 
-21. In Swift programming, what concept allows for the definition of a function within the body of another function?
-   - a. Nested Functions
-   - b. Protocol Extensions
-   - c. Closures
-   - d. Inheritance
+23. In logical reasoning, what kind of argument is made when it's claimed that if 'A' is true, then 'B' must also be true?
+    - a. Inductive reasoning
+    - b. Deductive reasoning
+    - c. Circular reasoning
+    - d. Analogical reasoning
 
-22. Regarding UI/UX design principles, which of the following is crucial for ensuring that users can easily navigate and interact with a website or application?
-   - a. High-fidelity graphics
-   - b. Consistent layout and design
-   - c. Extensive use of animations
-   - d. Complex navigation structures
+24. What is the advantage of adaptive design over responsive design?
+    - a. It uses less CSS and JavaScript
+    - b. It provides tailored layouts to specific devices
+    - c. It is easier to implement
+    - d. It requires less testing
 
-23. When applying the principles of the Apple Human Interface Guidelines, which element is essential for creating an intuitive user interface?
-   - a. Use of 3D animations for all interactions
-   - b. Consistent use of metaphors
-   - c. Random placement of elements to encourage exploration
-   - d. Overloading interfaces with information to provide options
+25. Which Swift feature allows you to extend the functionality of an existing class, structure, enumeration, or protocol type?
+    - a. Inheritance
+    - b. Protocols
+    - c. Extensions
+    - d. Closures
 
-24. In the Object-Oriented Programming (OOP) paradigm, what does 'encapsulation' refer to?
-   - a. The process of inheriting properties from a base class
-   - b. The binding together of data and the methods that manipulate that data
-   - c. The ability of objects to transform based on the context
-   - d. Creating multiple instances of a class within another class
+26. In user-centered design processes, what is the significance of conducting user interviews?
+    - a. To finalize the product's visual design
+    - b. To understand user needs and problems
+    - c. To determine the product's price
+    - d. To choose the technology stack
 
-25. Identify the correct sequence in a Fibonacci series following this pattern: 0, 1, 1, 2, 3, 5, 8, 13, ...
-   - a. 21
-   - b. 34
-   - c. 26
-   - d. 20
+27. How does Swift's `guard` statement differ from an `if` statement?
+    - a. `guard` can only be used inside loops
+    - b. `if` ensures conditions are met before executing the following code
+    - c. There is no difference
+    - d. `if` statements can't handle optionals
 
-26. Swift's 'guard' statement is best described as a way to:
-   - a. Ensure that conditions are met before proceeding with execution of the following code.
-   - b. Guard against memory leaks within closures.
-   - c. Protect class inheritance from unauthorized access.
-   - d. Secure protocols from being extended or modified.
+28. In the context of responsive and adaptive design, what does the term 'breakpoint' refer to?
+    - a. The point at which an application crashes due to design flaws
+    - b. The screen sizes at which the website layout changes
+    - c. A bug in the CSS code
+    - d. The maximum number of users the website can handle
 
-27. A 'deinitializer' in Swift is used to:
-   - a. Initialize default values for properties of a class.
-   - b. Clean up any resources before a class instance is deallocated.
-   - c. Prevent a class from being subclassed.
-   - d. Reset the properties of a class to their initial values.
+29. Which design pattern would be best for managing a shared resource in a Swift application?
+    - a. Singleton
+    - b. Strategy
+    - c. Decorator
+    - d. Factory
 
-28. In Swift, what is the primary purpose of using 'type aliases'?
-   - a. To provide alternative names for existing types for code clarity and readability.
-   - b. To define new, complex types from scratch.
-   - c. To alias one class to another, allowing for polymorphism.
-   - d. To rename methods for easier protocol conformance.
-
-29. UI/UX design's 'Fitts’s Law' is primarily concerned with:
-   - a. The time it takes to reach a target area is a function of the distance to the target and the size of the target.
-   - b. The optimal number of menu items for cognitive processing.
-   - c. The visual hierarchy and layout of screen elements.
-   - d. The contrast and color scheme of an interface to ensure readability.
-
-30. In OOP, the 'Liskov Substitution Principle' (part of SOLID principles) is crucial because it ensures that:
-    - a. Objects of a superclass shall be replaceable with objects of subclasses without affecting the functioning of the program.
-    - b. Each class should have only one reason to change, promoting class singularity.
-    - c. Dependencies on interfaces or abstract classes are preferred over concrete classes.
-    - d. Subclasses should be completely substitutable for their base classes.
-
-31. In the context of Swift's error handling model, what is the purpose of the `throw` keyword?
-   - a. To define a new error type.
-   - b. To interrupt the current flow and pass control to a catch block.
-   - c. To declare a function that might cause an error.
-   - d. To execute a block of code regardless of whether an error occurs.
-
-32. For UI/UX design, what does the term 'affordance' refer to?
-   - a. The aesthetic appeal of the interface.
-   - b. The visibility of system status to the user.
-   - c. The design element that suggests its function to the user.
-   - d. The use of animations to guide user interaction.
-
-33. According to Apple's Human Interface Guidelines, what is a key consideration when designing for accessibility?
-   - a. Ensuring all text is the same size for consistency.
-   - b. Using only gesture-based navigation.
-   - c. Providing alternative text for images and icons.
-   - d. Limiting the app to a single orientation to simplify use.
-
-34. In Object-Oriented Programming, the concept of 'dynamic dispatch' is used to:
-   - a. Determine the method to invoke at compile time.
-   - b. Allow an object to pass itself as an argument to another object.
-   - c. Enable a method call to be resolved at run time.
-   - d. Create a dynamic type that can change during execution.
-
-35. The series 2, 3, 5, 7, 11, 13, ... follows a specific pattern. What is the next number in this series?
-   - a. 15
-   - b. 17
-   - c. 19
-   - d. 21
-
-36. Swift's `enum` types are a powerful feature because they can:
-   - a. Automatically conform to the `Equatable` protocol.
-   - b. Be extended with new cases after declaration.
-   - c. Contain associated values of any given type.
-   - d. Be instantiated directly without any cases.
-
-37. The principle of 'least privilege' in software design is important because it:
-   - a. Ensures that users are given the minimal levels of access—or permissions—needed to perform their tasks.
-   - b. Guarantees that all users have equal access to all system features.
-   - c. Minimizes the system's performance overhead by limiting the number of active users.
-   - d. Reduces the complexity of software by eliminating unnecessary features.
-
-38. A key advantage of using 'protocol extensions' in Swift is:
-   - a. They allow protocols to define default implementations for methods.
-   - b. They enable the creation of mandatory methods within protocols.
-   - c. They restrict the types that can adopt the protocol.
-   - d. They automatically make classes, structs, and enums conform to protocols.
-
-39. In UI/UX design, 'heuristic evaluation' is a technique used to:
-   - a. Automatically test the usability of a site using algorithms.
-   - b. Identify usability problems in the user interface design.
-   - c. Measure the response time of applications.
-   - d. Evaluate the aesthetic appeal of the interface.
-
-40. The principle of 'composition over inheritance' in software development encourages:
-    - a. Using base classes to provide default behavior.
-    - b. The use of multiple inheritance to share functionality.
-    - c. Building new functionality by combining simpler objects.
-    - d. The creation of large, monolithic classes that perform multiple functions.
-
-41. When implementing a 'Factory Method' pattern in Swift, which of the following best describes its purpose?
-   - a. To create an instance of several derived classes.
-   - b. To add new methods to an existing class at runtime.
-   - c. To define a method whose return value is a new instance of a class.
-   - d. To encapsulate the process of adding properties to an object.
-
-42. In UI/UX design, the principle of "Progressive Disclosure" advises that:
-   - a. Information should be displayed all at once to save users time.
-   - b. Only necessary information should be shown to the user initially, with more details available upon request.
-   - c. All interactive elements should be progressively highlighted.
-   - d. Users should be progressively granted more privileges as they become more experienced.
-
-43. According to Apple's Human Interface Guidelines, which of the following is recommended for designing touch interfaces?
-   - a. Buttons should be of a minimum size to save screen space.
-   - b. Interface elements should be spaced well apart to prevent accidental touches.
-   - c. Use of gestures should be minimized to the most common ones only.
-   - d. Text should be used instead of icons for clarity.
-
-44. In the concept of 'Polymorphism' in Object-Oriented Programming, which scenario best illustrates this concept?
-   - a. A function behaves differently based on the object that is calling it.
-   - b. An object is able to change its class after instantiation.
-   - c. Multiple classes inherit from a single parent class.
-   - d. A class has more than one parent class.
-
-45. What does the term "Lazy Loading" refer to in software development?
-   - a. Loading all resources at the start of the application to speed up future access.
-   - b. Deferring the loading of an object until it is needed.
-   - c. Loading data in parallel to improve performance.
-   - d. Dynamically loading code modules on demand during runtime.
-
-46. In Swift, what does an `@escaping` annotation do for a closure parameter?
-   - a. Marks the closure as one that can escape the function it’s passed into, to be called later.
-   - b. Prevents the closure from capturing and retaining any variables from its surrounding context.
-   - c. Indicates that the closure should be executed immediately and synchronously.
-   - d. Ensures the closure is stored in memory until it is explicitly deallocated.
-
-47. For UI/UX design, "Contextual Design" is a process that:
-   - a. Focuses solely on the aesthetic aspects of a design.
-   - b. Ignores user feedback in favor of expert opinions.
-   - c. Involves understanding users' environments, workflows, and goals to inform design decisions.
-   - d. Is applied only in the final stages of design to refine user interfaces.
-
-48. The principle of 'Single Responsibility' in the SOLID principles of Object-Oriented Design states that:
-   - a. A class should have only one reason to change.
-   - b. A class should be responsible for creating instances of other classes.
-   - c. Every module or class should have responsibility over a single part of the functionality provided by the software.
-   - d. A class should be responsible for the functionalities of its subclasses.
-
-49. In the creation of number series or sequences, what is the next number in the series: 10, 20, 40, 80, 160?
-   - a. 240
-   - b. 320
-   - c. 180
-   - d. 300
-
-50. Swift's Optionals are a feature that:
-    - a. Allow variables to have no value at all, using `nil` to represent the absence of a value.
-    - b. Force all variables to be initialized with a non-nil value before use.
-    - c. Automatically unwrap optional values without checking for `nil`.
-    - d. Prevent variables from being optional, ensuring strict type safety.
-
-51. When designing for iOS, Apple's Human Interface Guidelines recommend using what to indicate interactivity?
-   - a. Uniform color schemes for all interactive and non-interactive elements.
-   - b. Visual cues such as color, shading, and shadows.
-   - c. Text labels for all interactive elements.
-   - d. Complex gestures for basic interactions.
-
-52. In Swift, which feature allows for the execution of code only when certain conditions are met, acting as a safety check for properties or functions?
-   - a. Optional Chaining
-   - b. Guard Statement
-   - c. Error Handling
-   - d. Defer Statement
-
-53. The concept of 'Delegation' in software development, particularly in iOS app development, is used to:
-   - a. Allow one object to perform actions on behalf of another object.
-   - b. Delegate all tasks to a single controller object for simplicity.
-   - c. Ensure that objects are deleted from memory when no longer needed.
-   - d. Pass data directly between two unrelated objects.
-
-54. What does the 'Observer Pattern' in software design allow an application to do?
-   - a. Observe changes in software requirements to adapt its functions accordingly.
-   - b. Watch for changes in one part of the application and notify other parts about these changes.
-   - c. Observe user behavior to optimize the user interface dynamically.
-   - d. Monitor network requests and responses for debugging purposes.
-
-55. In UI/UX design, 'Cognitive Load' refers to:
-   - a. The total amount of mental effort being used in the working memory.
-   - b. The load time of a website or application.
-   - c. The physical effort users must exert to navigate through an application.
-   - d. The storage space an application uses on a device.
-
-56. Swift programming language utilizes 'Type Inference' to:
-   - a. Require developers to explicitly declare the type of every variable.
-   - b. Automatically detect and assign the appropriate data type of a variable based on the assigned value.
-   - c. Infer the return type of functions based on the types of the return statements.
-   - d. Determine the type of variable to be used in polymorphic functions.
-
-57. 'Affinity Mapping' in the context of UI/UX design is a technique used to:
-   - a. Map out the physical locations of users to design location-based features.
-   - b. Organize and categorize qualitative data such as user feedback and observations.
-   - c. Design the layout of elements on a webpage or app screen for optimal user flow.
-   - d. Create a relationship diagram between different user interface elements.
-
-58. In Object-Oriented Programming, 'Composition' refers to:
-   - a. A technique for creating new objects by combining simple objects or data types.
-   - b. The act of composing music to play during software use.
-   - c. Writing detailed documentation for classes and objects.
-   - d. The visual arrangement of objects within the user interface.
-
-59. The 'Model-View-ViewModel' (MVVM) architecture in software engineering is notable for:
-   - a. Coupling user interface tightly with the business logic.
-   - b. Facilitating a clear separation of concerns by dividing the application into three interconnected components.
-   - c. Being the simplest architectural pattern to implement.
-   - d. Prioritizing direct manipulation of the model by the view.
-
-60. In Swift, 'ARC' (Automatic Reference Counting) is used to:
-    - a. Compile Swift code into machine code at runtime.
-    - b. Automatically manage the memory usage of objects by counting and freeing up unused objects.
-    - c. Increase the reference count of variables in loops to prevent memory leaks.
-    - d. Count the number of references to each function to optimize performance.
+30. When discussing sketches, wireframes, and prototypes, which is typically produced first in the design process?
+    - a. Prototypes
+    - b. Wireframes
+    - c. Sketches
+    - d. It varies depending on the project

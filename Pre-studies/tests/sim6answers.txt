@@ -1,0 +1,61 @@
+Here are the answers to your questions:
+
+1. **b. Using the `if let` syntax** - This syntax safely unwraps an optional value.
+
+2. **a. Singleton** - This pattern is used to create a single shared instance of a class.
+
+3. **c. The needs and wants of the end-users** - User-centered design primarily focuses on the users' needs.
+
+4. **c. Proposition** - A proposition is a statement that can be proven true or false.
+
+5. **a. Adaptive design uses fixed layouts** - Adaptive design uses fixed layouts that match common screen sizes.
+
+6. **b. let** - The `let` keyword is used to define a constant value.
+
+7. **b. Encapsulation** - Encapsulation involves hiding the internal state of an object.
+
+8. **b. To allow one object to perform actions on behalf of another object** - This is a common use of the Delegation pattern.
+
+9. **b. To outline the basic structure and layout of a page** - Wireframes are used for outlining structure and layout.
+
+10. **c. 13** - The sequence seems to be increasing by adding 4 more than the previous increment, making the next increment 13 (3 to 5 is +2, 5 to 9 is +4, so 9 to 13 is +4).
+
+11. **a. To iterate over all cases** - The `CaseIterable` protocol allows for iterating over all cases in an enum.
+
+12. **b. By ensuring there is sufficient contrast between text and background** - This is important for accessibility.
+
+13. **c. Object** - An object is an instance of a class in object-oriented programming.
+
+14. **d. It separates concerns, making the code more manageable** - MVC architecture is used for separating concerns.
+
+15. **b. `==`** - This operator checks for equality.
+
+16. **c. Media queries** - Media queries are used in responsive design to adjust styles based on screen size.
+
+17. **b. A self-contained block of functionality** - A closure is a block of functionality that can be passed around in code.
+
+18. **d. Maintain a consistent design language throughout the app** - This is essential in Human Interface Guidelines.
+
+19. **a. Using `do-try-catch` blocks** - This is how Swift handles errors thrown by functions.
+
+20. **b. To test design concepts and usability** - Prototypes are used for testing before finalizing a product.
+
+21. **b. By using getters and setters** - This is how computed properties are defined.
+
+22. **c. Inheritance** - Inheritance allows a class to inherit traits from another class.
+
+23. **b. Deductive reasoning** - This type of reasoning argues from the general to the specific.
+
+24. **b. It provides tailored layouts to specific devices** - This is an advantage of adaptive over responsive design.
+
+25. **c. Extensions** - Extensions are used to add new functionality to existing types.
+
+26. **b. To understand user needs and problems** - User interviews are conducted to understand users' needs.
+
+27. **b
+
+28. **b. The screen sizes at which the website layout changes** - Breakpoints are used in responsive and adaptive design for this purpose.
+
+29. **a. Singleton** - This pattern is suitable for managing a shared resource.
+
+30. **c. Sketches** - Sketches are typically the first step in the design process, used for initial ideas.

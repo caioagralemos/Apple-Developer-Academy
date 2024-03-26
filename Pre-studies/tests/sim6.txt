@@ -1,0 +1,179 @@
+1. If a SwiftUI view is designed to adapt to different screen sizes, this approach is known as:
+   a. Static Design
+   b. Adaptive Design
+   c. Fixed Design
+   d. Absolute Design
+
+2. In Swift, what keyword is used to define a constant?
+   a. var
+   b. let
+   c. const
+   d. def
+
+3. Which principle of design emphasizes the importance of predictable actions in a user interface?
+   a. Consistency
+   b. Feedback
+   c. Visibility
+   d. Flexibility
+
+4. What is the result of the logical operation NOT TRUE?
+   a. TRUE
+   b. FALSE
+   c. NULL
+   d. NOT APPLICABLE
+
+5. In Swift, which pattern is typically used to delegate responsibilities from one class to another?
+   a. Strategy Pattern
+   b. Delegate Pattern
+   c. Observer Pattern
+   d. Command Pattern
+
+6. A logical sequence problem: 1, 4, 9, 16, 25, ?
+   a. 34
+   b. 36
+   c. 49
+   d. 64
+
+7. How do you make a class conform to a protocol in Swift?
+   a. Using the 'implements' keyword
+   b. Using the 'extends' keyword
+   c. By declaring the protocol in the class definition
+   d. By using the 'protocol' keyword in the class definition
+
+8. In user-centered design, what is the primary focus during the design process?
+   a. Developer's preference
+   b. Business needs
+   c. User's needs
+   d. Graphic design
+
+9. What is the main purpose of using protocols in Swift?
+   a. To add properties to existing classes
+   b. To define a blueprint of methods, properties, and other requirements for tasks
+   c. To provide default method implementations
+   d. To subclass other classes
+
+10. If "x" is an optional in Swift and you want to assign a value only if "x" is nil, which operator would you use?
+    a. ?
+    b. !!
+    c. ??
+    d. ::
+
+11. The use of what design pattern is best demonstrated by defining a family of algorithms, encapsulating each one, and making them interchangeable?
+    a. Factory Method
+    b. Singleton
+    c. Strategy
+    d. Decorator
+
+12. In logical reasoning, if all cars are vehicles and all vehicles have wheels, what can be inferred?
+    a. All wheels are vehicles
+    b. All cars have wheels
+    c. Some vehicles are cars
+    d. All vehicles are cars
+
+13. What does MVC stand for in software design patterns?
+    a. Model-View-Controller
+    b. Model-View-Connection
+    c. Multiple-View-Controller
+    d. Module-Vector-Controller
+
+14. A riddle for logical reasoning: "Forward I am heavy, but backward I am not. What am I?"
+    a. A truck
+    b. The number eight
+    c. A ton
+    d. A feather
+
+15. What Swift feature allows you to run a group of statements for each item in a collection?
+    a. Switch
+    b. For-in loop
+    c. While loop
+    d. If statement
+
+16. The process of adjusting the layout of an application to accommodate different screen sizes is called:
+    a. Scaling
+    b. Pivoting
+    c. Responsive Design
+    d. Transforming
+
+17. In Swift, how can you safely unwrap an optional?
+    a. Optional chaining
+    b. Forced unwrapping
+    c. Optional binding
+    d. Coalescing unwrapping
+
+18. The Apple Human Interface Guidelines suggest that interfaces should be:
+    a. Complex and detailed
+    b. Intuitive and accessible
+    c. Colorful and vibrant
+    d. Text-heavy and informative
+
+19. When creating a prototype in the design phase, what is the primary goal?
+    a. To develop the final version of the product
+    b. To test design concepts and gather feedback
+    c. To finalize the product's color scheme
+    d. To choose the programming language for development
+
+20. In Swift, which of the following best describes an array?
+    a. A collection of values of any type, indexed by names
+    b. A collection of key-value pairs
+    c. A collection of values of the same type, ordered by a sequence
+    d. An unordered collection of unique values
+
+21. How is 'polymorphism' typically achieved in Swift?
+   a. Through the use of extensions
+   b. By implementing protocols
+   c. By using switch statements
+   d. Through inheritance and overriding
+
+22. What design principle suggests that interfaces should not contain information which is irrelevant or rarely needed?
+   a. Signal to Noise Ratio
+   b. Occam's Razor
+   c. Pareto Principle
+   d. Conservation of Complexity
+
+23. If you have a method in Swift that can throw an error, how must it be called?
+   a. Using the 'try' keyword
+   b. With the 'error' keyword
+   c. Preceded by the 'catch' block
+   d. Alongside the 'throw' keyword
+
+24. In a logic puzzle, if two statements are given: "All A are B" and "Some B are C", which conclusion is necessarily true?
+   a. Some A are C
+   b. No A is C
+   c. All C are B
+   d. Some C are not A
+
+25. When defining an enumeration in Swift, which keyword is used?
+   a. enum
+   b. enumerator
+   c. enumerate
+   d. enumeration
+
+26. The principle of minimizing the cognitive load on the user by designing intuitive interfaces is called:
+   a. Cognitive Dissipation
+   b. Cognitive Resonance
+   c. Cognitive Reduction
+   d. Cognitive Load Theory
+
+27. In Swift, to ensure that a piece of code is executed at least once before evaluating the condition of a loop, you would use:
+   a. while loop
+   b. repeat-while loop
+   c. for-in loop
+   d. do-while loop
+
+28. In the context of Swift design patterns, which pattern would you use to ensure a class has only one instance and provides a global point of access to it?
+   a. Singleton
+   b. Adapter
+   c. Prototype
+   d. Builder
+
+29. A logical sequence question: 3, 8, 15, 24, 35, ?
+   a. 45
+   b. 48
+   c. 50
+   d. 58
+
+30. When designing for iOS, incorporating what concept ensures that the app's layout and elements adjust effectively for different device orientations and screen sizes?
+   a. Vector Graphics
+   b. Aspect Ratio Adjustment
+   c. Auto Layout
+   d. Pixel Density Compensation

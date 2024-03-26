@@ -9,13 +9,12 @@ Give me thirty new questions like those upon the following topics:
 	- Design Patterns;
 •⁠  ⁠design in swift:
 	- basic concepts
-	- responsive and adaptive design
-	- Human Interface Guidelines
+	- responsive and adaptive design in Swift
+	- Apple Human Interface Guidelines
 	- user-centered design processes
 	- sketches, prototypes, wireframes (i.e., interaction specifications), etc.
 
 Don’t separate them on themes, just give me all of them mixed and together just like my assessment test. And don’t give me the answers until i ask for them. Just recalling that I need specifically thirty new questions, don’t give me any less than it!
-
 
 Question
 Correct

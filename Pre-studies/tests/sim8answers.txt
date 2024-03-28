@@ -1,0 +1,32 @@
+Here are the answers to the additional questions:
+
+1. b. Automatic Reference Counting (ARC)
+2. a. To ensure a condition must be true to proceed
+3. a. Strategy
+4. b. var anyVar: Any
+5. a. Model-View-Controller
+6. a. Accessibility
+7. d. final
+8. b. To visually layout the UI elements of the application
+9. b. Ad Hominem
+10. b. Use Auto Layout constraints
+11. b. A method for creating new classes based on existing classes
+12. c. Allowing objects to create customized copies of themselves
+13. b. To transition between views
+14. b. To assess how easy and intuitive the product is to use
+15. b. @available(*, deprecated)
+16. b. An argument that supports the conclusion logically, irrespective of the truth of the premises
+17. c. The technique of making the fields in a class private and providing access via public methods
+18. a. override func
+19. b. Minimalism
+20. c. By enabling one object to act on behalf of another
+21. a. To define a set of related values as a common type
+22. b. Creating designs that respond to changes in device orientation and screen sizes
+23. a. The ability of different objects to respond to the same message in different ways
+24. b. To communicate the basic layout and functionality of pages or screens
+25. d. Using do-try-catch blocks
+26. b. Through the application of structured approaches to understand and solve problems
+27. c. It facilitates the division of a system into smaller, manageable parts
+28. b. To explore ideas and test concepts through rapid iterations
+29. c. let runtimeValue
+30. b. To facilitate communication between objects in a manner that reduces coupling

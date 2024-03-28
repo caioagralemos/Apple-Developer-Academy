@@ -1,0 +1,181 @@
+1. How does Swift handle memory management for objects?
+    - a. Manual counting
+    - b. Automatic Reference Counting (ARC)
+    - c. Garbage collection
+    - d. Manual release
+
+2. In Swift, what is a guard statement used for?
+    - a. To ensure a condition must be true to proceed
+    - b. To declare constants
+    - c. To loop over collections
+    - d. To check for type casting
+
+3. Which design pattern is typically used to encapsulate algorithms, allowing them to be interchangeable?
+    - a. Strategy
+    - b. Factory
+    - c. Builder
+    - d. Composite
+
+4. How can you define a variable in Swift that can hold a value of any type?
+    - a. var anyVar: AnyObject
+    - b. var anyVar: Any
+    - c. var anyVar: unknown
+    - d. var anyVar: var
+
+5. What does MVC stand for in software design patterns?
+    - a. Model-View-Controller
+    - b. Model-Vector-Component
+    - c. Main-View-Controller
+    - d. Module-View-Connector
+
+6. What principle of the Apple Human Interface Guidelines is focused on ensuring that the content and interface elements are understandable and accessible?
+    - a. Accessibility
+    - b. Consistency
+    - c. Depth
+    - d. Direct Manipulation
+
+7. In Swift, what keyword is used to indicate that a property or method is available to instances of the class itself, rather than to instances of any subclasses?
+    - a. private
+    - b. public
+    - c. internal
+    - d. final
+
+8. What is the purpose of a storyboard in iOS development?
+    - a. To outline the logic of the program
+    - b. To visually layout the UI elements of the application
+    - c. To document the code
+    - d. To compile and build the application
+
+9. Which logical fallacy involves attacking the person making the argument rather than the argument itself?
+    - a. Straw Man
+    - b. Ad Hominem
+    - c. Slippery Slope
+    - d. Appeal to Ignorance
+
+10. How do you ensure that a UI element adjusts its layout automatically when the device orientation changes in Swift?
+    - a. Use fixed dimensions
+    - b. Use Auto Layout constraints
+    - c. Disable orientation changes
+    - d. Manually adjust frames on orientation change
+
+11. What is "inheritance" in the context of Swift programming?
+    - a. A way to transfer property ownership
+    - b. A method for creating new classes based on existing classes
+    - c. A feature that allows functions to inherit parameters
+    - d. The process of variable assignment
+
+12. When using the Prototype design pattern, what is the main advantage?
+    - a. Increasing the execution speed of the application
+    - b. Reducing memory usage
+    - c. Allowing objects to create customized copies of themselves
+    - d. Simplifying complex constructions
+
+13. What is a storyboard segue used for in iOS development?
+    - a. To perform data calculations
+    - b. To transition between views
+    - c. To debug application errors
+    - d. To design UI elements
+
+14. In user experience (UX) design, what is the primary focus of usability testing?
+    - a. To determine the final color scheme
+    - b. To assess how easy and intuitive the product is to use
+    - c. To finalize the product logo
+    - d. To measure the loading speed of the application
+
+15. What Swift attribute specifies that an enumeration case is deprecated?
+    - a. @deprecated
+    - b. @available(*, deprecated)
+    - c. @obsolete
+    - d. @outdated
+
+16. In logical reasoning, what is meant by a "valid" argument?
+    - a. An argument that is factually correct
+    - b. An argument that supports the conclusion logically, irrespective of the truth of the premises
+    - c. An argument that contains at least one true premise
+    - d. An argument that is popularly accepted
+
+17. What does "encapsulation" mean in object-oriented programming?
+    - a. The action of enclosing something in a capsule
+    - b. The process of combining elements to form a new entity
+    - c. The technique of making the fields in a class private and providing access via public methods
+    - d. The inheritance of properties and methods from one class to another
+
+18. In Swift, how do you mark a method in a class as one that should be overridden by subclasses?
+    - a. override func
+    - b. subclass func
+    - c. virtual func
+    - d. func override
+
+
+
+19. Which UI design principle is essential for creating intuitive and user-friendly interfaces?
+    - a. Complexity
+    - b. Minimalism
+    - c. Redundancy
+    - d. Decoration
+
+20. How do delegates work in Swift?
+    - a. By allowing methods to delegate tasks to other methods
+    - b. By permitting classes to inherit directly from more than one parent class
+    - c. By enabling one object to act on behalf of another
+    - d. By compiling code at runtime
+
+21. In Swift, what is an "enum" used for?
+    - a. To define a set of related values as a common type
+    - b. To encapsulate complex logical structures
+    - c. To declare variables that can change types at runtime
+    - d. To create anonymous classes
+
+22. What does the term "responsive design" mean in the context of iOS development?
+    - a. Designing an app to respond to user inputs
+    - b. Creating designs that respond to changes in device orientation and screen sizes
+    - c. Designing interfaces that change in response to network conditions
+    - d. Creating applications that automatically update their content
+
+23. What is the principle of "polymorphism" in object-oriented programming?
+    - a. The ability of different objects to respond to the same message in different ways
+    - b. The practice of designing objects to share behaviors
+    - c. The concept of creating multiple classes from a single piece of code
+    - d. The technique of wrapping data and methods into a single unit
+
+24. What is the primary purpose of wireframes in the design process?
+    - a. To create a detailed and realistic representation of the final product
+    - b. To communicate the basic layout and functionality of pages or screens
+    - c. To provide a blueprint for the backend architecture
+    - d. To finalize the visual design elements like colors and fonts
+
+25. In Swift, how do you handle errors thrown by functions?
+    - a. Using the try-catch-finally blocks
+    - b. With if-let error handling
+    - c. Through the use of optionals
+    - d. Using do-try-catch blocks
+
+26. How can logical reasoning improve problem-solving skills in programming?
+    - a. By encouraging reliance on trial and error
+    - b. Through the application of structured approaches to understand and solve problems
+    - c. By avoiding systematic methodologies in favor of intuition
+    - d. Through memorization of programming patterns only
+
+27. What role does "modularity" play in software design?
+    - a. It discourages the reuse of code
+    - b. It encourages tight coupling between software components
+    - c. It facilitates the division of a system into smaller, manageable parts
+    - d. It ensures that all parts of the system are dependent on each other
+
+28. In the design thinking process, what is the significance of prototyping?
+    - a. To finalize the product for launch
+    - b. To explore ideas and test concepts through rapid iterations
+    - c. To document the design for stakeholders
+    - d. To create the first version of the product
+
+29. What Swift syntax is used to define a constant whose value is known only at runtime?
+    - a. const runtimeValue
+    - b. var runtimeValue: Const
+    - c. let runtimeValue
+    - d. static let runtimeValue
+
+30. What is the main advantage of using the Observer pattern in software development?
+    - a. To prevent changes to the subject's state
+    - b. To facilitate communication between objects in a manner that reduces coupling
+    - c. To ensure sequential execution of operations
+    - d. To enhance the security of data transmission

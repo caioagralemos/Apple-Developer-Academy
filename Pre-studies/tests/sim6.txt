@@ -134,7 +134,7 @@
    a. Using the 'try' keyword
    b. With the 'error' keyword
    c. Preceded by the 'catch' block
-   d. Alongside the 'throw' keyword
+   d. Alongside the 'throws' keyword
 
 24. In a logic puzzle, if two statements are given: "All A are B" and "Some B are C", which conclusion is necessarily true?
    a. Some A are C

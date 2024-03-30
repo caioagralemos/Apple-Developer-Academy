@@ -89,9 +89,7 @@
     - d. To lay out the structure of pages and navigation
 
 16. How can logical reasoning help in programming, specifically in debugging Swift code?
-    -
-
- a. By guessing the causes of bugs
+    - a. By guessing the causes of bugs
     - b. Through systematic elimination of possible error sources
     - c. By randomly changing parts of the code
     - d. Through extensive use of breakpoints only

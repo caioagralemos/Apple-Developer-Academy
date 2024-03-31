@@ -106,8 +106,6 @@
     - c. virtual func
     - d. func override
 
-
-
 19. Which UI design principle is essential for creating intuitive and user-friendly interfaces?
     - a. Complexity
     - b. Minimalism

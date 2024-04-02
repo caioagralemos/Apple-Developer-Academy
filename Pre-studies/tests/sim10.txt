@@ -1,0 +1,181 @@
+1. What is a delegate in the context of Swift programming?
+   - a. A protocol that allows classes to delegate some of their responsibilities to another class.
+   - b. A method that delays the execution of a task.
+   - c. A special type of class that manages memory allocation.
+   - d. An extension that adds new functionality to an existing class.
+
+2. If the odds of raining on any given day in City X are 1 in 5, what is the probability that it will rain on exactly 2 out of 5 consecutive days?
+   - a. 10%
+   - b. 20%
+   - c. 30.4%
+   - d. 40%
+
+3. In Swift, what keyword is used to declare a constant?
+   - a. var
+   - b. let
+   - c. const
+   - d. static
+
+4. Identify the pattern and choose the next number: 2, 4, 8, 16, …
+   - a. 24
+   - b. 32
+   - c. 40
+   - d. 48
+
+5. How is "encapsulation" best described in the OOP paradigm?
+   - a. A mechanism where the internal representation of an object is hidden from the view outside the object’s definition.
+   - b. The process of creating new classes from existing ones to inherit properties and behaviors.
+   - c. The ability of different classes to respond to the same message in different ways.
+   - d. Grouping objects with similar properties and behaviors into classes.
+
+6. In Swift UI, what is the primary function of the View protocol?
+   - a. To define a set of methods that manage the app's data model.
+   - b. To define a piece of user interface.
+   - c. To handle user interactions with the app.
+   - d. To manage the life cycle of the app's windows and scenes.
+
+7. Which of these is not considered a fundamental principle of user-centered design?
+   - a. Iterative design
+   - b. Aesthetics over usability
+   - c. Testing with real users
+   - d. Considering the whole user experience
+
+8. A sequence of numbers goes: 5, 10, 20, 40, 80. What is the rule to generate this series?
+   - a. Add 5
+   - b. Subtract 5
+   - c. Multiply by 2
+   - d. Divide by 2
+
+9. When designing for iOS, what guideline suggests using familiar icons and symbols for navigation?
+   - a. Color and Contrast
+   - b. Clarity
+   - c. Consistency
+   - d. Context
+
+10. In Swift, how do you handle errors that might occur during execution?
+    - a. Using the try-catch block
+    - b. With if-else statements
+    - c. Using the error handling with `throw` and `catch`
+    - d. Swift does not support error handling
+
+11. What principle does Adaptive Layout in Swift follow to support different device sizes?
+    - a. Absolute positioning
+    - b. Responsive resizing
+    - c. Fixed scaling
+    - d. Dynamic Content Adjustment
+
+12. Consider a deck of 52 cards. What is the probability of drawing an Ace or a King in one draw?
+    - a. 1/26
+    - b. 1/13
+    - c. 2/13
+    - d. 1/6
+
+13. Which design pattern is commonly used to simplify the creation of complex objects?
+    - a. Singleton
+    - b. Builder
+    - c. Prototype
+    - d. Adapter
+
+14. In a visual pattern consisting of a square, circle, triangle, and then repeats, what is the fourth shape?
+    - a. Square
+    - b. Circle
+    - c. Triangle
+    - d. Hexagon
+
+15. What does MVC stand for in software design patterns?
+    - a. Model-View-Controller
+    - b. Model-View-Connector
+    - c. Multiple-View-Controller
+    - d. Model-Vector-Controller
+
+16. If a bag contains 3 red, 4 blue, and 5 green balls, what is the probability of drawing a blue ball first then a green ball without replacement?
+    - a. 12/55
+    - b. 20/66
+    - c. 15/55
+    - d. 20/55
+
+17. In Swift, what is an array's type defined as?
+    - a. `[Type]`
+    - b. `Array<Type>`
+    - c. Both a and b
+    - d. `List<Type>`
+
+18. How is inheritance depicted in Swift?
+    - a. By using the : symbol
+    -
+
+ b. With the keyword extends
+    - c. Using the @inherit keyword
+    - d. Swift does not support inheritance
+
+19. What is a guard statement used for in Swift?
+    - a. To ensure a condition is true before executing further code.
+    - b. To catch exceptions.
+    - c. To declare constants.
+    - d. To loop over collections.
+
+20. What strategy involves designing a product by understanding users' needs and behaviors?
+    - a. Agile Development
+    - b. User-Centered Design
+    - c. Waterfall Model
+    - d. Sprint Planning
+
+21. In logical reasoning, if all Zips are Zaps and all Zaps are Zoodles, are all Zips definitely Zoodles?
+    - a. Yes
+    - b. No
+    - c. Can't be determined
+    - d. Only if some Zoodles are Zips
+
+22. What is Swift's Optional chaining used for?
+    - a. To unwrap an Optional if it contains a value.
+    - b. To execute a sequence of commands.
+    - c. To bind variables to values.
+    - d. To chain multiple Optional values together.
+
+23. Which component in the MVC pattern is responsible for handling user input?
+    - a. Model
+    - b. View
+    - c. Controller
+    - d. Data Source
+
+24. If a class is described as "final" in Swift, what does that mean?
+    - a. It can be extended by other classes.
+    - b. It cannot be inherited by other classes.
+    - c. It can only have final methods.
+    - d. It is the only class in its module.
+
+25. How do responsive designs in Swift UI accommodate different screen sizes?
+    - a. By using fixed dimensions for all elements.
+    - b. Through the use of conditional statements for layout adjustments.
+    - c. Utilizing Swift UI's automatic screen size detection.
+    - d. By specifying exact coordinates for UI elements.
+
+26. When is the Singleton design pattern most appropriate to use?
+    - a. When you need to manage database connections.
+    - b. When each class needs its instance.
+    - c. When multiple instances of a class share the same properties.
+    - d. When an application requires only one instance of a class.
+
+27. If "x" is an integer and "x * (x - 1) = 0", what are the possible values of "x"?
+    - a. 0 and 1
+    - b. 1 and -1
+    - c. 0 and -1
+    - d. 1 and 2
+
+28. What Swift feature allows for the creation of custom data types with methods and properties?
+    - a. Protocols
+    - b. Extensions
+    - c. Structs and Classes
+    - d. Enums
+
+29. What does it mean if an interface element is described as "accessible" in the context of Apple's Human Interface Guidelines?
+    - a. It can be reached within three taps.
+    - b. It supports features like VoiceOver and Switch Control.
+    - c. It is visible without scrolling.
+    - d. It can be easily understood by users of all ages.
+
+30. If a pattern consists of alternating squares and circles starting with a square, what is the 101st shape in the pattern?
+    - a. Square
+    - b. Circle
+    - c. Triangle
+    - d. Hexagon

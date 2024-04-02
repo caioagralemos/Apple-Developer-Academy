@@ -1,0 +1,181 @@
+1. In Swift, what keyword is used to define a constant value that cannot be changed after its initial assignment?
+   - a. var
+   - b. let
+   - c. const
+   - d. static
+
+2. Which principle of object-oriented programming is demonstrated when a subclass extends the functionality of a superclass?
+   - a. Encapsulation
+   - b. Inheritance
+   - c. Polymorphism
+   - d. Abstraction
+
+3. In a logical reasoning context, if all roses are flowers and some flowers fade quickly, which statement is true?
+   - a. All roses fade quickly.
+   - b. Some roses are not flowers.
+   - c. Some roses may fade quickly.
+   - d. No roses are flowers.
+
+4. Which Swift design pattern is primarily used for distributing notifications to multiple objects?
+   - a. Singleton
+   - b. Observer
+   - c. Factory
+   - d. Adapter
+
+5. In the context of responsive design in Swift, what is the primary tool used to adjust a UI layout for different device orientations and screen sizes?
+   - a. Auto Layout
+   - b. Manual Scaling
+   - c. Fixed Dimensions
+   - d. Resolution Independence
+
+6. According to the Apple Human Interface Guidelines, what is essential for ensuring that an app is accessible to users with disabilities?
+   - a. Minimalistic Design
+   - b. Voice Control Compatibility
+   - c. High-contrast Color Scheme
+   - d. Touch Gesture Simplification
+
+7. In Object-Oriented Programming, which concept describes the mechanism where one interface serves multiple methods?
+   - a. Overriding
+   - b. Overloading
+   - c. Encapsulation
+   - d. Abstraction
+
+8. What type of Swift property automatically calculates its value based on other properties or values?
+   - a. Stored Property
+   - b. Computed Property
+   - c. Constant Property
+   - d. Dynamic Property
+
+9. When implementing user-centered design processes, what is the primary focus during the development of a product?
+   - a. The technical feasibility
+   - b. The business model
+   - c. The user's needs and experiences
+   - d. The product's color scheme
+
+10. How do design patterns in Swift contribute to the development process?
+    - a. By providing a set of guidelines for coding style
+    - b. By offering solutions to common software design problems
+    - c. By enforcing strict programming paradigms
+    - d. By limiting the use of third-party libraries
+
+11. In the creation of wireframes, what is the main objective?
+    - a. To finalize the product's color scheme
+    - b. To outline the user interface elements and layout
+    - c. To write the first draft of the code
+    - d. To conduct user testing
+
+12. What Swift feature allows developers to define a blueprint of methods, properties, and other requirements for tasks?
+    - a. Extensions
+    - b. Protocols
+    - c. Enums
+    - d. Structs
+
+13. Given a piece of Swift code that utilizes an optional, what is its primary purpose?
+    - a. To indicate that a variable may or may not have a value
+    - b. To declare a constant value
+    - c. To define a variable that can store multiple data types
+    - d. To encapsulate a complex algorithm
+
+14. In logical reasoning, what is the term for a conclusion based on premises that are assumed to be true?
+    - a. Hypothesis
+    - b. Syllogism
+    - c. Analogy
+    - d. Deduction
+
+15. When discussing Object-Oriented Programming in Swift, what is an instance of a class known as?
+    - a. A method
+    - b. A property
+    - c. An object
+    - d. A protocol
+
+16. In user-centered design, why are prototypes created?
+    - a. To finalize the product's visual design
+    - b. To explore different design approaches
+    - c. To test with real users and gather feedback
+    - d. To sell the product concept to investors
+
+17. How does Swift’s “Defer” statement work within a function?
+    - a. Executes a set of statements as soon as the function is called
+    - b. Delays execution of a set of statements until the function exits
+    - c. Repeats a set of statements indefinitely
+    - d. Executes a set of statements in parallel with the rest of the function
+
+18. What is the role of “guard” in Swift programming?
+    - a. To iterate over a collection
+    - b. To define a new subclass
+    - c. To ensure a condition is true before proceeding
+    - d. To handle errors in a program
+
+19. In designing
+
+ for iOS, what guideline helps ensure that touch targets are accessible for all users?
+    - a. Minimum target size of 44x44 points
+    - b. Use of vibrant color contrasts
+    - c. Consistent use of animation
+    - d. Extensive use of sound effects
+
+20. How does encapsulation benefit the design of an object-oriented program?
+    - a. By ensuring that objects are interchangeable
+    - b. By restricting direct access to some of an object's components
+    - c. By allowing multiple instances of methods to exist
+    - d. By defining static methods and properties
+
+21. What is the significance of "weak" references in Swift's memory management?
+    - a. To prevent retain cycles
+    - b. To declare constant properties
+    - c. To optimize app performance
+    - d. To enhance security by limiting access
+
+22. When applying the MVC (Model-View-Controller) pattern in Swift, what component is responsible for the app’s data?
+    - a. Model
+    - b. View
+    - c. Controller
+    - d. Delegate
+
+23. Which logical fallacy involves making a conclusion based on insufficient or biased evidence?
+    - a. Slippery slope
+    - b. Straw man
+    - c. Hasty generalization
+    - d. Appeal to authority
+
+24. In Swift, what allows for the creation of complex data types that combine multiple values?
+    - a. Tuples
+    - b. Arrays
+    - c. Dictionaries
+    - d. Sets
+
+25. What is the primary purpose of "design thinking" in the development process?
+    - a. To prioritize the developers’ skills over user needs
+    - b. To ensure that the project is completed on time
+    - c. To focus on user outcomes and solve real problems
+    - d. To minimize the cost of product development
+
+26. How do "extensions" in Swift enhance the functionality of a class or structure?
+    - a. By allowing new properties and methods to be added
+    - b. By creating a new instance of the class or structure
+    - c. By enabling multiple inheritance
+    - d. By encrypting the class or structure's data
+
+27. In the context of logical puzzles, if “some A are B, and all B are C,” which conclusion follows?
+    - a. All A are C
+    - b. Some A are not C
+    - c. Some A are C
+    - d. No A are C
+
+28. What does the concept of "adaptive design" entail in iOS development?
+    - a. Ignoring device differences and designing for one screen size
+    - b. Designing an app to adapt its layout and functionality for different devices
+    - c. Adopting a fixed layout that looks the same on all devices
+    - d. Focusing exclusively on landscape orientation
+
+29. In Swift, what is a “closure”?
+    - a. A function that can be passed around and called in your code
+    - b. A data structure
+    - c. A constant property
+    - d. An optional value
+
+30. When utilizing the Singleton design pattern in Swift, what is its main characteristic?
+    - a. There can be multiple instances of a class
+    - b. It ensures only one instance of a class is created
+    - c. It allows an object to create copies of itself
+    - d. It restricts object creation to a specific subclass

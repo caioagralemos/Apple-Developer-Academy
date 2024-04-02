@@ -1,0 +1,283 @@
+1. In the OOP paradigm, how do we call the property of having the same operation (method) behaving differently (override) in each descendant class OR having the same operation/method with different signatures (overload)?
+Select one:
+a. Louse Coupling
+b. Polymorphism
+c. Encapsulation
+d. Multiple Inheritance
+
+
+2. Inheritance allows sharing attributes and methods by classes and they are used mainly with the goal of reusing code or to define a general behavior for an object of this class and descendants. Given the OOP paradigm, can we say the previous sentence is CORRECT?
+Select one:
+a. No
+b. Yes, it is true for the objects of this class and false for descendants
+c. Yes
+d. Yes,  it is true for the descendants of this class and false for objects instantiated directly from this class
+
+
+3. In the OOP paradigm, the "overload" of a method is related to the OOP property called...
+Select one:
+a. Encapsulation
+b. Polymorphism
+c. Inheritance
+d. Aggregation
+
+
+4. In the OOP paradigm, the definitions which are the base to create objects are called...
+Select one:
+a. Instance
+b. Methods
+c. Entity
+d. Classes
+
+
+5. In the OOP paradigm, it is true that...
+Select one:
+a. By applying the OOP concept, it makes possible for a program to access areas or partitions of memory where it can find objects (data + procedures) representing each reality.
+b. An object can be an icon on the screen, to which are associated data and relationships to be executed.
+c. An object is defined as any element used in software in which are associated data, routines and relationships.
+d. The concept of object-oriented programming is very similar, but was not responsible for introducing the user-machine interface that came to be called GUI (Graphical User Interface).
+Feedback
+Your answer is correct.
+The correct answer is: By applying the OOP concept, it makes possible for a program to access areas or partitions of memory where it can find objects (data + procedures) representing each reality.
+
+
+6. In the OOP paradigm, attributes define...
+Select one:
+a. The services that can be requested to an object
+b. The methods
+c. The properties of an object
+d. The classes
+
+
+7. What is the diference between a class and a object?
+Select one:
+a. 
+An Object is an instance of a Class
+b. 
+A Class inherits from an Object
+c. 
+A Class is an instance of an Object
+d. 
+An Object is a subclass of a Class
+
+
+8. What is class method?
+Select one:
+a. 
+An instance of the class
+b. 
+A chunk of code in the form of a procedure
+c. 
+A way of subclassing
+d. 
+A class attribute that can be set
+
+
+9. What is the initializer function ?
+Select one:
+a. 
+A function that sets every computed properties initial value equal to zero
+b. 
+A function that provides an initial value to the computed properties
+c. 
+A function that provides an initial value to the stored properties
+d. 
+A function that sets every stored properties initial value equal to zero
+
+
+9. What is a computed property?
+Select one:
+a. 
+A property provided by the computer by default
+b. 
+A calculated property which is out of the scope of the class
+c. 
+A method that can be called 
+d. 
+A calculated property that has an associated value computed based on some form of calculation
+
+
+10. In the Swift programming language what is a "Protocol?"
+Select one:
+a. The description of command sequences.
+b. The function that your app may include.
+c. The function that your app may include or must include if the function is optional.
+d. The function that your app must include or may include if some functions are optional.
+
+11. let valore = "That's the second biggest monkey head I've ever seen!"
+what is the right Swift type of "valore"?
+Select one:
+a. let
+b. String
+c. FullText
+d. Integer
+
+
+12. In the Swift programming language what is an "optional?"
+Select one:
+a. A variable which must have a value.
+b. A value which can have a value or not (nil).
+c. A variable that can be defined or not.
+d. A value which has no value.
+
+
+13. What is the output of the following snippet of code?
+let a = 3
+a += 1
+print(a)
+Select one:
+a. compiler error
+b. put 4 into a
+c. will output "4" on the console
+d. put 1 into a
+
+
+14. In the following Swift code:
+let a = 10
+let b = 5
+let c = a == a + b
+what is the value of “c”?
+Select one:
+a. false
+b. none
+c. nil
+d. true
+
+
+15. What is the type of output of func "test" ?
+func test() -> [Int]
+Select one:
+a. Nothing
+b. Double
+c. Int
+d. Array of Int
+
+
+16. What does the following code means? 
++= 3
+Select one:
+a. Divide by 3.
+b. Put 3 into a value.
+c. Add 3 to an existing string value.
+d. Add 3 to an existing numerical value.
+
+
+17. var str = "I wanna be a pirate" 
+str = str + "!"
+What is the final value of the variable "str"?
+Select one:
+a. I wanna be a pirate!
+b. I wanna be a pirate
+c. Error
+d. I wanna be a pirate !
+
+
+18. In the Swift programming language what is an extension?
+Select one:
+a. A method to add some functions to an existing class.
+b. A method to add other class to a class.
+c. A method to add a var to an existing class.
+d. A method to redefine a class.
+
+
+19. var c = 0
+var b = 1
+var a = 2
+c = a + b + 5
+What is the value of var "c"?
+Select one:
+a. 8
+b. 1
+c. 3
+d. 0
+
+
+20. Consider this series of numbers: 
+8, 6, 9, 23, 87... 
+What number should come next in the series?
+Select one:
+a. 429
+b. 226
+c. 324
+d. 128
+
+
+21. If I throw a 6 faced die what is the probability of obtaining 5 or 6?
+Select one:
+a. 66.6%
+b. 50%
+c. 33.3%
+d. 25%
+
+
+22. Six foxes catch six hens in six minutes. How many foxes will be needed to catch sixty hens in sixty minutes?
+Select one:
+a. 16
+b. 60
+c. 6
+d. 10
+
+
+23. Look at your hands: you have 10 fingers!
+How many fingers do 10 hands have?
+Select one:
+a. 10
+b. 150
+c. 50
+d. 100
+
+
+24. Which number is missing from this sequence?
+32 31 32 29 32 27 32  … 32
+Select one:
+a. 32
+b. 27
+c. 25
+d. 31
+
+
+25. In the system of equations below, what is the value of x? 
+2x + 2y = - 4 
+4x + y = 1
+Select one:
+a. -1
+b. 1
+c. 2/5
+d. -3
+
+
+26. If Luisa was 32 years old 8 years ago, how old was she x years ago?
+Select one:
+a. x - 40
+b. 40 - x
+c. x - 24
+d. 24 - x
+
+
+27. When following Apple Human Interface Guidelines for designing an app's UI, which of the following is crucial for enhancing user interaction and ensuring a positive user experience?
+Select one:
+a. Using a minimum font size of 12pt for text to ensure readability
+b. Designing touch targets with a minimum size of 44x44 points for accessibility
+c. Applying a maximum of three colors in the app's color scheme to avoid visual clutter
+d. Ensuring all buttons are square to maintain consistency across the app
+
+28. In the context of responsive and adaptive design in Swift, which statement best describes the purpose of using Auto Layout?
+Select one:
+a. To fix the position of UI elements so that they do not move across different devices
+b. To automatically adjust the UI layout for various screen sizes and orientations without the need for multiple codebases
+c. To restrict the app’s interface to portrait mode only, optimizing design efforts
+d. To increase the loading speed of the app by reducing the complexity of the user interface
+
+29. During the user-centered design process, at what stage is it most beneficial to utilize sketches, prototypes, and wireframes?
+Select one:
+a. After the final product has been developed, for marketing purposes
+b. At the initial stages of development to facilitate understanding of user needs and feedback
+c. Only during the final stages of development to refine the user interface
+d. Sketches, prototypes, and wireframes are not beneficial in the user-centered design process
+
+30. According to the principles of user-centered design, why is it important to adhere to the Apple Human Interface Guidelines when designing for iOS?
+Select one:
+a. Because it provides a legal framework that all apps must legally comply with to be allowed in the App Store
+b. To ensure that apps provide a consistent and intuitive user experience, leveraging familiar interface elements and interactions
+c. Because it significantly reduces the development time by providing ready-to-use code snippets
+d. To avoid innovation and ensure that all apps look and feel the same, reducing user confusion

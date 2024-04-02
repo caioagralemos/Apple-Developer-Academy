@@ -1,0 +1,93 @@
+Here are the answers to your questions:
+
+1. **b. let**
+   - The `let` keyword is used to define a constant value in Swift, which cannot be changed after its initial assignment.
+
+2. **b. Inheritance**
+   - Inheritance is the principle that allows a subclass to extend the functionality of a superclass.
+
+3. **c. Some roses may fade quickly.**
+   - Given that all roses are flowers and some flowers fade quickly, it logically follows that some roses may fade quickly.
+
+4. **b. Observer**
+   - The Observer pattern is used in Swift for distributing notifications to multiple objects.
+
+5. **a. Auto Layout**
+   - Auto Layout is the primary tool used in Swift for adjusting a UI layout for different device orientations and screen sizes.
+
+6. **b. Voice Control Compatibility**
+   - According to the Apple Human Interface Guidelines, ensuring that an app is compatible with Voice Control is essential for accessibility.
+
+7. **b. Overloading**
+   - Overloading describes the mechanism where one interface serves multiple methods based on different parameters.
+
+8. **b. Computed Property**
+   - A Computed Property is a type of Swift property that automatically calculates its value based on other properties or values.
+
+9. **c. The user's needs and experiences**
+   - In user-centered design processes, the primary focus is on the user's needs and experiences.
+
+10. **b. By offering solutions to common software design problems**
+    - Design patterns in Swift contribute to the development process by offering solutions to common software design problems.
+
+11. **b. To outline the user interface elements and layout**
+    - The main objective of creating wireframes is to outline the user interface elements and layout.
+
+12. **b. Protocols**
+    - Protocols in Swift allow developers to define a blueprint of methods, properties, and other requirements for tasks.
+
+13. **a. To indicate that a variable may or may not have a value**
+    - An optional in Swift is used to indicate that a variable may or may not have a value.
+
+14. **b. Syllogism**
+    - A syllogism is a form of reasoning where a conclusion is drawn from two given or assumed propositions (premises).
+
+15. **c. An object**
+    - An instance of a class is known as an object in Object-Oriented Programming.
+
+16. **c. To test with real users and gather feedback**
+    - Prototypes are created to test with real users and gather feedback in user-centered design.
+
+17. **b. Delays execution of a set of statements until the function exits**
+    - The “Defer” statement in Swift is used to ensure that a set of statements is executed when the function exits.
+
+18. **c. To ensure a condition is true before proceeding**
+    - The “guard” statement in Swift is used to ensure that a condition must be true for the code following it to be executed.
+
+19. **a. Minimum target size of 44x44 points**
+    - For iOS design, ensuring that touch targets have a minimum size of 44x44 points helps make them accessible for all users.
+
+20. **b. By restricting direct access to some of an object's components**
+    - Encapsulation benefits the design of an object-oriented program by restricting direct access to some of an object's components.
+
+21. **a. To prevent retain cycles**
+    - "Weak" references in Swift's memory management are used to prevent retain cycles.
+
+22. **a. Model**
+    - In the MVC (Model-View-Controller) pattern, the Model is responsible for the app’s data.
+
+23. **c. Hasty generalization**
+    - A hasty generalization is a logical fallacy that involves making a conclusion based on insufficient or biased evidence.
+
+24. **a. Tuples**
+    - Tuples in Swift allow for the creation of complex data types that combine multiple values.
+
+25. **c. To focus on user outcomes and solve real problems**
+    - The primary purpose of "design thinking" in the development process is to focus on user outcomes and solve real problems.
+
+26. **a. By allowing new properties and methods to be added**
+    - "Extensions" in Swift enhance the functionality of a class or structure by allowing new properties and methods to be added.
+
+27. **c. Some A are C**
+    - If "some A are B, and all B are C," the logical conclusion is that some A are C.
+
+28. **b. Designing an app to adapt its layout and functionality for different devices**
+    - Adaptive design entails designing an app to adapt its layout and functionality for different devices.
+
+29. **a. A function that can be passed around and called in your code**
+    - A closure in Swift is a block of code that can be passed around and called within your code, similar to a function.
+
+30. **b. It ensures only one instance of a class is created**
+    -
+
+ The Singleton design pattern ensures that only one instance of a class is created and provides a global point of access to it.

@@ -106,9 +106,7 @@
     - c. To ensure a condition is true before proceeding
     - d. To handle errors in a program
 
-19. In designing
-
- for iOS, what guideline helps ensure that touch targets are accessible for all users?
+19. In designing for iOS, what guideline helps ensure that touch targets are accessible for all users?
     - a. Minimum target size of 44x44 points
     - b. Use of vibrant color contrasts
     - c. Consistent use of animation

@@ -128,7 +128,7 @@ Here are thirty new mixed questions for your assessment test:
       a. superclass
       b. subclass
       c. extends
-      d. class
+      d. class and :
 
 18. What does the acronym "UI" stand for in iOS development?
     - Select one:
@@ -213,9 +213,7 @@ Here are thirty new mixed questions for your assessment test:
 
 28. What is the output of the following Swift code snippet?
     ```swift
-    let numbers = [1
-
-, 2, 3, 4, 5]
+    let numbers = [1, 2, 3, 4, 5]
     let filteredNumbers = numbers.filter { $0 % 2 == 0 }
     print(filteredNumbers)
     ```

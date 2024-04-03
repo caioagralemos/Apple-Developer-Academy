@@ -1,0 +1,32 @@
+Sure, here are the answers to the questions:
+
+1. c. 64
+2. b. 1/6
+3. a. Model-View-Controller
+4. a. Singleton
+5. a. 5
+6. a. 9
+7. d. Iteration
+8. a. "HelloWorld"
+9. a. Using the keyword 'let'
+10. b. To unwrap optionals safely
+11. a. Double
+12. b. O(log n)
+13. c. Decimal
+14. b. [2, 4, 6, 8, 10]
+15. a. Don't Repeat Yourself
+16. a. 0
+17. d. class
+18. b. User Interface
+19. b. 0 2 4
+20. b. Set
+21. b. false
+22. c. awakeFromNib()
+23. b. To access properties and methods within a class
+24. d. Error
+25. c. A way to monitor changes to a property's value
+26. b. 1
+27. c. <>
+28. b. [2, 4]
+29. c. Optionals indicate that a value may be absent.
+30. a. true

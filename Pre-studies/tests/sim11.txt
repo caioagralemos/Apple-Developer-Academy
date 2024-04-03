@@ -1,0 +1,240 @@
+Here are thirty new mixed questions for your assessment test:
+
+1. What is the next number in the series: 2, 4, 8, 16, ...?
+   - Select one:
+     a. 24
+     b. 32
+     c. 64
+     d. 128
+
+2. If you roll two fair six-sided dice, what is the probability of getting a sum of 7?
+   - Select one:
+     a. 1/12
+     b. 1/6
+     c. 1/3
+     d. 1/2
+
+3. What does MVC stand for in the context of iOS development?
+   - Select one:
+     a. Model-View-Controller
+     b. Main-View-Container
+     c. Master-View-Coordinator
+     d. Model-View-Container
+
+4. Which design pattern is commonly used for managing object creation in Swift?
+   - Select one:
+     a. Singleton
+     b. Observer
+     c. Factory
+     d. Adapter
+
+5. What is the value of "x" in the equation 3x - 5 = 10?
+   - Select one:
+     a. 5
+     b. 15
+     c. 7
+     d. 3
+
+6. If you have an array with 10 elements, what is the index of the last element?
+   - Select one:
+     a. 9
+     b. 10
+     c. 11
+     d. 8
+
+7. Which of the following is NOT a fundamental concept in object-oriented programming?
+   - Select one:
+     a. Inheritance
+     b. Abstraction
+     c. Encapsulation
+     d. Iteration
+
+8. What is the output of the following Swift code snippet?
+   ```swift
+   var str1 = "Hello"
+   var str2 = "World"
+   var result = str1 + str2
+   print(result)
+   ```
+   - Select one:
+     a. "HelloWorld"
+     b. "Hello World"
+     c. "WorldHello"
+     d. Error
+
+9. How do you declare a constant in Swift?
+   - Select one:
+     a. Using the keyword 'let'
+     b. Using the keyword 'var'
+     c. Using the keyword 'const'
+     d. Using the keyword 'constant'
+
+10. What is the main purpose of the 'guard' statement in Swift?
+    - Select one:
+      a. To define constants
+      b. To unwrap optionals safely
+      c. To create loops
+      d. To handle errors
+
+11. Given the function signature `func calculateArea(length: Double, width: Double) -> Double`, what is the return type of this function?
+    - Select one:
+      a. Double
+      b. Void
+      c. Int
+      d. String
+
+12. What is the time complexity of searching for an element in a sorted array using binary search?
+    - Select one:
+      a. O(1)
+      b. O(log n)
+      c. O(n)
+      d. O(n^2)
+
+13. Which of the following is not a valid Swift data type?
+    - Select one:
+      a. Float
+      b. Character
+      c. Decimal
+      d. Bool
+
+14. What is the output of the following Swift code snippet?
+    ```swift
+    var array = [1, 2, 3, 4, 5]
+    let newArray = array.map { $0 * 2 }
+    print(newArray)
+    ```
+    - Select one:
+      a. [1, 2, 3, 4, 5]
+      b. [2, 4, 6, 8, 10]
+      c. [2, 3, 4, 5, 6]
+      d. [1, 4, 9, 16, 25]
+
+15. What is the concept of 'DRY' in software development?
+    - Select one:
+      a. Don't Repeat Yourself
+      b. Design Reusable Yield
+      c. Develop Ready Yield
+      d. Do Refactor Yourself
+
+16. If you have an array with 5 elements, what is the index of the first element?
+    - Select one:
+      a. 0
+      b. 1
+      c. 5
+      d. -1
+
+17. In Swift, what keyword is used to define a subclass?
+    - Select one:
+      a. superclass
+      b. subclass
+      c. extends
+      d. class
+
+18. What does the acronym "UI" stand for in iOS development?
+    - Select one:
+      a. User Interaction
+      b. User Interface
+      c. Unified Interface
+      d. User Input
+
+19. What is the output of the following Swift code snippet?
+    ```swift
+    var i = 0
+    while i < 5 {
+        print(i)
+        i += 2
+    }
+    ```
+    - Select one:
+      a. 0 1 2 3 4
+      b. 0 2 4
+      c. 0 1 2 3
+      d. 0 1 2 3 4 5
+
+20. Which Swift collection type guarantees uniqueness of its elements?
+    - Select one:
+      a. Array
+      b. Set
+      c. Dictionary
+      d. Tuple
+
+21. What is the result of the following logical expression in Swift: `true && false`?
+    - Select one:
+      a. true
+      b. false
+      c. nil
+      d. error
+
+22. If you are creating a custom UITableViewCell in iOS development, which method would you override to configure the cell?
+    - Select one:
+      a. init()
+      b. layoutSubviews()
+      c. awakeFromNib()
+      d. configure()
+
+23. What is the purpose of the 'self' keyword in Swift?
+    - Select one:
+      a. To create a new instance of a class
+      b. To access properties and methods within a class
+      c. To refer to the superclass
+      d. To declare class-level variables
+
+24. What is the output of the following Swift code snippet?
+    ```swift
+    var num = 5
+    print(++num)
+    ```
+    - Select one:
+      a. 5
+      b. 6
+      c. 7
+      d. Error
+
+25. In Swift, what is a property observer?
+    - Select one:
+      a. A function that updates properties
+      b. A method to observe changes in properties
+      c. A way to monitor changes to a property's value
+      d. A function that observes object behavior
+
+26. What is the result of the following arithmetic expression: `10 % 3`?
+    - Select one:
+      a. 3
+      b. 1
+      c. 2
+      d. 0
+
+27. Which of the following is NOT a comparison operator in Swift?
+    - Select one:
+      a. ==
+      b. !=
+      c. <>
+      d. >=
+
+28. What is the output of the following Swift code snippet?
+    ```swift
+    let numbers = [1
+
+, 2, 3, 4, 5]
+    let filteredNumbers = numbers.filter { $0 % 2 == 0 }
+    print(filteredNumbers)
+    ```
+    - Select one:
+      a. [1, 3, 5]
+      b. [2, 4]
+      c. [1, 2, 3, 4, 5]
+      d. []
+
+29. Which of the following statements is true about Swift optionals?
+    - Select one:
+      a. Optionals can only contain nil values.
+      b. Optionals must always be unwrapped before use.
+      c. Optionals indicate that a value may be absent.
+      d. Optionals are used only with class types.
+
+30. What is the result of the following logical expression in Swift: `true || false`?
+    - Select one:
+      a. true
+      b. false
+      c. nil
+      d. error

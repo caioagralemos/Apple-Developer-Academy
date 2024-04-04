@@ -1,0 +1,181 @@
+1. Consider this series of numbers: 2, 4, 8, 16, 32... What number should come next in the series?
+   a. 64
+   b. 48
+   c. 36
+   d. 128
+
+2. If a fair coin is tossed, what is the probability of getting heads?
+   a. 0.5
+   b. 1
+   c. 0.25
+   d. 0
+
+3. What does the term "DRY" stand for in software development?
+   a. Do Repeat Yourself
+   b. Don't Repeat Yourself
+   c. Duplicate Results Yield
+   d. Directly Reference Yourself
+
+4. What is a closure in Swift?
+   a. A function that captures values from its surrounding scope
+   b. A function that closes other functions
+   c. A function that is closed to modification
+   d. A function that returns another function
+
+5. Define the term "delegation" in Swift.
+   a. Passing control or responsibility of a task to another object
+   b. Sharing code between multiple classes
+   c. The process of inheritance
+   d. Providing access to private properties
+
+6. Explain what a singleton is in Swift.
+   a. A class that can have only one instance in an application
+   b. A class that cannot be instantiated
+   c. A class with multiple instances
+   d. A class that cannot inherit from any other class
+
+7. How does Swift handle memory management?
+   a. Swift uses Automatic Reference Counting (ARC) to manage memory
+   b. Swift requires manual memory allocation and deallocation
+   c. Swift relies on garbage collection for memory management
+   d. Swift doesn't handle memory management directly
+
+8. What is a segue in iOS development?
+   a. A transition from one view controller to another
+   b. A way to define data structures in Swift
+   c. A method of asynchronous programming
+   d. A type of animation effect
+
+9. What is the purpose of Auto Layout in iOS development?
+   a. To automatically resize views based on device screen size
+   b. To layout views programmatically
+   c. To handle user interactions with views
+   d. To manage database operations
+
+10. Explain the concept of MVC (Model-View-Controller) architecture in iOS development.
+    a. It separates an application into three components: the model, the view, and the controller
+    b. It combines the model and the view into a single component
+    c. It separates an application into four components: the model, the view, the controller, and the service layer
+    d. It is a design pattern specific to Swift programming
+
+11. Define the term "interface" in object-oriented programming.
+    a. It defines the implementation details of a class
+    b. It is another name for a class in Swift
+    c. It specifies a set of methods that a class must implement
+    d. It is used to create objects in Swift
+
+12. What is a factory method pattern in Swift?
+    a. A design pattern for creating objects without specifying the exact class of object that will be created
+    b. A method that creates factories
+    c. A method that creates instances of a class
+    d. A pattern used in functional programming
+
+13. Describe the Observer pattern in Swift.
+    a. It is a behavioral design pattern where an object, called the subject, maintains a list of its dependents, called observers, and notifies them of state changes
+    b. It is a pattern for creating objects in Swift
+    c. It is a pattern for handling asynchronous events
+    d. It is a pattern for handling user input
+
+14. What is a typealias in Swift?
+    a. It is used to create custom types with descriptive names
+    b. It is a keyword for defining variables
+    c. It is used to create aliases for existing types
+    d. It is used to define methods in Swift
+
+15. Explain the concept of generics in Swift.
+    a. It allows you to write flexible, reusable functions and types that can work with any type
+    b. It is a feature for enforcing type safety
+    c. It is a way to restrict access to certain types
+    d. It is used for defining protocols
+
+16. What is the purpose of the `guard` statement in Swift?
+    a. It is used for error handling
+    b. It is used for unwrapping optionals safely
+    c. It is used for creating loops
+    d. It is used for defining conditional statements
+
+17. Define the term "access control" in Swift.
+    a. It refers to controlling access to properties and methods of a class
+    b. It refers to controlling access to the Swift compiler
+    c. It refers to controlling access to the Swift runtime environment
+    d. It refers to controlling access to external libraries
+
+18. What is a didSet property observer in Swift?
+    a. It is called immediately after the property's value is set
+    b. It is called immediately before the property's value is set
+    c. It is called when the property's value changes
+    d. It is called when the property is declared
+
+19. Explain the concept of type inference in Swift.
+    a. It is the ability of the compiler to automatically deduce the type of an expression
+    b. It is a way to explicitly specify types in Swift
+    c. It is a technique for dynamic typing
+    d. It is used for converting types in Swift
+
+20. What is a tuple in Swift?
+    a. A group of ordered values
+    b. A type of loop in Swift
+    c. A way to define classes
+    d. A type of control flow statement
+
+21. Describe the concept of functional programming in Swift.
+    a. It is a programming paradigm that treats computation as the evaluation of mathematical functions
+    b. It is a programming paradigm focused on mutable state and imperative style
+    c. It is a way to create user interfaces in Swift
+    d. It is a way to define protocols in Swift
+
+22. What is a protocol-oriented programming in Swift?
+    a. It is a programming paradigm that emphasizes the use of protocols to define functionality
+    b. It is a way to define classes in Swift
+    c. It is a way to define closures in Swift
+    d. It is a way to define data structures in Swift
+
+23. Define the term "currying" in Swift.
+    a. It is the process of transforming a function that takes multiple arguments into a series of functions that each take a single argument
+    b. It is a technique for optimizing Swift code
+    c. It is a way to define global functions
+    d. It is a way to define properties in Swift
+
+24. What is a higher-order function in Swift?
+    a. A function that operates on other functions, either by taking them as arguments or by returning them
+    b. A function that has a higher precedence in Swift
+    c. A function that returns a tuple
+    d. A function that returns a closure
+
+25. Explain the concept of map, filter, and reduce in Swift.
+    a. They are higher-order functions used for manipulating collections
+    b. They
+
+ are keywords for defining loops in Swift
+    c. They are used for handling errors in Swift
+    d. They are used for defining classes in Swift
+
+26. What is the purpose of guard let in Swift?
+    a. It is used to safely unwrap optionals and exit the current scope if the optional is nil
+    b. It is used for defining loops in Swift
+    c. It is used to define access control in Swift
+    d. It is used for error handling in Swift
+
+27. Define the term "immutable" in Swift.
+    a. It refers to objects whose state cannot be changed after they are created
+    b. It refers to objects whose state can be changed after they are created
+    c. It refers to objects whose type cannot be changed after they are created
+    d. It refers to objects whose properties cannot be accessed
+
+28. What is the purpose of didSet in Swift?
+    a. It is a property observer that is called before a property's value is changed
+    b. It is a property observer that is called after a property's value is changed
+    c. It is used for defining computed properties in Swift
+    d. It is used for defining stored properties in Swift
+
+29. Describe the concept of lazy loading in Swift.
+    a. It is a technique for delaying the creation of a resource until the resource is actually needed
+    b. It is a technique for speeding up Swift code
+    c. It is a technique for optimizing memory usage in Swift
+    d. It is a technique for handling errors in Swift
+
+30. What is the purpose of ARC (Automatic Reference Counting) in Swift?
+    a. It is used for memory management in Swift
+    b. It is used for error handling in Swift
+    c. It is used for defining classes in Swift
+    d. It is used for defining closures in Swift

@@ -1,0 +1,32 @@
+Certainly! Here are the answers to the questions:
+
+1. a. 64
+2. a. 0.5
+3. b. Don't Repeat Yourself
+4. a. A function that captures values from its surrounding scope
+5. a. Passing control or responsibility of a task to another object
+6. a. A class that can have only one instance in an application
+7. a. Swift uses Automatic Reference Counting (ARC) to manage memory
+8. a. A transition from one view controller to another
+9. a. To automatically resize views based on device screen size
+10. a. It separates an application into three components: the model, the view, and the controller
+11. c. It specifies a set of methods that a class must implement
+12. a. A design pattern for creating objects without specifying the exact class of object that will be created
+13. a. It is a behavioral design pattern where an object, called the subject, maintains a list of its dependents, called observers, and notifies them of state changes
+14. c. It is used to create aliases for existing types
+15. a. It allows you to write flexible, reusable functions and types that can work with any type
+16. a. It is used for unwrapping optionals safely
+17. a. It refers to controlling access to properties and methods of a class
+18. a. It is called immediately after the property's value is set
+19. a. It is the ability of the compiler to automatically deduce the type of an expression
+20. a. A group of ordered values
+21. a. It is a programming paradigm that treats computation as the evaluation of mathematical functions
+22. a. It is a programming paradigm that emphasizes the use of protocols to define functionality
+23. a. It is the process of transforming a function that takes multiple arguments into a series of functions that each take a single argument
+24. a. A function that operates on other functions, either by taking them as arguments or by returning them
+25. a. They are higher-order functions used for manipulating collections
+26. a. It is used to safely unwrap optionals and exit the current scope if the optional is nil
+27. a. It refers to objects whose state cannot be changed after they are created
+28. b. It is a property observer that is called after a property's value is changed
+29. a. It is a technique for delaying the creation of a resource until the resource is actually needed
+30. a. It is used for memory management in Swift

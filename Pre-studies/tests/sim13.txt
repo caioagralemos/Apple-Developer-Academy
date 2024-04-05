@@ -99,9 +99,7 @@ Here are thirty new questions for your assessment test, covering logical reasoni
 17. How do you declare a dictionary with String keys and Int values in Swift?
     - a. `var dict: [String: Int] = {}`
     - b. `var dict: Dictionary<String, Int> = []`
-    - c. `var dict = [
-
-String: Int]()`
+    - c. `var dict = [String: Int]()`
     - d. `var dict: [String, Int] = []`
 
 18. What principle is demonstrated when subclasses are interchangeable with their base class?

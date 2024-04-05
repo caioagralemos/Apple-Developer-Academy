@@ -28,5 +28,5 @@ Here are the answers to the thirty new questions provided:
 26. a. Software Composition
 27. a. 180
 28. a. viewDidLoad()
-29. c. Adaptive Design
+29. b. Responsive Design
 30. a. 240 lines

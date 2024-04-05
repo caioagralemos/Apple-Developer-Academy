@@ -1,0 +1,183 @@
+Here are thirty new questions for your assessment test, covering logical reasoning, coding in Swift, and design in Swift. They are mixed and presented together, as requested:
+
+1. Which Swift keyword is used to define a constant value?
+   - a. var
+   - b. let
+   - c. const
+   - d. static
+
+2. What pattern is typically used to simplify the creation of complex objects?
+   - a. Observer
+   - b. Singleton
+   - c. Builder
+   - d. Strategy
+
+3. In Swift, how can you ensure that a protocol method is optional?
+   - a. Use the @optional keyword before the method.
+   - b. All methods in Swift protocols are optional by default.
+   - c. Mark the protocol with @objc attribute and use the optional keyword.
+   - d. Swift does not support optional protocol methods.
+
+4. Which design principle is illustrated by separating the construction of a complex object from its representation?
+   - a. Open/Closed Principle
+   - b. Liskov Substitution Principle
+   - c. Builder Pattern
+   - d. Interface Segregation Principle
+
+5. When designing an app for iOS, which principle emphasizes the importance of minimizing the cognitive load on users?
+   - a. Visibility
+   - b. Feedback
+   - c. User Control and Freedom
+   - d. Recognition rather than recall
+
+6. In Swift, what is the purpose of the didSet property observer?
+   - a. To perform an action before a property changes.
+   - b. To perform an action after a property changes.
+   - c. To prevent a property from being changed.
+   - d. To notify other classes about the property change.
+
+7. What does the term "encapsulation" refer to in the context of object-oriented programming?
+   - a. The bundling of data with the methods that operate on that data.
+   - b. The ability of an object to take on many forms.
+   - c. The process of deriving new classes from existing ones.
+   - d. The mechanism of restricting direct access to some of an object's components.
+
+8. What Swift feature allows you to run a group of statements only if a certain condition is true?
+   - a. Loop
+   - b. Function
+   - c. Conditional Statement
+   - d. Switch Statement
+
+9. In user-centered design, what is the primary focus during the design process?
+   - a. The preferences of the design team
+   - b. The needs, wants, and limitations of end-users
+   - c. The technological capabilities of the platform
+   - d. The brand image of the product
+
+10. How does Swift handle memory management of objects?
+    - a. Garbage Collection
+    - b. Manual Memory Management
+    - c. Reference Counting
+    - d. Automatic Variable Management
+
+11. Which statement best describes the Adapter Pattern in software design?
+    - a. It allows interfaces of incompatible classes to work together.
+    - b. It restricts object creation for a class to only one instance.
+    - c. It provides a way to delegate the responsibility of object instantiation to another object.
+    - d. It defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+
+12. In Swift, which type of loop executes a set of statements at least once before evaluating the condition?
+    - a. for-in loop
+    - b. while loop
+    - c. repeat-while loop
+    - d. do-while loop
+
+13. What is the primary goal of responsive design in the context of iOS app development?
+    - a. To ensure the app uses the least possible amount of battery
+    - b. To make sure the app looks good on devices with different screen sizes
+    - c. To respond to user inputs without any delay
+    - d. To change the design based on user feedback
+
+14. Identify the missing number in the sequence: 2, 4, 8, 16, ?
+    - a. 24
+    - b. 32
+    - c. 28
+    - d. 18
+
+15. What does MVC stand for in software design?
+    - a. Model-View-Controller
+    - b. Model-Verification-Check
+    - c. Multiple-View-Constructor
+    - d. Main-Vector-Compile
+
+16. If rolling a single six-sided die, what is the probability of rolling an odd number?
+    - a. 50%
+    - b. 33.3%
+    - c. 25%
+    - d. 66.6%
+
+17. How do you declare a dictionary with String keys and Int values in Swift?
+    - a. `var dict: [String: Int] = {}`
+    - b. `var dict: Dictionary<String, Int> = []`
+    - c. `var dict = [
+
+String: Int]()`
+    - d. `var dict: [String, Int] = []`
+
+18. What principle is demonstrated when subclasses are interchangeable with their base class?
+    - a. Dependency Inversion Principle
+    - b. Liskov Substitution Principle
+    - c. Single Responsibility Principle
+    - d. Interface Segregation Principle
+
+19. What is a common use case for using the Singleton pattern in app development?
+    - a. When multiple instances of a class need to share the same properties and methods
+    - b. When an object needs to be accessible in various parts of an app without creating multiple instances
+    - c. When an app needs to perform complex calculations using multiple threads
+    - d. When you need to ensure that an object is destroyed as soon as it is no longer needed
+
+20. What is the result of the Swift expression `1 == 1`?
+    - a. 1
+    - b. 0
+    - c. true
+    - d. false
+
+21. In Swift, which operator is used to concatenate two strings?
+    - a. +
+    - b. &
+    - c. #
+    - d. %
+
+22. What design approach focuses on creating products that are accessible to people with disabilities?
+    - a. Minimalist Design
+    - b. Inclusive Design
+    - c. Skeuomorphic Design
+    - d. Flat Design
+
+23. If five cars are traveling at speeds of 30, 60, 90, 120, and 150 km/h, what is the median speed?
+    - a. 90 km/h
+    - b. 75 km/h
+    - c. 60 km/h
+    - d. 105 km/h
+
+24. What is a storyboard in the context of iOS app development?
+    - a. A graphic representation of how authority and information flows within an organization
+    - b. A collection of notes and sketches about various programming concepts
+    - c. A visual representation of the user interface of an app, showing the screens and the transitions between them
+    - d. A detailed plan of the coding process for a project
+
+25. What does it mean to "guard" a variable in Swift?
+    - a. To encrypt its value
+    - b. To ensure it cannot be modified
+    - c. To check for a certain condition before executing more code
+    - d. To monitor changes to its value
+
+26. What concept in software development is characterized by the reuse of existing software, or software knowledge, to build new software?
+    - a. Software Composition
+    - b. Code Refactoring
+    - c. Software Scalability
+    - d. Software Prototyping
+
+27. How many degrees are there in the angles of a triangle?
+    - a. 180
+    - b. 360
+    - c. 90
+    - d. 270
+
+28. In Swift, which method is called when a view controller is loaded into memory but hasn't appeared yet?
+    - a. viewDidLoad()
+    - b. viewWillAppear()
+    - c. viewDidAppear()
+    - d. viewWillDisappear()
+
+29. What is the process called when a user interface is adapted to different screen sizes and orientations?
+    - a. Screen Fitting
+    - b. Responsive Design
+    - c. Adaptive Design
+    - d. Liquid Layout
+
+30. In a team of 4 developers working on a feature, if each developer can write 10 lines of code per hour, how many lines of code can they collectively write in 6 hours?
+    - a. 240 lines
+    - b. 60 lines
+    - c. 40 lines
+    - d. 360 lines

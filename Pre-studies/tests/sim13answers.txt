@@ -1,0 +1,32 @@
+Here are the answers to the thirty new questions provided:
+
+1. b. let
+2. c. Builder
+3. c. Mark the protocol with @objc attribute and use the optional keyword.
+4. c. Builder Pattern
+5. d. Recognition rather than recall
+6. b. To perform an action after a property changes.
+7. a. The bundling of data with the methods that operate on that data.
+8. c. Conditional Statement
+9. b. The needs, wants, and limitations of end-users
+10. c. Reference Counting
+11. a. It allows interfaces of incompatible classes to work together.
+12. c. repeat-while loop
+13. b. To make sure the app looks good on devices with different screen sizes
+14. b. 32
+15. a. Model-View-Controller
+16. a. 50%
+17. c. `var dict = [String: Int]()`
+18. b. Liskov Substitution Principle
+19. b. When an object needs to be accessible in various parts of an app without creating multiple instances
+20. c. true
+21. a. +
+22. b. Inclusive Design
+23. a. 90 km/h
+24. c. A visual representation of the user interface of an app, showing the screens and the transitions between them
+25. c. To check for a certain condition before executing more code
+26. a. Software Composition
+27. a. 180
+28. a. viewDidLoad()
+29. c. Adaptive Design
+30. a. 240 lines

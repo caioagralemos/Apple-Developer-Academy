@@ -113,7 +113,7 @@
     d. It is used for converting types in Swift
 
 20. What is a tuple in Swift?
-    a. A group of ordered values
+    a. A group of values
     b. A type of loop in Swift
     c. A way to define classes
     d. A type of control flow statement
@@ -144,9 +144,7 @@
 
 25. Explain the concept of map, filter, and reduce in Swift.
     a. They are higher-order functions used for manipulating collections
-    b. They
-
- are keywords for defining loops in Swift
+    b. They are keywords for defining loops in Swift
     c. They are used for handling errors in Swift
     d. They are used for defining classes in Swift
 
@@ -162,7 +160,7 @@
     c. It refers to objects whose type cannot be changed after they are created
     d. It refers to objects whose properties cannot be accessed
 
-28. What is the purpose of didSet in Swift?
+28. What is the purpose of willSet in Swift?
     a. It is a property observer that is called before a property's value is changed
     b. It is a property observer that is called after a property's value is changed
     c. It is used for defining computed properties in Swift

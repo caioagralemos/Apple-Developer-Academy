@@ -1,0 +1,181 @@
+Here are thirty new questions that mix the themes of logical reasoning, coding in Swift, and design concepts in Swift, similar to an assessment test format:
+
+1. What Swift statement correctly declares an optional integer variable?
+   - a. var number: Int
+   - b. let number: Int!
+   - c. var number: Int?
+   - d. let number: Int?
+
+2. In a design context, which principle is most closely associated with creating intuitive interfaces in Swift applications?
+   - a. Encapsulation
+   - b. Polymorphism
+   - c. Consistency
+   - d. Abstraction
+
+3. Consider the sequence: 2, 4, 8, 16, 32. What is the next number?
+   - a. 40
+   - b. 48
+   - c. 64
+   - d. 128
+
+4. Which Swift feature allows developers to ensure a class implements certain methods and properties?
+   - a. Extensions
+   - b. Protocols
+   - c. Delegates
+   - d. Inheritance
+
+5. What is the probability of flipping a fair coin twice and getting two heads?
+   - a. 25%
+   - b. 50%
+   - c. 75%
+   - d. 100%
+
+6. In Swift, what keyword is used to define a constant?
+   - a. var
+   - b. let
+   - c. const
+   - d. static
+
+7. Identify the pattern in the series: 10, 20, 30, 40, 50. What number should come next?
+   - a. 55
+   - b. 60
+   - c. 65
+   - d. 70
+
+8. When designing for iOS, what is the recommended method for adapting an app's layout for different device orientations and screen sizes?
+   - a. Absolute positioning
+   - b. Auto Layout
+   - c. Manual resizing
+   - d. Scale to Fit
+
+9. Which concept is essential for understanding responsive design in Swift applications?
+   - a. Object pooling
+   - b. Interface Builder
+   - c. Frames and bounds
+   - d. Multithreading
+
+10. What type of inheritance does Swift support?
+    - a. Single
+    - b. Multiple
+    - c. Hierarchical
+    - d. Multilevel
+
+11. If you have a bag with 3 red balls and 2 blue balls, what is the probability of drawing a blue ball?
+    - a. 1/5
+    - b. 2/5
+    - c. 3/5
+    - d. 4/5
+
+12. Which Swift structure is used for organizing data in a key-value pair?
+    - a. Array
+    - b. Set
+    - c. Dictionary
+    - d. Tuple
+
+13. In a user-centered design process, what is the first step?
+    - a. Prototyping
+    - b. User Research
+    - c. Sketching
+    - d. Testing
+
+14. What does MVC stand for in Swift application design patterns?
+    - a. Model View Controller
+    - b. Model View Connector
+    - c. Module View Controller
+    - d. Main View Controller
+
+15. In logical reasoning, what is the term for a conclusion based on evidence?
+    - a. Hypothesis
+    - b. Inference
+    - c. Assumption
+    - d. Prediction
+
+16. How is encapsulation achieved in Swift?
+    - a. Protocols
+    - b. Extensions
+    - c. Access Modifiers
+    - d. Inheritance
+
+17. When using Swift's optionals, what does the question mark (?) in the declaration signify?
+   - a. The variable must have a value
+   - b. The variable is a constant
+   - c. The variable may or may not have a value
+   - d. The variable is an array
+
+18. When considering the Apple Human Interface Guidelines, what is crucial for app accessibility?
+    - a. Color schemes
+    - b. Button sizes
+    - c. Text size
+    - d. All of the above
+
+19. What Swift operator allows you to combine two Boolean expressions?
+    - a. &&
+    - b. ||
+    - c. !
+    - d. ==
+
+20. What is the process of defining a function within another function called in Swift?
+    - a. Recursion
+    - b. Nesting
+    - c. Encapsulation
+    - d. Overloading
+
+21. If a sequence starts with 1 and doubles each time (1, 2, 4, 8...), what is the 6th number in the sequence?
+    - a. 16
+    - b. 32
+    - c. 64
+    - d. 128
+
+22. In design, what does the term 'prototype' specifically refer to?
+    - a. An initial version of a product used to explore or demonstrate concepts
+    - b. A detailed drawing of a design
+    - c. The final version of a design
+    - d. A textual description of the design
+
+23. What principle of design focuses on ensuring that an interface is understandable and predictable?
+    - a. Visibility
+    - b. Feedback
+    - c. Consistency
+    - d. Affordance
+
+24. In Swift, how do you handle errors that might occur during program execution?
+    - a. Error delegation
+    - b. Try-catch
+    - c. Error propagation
+    - d. All of the above
+
+25. A sequence of numbers follows a specific rule: 1, 4, 9, 16. What comes next?
+    - a. 20
+    - b. 23
+    - c. 25
+    - d. 27
+
+26. In Swift, what does 'delegation' allow objects to do?
+    - a. Inherit properties from another class
+    - b. Pass responsibilities to other classes
+    - c. Perform multiple tasks simultaneously
+    - d. Override methods from its superclass
+
+27. For a simple user login form, what is the most critical design aspect to ensure user friendliness?
+    - a. Color scheme
+    - b. Input field validation
+    - c. Animation
+    - d. Sound effects
+
+28. If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?
+    - a. 5 minutes
+    - b. 100 minutes
+    - c. 20 minutes
+    - d. 1 minute
+
+29. In terms of Swift's memory management, what is Automatic Reference Counting (ARC)?
+    - a. A manual process for managing memory
+    - b. A compiler feature that frees up memory used by class instances
+    - c. A design pattern for memory management
+    - d. A library for tracking object references
+
+30. What is the foundational concept of responsive design that involves creating designs that adapt smoothly to various screen sizes?
+    - a. Flexbox
+    - b. Media Queries
+    - c. Bootstrap
+    - d. Grid Layout

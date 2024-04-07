@@ -1,0 +1,91 @@
+Here are the answers based on logical reasoning, coding principles, and Swift-specific concepts:
+
+1. **c. var number: Int?**
+   - Declares an optional integer variable, meaning the variable can hold either an integer value or `nil`.
+
+2. **c. Consistency**
+   - Creating intuitive interfaces often relies on consistency, making sure that similar elements behave in similar ways across the application.
+
+3. **c. 64**
+   - The sequence doubles each number, so the next number after 32 is 64.
+
+4. **b. Protocols**
+   - Protocols define a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality.
+
+5. **a. 25%**
+   - The probability of getting heads twice in two coin flips is 1/2 * 1/2 = 1/4, or 25%.
+
+6. **b. let**
+   - The `let` keyword is used to define constants in Swift.
+
+7. **b. 60**
+   - The pattern is to add 10 to the previous number, so the next number is 60.
+
+8. **b. Auto Layout**
+   - Auto Layout is recommended for adapting an app’s layout to different device orientations and screen sizes.
+
+9. **c. Frames and bounds**
+   - Understanding frames and bounds is essential for responsive design in Swift applications, allowing developers to adjust layouts dynamically.
+
+10. **a. Single**
+    - Swift supports single inheritance, where a class can inherit from at most one superclass.
+
+11. **b. 2/5**
+    - There are 2 blue balls out of a total of 5 balls, so the probability is 2/5.
+
+12. **c. Dictionary**
+    - Dictionaries store associations between keys of the same type and values of the same type in a collection with no defined ordering.
+
+13. **b. User Research**
+    - User-centered design starts with understanding the needs, behaviors, and motivations of the users through research.
+
+14. **a. Model View Controller**
+    - MVC stands for Model View Controller, a design pattern for separating an application into three main components.
+
+15. **b. Inference**
+    - An inference is a conclusion reached based on evidence and reasoning.
+
+16. **c. Access Modifiers**
+    - Encapsulation in Swift is achieved through access modifiers like `private`, `fileprivate`, `internal`, `public`, and `open` that control access to parts of your code.
+
+17. **c. The variable may or may not have a value**
+    - The question mark (?) indicates that the variable is an optional, meaning it can hold a value or `nil`.
+
+18. **d. All of the above**
+    - Accessibility considerations include color schemes, button sizes, and text size to ensure the app is usable by everyone.
+
+19. **a. &&**
+    - The `&&` operator allows combining two Boolean expressions into one that evaluates to true only if both expressions are true.
+
+20. **b. Nesting**
+    - Defining a function within another function is called nesting.
+
+21. **b. 32**
+    - Doubling each time gives the sequence 1, 2, 4, 8, 16, 32 for the first six numbers.
+
+22. **a. An initial version of a product used to explore or demonstrate concepts**
+    - A prototype is an early sample, model, or release of a product built to test a concept or process.
+
+23. **c. Consistency**
+    - Consistency ensures interfaces are understandable and predictable, improving usability.
+
+24. **d. All of the above**
+    - Swift handles errors using try-catch blocks, error propagation, and sometimes error delegation patterns.
+
+25. **c. 25**
+    - The sequence follows the pattern of squaring integers (1^2, 2^2, 3^2, 4^2), so the next is 5^2 = 25.
+
+26. **b. Pass responsibilities to other classes**
+    - Delegation allows one object to delegate responsibility for a certain task to another object.
+
+27. **b. Input field validation**
+    - Ensuring that input fields are correctly validated is crucial for user friendliness, helping users correct errors before submission.
+
+28. **a. 5 minutes**
+    - If 5 machines take 5 minutes to make 5 widgets, then 100 machines would also take 5 minutes to make 100 widgets.
+
+29. **b. A compiler feature that frees up memory used by class instances**
+    - Automatic Reference Counting (ARC) automatically manages memory usage, freeing up memory used by class instances when they are no longer needed.
+
+30. **b. Media Queries**
+    - Media Queries are a foundational concept of responsive design, used to create designs that adapt to various screen sizes.

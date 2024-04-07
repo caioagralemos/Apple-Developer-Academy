@@ -111,9 +111,7 @@ Here are thirty new questions mixed across the topics of logical reasoning, codi
 19. If rolling a single six-sided die, what is the probability of rolling an even number?
     - a. 1/6
     - b. 1/3
-    - c.
-
- 1/2
+    - c. 1/2
     - d. 2/3
 
 20. In Swift, an unwrapped optional...

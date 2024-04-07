@@ -1,0 +1,181 @@
+Here are thirty new questions for your mock test, mixing topics from logical reasoning, coding in Swift, and design in Swift:
+
+1. What Swift feature allows you to ensure that a class provides specific methods and properties?
+   - a) Inheritance
+   - b) Encapsulation
+   - c) Protocol
+   - d) Extension
+
+2. Which design principle focuses on the importance of designing interfaces that are intuitive and easy to navigate for users?
+   - a) Prototyping
+   - b) User-centered design
+   - c) Adaptive design
+   - d) Sketching
+
+3. Consider the sequence: 2, 4, 8, 16, 32, ... What is the next number in this series?
+   - a) 48
+   - b) 64
+   - c) 40
+   - d) 56
+
+4. In Swift, how do you declare a constant?
+   - a) var constantName = value
+   - b) const constantName = value
+   - c) let constantName = value
+   - d) constant constantName = value
+
+5. Which is NOT a core principle of Object-Oriented Programming?
+   - a) Polymorphism
+   - b) Encapsulation
+   - c) Inheritance
+   - d) Concurrency
+
+6. If you flip a coin twice, what is the probability of getting two heads?
+   - a) 50%
+   - b) 25%
+   - c) 75%
+   - d) 12.5%
+
+7. What does the 'init' keyword in Swift do?
+   - a) Initializes a new constant
+   - b) Defines a destructor method
+   - c) Initializes a new instance of a class or structure
+   - d) Creates an interface
+
+8. In visual pattern recognition, what comes next in the pattern: circle, square, triangle, circle, square, ...?
+   - a) Circle
+   - b) Triangle
+   - c) Square
+   - d) Hexagon
+
+9. Which design pattern is particularly useful for creating an instance of a class when the type of class is determined at runtime?
+   - a) Singleton
+   - b) Factory Method
+   - c) Observer
+   - d) Strategy
+
+10. How do you make a class property observable in Swift, allowing you to execute code in response to changes in its value?
+    - a) Use a delegate pattern
+    - b) Use a 'willSet' or 'didSet' property observer
+    - c) Implement KVO
+    - d) Override the setter method
+
+11. When designing for Apple platforms, which guideline emphasizes clarity, deference, and depth?
+    - a) Material Design
+    - b) Bootstrap Principles
+    - c) Apple Human Interface Guidelines
+    - d) Responsive Web Design Standards
+
+12. If three cats can catch three bunnies in three minutes, how long would it take one hundred cats to catch one hundred bunnies?
+    - a) 1 minute
+    - b) 3 minutes
+    - c) 100 minutes
+    - d) 300 minutes
+
+13. What Swift keyword is used to define a protocol that class types must conform to?
+    - a) ":"
+    - b) protocol
+    - c) extends
+    - d) implements
+
+14. Which statement about 'optional' values in Swift is FALSE?
+    - a) Optionals signify the absence of a value.
+    - b) An optional can either contain a value or be nil.
+    - c) To access an optional's value, you must unwrap it.
+    - d) Optionals are automatically unwrapped by the Swift compiler.
+
+15. In the sequence: 1, 1, 2, 3, 5, 8, 13, ... What is the principle used to generate it?
+    - a) Geometric sequence
+    - b) Arithmetic progression
+    - c) Fibonacci sequence
+    - d) Prime numbers sequence
+
+16. How do you ensure your app's design is accessible for people with visual impairments?
+    - a) Use vibrant colors only
+    - b) Ensure high contrast ratios and support dynamic type
+    - c) Design for touch gestures exclusively
+    - d) Limit font sizes to reduce clutter
+
+17. What is the outcome of executing a function that returns a 'Result' type in Swift?
+    - a) It always returns a value of the specified type.
+    - b) It returns either a success with a value or a failure with an error.
+    - c) It returns a Boolean value indicating success or failure.
+    - d) It executes a callback instead of returning a value.
+
+18. What design process involves testing with real users to gather feedback on prototypes?
+    - a) Agile methodology
+    - b) User-centered design
+    - c) A/B testing
+    - d) Waterfall model
+
+19. In Swift, how is memory management handled for class instances?
+    - a) Garbage collection
+    - b) Manual memory management
+    - c) Automatic Reference Counting (ARC)
+    - d) Stack allocation
+
+20. What visual pattern involves the use of repeating elements with systematic variations, such as color or shape?
+    - a) Symmetry
+    - b) Asymmetry
+    - c) Gradient
+    - d) Tessellation
+
+21. What is the role of wireframes in app design?
+    - a) To provide the final graphical interface of the app
+    - b) To outline the app's functionality and layout without detailed design
+    - c) To create a detailed color scheme for the app
+    - d) To code the basic framework of the app
+
+22. How do you add a method to an existing class in Swift without modifying the original source code?
+    - a) Extensions
+    - b) Inheritance
+    - c) Protocols
+    - d) Subclassing
+
+23. In logical reasoning, if 'All A are B' and 'All B are C', what can be concluded?
+    - a) Some A are not C
+    - b) All A are C
+    - c) No A are C
+    - d) Some A are C
+
+24. What concept allows Swift developers to define a blueprint for a method, property, or other requirements for a particular task?
+    - a) Enumerations
+    - b) Protocols
+    - c) Extensions
+    - d) Structures
+
+25. What principle of design emphasizes the importance of anticipating user needs and making information easily accessible?
+    - a) Visibility
+    - b) Feedback
+    - c) Constraint
+    - d) Consistency
+
+26. How is a 'Set' different from an 'Array' in Swift?
+    - a) Sets are always sorted, whereas Arrays are not.
+    - b) Sets can contain duplicate values, whereas Arrays cannot.
+    - c) Arrays can contain duplicate values, whereas Sets cannot.
+    - d) Arrays are unordered collections, whereas Sets are ordered.
+
+27. What is the term for the process of adapting the layout of an app to different device sizes and orientations?
+    - a) Scalability
+    - b) Responsiveness
+    - c) Elasticity
+    - d) Adaptability
+
+28. In logical reasoning, what is the missing number in the series: 3, 9, 27, ?, 243
+    - a) 81
+    - b) 72
+    - c) 64
+    - d) 54
+
+29. When designing an app, what is the importance of considering the 'thumb zone'?
+    - a) To ensure that all elements are equally spaced
+    - b) To optimize the app's color scheme
+    - c) To make the app more visually appealing
+    - d) To ensure ease of use with one-handed operation
+
+30. In Swift, what keyword defines a block of code that can be executed in the future?
+    - a) Async
+    - b) Await
+    - c) Closure
+    - d) Block

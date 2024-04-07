@@ -1,0 +1,32 @@
+Here are the answers to the thirty new mock test questions:
+
+1. c) Protocol
+2. b) User-centered design
+3. b) 64
+4. c) let constantName = value
+5. d) Concurrency
+6. b) 25%
+7. c) Initializes a new instance of a class or structure
+8. b) Triangle
+9. b) Factory Method
+10. b) Use a 'willSet' or 'didSet' property observer
+11. c) Apple Human Interface Guidelines
+12. b) 3 minutes
+13. b) protocol
+14. d) Optionals are automatically unwrapped by the Swift compiler.
+15. c) Fibonacci sequence
+16. b) Ensure high contrast ratios and support dynamic type
+17. b) It returns either a success with a value or a failure with an error.
+18. b) User-centered design
+19. c) Automatic Reference Counting (ARC)
+20. d) Tessellation
+21. b) To outline the app's functionality and layout without detailed design
+22. a) Extensions
+23. b) All A are C
+24. b) Protocols
+25. a) Visibility
+26. c) Arrays can contain duplicate values, whereas Sets cannot.
+27. b) Responsiveness
+28. a) 81
+29. d) To ensure ease of use with one-handed operation
+30. c) Closure

@@ -36,9 +36,6 @@ a. By applying the OOP concept, it makes possible for a program to access areas 
 b. An object can be an icon on the screen, to which are associated data and relationships to be executed.
 c. An object is defined as any element used in software in which are associated data, routines and relationships.
 d. The concept of object-oriented programming is very similar, but was not responsible for introducing the user-machine interface that came to be called GUI (Graphical User Interface).
-Feedback
-Your answer is correct.
-The correct answer is: By applying the OOP concept, it makes possible for a program to access areas or partitions of memory where it can find objects (data + procedures) representing each reality.
 
 
 6. In the OOP paradigm, attributes define...

@@ -153,6 +153,7 @@ function App() {
     <div className='title'>
       <img src='./logo.png' alt='logo' />
       <div className='title-text'>Apple Developer Academy Mock Test</div>
+      <div className='title-sub'>designed and developed by <a href='https://caioagralemos.com/en' rel='noreferrer' target='_blank'>@caioagralemos</a></div>
       <div className='title-button' disabled={!isLoading} onClick={generateTest}>{isLoading ? <img style={{ height: "23px", width: "45px", objectFit: "contain" }} src='./spinner.svg' alt='spinner' /> : "Start"}</div>
     </div>
   )

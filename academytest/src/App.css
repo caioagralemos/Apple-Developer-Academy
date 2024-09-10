@@ -203,6 +203,14 @@
   justify-content: center;
 }
 
+.result-navbar {
+  top: 0;
+  padding-top: 15px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .wronganswer-title {
   align-self: start;
   padding: 20px;

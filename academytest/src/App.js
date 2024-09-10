@@ -144,6 +144,8 @@ function App() {
     await setFlags([false, false, false, false, false, false, false, false, false, false])
     await setAnswers([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
     await setWrongQuestions([])
+    await setMinutes(20)
+    await setSeconds(0)
     await setCurrentPhase("title")
   }
 
@@ -159,7 +161,7 @@ function App() {
     <>
       <nav className='navbar'>
         <img src="./logo.png" alt="logo" className='icon' onClick={reset} />
-        <div className='timer'>{formatTime(minutes)}:{formatTime(seconds)}</div>
+        <div className='timer' onClick={() => setMinutes(0)}>{formatTime(minutes)}:{formatTime(seconds)}</div>
       </nav>
       <div className='test'>
         <div className='indexes'>
@@ -256,9 +258,9 @@ function App() {
 
   const result = (
     <>
-      <nav className='navbar'>
+      <nav className='result-navbar'>
         <img src="./logo.png" alt="logo" className='icon' onClick={reset} />
-        <div className='timer'>{ }</div>
+        <div className='timer'>{10 - wrongQuestions.length}/10</div>
       </nav>
       <div className='result'>
         <div className='result-box'>
@@ -293,8 +295,6 @@ function App() {
           if (minutes > 0) {
             setMinutes((prevMinutes) => prevMinutes - 1);
             setSeconds(59);
-          } else {
-            getResults();
           }
         } else {
           setSeconds((prevSeconds) => prevSeconds - 1);
@@ -302,9 +302,11 @@ function App() {
       }, 1000);
     } else if (currentPhase !== "test" && (minutes !== 0 || seconds !== 0)) {
       clearInterval(interval);
+    } else if (minutes === 0 && seconds === 0) {
+      getResults();
     }
     return () => clearInterval(interval);
-  }, [currentPhase, seconds, minutes]);
+  }, [currentPhase, seconds, minutes, getResults]);
 
   return (
     <div className="App">

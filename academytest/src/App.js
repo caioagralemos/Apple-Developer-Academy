@@ -13,7 +13,7 @@ function App() {
   const [wrongQuestions, setWrongQuestions] = useState([])
   const [minutes, setMinutes] = useState(20)
   const [seconds, setSeconds] = useState(0)
-  const genAI = new GoogleGenerativeAI("AIzaSyDroy5GK3FtNk3_7UR4R9Sj6jHa1FHm1Pk");
+  const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINI_KEY);
   const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
 
   const getResponseForGivenPrompt = async () => {
@@ -306,7 +306,7 @@ function App() {
       getResults();
     }
     return () => clearInterval(interval);
-  }, [currentPhase, seconds, minutes, getResults]);
+  }, [currentPhase, seconds, minutes]);
 
   return (
     <div className="App">

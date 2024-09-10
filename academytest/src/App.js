@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Test, Question, TestError } from "./Test";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
@@ -11,6 +11,8 @@ function App() {
   const [flags, setFlags] = useState([false, false, false, false, false, false, false, false, false, false])
   const [answers, setAnswers] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
   const [wrongQuestions, setWrongQuestions] = useState([])
+  const [minutes, setMinutes] = useState(20)
+  const [seconds, setSeconds] = useState(0)
   const genAI = new GoogleGenerativeAI("AIzaSyDroy5GK3FtNk3_7UR4R9Sj6jHa1FHm1Pk");
   const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
 
@@ -19,7 +21,7 @@ function App() {
       `
       Generate 10 quiz questions in JSON format, following this structure:
 
-      { "questions": [ { "text": "Question text", "opt1": "Option 1", "opt2": "Option 2", "opt3": "Option 3", "opt4": "Option 4", "answer": "Correct option number (1, 2, 3, or 4)" } ] }
+      { "questions": [ { "text": "Question text", "opt1": "Option 1", "opt2": "Option 2", "opt3": "Option 3", "opt4": "Option 4", "answer": Correct option int (1, 2, 3, or 4) } ] }
 
       The first 5 questions should be medium to advanced logic problems, similar to questions like:
 
@@ -44,7 +46,7 @@ function App() {
       - 'In the OOP paradigm, the definitions which are the base to create objects are called...'
       - 'In the OOP paradigm, the overload of a method is related to the OOP property called...'
 
-      You should generate these questions, not use this ones
+      You should generate NEW questions similar to these, not those!!
 
       Ensure that the output is a valid JSON format, with exactly 10 questions, each having 4 options, one correct answer, and follows the structure exactly as specified. DONT use markdown or '''json
       Dont USE '''JSON it is breaking the app!!!!
@@ -72,11 +74,10 @@ function App() {
 
   const quizGuess = (guess) => {
     setAnswers((prevAnswers) => {
-      const newAnswers = [...prevAnswers]; 
-      newAnswers[currentPage-1] = guess;    
-      return newAnswers;                   
+      const newAnswers = [...prevAnswers];
+      newAnswers[currentPage - 1] = guess;
+      return newAnswers;
     });
-    console.log(answers);
   }
 
   const getResults = async () => {
@@ -85,19 +86,22 @@ function App() {
       if (testData.questions[i].answer !== answers[i]) {
         var error = new TestError(testData.questions[i].text, null, null)
         switch (answers[i]) {
-        case 1:
-          error.guess = testData.questions[i].opt1
-          break
-        case 2:
-          error.guess = testData.questions[i].opt2
-          break
-        case 3:
-          error.guess = testData.questions[i].opt3
-          break
-        default:
-          error.guess = testData.questions[i].opt4
-          break
+          case 1:
+            error.guess = testData.questions[i].opt1
+            break
+          case 2:
+            error.guess = testData.questions[i].opt2
+            break
+          case 3:
+            error.guess = testData.questions[i].opt3
+            break
+          case 4:
+            error.guess = testData.questions[i].opt4
+            break
+          default:
+            error.guess = "no guess"
         }
+
         switch (testData.questions[i].answer) {
           case 1:
             error.answer = testData.questions[i].opt1
@@ -110,13 +114,37 @@ function App() {
             break
           default:
             error.answer = testData.questions[i].opt4
-            break
-          }
+        }
+        console.log(error.question)
         await errors.push(error)
       }
     }
     await setWrongQuestions(errors)
     setCurrentPhase("result")
+  }
+
+  const flagQuestion = async (question) => {
+    let copyFlags = [...flags]
+    if (flags.includes(question)) {
+      await copyFlags.pop(question)
+    } else {
+      await copyFlags.push(question)
+    }
+    await setFlags(copyFlags)
+  }
+
+  function formatTime(time) {
+    return time < 10 ? "0" + time : time;
+  }
+
+  const reset = async () => {
+    await setTestData(new Test())
+    await setCurrentPage(0)
+    await setIsLoading(false)
+    await setFlags([false, false, false, false, false, false, false, false, false, false])
+    await setAnswers([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+    await setWrongQuestions([])
+    await setCurrentPhase("title")
   }
 
   const title = (
@@ -128,107 +156,127 @@ function App() {
   )
 
   const test = (
-    <div className='test'>
-      <div className='indexes'>
-      {[1,2,3,4,5,6,7,8,9,10].map((item, index) => (
-          <div className={`index ${answers[item-1] !== 0 ? "done" : ""} ${flags[item-1] ? "flagged" : ""} ${currentPage === item ? "index-selected" : ""}`} onClick={() => (setCurrentPage(item))}>{item}</div>
-        ))}
-      </div>
-
-      <div className='quiz'>
-        <div className="quiz-question">
-          {testData.questions && testData.questions.length > 0 ? (
-            testData.questions[currentPage-1].text
-          ) : (
-            "Carregando..."
-          )}
+    <>
+      <nav className='navbar'>
+        <img src="./logo.png" alt="logo" className='icon' onClick={reset} />
+        <div className='timer'>{formatTime(minutes)}:{formatTime(seconds)}</div>
+      </nav>
+      <div className='test'>
+        <div className='indexes'>
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((item, index) => (
+            <div key={item} className={`index ${answers[item - 1] !== 0 ? "done" : ""} ${flags.includes(item) ? "flagged" : ""} ${currentPage === item ? "index-selected" : ""}`} onClick={() => (setCurrentPage(item))}>{item}</div>
+          ))}
         </div>
-        <div className="quiz-options">
-          {
-            answers[currentPage-1] === 1 ?
-            <div className={`quiz-option ${answers[currentPage-1] === 1 ? "selected" : ""}`} onClick={() => quizGuess(1)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt1
-            ) : (
-              "Carregando..."
-            )}
-          </div> : <div className='quiz-option' onClick={() => quizGuess(1)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt1
-            ) : (
-              "Carregando..."
-            )}
-          </div>
-          }
-          {
-            answers[currentPage-1] === 2 ?
-            <div className='quiz-option selected' onClick={() => quizGuess(2)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt2
-            ) : (
-              "Carregando..."
-            )}
-          </div> : <div className='quiz-option' onClick={() => quizGuess(2)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt2
-            ) : (
-              "Carregando..."
-            )}
-          </div>
-          }
-          {
-            answers[currentPage-1] === 3 ?
-            <div className='quiz-option selected' onClick={() => quizGuess(3)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt3
-            ) : (
-              "Carregando..."
-            )}
-          </div> : <div className='quiz-option' onClick={() => quizGuess(3)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt3
-            ) : (
-              "Carregando..."
-            )}
-          </div>
-          }
-          {
-            answers[currentPage-1] === 4 ?
-            <div className='quiz-option selected' onClick={() => quizGuess(4)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt4
-            ) : (
-              "Carregando..."
-            )}
-          </div> : <div className='quiz-option' onClick={() => quizGuess(4)}>
-            {testData.questions && testData.questions.length > 0 ? (
-              testData.questions[currentPage-1].opt4
-            ) : (
-              "Carregando..."
-            )}
-          </div>
-          }
-        </div>
-      </div>
 
-      {answers.includes(0) ? <></> :
-      <div className='test-done' onClick={getResults}>
-        done
+        <div className='quiz'>
+          <div className="quiz-question">
+            {testData.questions && testData.questions.length > 0 ? (
+              testData.questions[currentPage - 1].text
+            ) : (
+              "Carregando..."
+            )}
+          </div>
+          <div className="quiz-options">
+            {
+              answers[currentPage - 1] === 1 ?
+                <div className={`quiz-option ${answers[currentPage - 1] === 1 ? "selected" : ""}`} onClick={() => quizGuess(1)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt1
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div> : <div className='quiz-option' onClick={() => quizGuess(1)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt1
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div>
+            }
+            {
+              answers[currentPage - 1] === 2 ?
+                <div className='quiz-option selected' onClick={() => quizGuess(2)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt2
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div> : <div className='quiz-option' onClick={() => quizGuess(2)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt2
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div>
+            }
+            {
+              answers[currentPage - 1] === 3 ?
+                <div className='quiz-option selected' onClick={() => quizGuess(3)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt3
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div> : <div className='quiz-option' onClick={() => quizGuess(3)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt3
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div>
+            }
+            {
+              answers[currentPage - 1] === 4 ?
+                <div className='quiz-option selected' onClick={() => quizGuess(4)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt4
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div> : <div className='quiz-option' onClick={() => quizGuess(4)}>
+                  {testData.questions && testData.questions.length > 0 ? (
+                    testData.questions[currentPage - 1].opt4
+                  ) : (
+                    "Carregando..."
+                  )}
+                </div>
+            }
+          </div>
+          <img src='flag.svg' alt='flag' onClick={() => flagQuestion(currentPage)} className={`flag ${flags.includes(currentPage) ? "selected" : ""}`} />
+        </div>
+
+        {answers.includes(0) ? <></> :
+          <div className='test-done' onClick={getResults}>
+            Done
+          </div>
+        }
       </div>
-      }
-    </div>
+    </>
   )
 
   const result = (
-    <div className='result'>
-      {wrongQuestions.map((item, index) => {
-        <div>
-          {item.question}
-          your guess: {item.guess}
-          the answer: {item.answer}
+    <>
+      <nav className='navbar'>
+        <img src="./logo.png" alt="logo" className='icon' onClick={reset} />
+        <div className='timer'>{ }</div>
+      </nav>
+      <div className='result'>
+        <div className='result-box'>
+          <div className='result-score'>{10 - wrongQuestions.length}/10</div>
+          <div className='result-button' onClick={reset}>
+            Try Again
+          </div>
         </div>
-      })}
-    </div>
+        {wrongQuestions.length > 0 && <div className='wronganswer-title'>Correct your mistakes</div>}
+        {wrongQuestions.length > 0 && wrongQuestions.map((item, index) => {
+          return <div className='wronganswer'>
+            <div className='wronganswer-question'>{item.question}</div>
+            <div className='wronganswer-answer'>the answer: {item.answer}</div>
+            <div className='wronganswer-guess'>your guess: {item.guess}</div>
+          </div>
+        })}
+      </div>
+    </>
   )
 
   const error = (
@@ -236,6 +284,27 @@ function App() {
       Something went wrong.
     </div>
   )
+
+  useEffect(() => {
+    let interval = null;
+    if (currentPhase === "test" && (minutes > 0 || seconds > 0)) {
+      interval = setInterval(() => {
+        if (seconds === 0) {
+          if (minutes > 0) {
+            setMinutes((prevMinutes) => prevMinutes - 1);
+            setSeconds(59);
+          } else {
+            getResults();
+          }
+        } else {
+          setSeconds((prevSeconds) => prevSeconds - 1);
+        }
+      }, 1000);
+    } else if (currentPhase !== "test" && (minutes !== 0 || seconds !== 0)) {
+      clearInterval(interval);
+    }
+    return () => clearInterval(interval);
+  }, [currentPhase, seconds, minutes]);
 
   return (
     <div className="App">

@@ -8,6 +8,28 @@
   justify-content: center;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  padding-top: 15px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.timer {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
 .error {
   height: 100vh;
   font-size: 30px;
@@ -125,6 +147,7 @@
   border-radius: 15px;
   font-weight: 600;
   font-size: large;
+  transition: all 0.5s;
 }
 
 .done {
@@ -134,9 +157,9 @@
 }
 
 .flagged {
-  background-color: #fff700;
+  background-color: #cbcbcb;
   color: #ffffff;
-  border: 1px solid #fff700;
+  border: 1px solid #cbcbcb;
 }
 
 .selected {
@@ -144,7 +167,13 @@
 }
 
 .index-selected {
-  opacity: 50%;
+  color: #7e7e7e;
+  border: 1px solid #7e7e7e;
+}
+
+.flag {
+  width: 20px;
+  cursor: pointer;
 }
 
 .test-done {
@@ -164,5 +193,87 @@
   transform: translateY(-1px);
 }
 .test-done:active {
+  transform: translateY(1px);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wronganswer-title {
+  align-self: start;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.wronganswer {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  padding: 20px;
+}
+
+.wronganswer-question {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.wronganswer-guess {
+  font-weight: 200;
+  color: #b0b0b0;
+}
+
+.wronganswer-answer {
+  font-weight: 400;
+  color: #1c1c1c;
+}
+
+.result-box {
+  padding: 3vw;
+  background-color: #1c1c1c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 20px;
+  width: 60vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin: 3vw;
+}
+
+.result-score {
+  color: #fff;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.result-button {
+  padding: 10px 50px;
+  margin: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s all;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.result-button:hover {
+  transform: translateY(-1px);
+}
+.result-button:active {
   transform: translateY(1px);
 }/*# sourceMappingURL=App.css.map */

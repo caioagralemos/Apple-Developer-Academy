@@ -1,6 +1,22 @@
 .App {
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  height: 100vh;
+  font-size: 30px;
+  color: #1c1c1c;
+  font-weight: 300;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
 }
 
 .title {
@@ -38,5 +54,115 @@
   transform: translateY(-1px);
 }
 .title-button:active {
+  transform: translateY(1px);
+}
+
+.test {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz {
+  padding: 3vw;
+  background-color: #1c1c1c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 20px;
+  width: 80vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.quiz-question {
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.quiz-option {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #faf9f9;
+  width: 70vw;
+  box-shadow: 1px 1px 1px 1px rgb(84, 84, 84);
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.indexes {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 1vw;
+  height: 1vw;
+  padding: 10px;
+  margin: 5px;
+  background-color: #fff;
+  color: #1c1c1c;
+  border: 1px solid #1c1c1c;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.done {
+  background-color: #1c1c1c;
+  color: #fff;
+  border: 1px solid #1c1c1c;
+}
+
+.flagged {
+  background-color: #fff700;
+  color: #ffffff;
+  border: 1px solid #fff700;
+}
+
+.selected {
+  background-color: #7e7e7e;
+}
+
+.index-selected {
+  opacity: 50%;
+}
+
+.test-done {
+  padding: 10px 50px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s all;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.test-done:hover {
+  transform: translateY(-1px);
+}
+.test-done:active {
   transform: translateY(1px);
 }/*# sourceMappingURL=App.css.map */

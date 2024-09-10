@@ -1,0 +1,142 @@
+{
+  "test": {
+    "questions": [
+      {
+        "text": "In the OOP paradigm, how do we call the property of having the same operation (method) behaving differently (override) in each descendant class OR having the same operation/method with different signatures (overload)?",
+        "opt1": "Louse Coupling",
+        "opt2": "Encapsulation",
+        "opt3": "Multiple Inheritance",
+        "opt4": "Polymorphism",
+        "answer": 4
+      },
+      {
+        "text": "Inheritance allows sharing attributes and methods by classes and they are used mainly with the goal of reusing code or to define a general behavior for an object of this class and descendants. Given the OOP paradigm, can we say the previous sentence is CORRECT?",
+        "opt1": "No",
+        "opt2": "Yes, it is true for the objects of this class and false for descendants",
+        "opt3": "Yes",
+        "opt4": "Yes, it is true for the descendants of this class and false for objects instantiated directly from this class",
+        "answer": 3
+      },
+      {
+        "text": "In the OOP paradigm, the \"overload\" of a method is related to the OOP property called...",
+        "opt1": "Aggregation",
+        "opt2": "Polymorphism",
+        "opt3": "Encapsulation",
+        "opt4": "Inheritance",
+        "answer": 2
+      },
+      {
+        "text": "In the OOP paradigm, the definitions which are the base to create objects are called...",
+        "opt1": "Instance",
+        "opt2": "Entity",
+        "opt3": "Methods",
+        "opt4": "Classes",
+        "answer": 4
+      },
+      {
+        "text": "In the OOP paradigm, it is true that...",
+        "opt1": "By applying the OOP concept, it makes possible for a program to access areas or partitions of memory where it can find objects (data + procedures) representing each reality.",
+        "opt2": "An object can be an icon on the screen, to which are associated data and relationships to be executed.",
+        "opt3": "The concept of object-oriented programming is very similar, but was not responsible for introducing the user-machine interface that came to be called GUI (Graphical User Interface).",
+        "opt4": "An object is defined as any element used in software in which are associated data, routines and relationships.",
+        "answer": 1
+      },
+      {
+        "text": "In the OOP paradigm, attributes define...",
+        "opt1": "The classes",
+        "opt2": "The services that can be requested to an object",
+        "opt3": "The methods",
+        "opt4": "The properties of an object",
+        "answer": 4
+      },
+      {
+        "text": "What is the difference between a class and an object?",
+        "opt1": "A Class is an instance of an Object",
+        "opt2": "An Object is a subclass of a Class",
+        "opt3": "A Class inherits from an Object",
+        "opt4": "An Object is an instance of a Class",
+        "answer": 4
+      },
+      {
+        "text": "What is class method?",
+        "opt1": "An instance of the class",
+        "opt2": "A class attribute that can be set",
+        "opt3": "A chunk of code in the form of a procedure",
+        "opt4": "A way of subclassing",
+        "answer": 3
+      },
+      {
+        "text": "What is the initializer function?",
+        "opt1": "A function that sets every stored properties initial value equal to zero",
+        "opt2": "A function that provides an initial value to the stored properties",
+        "opt3": "A function that sets every computed properties initial value equal to zero",
+        "opt4": "A function that provides an initial value to the computed properties",
+        "answer": 2
+      },
+      {
+        "text": "What is a computed property?",
+        "opt1": "A property provided by the computer by default",
+        "opt2": "A method that can be called",
+        "opt3": "A calculated property which is out of the scope of the class",
+        "opt4": "A calculated property that has an associated value computed based on some form of calculation",
+        "answer": 4
+      },
+      {
+        "text": "Consider this series of numbers: 8, 6, 9, 23, 87... What number should come next in the series?",
+        "opt1": "128",
+        "opt2": "324",
+        "opt3": "429",
+        "opt4": "226",
+        "answer": 3
+      },
+      {
+        "text": "If I throw a 6 faced die what is the probability of obtaining 5 or 6?",
+        "opt1": "33.3%",
+        "opt2": "66.6%",
+        "opt3": "50%",
+        "opt4": "25%",
+        "answer": 1
+      },
+      {
+        "text": "Six foxes catch six hens in six minutes. How many foxes will be needed to catch sixty hens in sixty minutes?",
+        "opt1": "16",
+        "opt2": "60",
+        "opt3": "10",
+        "opt4": "6",
+        "answer": 4
+      },
+      {
+        "text": "Look at your hands: you have 10 fingers! How many fingers do 10 hands have?",
+        "opt1": "50",
+        "opt2": "150",
+        "opt3": "10",
+        "opt4": "100",
+        "answer": 1
+      },
+      {
+        "text": "Which number is missing from this sequence? 32 31 32 29 32 27 32  … 32",
+        "opt1": "27",
+        "opt2": "32",
+        "opt3": "31",
+        "opt4": "25",
+        "answer": 4
+      },
+      {
+        "text": "In the system of equations below, what is the value of x? 2x + 2y = -4, 4x + y = 1",
+        "opt1": "-1",
+        "opt2": "-3",
+        "opt3": "2/5",
+        "opt4": "1",
+        "answer": 4
+      },
+      {
+        "text": "If Luisa was 32 years old 8 years ago, how old was she x years ago?",
+        "opt1": "40 - x",
+        "opt2": "24 - x",
+        "opt3": "x - 40",
+        "opt4": "x - 24",
+        "answer": 1
+      },
+    ]
+  }
+}

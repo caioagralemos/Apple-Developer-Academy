@@ -14,7 +14,7 @@ function App() {
   const [minutes, setMinutes] = useState(20)
   const [seconds, setSeconds] = useState(0)
   const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINI_KEY);
-  const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
   const getResponseForGivenPrompt = async () => {
     const result = await model.generateContent(
@@ -47,6 +47,7 @@ function App() {
       - 'In the OOP paradigm, the overload of a method is related to the OOP property called...'
 
       You should generate NEW questions similar to these, not those!!
+      You are giving me a lot of incorrect answers, specially in the logic session, so make sure to double check the answers
 
       Ensure that the output is a valid JSON format, with exactly 10 questions, each having 4 options, one correct answer, and follows the structure exactly as specified. DONT use markdown or '''json
       Dont USE '''JSON it is breaking the app!!!!

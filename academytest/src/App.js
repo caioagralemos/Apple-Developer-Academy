@@ -48,6 +48,7 @@ function App() {
 
       You should generate NEW questions similar to these, not those!!
       You are giving me a lot of incorrect answers, specially in the logic session, so make sure to double check the answers
+      I would like you to try and generate the hardest and trickiest questions just for this time, try to beat me!
 
       Ensure that the output is a valid JSON format, with exactly 10 questions, each having 4 options, one correct answer, and follows the structure exactly as specified. DONT use markdown or '''json
       Dont USE '''JSON it is breaking the app!!!!

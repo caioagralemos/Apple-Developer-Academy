@@ -36,6 +36,9 @@
     font-weight: 300;
     user-select: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {

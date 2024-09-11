@@ -39,6 +39,9 @@
      -moz-user-select: none;
           user-select: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {

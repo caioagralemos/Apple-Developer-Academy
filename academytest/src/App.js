@@ -51,11 +51,11 @@ function App() {
       I would like you to try and generate the hardest and trickiest questions just for this time, try to beat me!
 
       Ensure that the output is a valid JSON format, with exactly 10 questions, each having 4 options, one correct answer, and follows the structure exactly as specified. DONT use markdown or '''json
-      Dont USE '''JSON it is breaking the app!!!!
+      Dont USE '''JSON it is breaking the app!!!! BE SURE OF THAT
       `
     );
     const response = await result.response;
-    return await response.text();
+    return await response.text().replace("```json", "").replaceAll("```", "");
   }
 
   const generateTest = async () => {

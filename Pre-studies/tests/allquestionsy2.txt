@@ -285,3 +285,273 @@ a. Fewer than 10
 b. Exactly 10
 c. Between 10 and 20
 d. More than 20
+
+Question
+In Swift, which keyword is used to define a protocol?
+
+Select one:
+a. protocol
+b. interface
+c. protocolType
+d. contract
+
+Question
+What is the main difference between classes and structs in Swift regarding inheritance?
+
+Select one:
+a. Both support inheritance equally.
+b. Only structs support inheritance.
+c. Only classes support inheritance.
+d. Neither supports inheritance.
+
+Question
+Consider this number series: 5, 8, 12, 17, 23… What is the next number in the series?
+
+Select one:
+a. 30
+b. 31
+c. 29
+d. 32
+
+Question
+If two fair dice are rolled, what is the probability of rolling a total of 8?
+
+Select one:
+a. 5/36
+b. 6/36
+c. 5/18
+d. 7/36
+
+Question
+What does the nil coalescing operator (??) do in Swift?
+
+Select one:
+a. It unwraps an Optional and returns a default value if nil.
+b. It forces an Optional to unwrap.
+c. It checks if an Optional is nil without unwrapping it.
+d. It converts nil to false.
+
+Question
+In Swift, what is the effect of using the ‘defer’ statement inside a function?
+
+Select one:
+a. It schedules code to run at the start of the function.
+b. It delays execution until the end of the function’s scope.
+c. It prevents the function from returning a value.
+d. It cancels asynchronous tasks.
+
+Question
+In object-oriented programming in Swift, what does encapsulation refer to?
+
+Select one:
+a. Hiding internal details and exposing only necessary components.
+b. Inheriting methods from a parent class.
+c. Overriding methods with new implementations.
+d. Copying an object’s properties.
+
+Question
+Which design pattern involves an object receiving its dependencies from the outside rather than creating them itself?
+
+Select one:
+a. Singleton
+b. Observer
+c. Dependency Injection
+d. Factory
+
+Question
+In Swift, what is the purpose of the ‘guard’ statement?
+
+Select one:
+a. To force unwrap an Optional.
+b. To provide an early exit if a condition is not met.
+c. To loop over an Optional.
+d. To delay execution until later.
+
+Question
+In design, what is the primary purpose of creating a wireframe?
+
+Select one:
+a. To establish the final visual style.
+b. To illustrate the structure and layout of a design.
+c. To test high-fidelity animations.
+d. To finalize color palettes and typography.
+
+Question
+According to Apple’s Human Interface Guidelines, what is the minimum recommended touch target size for interactive elements?
+
+Select one:
+a. 32x32 points
+b. 44x44 points
+c. 50x50 points
+d. 60x60 points
+
+Question
+Which Swift statement correctly declares a constant?
+
+Select one:
+a. var
+b. let
+c. const
+d. final
+
+Question
+Which of the following is not a benefit of using design patterns in software development? *
+
+Select one:
+a. They provide reusable solutions to common problems.
+b. They help in code organization.
+c. They guarantee optimal performance.
+d. They facilitate communication among developers.
+
+Question
+What is the output type of a Swift function declared as “func fetchData() async -> String”?
+
+Select one:
+a. Void
+b. String
+c. AsyncString
+d. Future
+
+Question
+Which of the following best describes a computed property in Swift?
+
+Select one:
+a. A property that stores a value in memory.
+b. A property that calculates a value on demand.
+c. A property that can only be set once.
+d. A property that is always constant.
+
+Question
+Consider this number series: 2, 3, 5, 8, 12, ? What is the next number?
+
+Select one:
+a. 17
+b. 18
+c. 19
+d. 20
+
+Question
+In Swift, which of the following is used to handle errors thrown by a function?
+
+Select one:
+a. try-catch
+b. do-catch
+c. throw-catch
+d. error handling block
+
+Question
+What design principle emphasizes that software entities should be open for extension but closed for modification?
+
+Select one:
+a. Single Responsibility Principle
+b. Open/Closed Principle
+c. Liskov Substitution Principle
+d. Interface Segregation Principle
+
+Question
+Which of the following Swift features allows you to iterate over a sequence in a concise way?
+
+Select one:
+a. for-in loop
+b. while loop
+c. repeat-while loop
+d. loop-each method
+
+Question
+In user-centered design, what is the primary purpose of conducting usability testing?
+
+Select one:
+a. To verify the code syntax.
+b. To evaluate how easily users can interact with the product.
+c. To finalize the app’s architecture.
+d. To ensure the app meets technical requirements.
+
+Question
+Which design pattern in Swift is particularly useful for managing shared resources by ensuring only one instance exists?
+
+Select one:
+a. Observer
+b. Singleton
+c. Factory
+d. Adapter
+
+Question
+When designing an adaptive UI in Swift, which concept helps the app adjust its layout across different device orientations?
+
+Select one:
+a. Storyboards
+b. Auto Layout constraints
+c. Fixed frame sizes
+d. Global variables
+
+Question
+In Swift, what does the ‘lazy’ keyword indicate when used with a variable?
+
+Select one:
+a. The variable is computed immediately.
+b. The variable’s initialization is deferred until its first use.
+c. The variable cannot be modified.
+d. The variable is optional by default.
+
+Question
+Which of the following is a key characteristic of a well-designed user interface?
+
+Select one:
+a. A cluttered layout to include as much information as possible.
+b. Consistency in design elements.
+c. Excessive animations to attract attention.
+d. Minimal attention to typography.
+
+Question
+In Swift, what is the significance of marking a method with the ‘override’ keyword?
+
+Select one:
+a. It allows the method to be called without an instance.
+b. It indicates that the method overrides a method from its superclass.
+c. It restricts the method from being overridden further.
+d. It signals that the method is private.
+
+Question
+In probability, if an event has a 0.25 chance of occurring, what is the probability that it does not occur?
+
+Select one:
+a. 0.25
+b. 0.50
+c. 0.75
+d. 1.00
+
+Question
+Which Swift operator is used for nil coalescing?
+
+Select one:
+a. ??
+b. !
+c. &&
+d. ||
+
+Question
+What does the term “responsive design” mean in the context of app development?
+
+Select one:
+a. Designing exclusively for desktop environments.
+b. Creating designs that adapt to different screen sizes and orientations.
+c. Using static layouts for all devices.
+d. Focusing solely on performance optimization.
+
+Question
+Which of the following best describes polymorphism in Swift’s OOP paradigm?
+
+Select one:
+a. The ability of different types to be treated as one.
+b. The ability to inherit properties from a superclass.
+c. The encapsulation of data within an object.
+d. The process of error handling in asynchronous code.
+
+Question
+When building a prototype, which method is most effective for quickly gathering user feedback on the design?
+
+Select one:
+a. High-fidelity prototype testing.
+b. Low-fidelity sketches and paper prototypes.
+c. A fully coded production version.
+d. Relying solely on internal developer reviews.

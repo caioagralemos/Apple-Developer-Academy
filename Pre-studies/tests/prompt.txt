@@ -344,3 +344,4 @@ c. x - 24
 d. 24 - x
 The correct answer is: 40 - x
 
+For the next mock tests you generate, I want you to take into account all the questions we’ve done so far and not repeat them (perhaps they are annexed in a txt). Always generate new ones. I also want you to, within these subjects, create some more difficult questions as well as others at the same level but with more realistic answer choices. Some alternatives are too easy to dismiss. I want some tricky ones—questions that create doubt and help me learn, okay?

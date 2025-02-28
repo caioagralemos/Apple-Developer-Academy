@@ -1,0 +1,287 @@
+Question
+Which of the following statements about the “Singleton” design pattern in Swift is correct?
+
+Select one:
+a. It restricts a class to only one designated initializer.
+b. It ensures a class has only one instance and provides a global point of access to it.
+c. It uses generics to create a single reusable instance.
+d. It enforces a single global struct for all properties.
+
+Question
+A circle is inscribed inside a square. If the square has side length 10, what is the approximate area of the circle?
+
+Select one:
+a. 25π
+b. 50π
+c. 100
+d. 100π
+
+Question
+In Swift, what is a ‘failable initializer’?
+
+Select one:
+a. An initializer that never returns a value.
+b. An initializer that can throw runtime errors but never returns nil.
+c. An initializer that returns an optional instance of a class or struct.
+d. An initializer that automatically calls deinit on failure.
+
+Question
+Which of the following is a fundamental principle of user-centered design?
+
+Select one:
+a. Designing the interface strictly based on developer intuition.
+b. Designing only for the highest-paying customer base.
+c. Incorporating user feedback continuously throughout the development process.
+d. Keeping all aspects of the design static to avoid confusion.
+
+Question
+If you select a color palette for an iOS app interface, which of the following guidelines should you follow for best accessibility?
+
+Select one:
+a. Always use bright neon colors for contrast.
+b. Ensure sufficient contrast ratio for text and backgrounds.
+c. Use only grayscale to avoid confusion.
+d. Prefer patterned backgrounds over solid backgrounds.
+
+Question
+Consider this number series: 4, 6, 9, 13, 18… What is the next number in the series?
+
+Select one:
+a. 23
+b. 25
+c. 20
+d. 27
+
+Question
+What is the result (type) of the following Swift expression?
+
+let x = 5.0
+let y = 2
+let z = x / Double(y)
+
+Select one:
+a. Int
+b. Float
+c. Double
+d. String
+
+Question
+In Swift, how would you define a stored property that can be read but not modified externally?
+
+Select one:
+a. Use ‘weak var’ for the property.
+b. Use a ‘let’ constant in a public class.
+c. Use a private(set) modifier on the var.
+d. Use a lazy property with get-only.
+
+Question
+Which design principle encourages the use of white space, hierarchy, and clear grouping in UI layouts?
+
+Select one:
+a. Occam’s razor
+b. Gestalt Principles
+c. DRY principle (Don’t Repeat Yourself)
+d. Dependency Inversion Principle
+
+Question
+A fair coin is tossed 3 times. What is the probability of getting exactly 2 heads?
+
+Select one:
+a. 1/8
+b. 3/8
+c. 1/4
+d. 1/2
+
+Question
+When conforming to a protocol in Swift, how do you ensure required methods are provided?
+
+Select one:
+a. By marking them as final in the class implementation.
+b. By including override func for each method.
+c. By implementing every method the protocol demands.
+d. Swift automatically generates these methods at runtime.
+
+Question
+In the Model-View-Controller (MVC) pattern often used in iOS, which component is responsible for handling user interactions and updating the UI?
+
+Select one:
+a. Model
+b. Controller
+c. View
+d. Delegate
+
+Question
+A field on a form expects an integer. The user enters ‘Hello.’ From a usability standpoint, which practice aligns best with user-centered design?
+
+Select one:
+a. Show a generic system error message: “Error 403.”
+b. Correct the input to 0 automatically.
+c. Validate the input and show a clear error message explaining why it’s invalid.
+d. Accept the string and crash the app.
+
+Question
+Which of the following statements about Swift extensions is true?
+
+Select one:
+a. They can add stored properties to existing types.
+b. They cannot extend built-in types like Int or String.
+c. They can add new initializers to existing structs or classes.
+d. They can only extend classes, not enums or structs.
+
+Question
+If you have 12 apples and 3 apples rot, how many fresh apples remain?
+
+Select one:
+a. 3
+b. 9
+c. 12
+d. 15
+
+Question
+In SwiftUI or UIKit, which of the following best describes Auto Layout?
+
+Select one:
+a. A system for automatically resizing images.
+b. A system to define your UI’s layout constraints.
+c. A design pattern that standardizes class inheritance.
+d. A technique that converts code into a visual storyboard.
+
+Question
+Consider the code snippet:
+
+class Parent {
+func greet() {
+print(“Hello from Parent”)
+}
+}
+
+class Child: Parent {
+// no greet() implementation here
+}
+let example = Child()
+example.greet()
+
+Which OOP concept is illustrated here when example.greet() prints “Hello from Parent”?
+
+Select one:
+a. Encapsulation
+b. Polymorphism
+c. Inheritance
+d. Composition
+
+Question
+A UX designer wants to gather feedback from potential users as early as possible. Which method is commonly used in this initial discovery phase?
+
+Select one:
+a. Formal usability testing on a finished high-fidelity prototype
+b. Surveys or interviews using paper sketches or simple prototypes
+c. Heuristic evaluation by the same design team
+d. Releasing the final product to the App Store and collecting reviews
+
+Question
+In the Swift language, what is the effect of marking a property as lazy?
+
+Select one:
+a. It must be explicitly initialized in the class init method.
+b. It will not be stored in memory.
+c. Its initial value is calculated only when the property is first accessed.
+d. It can never be changed once set.
+
+Question
+Which of the following is generally not recommended according to Apple’s Human Interface Guidelines?
+
+Select one:
+a. Using consistently designed icons and symbols
+b. Maintaining platform-consistent gestures and behaviors
+c. Using standard UI components with custom modifications for no reason
+d. Providing clarity in navigation hierarchies
+
+Question
+In Swift, which of these is the correct way to declare a function that can throw errors?
+
+Select one:
+a. func myFunction() -> throws Int
+b. throws func myFunction() -> Int
+c. func myFunction() throws -> Int
+d. throwable func myFunction() -> Int
+
+Question
+In a user-centered design process, what is the main goal of creating wireframes?
+
+Select one:
+a. To finalize all visual design elements.
+b. To represent the structure and layout of screens at a low-fidelity level.
+c. To write the app’s backend code to handle user data.
+d. To confirm exact color codes and typography choices.
+
+Question
+Find the next number in this sequence: 1, 4, 13, 40…
+
+Select one:
+a. 52
+b. 100
+c. 121
+d. 121 is not correct; the next number is 121 in the old sequence
+
+Question
+What is the typical advantage of using protocol-oriented programming in Swift?
+
+Select one:
+a. It completely eliminates the need for classes.
+b. It promotes code reuse by allowing structs and classes to share behavior through protocol conformance.
+c. It forces all structs to be immutable.
+d. It replaces inheritance entirely with singletons.
+
+Question
+In a typical user flow for an iOS app, which design approach helps ensure the app adapts well to different screen sizes?
+
+Select one:
+a. Only supporting a single device orientation
+b. Hardcoding all element positions using fixed frames
+c. Using responsive constraints (Auto Layout) and adaptive UI elements
+d. Forbidding the app to run on iPad devices
+
+Question
+If the sum of two numbers is 20, and one of them is 8, what is the other number?
+
+Select one:
+a. 28
+b. 12
+c. 20
+d. 8
+
+Question
+In Swift, which keyword indicates that a function or property within a subclass replaces one from its superclass?
+
+Select one:
+a. override
+b. extends
+c. replace
+d. final
+
+Question
+You are designing a sign-up flow. Which approach aligns with good UX practice?
+
+Select one:
+a. Requesting only essential information (e.g., email and password).
+b. Forcing users to provide unnecessary details (e.g., full home address, phone, etc.) before they can sign up.
+c. Showing all potential user settings on a single 50-field page.
+d. Hiding the sign-up option under multiple menus for simplicity.
+
+Question
+In Swift, what is the best definition of the ‘didSet’ property observer?
+
+Select one:
+a. A property observer that triggers before the property’s value changes.
+b. A property observer that triggers after the property’s value changes.
+c. A property observer that can only be used with constants.
+d. A property observer that only runs on computed properties.
+
+Question
+A 10x10 square is subdivided into 100 identical 1x1 squares. If a diagonal is drawn from one corner of the large square to the opposite corner, how many of these 1x1 squares does the diagonal pass through (counting from edge to edge)?
+
+Select one:
+a. Fewer than 10
+b. Exactly 10
+c. Between 10 and 20
+d. More than 20

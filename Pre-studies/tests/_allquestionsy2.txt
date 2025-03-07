@@ -1614,4 +1614,542 @@ a. To enforce fixed layouts across all devices
 b. To optimize layouts for different screen sizes and orientations
 c. To reduce the need for Auto Layout constraints
 d. To simplify color scheme selection  
-
+
+Question  
+What is the next number in the sequence: 1, 3, 6, 10, 15, …?  
+
+Select one:  
+a. 20  
+b. 21  
+c. 25  
+d. 28  
+
+Question  
+In Swift, what happens if you attempt to force unwrap an optional that contains nil?  
+
+Select one:  
+a. The program continues with a default value  
+b. A runtime crash occurs  
+c. The optional is automatically converted to 0  
+d. The code skips to the next line  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be prioritized to ensure a seamless user experience?  
+
+Select one:  
+a. Complex animations for visual appeal  
+b. Intuitive and predictable navigation  
+c. Minimal use of standard UI components  
+d. High-contrast neon color schemes  
+
+Question  
+A bag contains 4 red marbles and 6 green marbles. What is the probability of drawing a red marble?  
+
+Select one:  
+a. 2/5  
+b. 4/10  
+c. 1/2  
+d. 3/5  
+
+Question  
+In Swift, which keyword would you use to ensure a class cannot be subclassed?  
+
+Select one:  
+a. sealed  
+b. final  
+c. static  
+d. private  
+
+Question  
+In UI design, what is the primary benefit of using a monochromatic color scheme?  
+
+Select one:  
+a. It maximizes visual contrast  
+b. It simplifies design and ensures harmony  
+c. It increases cognitive load for users  
+d. It guarantees accessibility compliance  
+
+Question  
+What is the next shape in the pattern: Triangle, Circle, Square, Triangle, Circle, …?  
+
+Select one:  
+a. Triangle  
+b. Circle  
+c. Square  
+d. Pentagon  
+
+Question  
+In Swift, what is the purpose of the @escaping attribute for a closure?  
+
+Select one:  
+a. It prevents the closure from being stored  
+b. It allows the closure to outlive the function it’s passed to  
+c. It ensures the closure executes immediately  
+d. It restricts the closure to synchronous execution  
+
+Question  
+If all roses are flowers and some flowers are red, what can be logically concluded?  
+
+Select one:  
+a. All roses are red  
+b. Some roses might be red  
+c. No roses are red  
+d. All flowers are roses  
+
+Question  
+In SwiftUI, how does the .padding() modifier affect a view?  
+
+Select one:  
+a. It resizes the view’s content  
+b. It adds space around the view’s edges  
+c. It aligns the view to the center  
+d. It stretches the view to fill the screen  
+
+Question  
+What is the next number in the sequence: 2, 4, 8, 16, 32, …?  
+
+Select one:  
+a. 48  
+b. 64  
+c. 60  
+d. 56  
+
+Question  
+In Swift, which design pattern ensures loose coupling by allowing objects to subscribe to state changes?  
+
+Select one:  
+a. Factory  
+b. Singleton  
+c. Observer  
+d. Builder  
+
+Question  
+In user-centered design, what is the main advantage of conducting A/B testing?  
+
+Select one:  
+a. It finalizes the app’s backend architecture  
+b. It compares two design options to determine user preference  
+c. It eliminates the need for wireframes  
+d. It ensures compliance with accessibility laws  
+
+Question  
+A fair die is rolled. What is the probability of landing on an odd number?  
+
+Select one:  
+a. 1/3  
+b. 1/2  
+c. 2/3  
+d. 3/4  
+
+Question  
+In Swift, what does the mutating keyword indicate when used in a struct method?  
+
+Select one:  
+a. The method can modify the struct’s properties  
+b. The method cannot return a value  
+c. The method is restricted to read-only access  
+d. The method executes asynchronously  
+
+Question  
+In responsive design for iOS, why is it beneficial to use trait collections?  
+
+Select one:  
+a. They enforce a single layout across all devices  
+b. They allow dynamic adaptation to device characteristics  
+c. They reduce the need for Auto Layout  
+d. They automatically generate color schemes  
+
+Question  
+What is the next number in the sequence: 7, 10, 14, 19, 25, …?  
+
+Select one:  
+a. 30  
+b. 32  
+c. 35  
+d. 28  
+
+Question  
+In Swift, what is the result type of the expression `let x = 3.5 + Double(2)`?  
+
+Select one:  
+a. Int  
+b. Float  
+c. Double  
+d. Decimal  
+
+Question  
+According to Apple’s HIG, what is a key reason to avoid overloading a screen with information?  
+
+Select one:  
+a. It reduces app performance  
+b. It increases user cognitive overload  
+c. It conflicts with dark mode settings  
+d. It violates accessibility standards  
+
+Question  
+If you flip a fair coin twice, what is the probability of getting at least one tail?  
+
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 3/4  
+d. 1/3  
+
+Question  
+In Swift, what OOP concept is demonstrated when a subclass redefines a superclass’s method with a custom implementation?  
+
+Select one:  
+a. Encapsulation  
+b. Inheritance  
+c. Polymorphism  
+d. Abstraction  
+
+Question  
+In design, what does the principle of proximity suggest about element placement?  
+
+Select one:  
+a. Related items should be grouped closely together  
+b. All elements should be evenly spaced  
+c. Unrelated items should be placed near each other  
+d. Elements should overlap for visual interest  
+
+Question  
+What is the next number in the sequence: 5, 11, 23, 47, 95, …?  
+
+Select one:  
+a. 191  
+b. 189  
+c. 187  
+d. 193  
+
+Question  
+In SwiftUI, what does the .opacity() modifier do when applied to a view?  
+
+Select one:  
+a. It changes the view’s size  
+b. It adjusts the view’s transparency  
+c. It rotates the view  
+d. It adds a shadow effect  
+
+Question  
+In UI/UX, what is the primary purpose of creating a persona?  
+
+Select one:  
+a. To define the app’s color palette  
+b. To represent the target user’s needs and behaviors  
+c. To finalize the app’s technical requirements  
+d. To replace usability testing  
+
+Question  
+A deck of 52 cards has 4 aces. What is the probability of drawing an ace on the first draw?  
+
+Select one:  
+a. 1/13  
+b. 1/4  
+c. 1/52  
+d. 4/13  
+
+Question  
+In Swift, what does the @State property wrapper signify in SwiftUI?  
+
+Select one:  
+a. It creates a static variable  
+b. It binds a value to the view and triggers updates when changed  
+c. It prevents the value from being modified  
+d. It stores data permanently across app launches  
+
+Question  
+In design theory, what does effective use of white space typically improve?  
+
+Select one:  
+a. Processing speed  
+b. Visual clarity and focus  
+c. Animation performance  
+d. Color vibrancy  
+
+Question  
+What logical conclusion follows: If all birds have wings, and a sparrow is a bird, then …?  
+
+Select one:  
+a. All animals have wings  
+b. A sparrow has wings  
+c. Some birds do not have wings  
+d. A sparrow is not a bird  
+
+Question  
+In Swift, what is the benefit of using a protocol with a default implementation via an extension?  
+
+Select one:  
+a. It enforces all conforming types to override methods  
+b. It allows optional method implementation for conforming types  
+c. It restricts protocols to class-only conformance  
+d. It eliminates the need for structs in the codebase
+
+Question  
+What is the next number in the sequence: 1, 2, 4, 7, 11, …?  
+
+Select one:  
+a. 16  
+b. 17  
+c. 18  
+d. 20  
+
+Question  
+In Swift, what is the type of the variable declared as `var number: Int??`?  
+
+Select one:  
+a. Int  
+b. Optional<Int>  
+c. Optional<Optional<Int>>  
+d. Double  
+
+Question  
+According to Apple’s Human Interface Guidelines, how should errors be handled in an app?  
+
+Select one:  
+a. Display a generic "Error" message  
+b. Provide clear, user-friendly messages with actionable steps  
+c. Automatically retry the operation without informing the user  
+d. Ignore the error and proceed  
+
+Question  
+A bag has 5 red balls and 3 blue balls. If you draw one ball randomly, what’s the probability it’s blue?  
+
+Select one:  
+a. 3/8  
+b. 5/8  
+c. 1/3  
+d. 3/5  
+
+Question  
+In Swift, what does the `is` keyword do when used with a variable?  
+
+Select one:  
+a. Checks if a value equals another  
+b. Tests if an instance is of a specific type  
+c. Converts a value to a different type  
+d. Compares object identities  
+
+Question  
+In UI design, what is the main difference between typography and font?  
+
+Select one:  
+a. They are the same thing  
+b. Typography is the art of arranging text, font is a specific typeface  
+c. Font is the art of arranging text, typography is the typeface  
+d. Typography refers to color, font refers to size  
+
+Question  
+What is the next shape in the pattern: Square, Circle, Triangle, Square, Circle, …?  
+
+Select one:  
+a. Triangle  
+b. Square  
+c. Circle  
+d. Pentagon  
+
+Question  
+In Swift, what is the result of the expression `true && false || true`?  
+
+Select one:  
+a. true  
+b. false  
+c. nil  
+d. It causes a compile error  
+
+Question  
+Given the statement: "If it’s raining, then the streets are wet. The streets are wet. Therefore, it’s raining." What logical fallacy is committed?  
+
+Select one:  
+a. Affirming the consequent  
+b. Denying the antecedent  
+c. Circular reasoning  
+d. False cause  
+
+Question  
+In SwiftUI, what does the Auto Layout system primarily enable?  
+
+Select one:  
+a. Fixed positioning of UI elements  
+b. Dynamic resizing and positioning based on constraints  
+c. Automatic color adjustments  
+d. Predefined storyboard layouts  
+
+Question  
+What is the next number in the sequence: 2, 5, 14, 41, …?  
+
+Select one:  
+a. 120  
+b. 122  
+c. 124  
+d. 125  
+
+Question  
+In Swift, which design pattern would you use to adapt an incompatible interface to work with existing code?  
+
+Select one:  
+a. Singleton  
+b. Adapter  
+c. Factory  
+d. Observer  
+
+Question  
+In user-centered design, what is the primary goal of usability testing?  
+
+Select one:  
+a. To optimize backend performance  
+b. To ensure visual appeal  
+c. To evaluate how easily users can achieve their goals  
+d. To finalize the color scheme  
+
+Question  
+A box contains 4 black pens and 6 red pens. You draw a black pen and do not replace it. What’s the probability the next draw is red?  
+
+Select one:  
+a. 6/10  
+b. 6/9  
+c. 2/3  
+d. 5/9  
+
+Question  
+In Swift, what happens if you declare a variable with `let` and try to reassign it?  
+
+Select one:  
+a. It silently fails  
+b. It causes a compile-time error  
+c. It automatically converts to `var`  
+d. It resets to nil  
+
+Question  
+In responsive design for iOS, what is the main purpose of using Auto Layout in UIKit?  
+
+Select one:  
+a. To enforce static layouts  
+b. To adapt UI elements to varying screen sizes and orientations  
+c. To reduce memory usage  
+d. To simplify animation creation  
+
+Question  
+What is the next number in the sequence: 3, 6, 12, 24, 48, …?  
+
+Select one:  
+a. 72  
+b. 84  
+c. 96  
+d. 100  
+
+Question  
+In Swift, what does the `??` operator do when used with an optional value?  
+
+Select one:  
+a. Forces the optional to unwrap  
+b. Returns a default value if the optional is nil  
+c. Checks if the optional is nil without unwrapping  
+d. Converts the optional to a boolean  
+
+Question  
+According to Apple’s HIG, what should be avoided to maintain a clean user interface?  
+
+Select one:  
+a. Consistent icon styles  
+b. Excessive decorative elements  
+c. Clear navigation paths  
+d. Subtle animations  
+
+Question  
+If you roll a fair six-sided die twice, what’s the probability of getting a sum greater than 10?  
+
+Select one:  
+a. 1/12  
+b. 1/6  
+c. 1/9  
+d. 3/36  
+
+Question  
+In Swift, what is the main difference between classes and structs in terms of memory management?  
+
+Select one:  
+a. Both are reference types  
+b. Both are value types  
+c. Classes are reference types, structs are value types  
+d. Structs are reference types, classes are value types  
+
+Question  
+In design theory, what does the principle of "contrast" primarily achieve?  
+
+Select one:  
+a. Reduces user interaction  
+b. Highlights differences to draw attention  
+c. Ensures uniform element sizes  
+d. Balances whitespace distribution  
+
+Question  
+What is the next number in the sequence: 1, 3, 9, 27, …?  
+
+Select one:  
+a. 54  
+b. 81  
+c. 72  
+d. 90  
+
+Question  
+In SwiftUI, what does the `.foregroundColor()` modifier do to a view?  
+
+Select one:  
+a. Changes the background color  
+b. Sets the text or icon color  
+c. Adjusts the view’s opacity  
+d. Applies a border color  
+
+Question  
+In UI/UX, what is the main benefit of creating low-fidelity prototypes early in the design process?  
+
+Select one:  
+a. To finalize visual details  
+b. To test complex animations  
+c. To quickly gather user feedback on basic structure  
+d. To replace high-fidelity prototypes  
+
+Question  
+A jar has 3 green marbles and 7 yellow marbles. You draw a green marble and then a yellow marble without replacement. What’s the probability of this sequence?  
+
+Select one:  
+a. 21/100  
+b. 7/30  
+c. 1/5  
+d. 3/10  
+
+Question  
+In Swift, what does the `@objc` attribute do when applied to a method?  
+
+Select one:  
+a. Makes it unavailable to Objective-C  
+b. Exposes it to Objective-C runtime  
+c. Restricts it to Swift-only use  
+d. Marks it as asynchronous  
+
+Question  
+In design, what is the primary purpose of using a grid system in layouts?  
+
+Select one:  
+a. To increase animation speed  
+b. To ensure alignment and consistency  
+c. To reduce the need for color contrast  
+d. To simplify coding requirements  
+
+Question  
+If all dogs bark and Rover is a dog, what can be logically concluded?  
+
+Select one:  
+a. Rover barks  
+b. Some dogs don’t bark  
+c. Rover is not a dog  
+d. All animals bark  
+
+Question  
+In Swift, what design pattern would you use to create a flexible object construction process with multiple steps?  
+
+Select one:  
+a. Singleton  
+b. Builder  
+c. Adapter   

@@ -356,4 +356,65 @@ a. The instance of the conforming type
 b. The protocol itself
 c. The superclass of the conforming type
 d. A static property of the protocol  
-
+Question  
+What is the next number in the sequence: 7, 10, 14, 19, 25, …?  
+
+Select one:  
+a. 30  
+b. 32  
+c. 35  
+d. 28  
+
+Question  
+In responsive design for iOS, why is it beneficial to use trait collections?  
+
+Select one:  
+a. They enforce a single layout across all devices  
+b. They allow dynamic adaptation to device characteristics  
+c. They reduce the need for Auto Layout  
+d. They automatically generate color schemes  
+
+Question  
+In user-centered design, what is the main advantage of conducting A/B testing?  
+
+Select one:  
+a. It finalizes the app’s backend architecture  
+b. It compares two design options to determine user preference  
+c. It eliminates the need for wireframes  
+d. It ensures compliance with accessibility laws  
+
+Question
+In UI design, what is the main difference between typography and font?
+
+Select one:
+a. They are the same thing
+b. Typography is the art of arranging text, font is a specific typeface
+c. Font is the art of arranging text, typography is the typeface
+d. Typography refers to color, font refers to size
+
+Question  
+In Swift, which design pattern would you use to adapt an incompatible interface to work with existing code?  
+
+Select one:  
+a. Singleton  
+b. Adapter  
+c. Factory  
+d. Observer 
+
+Question  
+Given the statement: "If it’s raining, then the streets are wet. The streets are wet. Therefore, it’s raining." What logical fallacy is committed?  
+
+Select one:  
+a. Affirming the consequent  
+b. Denying the antecedent  
+c. Circular reasoning  
+d. False cause  
+
+Question  
+In Swift, what is the result of the expression `true && false || true`?  
+
+Select one:  
+a. true  
+b. false  
+c. nil  
+d. It causes a compile error  

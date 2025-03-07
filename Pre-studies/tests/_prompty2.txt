@@ -21,7 +21,7 @@ Swift design & UI/UX
 
 Rules for question generation:
 
-Do not repeat any questions from this dataset: [Attached]. Ensure all questions are new and unique.
+Do not repeat any questions from the attached dataset. Ensure all questions are new and unique. Do not use markdown on your answers.
 Mix the topics so that the test is varied (not grouped by subject).
 Increase difficulty variety: Some questions should be easy, while others should introduce tricky choices ("trap answers") to encourage critical thinking.
 Make answer choices realistic: Avoid obvious eliminations; create plausible incorrect answers.

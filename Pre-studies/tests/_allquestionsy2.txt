@@ -1374,3 +1374,244 @@ a. Providing a one-way connection between views
 b. Allowing two-way data flow between views  
 c. Holding permanent global values  
 d. Performing animations automatically  
+
+Question
+What is the next number in the sequence: 2, 5, 10, 17, 26, …?  
+Select one:
+a. 35
+b. 37
+c. 39
+d. 41  
+
+Question
+In Swift, what is the primary purpose of the @MainActor attribute?  
+Select one:
+a. To ensure a function runs asynchronously
+b. To restrict code execution to the main thread
+c. To mark a variable as thread-safe
+d. To enable parallel execution across multiple threads 
+ 
+Question
+According to Apple’s Human Interface Guidelines, what is the recommended approach for handling complex gestures?  
+Select one:
+a. Use them freely to enhance interactivity
+b. Avoid them unless they simplify a common task
+c. Reserve them for accessibility features only
+d. Replace all button actions with gestures
+
+Question
+A bag contains 3 red balls and 5 blue balls. If you draw one ball at random, what is the probability it’s red?  
+Select one:
+a. 3/5
+b. 5/8
+c. 3/8
+d. 1/3  
+
+Question
+In Swift, which keyword ensures a variable is initialized only once and cannot be reassigned?  
+Select one:
+a. var
+b. let
+c. static
+d. final 
+ 
+Question
+In UI design, what does the principle of "consistency" aim to achieve?  
+Select one:
+a. Reducing the number of colors used
+b. Making all elements visually identical
+c. Ensuring predictable behavior across the interface
+d. Limiting user interactions to a single pattern 
+ 
+Question
+What is the next shape in this visual pattern: Circle, Square, Circle, Square, Triangle, …?  
+Select one:
+a. Circle
+b. Square
+c. Triangle
+d. Pentagon 
+ 
+Question
+In Swift, what design pattern is exemplified by a class that manages a shared resource, like a network manager, with a single instance?  
+Select one:
+a. Factory
+b. Singleton
+c. Observer
+d. Decorator  
+
+Question
+If a fair die is rolled twice, what is the probability that the sum of the two rolls is exactly 10?  
+Select one:
+a. 1/12
+b. 3/36
+c. 5/36
+d. 1/6  
+
+Question
+In SwiftUI, what does the .frame(width:height:) modifier do to a view?  
+Select one:
+a. Scales the content to fit the specified dimensions
+b. Sets the view’s bounding box to the specified width and height
+c. Crops the view to the given size
+d. Adds padding around the view’s edges 
+ 
+Question
+What is the next number in the sequence: 1, 3, 7, 15, 31, …?  
+Select one:
+a. 47
+b. 63
+c. 62
+d. 64  
+
+Question 
+In Swift, what happens if you declare a property with private access but omit a setter?  
+Select one:
+a. The property becomes read-only outside the class
+b. The property can still be modified internally
+c. The property is inaccessible even within the class
+d. The code fails to compile  
+
+Question
+When designing for accessibility in iOS, what is a key reason to support Dynamic Type?  
+Select one:
+a. To reduce app memory usage
+b. To allow users to adjust text size for readability
+c. To enforce a uniform font across all devices
+d. To simplify localization efforts  
+
+Question 
+If P(A) = 0.4 and P(B) = 0.3, and A and B are independent events, what is P(A and B)?  
+Select one:
+a. 0.7
+b. 0.12
+c. 0.5
+d. 0.24  
+
+Question 
+In Swift, what is the effect of using the inout keyword in a function parameter?  
+Select one:
+a. It makes the parameter optional
+b. It allows the function to modify the original value passed in
+c. It restricts the parameter to read-only access
+d. It forces the parameter to be a constant  
+
+Question 
+In user-centered design, what is the primary benefit of iterating on prototypes?  
+Select one:
+a. Finalizing visual aesthetics early
+b. Reducing development costs by skipping testing
+c. Refining the design based on user feedback
+d. Ensuring the backend is fully functional  
+
+Question 
+What is the next number in this sequence: 10, 13, 19, 28, 40, …?  
+Select one:
+a. 52
+b. 55
+c. 58
+d. 60  
+
+Question 
+In Swift, what OOP concept allows a subclass to provide a specific implementation of a method defined in its superclass?  
+Select one:
+a. Encapsulation
+b. Inheritance
+c. Polymorphism
+d. Abstraction  
+
+Question
+According to Apple’s HIG, why should navigation be kept predictable?  
+Select one:
+a. To reduce the need for animations
+b. To help users quickly learn and use the app
+c. To limit the number of screens
+d. To enforce a single design style  
+
+Question
+If three cards are drawn from a standard deck of 52 without replacement, what is the probability they are all hearts?  
+Select one:
+a. 13/52
+b. (13/52) × (12/51) × (11/50)
+c. 1/4
+d. (13/52)³  
+
+Question
+In Swift, what is the purpose of the @Published property wrapper in Combine?  
+Select one:
+a. To make a property immutable
+b. To automatically notify subscribers of value changes
+c. To restrict access to the property
+d. To lazily initialize the property  
+
+Question
+In UI design, what does effective use of color contrast primarily enhance?  
+Select one:
+a. Animation smoothness
+b. Readability and accessibility
+c. Processing speed
+d. Visual complexity  
+
+Question
+What logical conclusion follows: All cats are mammals. Some mammals are black. Therefore, …?  
+Select one:
+a. All cats are black
+b. Some cats might be black
+c. No cats are black
+d. All mammals are cats  
+
+Question
+In Swift, what design pattern would you use to notify multiple objects of state changes, such as a score update in a game?  
+Select one:
+a. Singleton
+b. Observer
+c. Builder
+d. Adapter  
+
+Question
+What is the next number in the sequence: 3, 9, 27, 81, …?  
+Select one:
+a. 162
+b. 243
+c. 324
+d. 486  
+
+Question
+In SwiftUI, what is the role of the ZStack component?  
+Select one:
+a. To align views horizontally
+b. To stack views on top of each other along the z-axis
+c. To create a grid layout
+d. To manage state between views 
+ 
+Question
+In design, what is the primary purpose of a high-fidelity prototype?  
+Select one:
+a. To explore initial layout ideas
+b. To test detailed interactions and visual design
+c. To finalize backend integration
+d. To replace the need for user testing  
+
+Question
+If a spinner has 8 equal sections numbered 1 to 8, what is the probability of landing on a prime number?  
+Select one:
+a. 3/8
+b. 4/8
+c. 5/8
+d. 2/8  
+
+Question
+In Swift, what does the Self keyword refer to within a protocol?  
+Select one:
+a. The instance of the conforming type
+b. The protocol itself
+c. The superclass of the conforming type
+d. A static property of the protocol  
+
+Question
+In responsive design for iOS, what is the benefit of using size classes?  
+Select one:
+a. To enforce fixed layouts across all devices
+b. To optimize layouts for different screen sizes and orientations
+c. To reduce the need for Auto Layout constraints
+d. To simplify color scheme selection  
+

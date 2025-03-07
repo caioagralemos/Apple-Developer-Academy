@@ -321,3 +321,39 @@ b. Float
 c. Double  
 d. Decimal  
 
+Question
+In Swift, what is the primary purpose of the @MainActor attribute?  
+Select one:
+a. To ensure a function runs asynchronously
+b. To restrict code execution to the main thread
+c. To mark a variable as thread-safe
+d. To enable parallel execution across multiple threads  
+Question
+In Swift, what happens if you declare a property with private access but omit a setter?  
+Select one:
+a. The property becomes read-only outside the class
+b. The property can still be modified internally
+c. The property is inaccessible even within the class
+d. The code fails to compile  
+Question 
+In Swift, what is the effect of using the inout keyword in a function parameter?  
+Select one:
+a. It makes the parameter optional
+b. It allows the function to modify the original value passed in
+c. It restricts the parameter to read-only access
+d. It forces the parameter to be a constant  
+Question 
+In Swift, what design pattern would you use to notify multiple objects of state changes, such as a score update in a game?  
+Select one:
+a. Singleton
+b. Observer
+c. Builder
+d. Adapter  
+Question 
+In Swift, what does the Self keyword refer to within a protocol?  
+Select one:
+a. The instance of the conforming type
+b. The protocol itself
+c. The superclass of the conforming type
+d. A static property of the protocol  
+

@@ -144,3 +144,24 @@ func mainAbstractFactory() {
     drink.consume()
 }
 mainAbstractFactory()
+
+/// Exercicio
+class Person {
+  var id: Int
+  var name: String
+
+  init(called name: String, withId id: Int) {
+    self.name = name
+    self.id = id
+  }
+}
+
+class PersonFactory {
+  nonisolated(unsafe) static var index = 0
+  func createPerson(name: String) -> Person {
+    var person = Person(called: name, withId: PersonFactory.index)
+    PersonFactory.index += 1
+    return person
+  }
+}
+

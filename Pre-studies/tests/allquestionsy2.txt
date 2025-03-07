@@ -555,3 +555,284 @@ a. High-fidelity prototype testing.
 b. Low-fidelity sketches and paper prototypes.
 c. A fully coded production version.
 d. Relying solely on internal developer reviews.
+
+Here is your new quiz in English, following your guidelines precisely, without repeating any previous questions and formatted as requested:
+
+Question  
+In Swift, what is the correct way to specify a function parameter with an external name different from its internal name?
+
+Select one:  
+a. Using the syntax: external internal: Type  
+b. Using the `external internal:` syntax  
+c. Placing the external name before the internal parameter name  
+d. By placing underscores before both the external and internal parameter names
+
+Question  
+Consider the number series: 3, 7, 15, 31, 63... What's the next number?
+
+Select one:  
+a. 95  
+b. 126  
+c. 127  
+d. 128
+
+Question  
+When designing an iOS app, what is one key advantage of using Apple's SF Symbols?
+
+Select one:  
+a. They're automatically adapted for dark mode.  
+b. They always guarantee optimal performance on all devices.  
+c. They remove the need for all custom artwork.  
+d. They provide automatic localization of text labels.
+
+Question  
+Which design pattern would you use to decouple the creation logic of complex objects from the client code?
+
+Select one:  
+a. Singleton  
+b. Builder  
+c. Observer  
+d. Adapter
+
+Question  
+In Swift, what's a property wrapper?
+
+Select one:  
+a. A way to encapsulate inheritance logic.  
+b. A generic class for storing optional values.  
+c. A special structure used to add functionality to properties.  
+d. A function decorator for methods within structs.
+
+Question  
+What does the Swift "associatedtype" keyword do?
+
+Select one:  
+a. Defines an alias for protocols.  
+b. Defines a placeholder type used within protocols.  
+c. Indicates inheritance from another class.  
+d. Defines a computed property’s type.
+
+Question  
+What color scheme does Apple's Human Interface Guidelines recommend for nighttime app usage?
+
+Select one:  
+a. Vibrant, saturated colors  
+b. Light pastel shades  
+c. Darker, muted colors  
+d. Strong, neon highlights
+
+Question  
+A square has sides measuring 8 cm. What is the approximate area of the largest possible circle drawn inside it?
+
+Select one:  
+a. 16π  
+b. 64π  
+c. 100π  
+d. 36π
+
+Question  
+In design terminology, what's the primary goal of using typography effectively?
+
+Select one:  
+a. To increase app size  
+b. To make text attractive and readable  
+c. To fill blank spaces on screens  
+d. To restrict user interaction
+
+Question  
+A fair coin is tossed four times. What's the probability of getting exactly three tails?
+
+Select one:  
+a. 1/4  
+b. 1/8  
+c. 3/8  
+d. 1/2
+
+Question  
+In Swift, the keyword "final" applied to a method means:
+
+Select one:  
+a. The method cannot be overridden in subclasses.  
+b. The method must override a superclass method.  
+c. The method cannot have parameters.  
+d. The method returns a constant value.
+
+Question  
+In Swift, what protocol must a class conform to if it wants to decode JSON data directly into instances?
+
+Select one:  
+a. Codable  
+b. Serializable  
+c. Encodable  
+d. JSONSerializable
+
+Question  
+When designing adaptive layouts for iOS, what's the primary goal?
+
+Select one:  
+a. To create static layouts only  
+b. To use only fixed frame dimensions  
+c. To ensure usability across different devices and orientations  
+d. To use the same layout for all devices
+
+Question  
+What Swift structure allows multiple values to be combined into a single compound value?
+
+Select one:  
+a. Enum  
+b. Struct  
+c. Tuple  
+d. Class
+
+Question  
+Consider the number series: 100, 50, 25, 12.5, ... What is the next number?
+
+Select one:  
+a. 6.75  
+b. 7.25  
+c. 7.25  
+d. 6.25
+
+Question  
+In iOS development, what is the recommended minimum spacing between interactive UI elements according to Apple’s guidelines?
+
+Select one:  
+a. 2 points  
+b. 4 points  
+c. 8 points  
+d. 12 points
+
+Question  
+What OOP concept is demonstrated when subclasses have unique implementations of the same superclass method?
+
+Select one:  
+a. Aggregation  
+b. Encapsulation  
+c. Polymorphism  
+d. Abstraction
+
+Question  
+What Swift type can store only distinct values without duplicates?
+
+Select one:  
+a. Array  
+b. Dictionary  
+c. Set  
+d. Enum
+
+Question  
+What UI design approach prioritizes making interfaces understandable by reducing cognitive load?
+
+Select one:  
+a. Minimalism  
+b. Discoverability  
+c. Affordance  
+d. Constraints
+
+Question  
+What is the correct keyword to create a mutable variable in Swift?
+
+Select one:  
+a. let  
+b. var  
+c. const  
+d. mutable
+
+Question  
+In Swift, how can you provide a default implementation for protocol methods?
+
+Select one:  
+a. By using protocol inheritance.  
+b. Using protocol extensions.  
+c. Declaring methods static.  
+d. Using default keyword inside the class.
+
+Question  
+In the design process, sketches primarily serve which purpose?
+
+Select one:  
+a. Testing final UI animations  
+b. Communicating early-stage ideas quickly  
+c. Finalizing design colors  
+d. Debugging backend code
+
+Question  
+If an event's probability is 0.2, what's the probability it occurs exactly once in two independent trials?
+
+Select one:  
+a. 0.32  
+b. 0.4  
+c. 0.2  
+d. 0.04
+
+Question  
+What is the output of `print(9 % 4)` in Swift?
+
+Select one:  
+a. 0.25  
+b. 4  
+c. 2  
+d. 1
+
+Question  
+In iOS design, what is "affordance"?
+
+Select one:  
+a. The visual clues that indicate how an object is supposed to be used.  
+b. The process of reducing app size.  
+c. Creating visually appealing animations.  
+d. Choosing colors based purely on aesthetics.
+
+Question  
+What Swift keyword is required to implement asynchronous methods?
+
+Select one:  
+a. async  
+b. await  
+c. future  
+d. defer
+
+Question  
+In object-oriented design, which of the following best describes composition?
+
+Select one:  
+a. Creating subclasses from existing classes  
+b. Classes containing instances of other classes to delegate functionality  
+c. Using inheritance to extend classes  
+d. Defining many small interfaces instead of a single large one
+
+Question  
+A dice is rolled twice. What's the probability that the second roll is higher than the first?
+
+Select one:  
+a. 15/36  
+b. 21/36  
+c. 18/36  
+d. 20/36
+
+Question  
+What's the result type of `Int("42")` in Swift?
+
+Select one:  
+a. Int  
+b. String  
+c. Int?  
+d. Bool
+
+Question  
+In Swift design, which practice helps users easily find information quickly on the screen?
+
+Select one:  
+a. Heavy use of animations  
+b. Consistent use of visual hierarchy  
+c. Random arrangement of elements  
+d. Extensive text explanations
+
+Question  
+In SwiftUI, what's the main role of a ViewModifier?
+
+Select one:  
+a. To store reusable state  
+b. To add custom visual behaviors or modifiers to views  
+c. To declare model data  
+d. To handle network requests

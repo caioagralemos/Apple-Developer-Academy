@@ -275,3 +275,49 @@ a. Occam’s razor
 b. Gestalt Principles
 c. DRY principle (Don’t Repeat Yourself)
 d. Dependency Inversion Principle
+
+Question  
+In Swift, when handling errors, which keyword is used before a function call that might throw an error?
+
+Select one:  
+a. catch  
+b. throws  
+c. throw  
+d. try  
+
+Question  
+Which OOP principle involves exposing only necessary details and hiding complexity?
+
+Select one:  
+a. Inheritance  
+b. Abstraction  
+c. Encapsulation  
+d. Polymorphism  
+
+Question  
+In UI/UX design, heuristic evaluation is best described as:
+
+Select one:  
+a. Testing prototypes with end-users  
+b. Gathering quantitative data from A/B tests  
+c. Evaluating the interface against established usability guidelines  
+d. Conducting performance tests with developers  
+
+Question  
+The Swift keyword "associatedtype" is primarily used for:
+
+Select one:  
+a. Defining alternative names for types  
+b. Specifying placeholders within protocol definitions  
+c. Declaring optional properties within a struct  
+d. Defining type-constrained generics within methods  
+
+Question  
+In Swift, the expression let result = 10.0 / 4 returns which type?
+
+Select one:  
+a. Int  
+b. Float  
+c. Double  
+d. Decimal  
+

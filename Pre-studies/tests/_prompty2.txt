@@ -1,0 +1,39 @@
+Generate a multiple-choice quiz with 30 questions covering the following topics:
+
+Logical reasoning
+- Number series
+- Basic probability
+- General logic concepts
+- Visual patterns
+
+Swift programming
+- Basic concepts
+- Object-Oriented Programming (OOP)
+- Swift fundamentals
+- Design patterns
+
+Swift design & UI/UX
+- Basic design theory (color, typography, layout, etc.)
+- Responsive & adaptive design in Swift
+- Apple Human Interface Guidelines
+- User-centered design principles
+- Sketches, prototypes, wireframes, and interaction specifications
+
+Rules for question generation:
+
+Do not repeat any questions from this dataset: [Attached]. Ensure all questions are new and unique.
+Mix the topics so that the test is varied (not grouped by subject).
+Increase difficulty variety: Some questions should be easy, while others should introduce tricky choices ("trap answers") to encourage critical thinking.
+Make answer choices realistic: Avoid obvious eliminations; create plausible incorrect answers.
+Ensure topic balance: The test should contain a fair mix of logic, Swift programming, and design-related questions.
+Format the output like this:
+Question
+[Insert the question]
+
+Select one:
+a. [Option 1]
+b. [Option 2]
+c. [Option 3]
+d. [Option 4]
+
+Repeat this format for all 30 questions. Make sure the questions are challenging, well-balanced, and thought-provoking.

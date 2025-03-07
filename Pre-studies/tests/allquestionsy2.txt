@@ -395,7 +395,7 @@ c. const
 d. final
 
 Question
-Which of the following is not a benefit of using design patterns in software development? *
+Which of the following is not a benefit of using design patterns in software development?
 
 Select one:
 a. They provide reusable solutions to common problems.
@@ -555,8 +555,6 @@ a. High-fidelity prototype testing.
 b. Low-fidelity sketches and paper prototypes.
 c. A fully coded production version.
 d. Relying solely on internal developer reviews.
-
-Here is your new quiz in English, following your guidelines precisely, without repeating any previous questions and formatted as requested:
 
 Question  
 In Swift, what is the correct way to specify a function parameter with an external name different from its internal name?
@@ -836,3 +834,543 @@ a. To store reusable state
 b. To add custom visual behaviors or modifiers to views  
 c. To declare model data  
 d. To handle network requests
+
+Question
+Which of these Swift access control levels restricts the visibility of an entity to its defining module and its extensions?
+
+Select one:
+a. public
+b. private
+c. fileprivate
+d. internal
+
+Question
+A number series is given: 2, 6, 12, 20, 30... What's the next number in the series?
+
+Select one:
+a. 40
+b. 42
+c. 36
+d. 42
+
+Question
+What is the primary benefit of adhering strictly to Apple's Human Interface Guidelines (HIG) when designing interfaces?
+
+Select one:
+a. Faster App Store review approval
+b. Guaranteed higher App Store rankings
+c. Improved consistency and familiarity for users
+d. Eliminating the need for user testing
+
+Question
+Which design pattern in Swift would you use to create objects without specifying their exact classes?
+
+Select one:
+a. Singleton
+b. Observer
+c. Factory Method
+d. Decorator
+
+Question
+What does the Swift keyword "weak" indicate about a variable?
+
+Select one:
+a. The variable can only be modified within its own class
+b. It prevents the variable from being set to nil
+c. It allows a reference that does not keep an object alive
+d. It ensures the variable is thread-safe
+
+Question
+In design, using colors opposite each other on the color wheel creates what kind of color scheme?
+
+Select one:
+a. Analogous
+b. Monochromatic
+c. Complementary
+d. Triadic
+
+Question
+A fair die is rolled three times. What is the probability of getting exactly one "6"?
+
+Select one:
+a. 25/72
+b. 75/216
+c. 1/6
+d. 1/2
+
+Question
+In Swift, which property observer is triggered right before a property changes its value?
+
+Select one:
+a. willSet
+b. didSet
+c. beforeSet
+d. observeSet
+
+Question
+What design principle suggests that systems should be designed so users can recover from errors easily?
+
+Select one:
+a. Affordance
+b. Flexibility
+c. Error tolerance
+d. Visibility
+
+Question
+What does the keyword "static" do when used with a Swift property?
+
+Select one:
+a. Makes the property immutable
+b. Creates an instance-level property
+c. Allows property inheritance
+d. Makes the property belong to the type rather than to an instance
+
+Question
+In Swift, what collection type pairs unique keys with associated values?
+
+Select one:
+a. Array
+b. Tuple
+c. Dictionary
+d. Set
+
+Question
+Which UI design principle helps users clearly distinguish important elements from less important ones?
+
+Select one:
+a. Proximity
+b. Alignment
+c. Hierarchy
+d. Consistency
+
+Question
+If you toss a fair coin 3 times, what's the probability of getting at least one head?
+
+Select one:
+a. 3/8
+b. 1/8
+c. 7/8
+d. 5/8
+
+Question
+What's the primary reason to use wireframes during UI design?
+
+Select one:
+a. To define precise color palettes and fonts
+b. To demonstrate fully animated interactions
+c. To test user navigation at an early design stage
+d. To finalize the app's technical specifications
+
+Question
+Which Swift keyword can you use to prevent subclassing?
+
+Select one:
+a. private
+b. final
+c. static
+d. fileprivate
+
+Question
+What type of Swift collection would you use if you needed to associate pairs of keys and values with unique keys?
+
+Select one:
+a. Array
+b. Set
+c. Dictionary
+d. Tuple
+
+Question
+Which concept describes the degree to which design elements match a user's expectations?
+
+Select one:
+a. Visibility
+b. Feedback
+c. Discoverability
+d. Affordance
+
+Question
+Which Swift feature lets you extend the behavior of existing types without subclassing?
+
+Select one:
+a. Extensions
+b. Generics
+c. Protocols
+d. Closures
+
+Question
+A rectangle is twice as long as it is wide. If the perimeter is 24 cm, what is the width?
+
+Select one:
+a. 4
+b. 6
+c. 8
+d. 12
+
+Question
+What is the result of 8 / 3 in Swift when both numbers are integers?
+
+Select one:
+a. 2.0
+b. 2
+c. 2.666...
+d. 3
+
+Question
+What best defines the concept of “closure” in Swift?
+
+Select one:
+a. A named function that stores values
+b. A block of code that captures values from its surrounding context
+c. A function without any parameters or return value
+d. An instance of a class that wraps methods from a protocol
+
+Question
+What is the probability of getting a sum of 5 when rolling two dice?
+
+Select one:
+a. 1/9
+b. 1/6
+c. 1/9
+d. 5/36
+
+Question
+In object-oriented design, what is meant by "high cohesion"?
+
+Select one:
+a. Methods within a class perform highly related tasks
+b. Classes strongly depend on external implementations
+c. Classes have many different responsibilities
+d. Classes frequently inherit from multiple sources
+
+Question
+In Swift, what's the difference between "==" and "==="?
+
+Select one:
+a. == checks identity, === checks equality
+b. == checks equality of values, === checks identity (same instance)
+c. == checks identity, while === checks equality
+d. There is no difference in Swift
+
+Question
+What color model is primarily used in digital screen design?
+
+Select one:
+a. CMYK
+b. RGB
+c. Pantone
+d. HSL
+
+Question
+What Swift keyword do you use to explicitly refer to the current instance within methods?
+
+Select one:
+a. self
+b. this
+c. current
+d. instance
+
+Question
+In design, which method tests real user interaction without using fully functional software?
+
+Select one:
+a. Unit testing
+b. Heuristic evaluation
+c. A/B testing
+d. Prototype testing
+
+Question
+What probability describes an impossible event?
+
+Select one:
+a. 0
+b. 0.5
+c. 1
+d. -1
+
+Question
+What's the recommended practice by Apple regarding animations in apps?
+
+Select one:
+a. Use animations generously throughout the app.
+b. Completely avoid animations to prevent user distraction.
+c. Use subtle animations primarily to guide user attention and enhance usability.
+d. Only use animations for decorative effects.
+
+Question
+In Swift, what method is automatically invoked when an instance of a class is about to be deallocated?
+
+Select one:
+a. destroy()
+b. dispose()
+c. deinit
+d. release
+
+Question  
+In Swift, which keyword explicitly indicates that a method implementation must be provided by subclasses?
+
+Select one:  
+a. required  
+b. override  
+c. final  
+d. abstract  
+
+Question  
+Analyze this number sequence: 4, 5, 11, 22, 39, … Which number comes next?
+
+Select one:  
+a. 48  
+b. 56  
+c. 52  
+d. 50  
+
+Question  
+In design, the term "discoverability" primarily refers to:
+
+Select one:  
+a. Making hidden features clearly visible  
+b. Reducing elements to minimal essentials  
+c. Ensuring the interface is visually attractive  
+d. Clearly communicating what actions are available  
+
+Question  
+Which Swift protocol allows types to be encoded to and decoded from external representations?
+
+Select one:  
+a. Serializable  
+b. Codable  
+c. Representable  
+d. Parsable  
+
+Question  
+What is the primary reason to adopt responsive design for your iOS apps?
+
+Select one:  
+a. Increased app performance on older devices  
+b. Reducing app storage requirements  
+c. Ensuring usability across multiple screen sizes  
+d. Enforcing device-specific layouts  
+
+Question  
+A fair die is rolled once. What is the probability that the outcome is a number divisible by 2 or 3?
+
+Select one:  
+a. 1/6  
+b. 1/2  
+c. 2/3  
+d. 5/6  
+
+Question  
+What Swift keyword denotes a computed property that cannot be overridden?
+
+Select one:  
+a. static  
+b. lazy  
+c. private  
+d. final  
+
+Question  
+In UI design, what principle helps users see at a glance the importance and order of content?
+
+Select one:  
+a. Proximity  
+b. Balance  
+c. Hierarchy  
+d. Affordance  
+
+Question  
+Consider the series: 4, 9, 16, 25, 36… What is the next number?
+
+Select one:  
+a. 45  
+b. 49  
+c. 56  
+d. 64  
+
+Question  
+In Swift, when handling errors, which keyword is used before a function call that might throw an error?
+
+Select one:  
+a. catch  
+b. throws  
+c. throw  
+d. try  
+
+Question  
+When defining user flows, what represents a step-by-step visualization of how users navigate through an app?
+
+Select one:  
+a. Wireframe  
+b. Flowchart  
+c. Storyboard  
+d. Prototype  
+
+Question  
+Which OOP principle involves exposing only necessary details and hiding complexity?
+
+Select one:  
+a. Inheritance  
+b. Abstraction  
+c. Encapsulation  
+d. Polymorphism  
+
+Question  
+What is the output type of the following Swift code snippet: `type(of: 12 / 5)`?
+
+Select one:  
+a. Double  
+b. Int  
+c. Float  
+d. String  
+
+Question  
+In Swift, what's the correct use case for 'willSet'?
+
+Select one:  
+a. To perform an action right after a property changes  
+b. To perform an action just before a property changes  
+c. To ensure properties are always immutable  
+d. To store lazy initialization logic  
+
+Question  
+A rectangle is three times as long as it is wide. If the perimeter is 32 cm, what's its length?
+
+Select one:  
+a. 4 cm  
+b. 6 cm  
+c. 12 cm  
+d. 24 cm  
+
+Question  
+In Swift, what is the primary role of the protocol extension feature?
+
+Select one:  
+a. Allow multiple inheritance  
+b. Define default implementations of protocol methods  
+c. Declare initializers for stored properties  
+d. Provide type aliases for existing protocols  
+
+Question  
+Two dice are rolled. What's the probability of rolling doubles (two identical numbers)?
+
+Select one:  
+a. 1/12  
+b. 1/6  
+c. 1/3  
+d. 1/4  
+
+Question  
+In UI/UX design, heuristic evaluation is best described as:
+
+Select one:  
+a. Testing prototypes with end-users  
+b. Gathering quantitative data from A/B tests  
+c. Evaluating the interface against established usability guidelines  
+d. Conducting performance tests with developers  
+
+Question  
+The Swift keyword "associatedtype" is primarily used for:
+
+Select one:  
+a. Defining alternative names for types  
+b. Specifying placeholders within protocol definitions  
+c. Declaring optional properties within a struct  
+d. Defining type-constrained generics within methods  
+
+Question  
+In Swift, the expression `let result = 10.0 / 4` returns which type?
+
+Select one:  
+a. Int  
+b. Float  
+c. Double  
+d. Decimal  
+
+Question  
+When following Apple's guidelines, what's the primary benefit of clearly labeling UI icons?
+
+Select one:  
+a. To ensure faster app downloads  
+b. To avoid accessibility issues and improve clarity  
+c. To reduce battery usage  
+d. To match Apple’s visual branding exactly  
+
+Question  
+In Swift, a "computed property":
+
+Select one:  
+a. Is initialized only once and remains constant  
+b. Stores its value persistently  
+c. Calculates its value dynamically each time it's accessed  
+d. Must be explicitly set during object initialization  
+
+Question  
+If a number series follows the pattern n² - 1, what's the next number after 0, 3, 8, 15, 24?
+
+Select one:  
+a. 32  
+b. 42  
+c. 49  
+d. 56  
+
+Question  
+What UI concept describes making interactive elements visually distinct to guide user action?
+
+Select one:  
+a. Visibility  
+b. Consistency  
+c. Affordance  
+d. Discoverability  
+
+Question  
+What type of feedback is most beneficial when testing low-fidelity prototypes?
+
+Select one:  
+a. Detailed technical feedback from developers  
+b. First impressions and general usability feedback from real users  
+c. Highly detailed visual design critiques  
+d. Database performance metrics  
+
+Question  
+Which Swift keyword declares properties or methods belonging to the type itself rather than to an instance?
+
+Select one:  
+a. instance  
+b. static  
+c. public  
+d. private  
+
+Question  
+In OOP, what is composition?
+
+Select one:  
+a. A class inheriting from multiple classes  
+b. Objects containing other objects to provide functionality  
+c. Combining multiple interfaces into one  
+d. Extending behavior by subclassing  
+
+Question  
+If you flip two fair coins, what's the probability of getting exactly one head and one tail?
+
+Select one:  
+a. 1/2  
+b. 1/4  
+c. 3/4  
+d. 1/8  
+
+Question  
+What is the main goal of "usability testing"?
+
+Select one:  
+a. Ensuring error-free code  
+b. Evaluating how easily users interact with the product  
+c. Testing backend performance  
+d. Measuring visual appeal only  
+
+Question  
+In SwiftUI, "@Binding" is mainly used for:
+
+Select one:  
+a. Providing a one-way connection between views  
+b. Allowing two-way data flow between views  
+c. Holding permanent global values  
+d. Performing animations automatically  

@@ -1,0 +1,277 @@
+Question
+What probability describes an impossible event?
+
+Select one:
+a. 0
+b. 0.5
+c. 1
+d. -1
+
+Question
+In design, which method tests real user interaction without using fully functional software?
+
+Select one:
+a. Unit testing
+b. Heuristic evaluation
+c. A/B testing
+d. Prototype testing
+
+Question
+In Swift, what's the difference between "==" and "==="?
+
+Select one:
+a. == checks identity, === checks equality
+b. == checks equality of values, === checks identity (same instance)
+c. == checks identity, while === checks equality
+d. There is no difference in Swift
+
+Question
+In object-oriented design, what is meant by "high cohesion"?
+
+Select one:
+a. Methods within a class perform highly related tasks
+b. Classes strongly depend on external implementations
+c. Classes have many different responsibilities
+d. Classes frequently inherit from multiple sources
+
+Question
+A rectangle is twice as long as it is wide. If the perimeter is 24 cm, what is the width?
+
+Select one:
+a. 4
+b. 6
+c. 8
+d. 12
+
+Question
+Which UI design principle helps users clearly distinguish important elements from less important ones?
+
+Select one:
+a. Proximity
+b. Alignment
+c. Hierarchy
+d. Consistency
+
+Question
+What design principle suggests that systems should be designed so users can recover from errors easily?
+
+Select one:
+a. Affordance
+b. Flexibility
+c. Error tolerance
+d. Visibility
+
+Question
+In design, using colors opposite each other on the color wheel creates what kind of color scheme?
+
+Select one:
+a. Analogous
+b. Monochromatic
+c. Complementary
+d. Triadic
+
+Question
+What does the Swift keyword "weak" indicate about a variable?
+
+Select one:
+a. The variable can only be modified within its own class
+b. It prevents the variable from being set to nil
+c. It allows a reference that does not keep an object alive
+d. It ensures the variable is thread-safe
+
+Question
+Which design pattern in Swift would you use to create objects without specifying their exact classes?
+
+Select one:
+a. Singleton
+b. Observer
+c. Factory Method
+d. Decorator
+
+Question  
+What's the result type of `Int("42")` in Swift?
+
+Select one:  
+a. Int  
+b. String  
+c. Int?  
+d. Bool
+
+Question  
+In object-oriented design, which of the following best describes composition?
+
+Select one:  
+a. Creating subclasses from existing classes  
+b. Classes containing instances of other classes to delegate functionality  
+c. Using inheritance to extend classes  
+d. Defining many small interfaces instead of a single large one
+
+Question  
+In iOS design, what is "affordance"?
+
+Select one:  
+a. The visual clues that indicate how an object is supposed to be used.  
+b. The process of reducing app size.  
+c. Creating visually appealing animations.  
+d. Choosing colors based purely on aesthetics.
+
+Question  
+If an event's probability is 0.2, what's the probability it occurs exactly once in two independent trials?
+
+Select one:  
+a. 0.32  
+b. 0.4  
+c. 0.2  
+d. 0.04
+
+Question  
+What UI design approach prioritizes making interfaces understandable by reducing cognitive load?
+
+Select one:  
+a. Minimalism  
+b. Discoverability  
+c. Affordance  
+d. Constraints
+
+Question  
+In iOS development, what is the recommended minimum spacing between interactive UI elements according to Apple’s guidelines?
+
+Select one:  
+a. 2 points  
+b. 4 points  
+c. 8 points  
+d. 12 points
+
+Question  
+What does the Swift "associatedtype" keyword do?
+
+Select one:  
+a. Defines an alias for protocols.  
+b. Defines a placeholder type used within protocols.  
+c. Indicates inheritance from another class.  
+d. Defines a computed property’s type.
+
+Question  
+In Swift, what's a property wrapper?
+
+Select one:  
+a. A way to encapsulate inheritance logic.  
+b. A generic class for storing optional values.  
+c. A special structure used to add functionality to properties.  
+d. A function decorator for methods within structs.
+
+Question  
+Which design pattern would you use to decouple the creation logic of complex objects from the client code?
+
+Select one:  
+a. Singleton  
+b. Builder  
+c. Observer  
+d. Adapter
+
+Question
+Which Swift operator is used for nil coalescing?
+
+Select one:
+a. ??
+b. !
+c. &&
+d. ||
+
+Question
+In Swift, what does the ‘lazy’ keyword indicate when used with a variable?
+
+Select one:
+a. The variable is computed immediately.
+b. The variable’s initialization is deferred until its first use.
+c. The variable cannot be modified.
+d. The variable is optional by default.
+
+Question
+In Swift, which of the following is used to handle errors thrown by a function?
+
+Select one:
+a. try-catch
+b. do-catch
+c. throw-catch
+d. error handling block
+
+Question
+Which of the following is not a benefit of using design patterns in software development?
+
+Select one:
+a. They provide reusable solutions to common problems.
+b. They help in code organization.
+c. They guarantee optimal performance.
+d. They facilitate communication among developers.
+
+Question
+Which design pattern involves an object receiving its dependencies from the outside rather than creating them itself?
+
+Select one:
+a. Singleton
+b. Observer
+c. Dependency Injection
+d. Factory
+
+Question
+In Swift, what is the effect of using the ‘defer’ statement inside a function?
+
+Select one:
+a. It schedules code to run at the start of the function.
+b. It delays execution until the end of the function’s scope.
+c. It prevents the function from returning a value.
+d. It cancels asynchronous tasks.
+
+Question
+What is the main difference between classes and structs in Swift regarding inheritance?
+
+Select one:
+a. Both support inheritance equally.
+b. Only structs support inheritance.
+c. Only classes support inheritance.
+d. Neither supports inheritance.
+
+Question
+You are designing a sign-up flow. Which approach aligns with good UX practice?
+
+Select one:
+a. Requesting only essential information (e.g., email and password).
+b. Forcing users to provide unnecessary details (e.g., full home address, phone, etc.) before they can sign up.
+c. Showing all potential user settings on a single 50-field page.
+d. Hiding the sign-up option under multiple menus for simplicity.
+
+Question
+A UX designer wants to gather feedback from potential users as early as possible. Which method is commonly used in this initial discovery phase?
+
+Select one:
+a. Formal usability testing on a finished high-fidelity prototype
+b. Surveys or interviews using paper sketches or simple prototypes
+c. Heuristic evaluation by the same design team
+d. Releasing the final product to the App Store and collecting reviews
+
+In SwiftUI or UIKit, which of the following best describes Auto Layout?
+
+Select one:
+a. A system for automatically resizing images.
+b. A system to define your UI’s layout constraints.
+c. A design pattern that standardizes class inheritance.
+d. A technique that converts code into a visual storyboard.
+
+Question
+In the Model-View-Controller (MVC) pattern often used in iOS, which component is responsible for handling user interactions and updating the UI?
+
+Select one:
+a. Model
+b. Controller
+c. View
+d. Delegate
+
+Question
+Which design principle encourages the use of white space, hierarchy, and clear grouping in UI layouts?
+
+Select one:
+a. Occam’s razor
+b. Gestalt Principles
+c. DRY principle (Don’t Repeat Yourself)
+d. Dependency Inversion Principle

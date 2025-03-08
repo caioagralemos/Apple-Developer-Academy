@@ -2693,3 +2693,273 @@ a. Visual cues indicating possible interactions
 b. Animations enhancing user engagement  
 c. Text alignment  
 d. Color selection techniques
+
+Question  
+In Swift, what's the primary purpose of the `lazy` keyword when declaring properties?
+
+Select one:  
+a. To prevent memory leaks  
+b. To defer initialization until first use  
+c. To restrict variable modification  
+d. To enforce immutability  
+
+Question  
+According to Apple's Human Interface Guidelines, what is the recommended use of animations?
+
+Select one:  
+a. To impress users visually at all times  
+b. To subtly enhance clarity and user guidance  
+c. To replace all text-based instructions  
+d. To significantly slow down app interactions  
+
+Question  
+What is the probability of rolling a sum less than 4 with two fair dice?
+
+Select one:  
+a. 3/36  
+b. 2/36  
+c. 1/6  
+d. 1/9  
+
+Question  
+What does the principle of hierarchy accomplish in UI design?
+
+Select one:  
+a. Aligns all elements uniformly  
+b. Clearly establishes visual importance of elements  
+c. Minimizes user interactions  
+d. Ensures equal spacing between elements  
+
+Question  
+In Swift, the keyword 'convenience' in an initializer means:
+
+Select one:  
+a. It must call another initializer from the same class  
+b. It cannot create instances of subclasses  
+c. It can initialize stored properties directly  
+d. It is only usable in extensions  
+
+Question  
+Which concept describes the probability of two events both occurring independently?
+
+Select one:  
+a. Conditional probability  
+b. Joint probability  
+c. Complementary probability  
+d. Mutually exclusive probability  
+
+Question  
+Identify the next number in this series: 3, 8, 15, 24, …
+
+Select one:  
+a. 33  
+b. 34  
+c. 35  
+d. 36  
+
+Question  
+In SwiftUI, what is the purpose of the VStack?
+
+Select one:  
+a. Arranging views vertically  
+b. Stacking views horizontally  
+c. Stacking views in layers  
+d. Arranging views in grids  
+
+Question  
+A prototype in UX design primarily helps designers to:
+
+Select one:  
+a. Evaluate technical database performance  
+b. Visually demonstrate and test interactions  
+c. Select final colors  
+d. Finalize exact app architecture  
+
+Question  
+In Swift, what collection ensures all keys are unique?
+
+Select one:  
+a. Array  
+b. Set  
+c. Dictionary  
+d. Tuple  
+
+Question  
+If the chance of snow today is 30%, what's the probability it snows exactly one day out of two independent days?
+
+Select one:  
+a. 21%  
+b. 42%  
+c. 51%  
+d. 60%  
+
+Question  
+In UI design, effective typography primarily focuses on:
+
+Select one:  
+a. Minimizing visual appeal  
+b. Maximizing readability and clarity  
+c. Ensuring uniformity in color  
+d. Increasing decorative elements  
+
+Question  
+In Swift, what does the 'lazy var' declaration imply?
+
+Select one:  
+a. The variable cannot be modified once set  
+b. The variable is computed every time it's accessed  
+c. The variable initializes once upon first use  
+d. The variable can be accessed globally  
+
+Question  
+What's the probability of getting a total of 4 when rolling two dice?
+
+Select one:  
+a. 1/9  
+b. 1/6  
+c. 1/12  
+d. 1/36  
+
+Question  
+In design patterns, which pattern separates object construction from its representation?
+
+Select one:  
+a. Singleton  
+b. Factory  
+c. Builder  
+d. Observer  
+
+Question  
+Consider the logical statement: "If it’s hot, the air conditioner is on. It’s not hot, therefore…"
+
+Select one:  
+a. The air conditioner must be off  
+b. The air conditioner is definitely on  
+c. It may or may not be on  
+d. It is definitely cold outside  
+
+Question  
+In SwiftUI, what does the 'ForEach' view accomplish?
+
+Select one:  
+a. Defines layout grids  
+b. Iterates over a collection to display views dynamically  
+c. Aligns views vertically  
+d. Creates buttons automatically  
+
+Question  
+The probability of selecting an ace from a standard 52-card deck is:
+
+Select one:  
+a. 1/13  
+b. 1/4  
+c. 4/52  
+d. 2/13  
+
+Question  
+In Swift, what is the role of '@EnvironmentObject'?
+
+Select one:  
+a. Restricts data access between views  
+b. Shares observable data across multiple views  
+c. Manages local storage  
+d. Handles API requests automatically  
+
+Question  
+What's the next number in the sequence: 0, 1, 1, 2, 3, 5, …?
+
+Select one:  
+a. 7  
+b. 8  
+c. 9  
+d. 6  
+
+Question  
+Apple’s Human Interface Guidelines suggest interactive elements should have a minimum tappable size of:
+
+Select one:  
+a. 32x32 points  
+b. 44x44 points  
+c. 50x50 points  
+d. 36x36 points  
+
+Question  
+What logical flaw is committed in this argument: "If it's sunny, I go outside. It's not sunny. Therefore, I don't go outside."?
+
+Select one:  
+a. Affirming the consequent  
+b. Denying the antecedent  
+c. Circular reasoning  
+d. False cause  
+
+Question  
+In Swift, using 'final' with a class prevents:
+
+Select one:  
+a. Method overriding  
+b. Protocol conformance  
+c. Instantiation  
+d. Subclassing  
+
+Question  
+The design concept that elements close together are perceived as related is known as:
+
+Select one:  
+a. Alignment  
+b. Contrast  
+c. Proximity  
+d. Repetition  
+
+Question  
+What's the primary goal of user-centered design?
+
+Select one:  
+a. Technical innovation  
+b. Aesthetic perfection  
+c. Meeting users' real needs  
+d. Reducing development time  
+
+Question  
+If you flip three fair coins, what's the probability of exactly two tails?
+
+Select one:  
+a. 3/8  
+b. 1/8  
+c. 1/2  
+d. 1/4  
+
+Question  
+In Swift, what does the `defer` statement do?
+
+Select one:  
+a. Immediately executes a closure  
+b. Schedules code to run at function exit  
+c. Executes code after app termination  
+d. Defers method calls indefinitely  
+
+Question  
+Which design pattern is optimal when objects need to be notified about changes to another object’s state?
+
+Select one:  
+a. Observer  
+b. Decorator  
+c. Builder  
+d. Singleton  
+
+Question  
+In Swift, using the keyword 'weak' for a variable is primarily intended to:
+
+Select one:  
+a. Limit memory consumption  
+b. Prevent retain cycles  
+c. Restrict variable modification  
+d. Force unwrapping  
+
+Question  
+In design, what is a critical advantage of responsive layouts?
+
+Select one:  
+a. Faster rendering of graphics  
+b. Enhanced usability across various devices  
+c. Reduced file sizes  
+d. Limited color choices

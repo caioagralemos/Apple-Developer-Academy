@@ -499,3 +499,30 @@ a. The enum is asynchronous
 b. The enum can reference itself recursively
 c. The enum is private
 d. The enum can be subclassed
+
+Question  
+What logical flaw is committed in this argument: "If it's sunny, I go outside. It's not sunny. Therefore, I don't go outside."?
+
+Select one:  
+a. Affirming the consequent  
+b. Denying the antecedent  
+c. Circular reasoning  
+d. False cause  
+
+Question  
+In Swift, using 'final' with a class prevents:
+
+Select one:  
+a. Method overriding  
+b. Protocol conformance  
+c. Instantiation  
+d. Subclassing
+
+Question  
+In Swift, the keyword 'convenience' in an initializer means:
+
+Select one:  
+a. It must call another initializer from the same class  
+b. It cannot create instances of subclasses  
+c. It can initialize stored properties directly  
+d. It is only usable in extensions

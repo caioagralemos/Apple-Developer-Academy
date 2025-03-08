@@ -2152,4 +2152,274 @@ In Swift, what design pattern would you use to create a flexible object construc
 Select one:  
 a. Singleton  
 b. Builder  
-c. Adapter   
+c. Adapter   d. Observer
+
+Question  
+In SwiftUI, which property wrapper enables a view to watch and react to external data changes?
+
+Select one:  
+a. @State  
+b. @ObservedObject  
+c. @Private  
+d. @Published
+
+Question  
+A visual pattern shows these shapes repeatedly: Triangle, Circle, Circle, Square, Triangle, Circle, Circle, … What's next?
+
+Select one:  
+a. Square  
+b. Circle  
+c. Triangle  
+d. Pentagon
+
+Question  
+What is a key advantage of wireframes in the early stage of app design?
+
+Select one:  
+a. Define precise color palettes  
+b. Quickly explore structural layout  
+c. Perform database testing  
+d. Finalize interaction animations
+
+Question  
+If you roll two fair dice, what's the probability of getting a sum of exactly 9?
+
+Select one:  
+a. 1/9  
+b. 5/36  
+c. 1/6  
+d. 1/8
+
+Question  
+What Swift feature allows a struct or class to implement functionality defined by multiple protocols?
+
+Select one:  
+a. Delegation  
+b. Extensions  
+c. Multiple inheritance  
+d. Polymorphism
+
+Question  
+According to Apple's Human Interface Guidelines, when is animation most appropriate?
+
+Select one:  
+a. To create visual excitement  
+b. To distract users from delays  
+c. To guide user attention to important changes  
+d. To fill empty screen spaces
+
+Question  
+Identify the next number in this numeric pattern: 2, 7, 22, 67, …
+
+Select one:  
+a. 98  
+b. 202  
+c. 102  
+d. 89
+
+Question  
+In Swift, when is a class initializer required to use the `required` keyword?
+
+Select one:  
+a. When the initializer throws errors  
+b. When the initializer is defined in a superclass and must be implemented by subclasses  
+c. When initializing properties as constants  
+d. When the initializer is asynchronous
+
+Question  
+Which concept relates directly to how easily a user understands what actions are possible within an app interface?
+
+Select one:  
+a. Visibility  
+b. Affordance  
+c. Hierarchy  
+d. Consistency
+
+Question  
+If a spinner has numbers from 1 through 12, what's the probability of landing on a number divisible by 4?
+
+Select one:  
+a. 1/12  
+b. 1/3  
+c. 1/4  
+d. 1/6
+
+Question  
+Which Swift protocol is crucial for objects that handle asynchronous operations and concurrency?
+
+Select one:  
+a. Codable  
+b. ObservableObject  
+c. Equatable  
+d. Sendable
+
+Question  
+What's the primary role of sketches in UX design?
+
+Select one:  
+a. Detailed interaction testing  
+b. Quickly exploring and communicating ideas  
+c. Finalizing UI animations  
+d. Defining typography precisely
+
+Question  
+Consider this number series: 3, 6, 11, 18, 27, … What's the next number?
+
+Select one:  
+a. 38  
+b. 35  
+c. 36  
+d. 34
+
+Question  
+What type of Swift collection guarantees unique elements and provides no inherent order?
+
+Select one:  
+a. Array  
+b. Set  
+c. Dictionary  
+d. Tuple
+
+Question  
+In Swift, what is the function of the `.self` keyword?
+
+Select one:  
+a. Accesses the superclass method  
+b. Refers to the type itself, not an instance  
+c. Initializes a static property  
+d. Calls a computed property
+
+Question  
+What design method involves observing users interacting naturally with a product in their own environment?
+
+Select one:  
+a. Contextual inquiry  
+b. Heuristic evaluation  
+c. A/B testing  
+d. Accessibility testing
+
+Question  
+In Swift, what access control allows visibility only within the defined file?
+
+Select one:  
+a. internal  
+b. fileprivate  
+c. private  
+d. public
+
+Question  
+Which UI design principle primarily ensures that users notice important interactive elements easily?
+
+Select one:  
+a. Alignment  
+b. Affordance  
+c. Proximity  
+d. White space
+
+Question  
+If a number series follows the pattern: 1²+1, 2²+2, 3²+3, what is the 5th term?
+
+Select one:  
+a. 25  
+b. 30  
+c. 28  
+d. 20
+
+Question  
+What UI design term refers to the ease with which users can guess how to interact with UI elements?
+
+Select one:  
+a. Visibility  
+b. Discoverability  
+c. Accessibility  
+d. Usability
+
+Question  
+In SwiftUI, what's the primary use of the `.onAppear` modifier?
+
+Select one:  
+a. Styling the view on load  
+b. Performing actions when the view becomes visible  
+c. Updating data continuously  
+d. Managing network requests
+
+Question  
+When rolling two dice, what's the probability of rolling exactly a 3?
+
+Select one:  
+a. 1/18  
+b. 2/36  
+c. 1/12  
+d. 1/9
+
+Question  
+What's a typical use of Apple's "modal sheet" in app navigation according to HIG?
+
+Select one:  
+a. Permanent screen navigation  
+b. Quick, temporary interactions  
+c. Primary app actions  
+d. Main content browsing
+
+Question  
+In Swift, what keyword defines an immutable variable?
+
+Select one:  
+a. static  
+b. const  
+c. var  
+d. let
+
+Question  
+What is the next number in the sequence: 7, 14, 26, 47, 79, …?
+
+Select one:  
+a. 98  
+b. 110  
+c. 99  
+d. 109
+
+Question  
+What is the key purpose of prototypes in UI/UX design?
+
+Select one:  
+a. Establishing final backend functionality  
+b. Testing and refining interaction patterns  
+c. Selecting typography and colors  
+d. Planning database schemas
+
+Question  
+In Swift, the Combine framework is primarily used for what purpose?
+
+Select one:  
+a. Animations  
+b. Handling asynchronous events  
+c. Creating user interfaces  
+d. Managing databases
+
+Question  
+In a UX context, what principle focuses on reducing unnecessary complexity in user interactions?
+
+Select one:  
+a. Visibility  
+b. Minimalism  
+c. Consistency  
+d. Flexibility
+
+Question  
+A rectangle’s length is four times its width, and its area is 100 cm². What is its width?
+
+Select one:  
+a. 4 cm  
+b. 5 cm  
+c. 10 cm  
+d. 20 cm
+
+Question  
+In Swift, what's the effect of declaring a property `static`?
+
+Select one:  
+a. Each instance gets its own unique copy  
+b. It is shared by all instances of the type  
+c. The property value cannot be changed  
+d. The property becomes optional by default

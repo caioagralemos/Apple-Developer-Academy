@@ -418,3 +418,57 @@ a. true
 b. false  
 c. nil  
 d. It causes a compile error  
+
+Question
+In Swift, when is a class initializer required to use the required keyword?
+
+Select one:
+a. When the initializer throws errors
+b. When the initializer is defined in a superclass and must be implemented by subclasses
+c. When initializing properties as constants
+d. When the initializer is asynchronous
+
+Question
+Which concept relates directly to how easily a user understands what actions are possible within an app interface?
+
+Select one:
+a. Visibility
+b. Affordance
+c. Hierarchy
+d. Consistency
+
+Question
+In Swift, what is the function of the .self keyword?
+
+Select one:
+a. Accesses the superclass method
+b. Refers to the type itself, not an instance
+c. Initializes a static property
+d. Calls a computed property
+
+Question
+Which Swift protocol is crucial for objects that handle asynchronous operations and concurrency?
+
+Select one:
+a. Codable
+b. ObservableObject
+c. Equatable
+d. Sendable
+
+Question
+In Swift, the Combine framework is primarily used for what purpose?
+
+Select one:
+a. Animations
+b. Handling asynchronous events
+c. Creating user interfaces
+d. Managing databases
+
+Question
+In SwiftUI, which property wrapper enables a view to watch and react to external data changes?
+
+Select one:
+a. @State
+b. @ObservedObject
+c. @Private
+d. @Published

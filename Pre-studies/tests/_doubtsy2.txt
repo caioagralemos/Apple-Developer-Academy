@@ -526,3 +526,30 @@ a. It must call another initializer from the same class
 b. It cannot create instances of subclasses  
 c. It can initialize stored properties directly  
 d. It is only usable in extensions
+
+Question  
+What logical reasoning concept describes drawing conclusions based on general rules applied to specific cases?  
+
+Select one:  
+a. Inductive reasoning  
+b. Deductive reasoning  
+c. Circular reasoning  
+d. Analogical reasoning
+
+Question  
+In Swift, which keyword is used to mark a computed property that does not store a value but instead calculates it each time it's accessed?  
+
+Select one:  
+a. dynamic  
+b. lazy  
+c. computed  
+d. No specific keyword is needed
+
+Question  
+In UX/UI design, which technique is commonly used to understand users' needs through observation in real contexts?  
+
+Select one:  
+a. Ethnography  
+b. Surveys  
+c. Usability testing  
+d. Heuristic evaluation

@@ -2963,3 +2963,273 @@ a. Faster rendering of graphics
 b. Enhanced usability across various devices  
 c. Reduced file sizes  
 d. Limited color choices
+
+Question  
+In Swift, which keyword is used to mark a computed property that does not store a value but instead calculates it each time it's accessed?  
+
+Select one:  
+a. dynamic  
+b. lazy  
+c. computed  
+d. No specific keyword is needed  
+
+Question  
+A die is rolled once. What's the probability of rolling a prime number?  
+
+Select one:  
+a. 1/3  
+b. 1/6  
+c. 1/2  
+d. 2/3  
+
+Question  
+According to Apple's Human Interface Guidelines, what’s the main reason for keeping navigation simple?  
+
+Select one:  
+a. It reduces development time  
+b. It enhances usability and reduces cognitive load  
+c. It increases visual appeal  
+d. It is mandatory for App Store approval  
+
+Question  
+What's the next number in the series: 4, 12, 36, 108, …?  
+
+Select one:  
+a. 216  
+b. 324  
+c. 162  
+d. 432  
+
+Question  
+In UX/UI design, which technique is commonly used to understand users' needs through observation in real contexts?  
+
+Select one:  
+a. Ethnography  
+b. Surveys  
+c. Usability testing  
+d. Heuristic evaluation  
+
+Question  
+What is the main advantage of protocol-oriented programming in Swift compared to traditional inheritance?  
+
+Select one:  
+a. Easier debugging  
+b. Increased flexibility via composition  
+c. Automatic memory management  
+d. Less code verbosity  
+
+Question  
+Which UI principle emphasizes that similar functions should use similar visual representations?  
+
+Select one:  
+a. Affordance  
+b. Consistency  
+c. Visibility  
+d. Feedback  
+
+Question  
+Consider this series: 1, 4, 9, 16, 25, 36, … What is the next number?  
+
+Select one:  
+a. 42  
+b. 48  
+c. 49  
+d. 54  
+
+Question  
+In SwiftUI, which component would you use to align multiple views horizontally in a linear fashion?  
+
+Select one:  
+a. VStack  
+b. ZStack  
+c. HStack  
+d. List  
+
+Question  
+What's the main benefit of using prototypes early in the design process?  
+
+Select one:  
+a. Finalize color schemes  
+b. Test interaction patterns quickly  
+c. Replace the need for sketches  
+d. Provide exact coding guidelines  
+
+Question  
+Two dice are rolled. What's the probability of the numbers on both dice being even?  
+
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 1/3  
+d. 1/6  
+
+Question  
+In Swift, what is the main difference between a struct and a class concerning memory allocation?  
+
+Select one:  
+a. Structs use reference semantics; classes use value semantics  
+b. Classes use reference semantics; structs use value semantics  
+c. Both always use reference semantics  
+d. Both always use value semantics  
+
+Question  
+What principle ensures users can quickly understand an interface without additional instructions?  
+
+Select one:  
+a. Visibility  
+b. Discoverability  
+c. Affordance  
+d. Minimalism  
+
+Question  
+In Swift, what protocol is typically used to uniquely identify items within a SwiftUI List?  
+
+Select one:  
+a. Hashable  
+b. Equatable  
+c. Identifiable  
+d. Codable  
+
+Question  
+What's the probability of flipping two fair coins and getting exactly one head?  
+
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 3/4  
+d. 1/8  
+
+Question  
+In design, what does "contrast" primarily help achieve?  
+
+Select one:  
+a. Visual balance  
+b. Highlighting important elements  
+c. Equal spacing  
+d. Color uniformity  
+
+Question  
+Given the series: 1, 2, 4, 7, 11, 16…, what's the next number?  
+
+Select one:  
+a. 20  
+b. 22  
+c. 23  
+d. 24  
+
+Question  
+In Swift, what keyword prevents methods from being overridden by subclasses?  
+
+Select one:  
+a. static  
+b. final  
+c. required  
+d. private  
+
+Question  
+According to Apple's Human Interface Guidelines, the minimum recommended tappable size for interactive elements is:  
+
+Select one:  
+a. 30x30 points  
+b. 44x44 points  
+c. 40x40 points  
+d. 48x48 points  
+
+Question  
+If an event has a probability of 0.7 occurring, what is the probability it occurs exactly once in two independent trials?  
+
+Select one:  
+a. 0.49  
+b. 0.42  
+c. 0.21  
+d. 0.14  
+
+Question  
+In Swift, how do you explicitly unwrap an optional safely, providing an alternative value if it's nil?  
+
+Select one:  
+a. force unwrap (!)  
+b. optional chaining (?)  
+c. nil-coalescing (??)  
+d. implicit unwrapping  
+
+Question  
+In design theory, white space is primarily used to:  
+
+Select one:  
+a. Increase complexity  
+b. Improve readability and visual clarity  
+c. Add colors  
+d. Reduce interaction  
+
+Question  
+What OOP concept involves deriving classes from existing classes to extend functionality?  
+
+Select one:  
+a. Composition  
+b. Abstraction  
+c. Encapsulation  
+d. Inheritance  
+
+Question  
+What's the next number in this pattern: 2, 5, 9, 14, 20…?  
+
+Select one:  
+a. 25  
+b. 26  
+c. 27  
+d. 28  
+
+Question  
+What Swift feature allows defining behavior that multiple classes or structs can adopt, without inheritance?  
+
+Select one:  
+a. Extensions  
+b. Generics  
+c. Protocols  
+d. Closures  
+
+Question  
+In SwiftUI, what's the purpose of the `.cornerRadius()` modifier?  
+
+Select one:  
+a. Add shadow effects  
+b. Round the corners of a view  
+c. Resize view boundaries  
+d. Apply transparency  
+
+Question  
+If you roll a six-sided die three times, what's the probability of rolling a 6 exactly once?  
+
+Select one:  
+a. 25/216  
+b. 75/216  
+c. 91/216  
+d. 36/216  
+
+Question  
+In Swift, a static property is best described as:  
+
+Select one:  
+a. A property shared across all instances of a type  
+b. A property unique to each instance  
+c. A property that never changes  
+d. A property requiring initialization at runtime  
+
+Question  
+Which design concept suggests similar elements should be visually grouped together to suggest related functionality?  
+
+Select one:  
+a. Balance  
+b. Proximity  
+c. Hierarchy  
+d. Alignment  
+
+Question  
+What logical reasoning concept describes drawing conclusions based on general rules applied to specific cases?  
+
+Select one:  
+a. Inductive reasoning  
+b. Deductive reasoning  
+c. Circular reasoning  
+d. Analogical reasoning  

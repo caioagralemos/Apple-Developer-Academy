@@ -472,3 +472,30 @@ a. @State
 b. @ObservedObject
 c. @Private
 d. @Published
+
+Question
+What is a primary purpose of a storyboard in UI/UX design?
+
+Select one:
+a. Establish final colors and fonts
+b. Visually map user journeys through an interface
+c. Provide detailed code specifications
+d. Test database functionality
+
+Question
+In Swift programming, how is memory management primarily handled?
+
+Select one:
+a. Automatic reference counting
+b. Manual allocation
+c. Garbage collection
+d. Static analysis tools
+
+Question
+What does the Swift keyword indirect indicate when used with enums?
+
+Select one:
+a. The enum is asynchronous
+b. The enum can reference itself recursively
+c. The enum is private
+d. The enum can be subclassed

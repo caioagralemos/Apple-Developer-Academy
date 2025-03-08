@@ -2423,3 +2423,273 @@ a. Each instance gets its own unique copy
 b. It is shared by all instances of the type  
 c. The property value cannot be changed  
 d. The property becomes optional by default
+
+Question  
+Which Swift keyword is used to define a protocol requirement that must be implemented by subclasses explicitly?
+
+Select one:  
+a. override  
+b. required  
+c. mandatory  
+d. final
+
+Question  
+In UI/UX design, the "visibility principle" primarily ensures that:
+
+Select one:  
+a. All buttons use bright colors  
+b. Users easily see available actions and system status  
+c. Hidden features remain unnoticed  
+d. Text always appears in bold
+
+Question  
+Two dice are rolled. What's the probability their sum is at most 3?
+
+Select one:  
+a. 2/36  
+b. 1/36  
+c. 3/36  
+d. 3/36
+
+Question  
+In Swift, what happens when you declare a property as private(set)?
+
+Select one:  
+a. It becomes inaccessible externally.  
+b. It can only be set within the declaring file.  
+c. It can be read externally but only modified internally.  
+d. It cannot be set or modified at all.
+
+Question  
+A user repeatedly taps a button, but nothing visibly happens. According to UX design principles, what's likely missing?
+
+Select one:  
+a. Consistency  
+b. Feedback  
+c. Affordance  
+d. Hierarchy
+
+Question  
+Determine the next number in the sequence: 2, 3, 6, 11, 18, …
+
+Select one:  
+a. 28  
+b. 27  
+c. 29  
+d. 36
+
+Question  
+What is a primary purpose of a storyboard in UI/UX design?
+
+Select one:  
+a. Establish final colors and fonts  
+b. Visually map user journeys through an interface  
+c. Provide detailed code specifications  
+d. Test database functionality
+
+Question  
+In Swift, what does the `.self` suffix (as in `Int.self`) represent?
+
+Select one:  
+a. An instance of the type  
+b. A type object reference  
+c. A property reference  
+d. A static computed property
+
+Question  
+If you roll two dice, what's the probability their product is exactly 12?
+
+Select one:  
+a. 1/6  
+b. 1/9  
+c. 2/9  
+d. 1/12
+
+Question  
+According to Apple’s Human Interface Guidelines, why should controls maintain consistent behaviors?
+
+Select one:  
+a. To simplify coding complexity  
+b. To reduce user confusion and improve usability  
+c. To avoid animations  
+d. To speed up device performance
+
+Question  
+In Swift programming, how is memory management primarily handled?
+
+Select one:  
+a. Automatic reference counting  
+b. Manual allocation  
+c. Garbage collection  
+d. Static analysis tools
+
+Question  
+Consider the numeric pattern: 1, 2, 6, 24, 120, … What's next?
+
+Select one:  
+a. 144  
+b. 240  
+c. 720  
+d. 480
+
+Question  
+Which design principle involves grouping similar items to help users understand relationships?
+
+Select one:  
+a. Contrast  
+b. Proximity  
+c. Balance  
+d. Repetition
+
+Question  
+What is the main advantage of using adaptive design in SwiftUI?
+
+Select one:  
+a. Faster loading time  
+b. Layout adaptability to different device sizes and orientations  
+c. More complex animations  
+d. Less coding effort
+
+Question  
+Which Swift feature best illustrates polymorphism?
+
+Select one:  
+a. Using static properties  
+b. Implementing protocols across diverse types  
+c. Creating lazy properties  
+d. Declaring constants with `let`
+
+Question  
+What does the Swift keyword `indirect` indicate when used with enums?
+
+Select one:  
+a. The enum is asynchronous  
+b. The enum can reference itself recursively  
+c. The enum is private  
+d. The enum can be subclassed
+
+Question  
+In probability, what's the chance of getting heads exactly once when flipping three fair coins?
+
+Select one:  
+a. 1/2  
+b. 3/8  
+c. 1/4  
+d. 1/8
+
+Question  
+In SwiftUI, what's the primary benefit of using the `Spacer()` view?
+
+Select one:  
+a. Adds fixed-size padding around views  
+b. Dynamically fills available space in layouts  
+c. Controls text wrapping  
+d. Adjusts font size dynamically
+
+Question  
+What is the next number in this number series: 1, 1, 2, 6, 24, 120, …?
+
+Select one:  
+a. 144  
+b. 240  
+c. 360  
+d. 720
+
+Question  
+Which UI/UX method involves gathering data by comparing users' reactions to two design variants?
+
+Select one:  
+a. User interviews  
+b. A/B testing  
+c. Ethnographic research  
+d. Wireframing
+
+Question  
+In Swift, which keyword indicates that a closure can modify the state of the enclosing scope?
+
+Select one:  
+a. mutable  
+b. capturing  
+c. escaping  
+d. closure state changes implicitly
+
+Question  
+Which Apple design guideline principle suggests minimizing visual clutter to enhance user clarity?
+
+Select one:  
+a. Minimalism  
+b. Contrast  
+c. Alignment  
+d. Simplicity
+
+Question  
+In Swift, how can you prevent a class method from being overridden by subclasses?
+
+Select one:  
+a. Use the `static` keyword  
+b. Use the `final` keyword  
+c. Declare it with `let`  
+d. Declare it as `private`
+
+Question  
+If a rectangle's length is reduced by 20%, by what percentage must the width increase to keep the area constant?
+
+Select one:  
+a. 20%  
+b. 25%  
+c. 30%  
+d. 40%
+
+Question  
+Which of the following UI design elements directly communicates the possibility of interaction?
+
+Select one:  
+a. Alignment  
+b. Affordance  
+c. Balance  
+d. Hierarchy
+
+Question  
+If the probability it rains today is 40%, what's the probability it doesn't rain today or tomorrow, assuming independence?
+
+Select one:  
+a. 36%  
+b. 60%  
+c. 64%  
+d. 16%
+
+Question  
+What is a key benefit of using protocol-oriented programming in Swift over inheritance?
+
+Select one:  
+a. Easier runtime debugging  
+b. Increased flexibility through composition and protocol conformance  
+c. Automatic memory management  
+d. Higher performance for computationally heavy tasks
+
+Question  
+In design theory, the principle of balance primarily aims to achieve what?
+
+Select one:  
+a. Equal visual weight across elements  
+b. High color contrast  
+c. Minimalist appearance  
+d. Detailed animations
+
+Question  
+Given the Swift code `let nums = [1, 2, 3]; let result = nums.map { $0 * 2 }`, what's `result`?
+
+Select one:  
+a. [2, 3, 4]  
+b. [1, 2, 3, 1, 2, 3]  
+c. [2, 4, 6]  
+d. [3, 4, 5]
+
+Question  
+In design terms, "affordance" is best described as:
+
+Select one:  
+a. Visual cues indicating possible interactions  
+b. Animations enhancing user engagement  
+c. Text alignment  
+d. Color selection techniques

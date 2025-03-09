@@ -3233,3 +3233,282 @@ a. Inductive reasoning
 b. Deductive reasoning  
 c. Circular reasoning  
 d. Analogical reasoning  
+
+Question
+In Swift, which of the following is a correct usage of the guard statement?
+
+Select one:
+a. Checking conditions and executing code only if true
+b. Providing an early exit if conditions aren’t met
+c. Preventing errors from occurring
+d. Automatically initializing properties
+
+Question
+Which principle of UI design suggests that related items should be visually grouped together?
+
+Select one:
+a. Balance
+b. Proximity
+c. Alignment
+d. Contrast
+
+Question
+Find the next number in this numeric sequence: 4, 11, 30, 67, …
+
+Select one:
+a. 138
+b. 122
+c. 126
+d. 148
+
+Question
+If two fair dice are rolled, what is the probability their sum is exactly 7 or 11?
+
+Select one:
+a. 2/9
+b. 5/36
+c. 8/36
+d. 1/3
+
+Question
+In UX design, why is a low-fidelity prototype useful?
+
+Select one:
+a. To test detailed visual styles
+b. To quickly validate ideas with minimal resources
+c. To finalize backend logic
+d. To avoid usability testing
+
+Question
+In Swift, the open access modifier allows:
+
+Select one:
+a. Subclassing and overriding methods across different modules
+b. Access within the file only
+c. Only read-only properties
+d. Static properties only
+
+Question
+Two dice are rolled. What’s the probability of obtaining a total of 11?
+
+Select one:
+a. 2/36
+b. 3/36
+c. 4/36
+d. 5/36
+
+Question
+What design pattern is particularly helpful to encapsulate complex construction logic of objects?
+
+Select one:
+a. Singleton
+b. Factory Method
+c. Adapter
+d. Decorator
+
+Question
+Identify the next shape: Square, Circle, Triangle, Square, Circle, …?
+
+Select one:
+a. Triangle
+b. Square
+c. Circle
+d. Pentagon
+
+Question
+In UI design, what is the primary benefit of adhering to Apple’s recommended iconography (SF Symbols)?
+
+Select one:
+a. Faster App Store review
+b. Ensuring visual consistency
+c. Improved memory performance
+d. Reduced coding effort
+
+Question
+Which Swift feature allows you to extend functionality without altering original source code?
+
+Select one:
+a. Extensions
+b. Inheritance
+c. Polymorphism
+d. Generics
+
+Question
+Which UX principle emphasizes immediate feedback after user interactions?
+
+Select one:
+a. Discoverability
+b. Affordance
+c. Feedback
+d. Visibility
+
+Question
+What is the next number in the series: 1, 8, 27, 64, …?
+
+Select one:
+a. 125
+b. 100
+c. 81
+d. 144
+
+Question
+A die is rolled. What’s the probability of rolling a multiple of 3?
+
+Select one:
+a. 1/2
+b. 1/3
+c. 1/6
+d. 1/3
+
+Question
+In UI/UX design, why should you ensure sufficient spacing between interactive elements?
+
+Select one:
+a. To speed up app loading
+b. To avoid user mistakes by accidental taps
+c. To maximize available space
+d. To simplify coding
+
+Question
+In Swift, a tuple is best described as:
+
+Select one:
+a. A collection type with unordered unique elements
+b. An ordered, immutable group of different values
+c. A mutable collection with indexed items
+d. A dictionary with optional keys
+
+Question
+In logic, an argument that goes from specific cases to a general conclusion is called:
+
+Select one:
+a. Deductive reasoning
+b. Inductive reasoning
+c. Circular reasoning
+d. Contradiction
+
+Question
+What does Apple recommend for clearly communicating tappable UI elements?
+
+Select one:
+a. Use vibrant, neon colors
+b. Ensure consistent affordance cues
+c. Rely solely on animations
+d. Use complex gestures
+
+Question
+In SwiftUI, the .clipShape() modifier is used for:
+
+Select one:
+a. Adding color to views
+b. Cropping views into specific shapes
+c. Animating views
+d. Adjusting padding around views
+
+Question
+What’s the next number in the sequence: 1, 5, 14, 30, 55…?
+
+Select one:
+a. 60
+b. 75
+c. 81
+d. 91
+
+Question
+If you flip a coin twice, what’s the probability of getting no tails?
+
+Select one:
+a. 1/4
+b. 1/2
+c. 3/4
+d. 1/8
+
+Question
+In UI design, what does the principle of alignment help achieve?
+
+Select one:
+a. Enhances readability and organization
+b. Maximizes screen density
+c. Restricts interaction
+d. Highlights decorative elements
+
+Question
+In Swift, what keyword specifies that a class or property is accessible only within the module it’s defined?
+
+Select one:
+a. public
+b. fileprivate
+c. internal
+d. private
+
+Question
+A square has a diagonal of length √50 cm. What’s the length of one side?
+
+Select one:
+a. 5 cm
+b. 7 cm
+c. 10 cm
+d. 25 cm
+
+Question
+In UX, the principle of “feedback” means:
+
+Select one:
+a. Making all actions reversible
+b. Clearly informing users about the results of their interactions
+c. Automatically correcting user input errors
+d. Reducing visual complexity
+
+Question
+In Swift, which keyword is used to define methods that must be overridden by subclasses?
+
+Select one:
+a. final
+b. override
+c. abstract
+d. open
+
+Question
+If a spinner has equal sectors numbered 1–8, what’s the probability it lands on an even number or 7?
+
+Select one:
+a. 3/8
+b. 4/8
+c. 5/8
+d. 1/2
+
+Question
+What’s the main goal of responsive design for iOS apps?
+
+Select one:
+a. Ensure visual complexity
+b. Support multiple screen sizes seamlessly
+c. Maximize app download speed
+d. Simplify backend integration
+
+Question
+What is the next number in the sequence: 2, 8, 18, 32, …?
+
+Select one:
+a. 40
+b. 48
+c. 50
+d. 50
+
+Question
+In design, what does the principle of balance mainly refer to?
+
+Select one:
+a. Equally distributing visual weight across a layout
+b. Making all UI elements symmetrical
+c. Limiting the number of UI elements
+d. Using only neutral colors
+
+Question
+In Swift, what keyword specifies that a closure parameter might be called after the function returns?
+
+Select one:
+a. async
+b. escaping
+c. lazy
+d. deferred

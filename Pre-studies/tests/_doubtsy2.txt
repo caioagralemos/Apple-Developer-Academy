@@ -553,3 +553,12 @@ a. Ethnography
 b. Surveys  
 c. Usability testing  
 d. Heuristic evaluation
+
+Question
+In Swift, the open access modifier allows:
+
+Select one:
+a. Subclassing and overriding methods across different modules
+b. Access within the file only
+c. Only read-only properties
+d. Static properties only

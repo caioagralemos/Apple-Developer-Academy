@@ -4000,3 +4000,273 @@ a. Multiple instance creation
 b. Only one instance of a class exists  
 c. Automatic memory deallocation  
 d. Multiple instances through subclasses  
+
+Question 
+Which of the following best describes a binary search algorithm?
+
+Select one:
+a. It checks all elements one by one
+b. It divides the search space in half each time
+c. It sorts the array before searching
+d. It uses a stack to track visited elements
+
+Question
+In Swift, what does the defer keyword do?
+
+Select one:
+a. Executes code at the start of a function
+b. Delays execution until the end of the function
+c. Runs only if the function throws an error
+d. Forces an early return from the function
+
+Question
+According to Apple’s Human Interface Guidelines, what is the best way to indicate an interactive button?
+
+Select one:
+a. Use an animation on hover
+b. Use a distinct color with a clear label
+c. Rely on users to tap and find out
+d. Make it large and cover most of the screen
+
+Question
+If you roll a six-sided die twice, what is the probability of rolling at least one 6?
+
+Select one:
+a. 1/6
+b. 5/6
+c. 11/36
+d. 1/3
+
+Question
+What SwiftUI feature helps layout elements dynamically across different screen sizes?
+
+Select one:
+a. Auto Layout
+b. GeometryReader
+c. Frame constraints
+d. UIStackView
+
+Question
+A fair coin is flipped three times. What is the probability of getting exactly two heads?
+
+Select one:
+a. 1/8
+b. 3/8
+c. 1/4
+d. 1/2
+
+Question
+In Swift, which property observer runs before the value of a property changes?
+
+Select one:
+a. willSet
+b. didSet
+c. beforeChange
+d. observeSet
+
+Question
+What is a primary benefit of using adaptive design in SwiftUI?
+
+Select one:
+a. Faster app performance
+b. Layout adaptability to different device sizes and orientations
+c. More complex animations
+d. Less need for manual testing
+
+Question
+What is the next number in the sequence: 4, 9, 16, 25, …?
+
+Select one:
+a. 30
+b. 36
+c. 42
+d. 49
+
+Question
+Which of the following is an essential principle of user-centered design?
+
+Select one:
+a. Designing based on personal intuition
+b. Prioritizing user feedback throughout development
+c. Focusing only on business requirements
+d. Avoiding testing to speed up development
+
+Question
+What is the probability of rolling an even number on a fair six-sided die?
+
+Select one:
+a. 1/6
+b. 1/3
+c. 1/2
+d. 2/3
+
+Question
+Which Swift protocol allows an object to notify multiple listeners about state changes?
+
+Select one:
+a. ObservableObject
+b. Delegate
+c. Factory
+d. Observer
+
+Question
+Which of the following UI design elements directly communicates that an element is interactive?
+
+Select one:
+a. Color contrast
+b. Affordance
+c. Alignment
+d. White space
+
+Question
+A rectangle is three times as long as it is wide. If the perimeter is 48 cm, what is its width?
+
+Select one:
+a. 6 cm
+b. 8 cm
+c. 10 cm
+d. 12 cm
+
+Question
+What is the effect of marking a property as lazy in Swift?
+
+Select one:
+a. It is computed only when first accessed
+b. It must be initialized in the class constructor
+c. It cannot be changed once set
+d. It is automatically synchronized across threads
+
+Question
+In probability, if P(A) = 0.3 and P(B) = 0.5, and events A and B are independent, what is P(A and B)?
+
+Select one:
+a. 0.15
+b. 0.5
+c. 0.8
+d. 1.0
+
+Question
+Which Swift feature allows for code reuse by extending existing types without subclassing?
+
+Select one:
+a. Generics
+b. Protocols
+c. Extensions
+d. Closures
+
+Question
+If a circle is inscribed inside a square with side length 10, what is the approximate area of the circle?
+
+Select one:
+a. 25π
+b. 50π
+c. 100
+d. 100π
+
+Question
+Which design principle suggests keeping a clear hierarchy to help users distinguish primary from secondary content?
+
+Select one:
+a. Proximity
+b. Contrast
+c. Alignment
+d. Hierarchy
+
+Question
+A six-sided die is rolled twice. What is the probability that the sum is exactly 7?
+
+Select one:
+a. 1/6
+b. 1/8
+c. 1/9
+d. 1/12
+
+Question
+What is the next number in the sequence: 3, 6, 11, 18, 27, …?
+
+Select one:
+a. 35
+b. 38
+c. 40
+d. 45
+
+Question
+What does the Swift guard statement primarily achieve?
+
+Select one:
+a. Ensures safe unwrapping of optionals
+b. Stops execution immediately
+c. Loops over optionals
+d. Converts errors into nil
+
+Question
+Which of the following helps improve contrast and readability in UI design?
+
+Select one:
+a. High-saturation colors
+b. Monochrome color schemes
+c. Sufficient contrast between text and background
+d. Minimalist typography
+
+Question
+Which Swift access level makes an entity visible only within the same file?
+
+Select one:
+a. public
+b. internal
+c. fileprivate
+d. private
+
+Question
+A fair die is rolled three times. What is the probability of rolling exactly one “6”?
+
+Select one:
+a. 15/36
+b. 25/72
+c. 1/6
+d. 1/2
+
+Question 
+Which Apple UI principle suggests that elements should behave as users expect?
+
+Select one:
+a. Discoverability
+b. Feedback
+c. Affordance
+d. Consistency
+
+Question
+A square’s side length is doubled. By what factor does its area increase?
+
+Select one:
+a. 2
+b. 4
+c. 6
+d. 8
+
+Question
+In Swift, which keyword is used to define a computed property?
+
+Select one:
+a. var
+b. let
+c. computed
+d. override
+
+Question
+If a rectangle’s width is increased by 20% while keeping its length constant, by what percentage does its area increase?
+
+Select one:
+a. 10%
+b. 20%
+c. 25%
+d. 40%
+
+Question
+Which of the following is a core concept of accessibility in UI design?
+
+Select one:
+a. Using only grayscale
+b. Supporting Dynamic Type for text scaling
+c. Avoiding animations
+d. Reducing color contrast

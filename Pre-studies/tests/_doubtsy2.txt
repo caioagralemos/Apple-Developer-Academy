@@ -594,3 +594,21 @@ a. A harmonious, calming look
 b. Vibrant visual contrast
 c. Reduced user interaction
 d. Improved readability
+
+Question
+If you roll a six-sided die twice, what is the probability of rolling at least one 6?
+
+Select one:
+a. 1/6
+b. 5/6
+c. 11/36
+d. 1/3
+
+Question
+Which Apple UI principle suggests that elements should behave as users expect?
+
+Select one:
+a. Discoverability
+b. Feedback
+c. Affordance
+d. Consistency

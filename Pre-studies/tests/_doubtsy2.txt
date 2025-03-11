@@ -578,3 +578,19 @@ a. map()
 b. filter()
 c. enumerated()
 d. indexed()
+
+Question
+In Swift, what does the try? keyword indicate?
+Select one:
+a. Throws an error if the function fails
+b. Converts errors into optional values
+c. Prevents compilation errors
+d. Forces function execution asynchronously
+
+Question
+In design, using complementary colors primarily creates what effect?
+Select one:
+a. A harmonious, calming look
+b. Vibrant visual contrast
+c. Reduced user interaction
+d. Improved readability

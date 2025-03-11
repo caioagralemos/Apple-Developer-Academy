@@ -3752,3 +3752,251 @@ a. Using fixed dimensions everywhere
 b. Avoiding layout modifiers
 c. Using flexible frames and layout constraints
 d. Hardcoding all sizes explicitly
+
+Question  
+In Swift, what does the `map` function primarily do?  
+Select one:  
+a. Filters elements based on a condition  
+b. Transforms each element in a collection  
+c. Aggregates elements into one result  
+d. Sorts elements alphabetically  
+
+Question  
+Which logical reasoning concept is exemplified by the series: 2, 4, 8, 16, 32, …?  
+Select one:  
+a. Arithmetic progression  
+b. Geometric progression  
+c. Fibonacci series  
+d. Prime series  
+
+Question  
+According to Apple's HIG, the ideal way to handle error states is to:  
+Select one:  
+a. Automatically correct errors without informing the user  
+b. Display detailed technical errors  
+c. Clearly communicate the problem and offer a solution  
+d. Ignore the errors silently  
+
+Question  
+If two dice are rolled, what's the probability the sum is exactly 3?  
+Select one:  
+a. 1/18  
+b. 1/12  
+c. 1/6  
+d. 1/36  
+
+Question  
+In Swift, which pattern helps manage complex object creation processes clearly step-by-step?  
+Select one:  
+a. Adapter  
+b. Builder  
+c. Singleton  
+d. Factory Method  
+
+Question  
+According to design principles, why should excessive animations be avoided?  
+Select one:  
+a. To minimize cognitive load and distraction  
+b. To reduce app download size  
+c. To improve battery life  
+d. To comply with App Store rules  
+
+Question  
+What number logically follows in the series: 1, 3, 7, 13, 21...?  
+Select one:  
+a. 20  
+b. 19  
+c. 21  
+d. 22  
+
+Question  
+In Swift, what is the primary use of a `protocol`?  
+Select one:  
+a. To create fixed-size arrays  
+b. To define a blueprint of methods or properties  
+c. To establish single-instance classes  
+d. To handle errors  
+
+Question  
+In UI design, what's the primary benefit of good visual hierarchy?  
+Select one:  
+a. Increased loading speed  
+b. Easier information scanning  
+c. Greater visual complexity  
+d. Consistent font sizes  
+
+Question  
+What Swift language feature helps you encapsulate related properties and behaviors without inheritance?  
+Select one:  
+a. Protocol-oriented programming  
+b. Class inheritance  
+c. Singleton pattern  
+d. Tuple storage  
+
+Question  
+When flipping a fair coin three times, what's the probability of getting exactly one head?  
+Select one:  
+a. 1/8  
+b. 3/8  
+c. 1/2  
+d. 3/4  
+
+Question  
+In Swift, the keyword "override" signifies what?  
+Select one:  
+a. Defining a completely new method  
+b. A method is replacing a superclass method  
+c. A property is immutable  
+d. Method visibility is limited  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should buttons clearly communicate?  
+Select one:  
+a. Brand identity  
+b. Affordance  
+c. App version number  
+d. Complex gestures  
+
+Question  
+What logical fallacy occurs if one argues: "If it snows, the street will be white. The street is white, therefore it snowed"?  
+Select one:  
+a. Affirming the consequent  
+b. Denying the antecedent  
+c. Circular reasoning  
+d. False equivalence  
+
+Question  
+In Swift, how is the mutability of a property within a struct method declared?  
+Select one:  
+a. var keyword  
+b. mutable  
+c. mutating  
+d. dynamic  
+
+Question  
+In design, using complementary colors primarily creates what effect?  
+Select one:  
+a. A harmonious, calming look  
+b. Vibrant visual contrast  
+c. Reduced user interaction  
+d. Improved readability  
+
+Question  
+What's the probability of rolling a prime number on a fair six-sided die?  
+Select one:  
+a. 1/2  
+b. 1/3  
+c. 2/3  
+d. 5/6  
+
+Question  
+In SwiftUI, what does `.clipShape()` primarily do?  
+Select one:  
+a. Adds padding  
+b. Clips content to a specified shape  
+c. Changes color opacity  
+d. Adjusts font sizes dynamically  
+
+Question  
+In UI/UX, what’s the main goal of usability testing?  
+Select one:  
+a. Ensuring high app ratings  
+b. Testing backend stability  
+c. Identifying user interaction issues  
+d. Selecting appropriate colors  
+
+Question  
+Identify the next number in this sequence: 4, 9, 19, 39, …?  
+Select one:  
+a. 59  
+b. 69  
+c. 79  
+d. 59  
+
+Question  
+In Swift, the term "lazy" refers to a property that:  
+Select one:  
+a. Cannot be modified  
+b. Delays initialization until first accessed  
+c. Is shared across instances  
+d. Always initializes immediately  
+
+Question  
+What UI concept suggests grouping related elements close together to show their association?  
+Select one:  
+a. Alignment  
+b. Affordance  
+c. Proximity  
+d. Visibility  
+
+Question  
+In Swift, what does the `try?` keyword indicate?  
+Select one:  
+a. Throws an error if the function fails  
+b. Converts errors into optional values  
+c. Prevents compilation errors  
+d. Forces function execution asynchronously  
+
+Question  
+What logical conclusion follows from: "All mammals have hair, and dolphins are mammals"?  
+Select one:  
+a. All animals have hair  
+b. Dolphins have hair  
+c. No dolphins have hair  
+d. Dolphins aren’t mammals  
+
+Question  
+What is the next number in the sequence: 2, 5, 9, 14, 20…?  
+Select one:  
+a. 25  
+b. 27  
+c. 28  
+d. 26  
+
+Question  
+What Swift concept allows you to define a placeholder type in protocols?  
+Select one:  
+a. Generics  
+b. Extensions  
+c. Associated types  
+d. Closures  
+
+Question  
+In SwiftUI, what's the primary role of the `.accentColor()` modifier?  
+Select one:  
+a. Sets the primary interaction color  
+b. Changes background colors  
+c. Adds shadows to text  
+d. Adjusts text opacity  
+
+Question  
+In logical reasoning, what follows from: "All A are B. No B is C"?  
+Select one:  
+a. All A are C  
+b. No A is C  
+c. Some A are C  
+d. Some A are not B  
+
+Question  
+Which Swift keyword restricts access of properties to their own source file?  
+Select one:  
+a. internal  
+b. private  
+c. fileprivate  
+d. public  
+
+Question  
+What's the probability of tossing two fair coins and getting two tails?  
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 3/4  
+d. 1/8  
+
+Question  
+In Swift, the Singleton pattern ensures:  
+Select one:  
+a. Multiple instance creation  
+b. Only one instance of a class exists  
+c. Automatic memory deallocation  
+d. Multiple instances through subclasses  

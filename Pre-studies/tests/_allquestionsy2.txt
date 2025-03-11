@@ -3512,3 +3512,243 @@ a. async
 b. escaping
 c. lazy
 d. deferred
+
+Question
+A sequence is given: 1, 2, 4, 8, 16, … What's the next number?
+Select one:
+a. 24
+b. 32
+c. 34
+d. 40
+
+Question
+In Swift, what does the 'guard' keyword do within a function?
+Select one:
+a. Guarantees asynchronous behavior
+b. Provides an early exit if conditions are not met
+c. Enforces immutability of variables
+d. Allows repeated execution of a block
+
+Question
+Which design practice uses color and typography to indicate which UI elements are interactive?
+Select one:
+a. Affordance
+b. Contrast
+c. Minimalism
+d. Alignment
+
+Question
+Two fair dice are rolled. What's the probability their sum is exactly 4?
+Select one:
+a. 1/36
+b. 1/12
+c. 3/36
+d. 5/36
+
+Question
+Which Swift language feature allows defining behavior that multiple unrelated types can adopt?
+Select one:
+a. Singleton
+b. Protocol
+c. Class inheritance
+d. Tuple
+
+Question
+In design theory, what does "balance" help achieve?
+Select one:
+a. Reduce animation time
+b. Equal visual weight across the interface
+c. Increased user cognitive overload
+d. Unnecessary complexity
+
+Question
+What is the next number in the sequence: 0, 2, 8, 14, 24, …?
+Select one:
+a. 30
+b. 32
+c. 36
+d. 40
+
+Question
+What probability represents absolute certainty that an event occurs?
+Select one:
+a. 0
+b. 0.5
+c. 0.9
+d. 1
+
+Question
+In Swift, marking a class method as static means:
+Select one:
+a. The method cannot be overridden
+b. The method is asynchronous
+c. The method can be accessed without instantiating the class
+d. The method must be inherited by subclasses
+
+Question
+In UI design, what best describes "user affordances"?
+Select one:
+a. Decorative animations
+b. Clear indicators of interactive capabilities
+c. Consistent font use
+d. Extensive user instructions
+
+Question
+Analyze the number sequence: 1, 4, 9, 16, 25… What’s the next number?
+Select one:
+a. 32
+b. 36
+c. 49
+d. 36
+
+Question
+In Swift, how can you define a collection type holding distinct values that preserve insertion order (Swift 5.7+)?
+Select one:
+a. Array
+b. Dictionary
+c. Set
+d. OrderedSet
+
+Question
+According to Apple's Human Interface Guidelines, what should be prioritized in icon design?
+Select one:
+a. Consistent style and recognizable symbols
+b. Variety and complexity to attract attention
+c. High animation frequency
+d. Abstract representations
+
+Question
+If you toss three fair coins, what's the probability of getting exactly three heads?
+Select one:
+a. 1/8
+b. 3/8
+c. 1/2
+d. 1/4
+
+Question
+Which Swift feature would you use to asynchronously wait for the completion of a function?
+Select one:
+a. await
+b. defer
+c. dispatch
+d. synchronous
+
+Question
+What UI/UX principle ensures elements' placement relates logically to their functionality?
+Select one:
+a. Affordance
+b. Feedback
+c. Proximity
+d. Minimalism
+
+Question
+Which OOP principle emphasizes breaking complex software into smaller, focused modules?
+Select one:
+a. Polymorphism
+b. Encapsulation
+c. Composition
+d. Cohesion
+
+Question
+In Swift, the keyword "mutating" is used with:
+Select one:
+a. Class methods
+b. Struct methods
+c. Enum methods
+d. Protocol methods
+
+Question
+What is the probability of rolling an even number with a fair six-sided die?
+Select one:
+a. 1/6
+b. 1/3
+c. 1/2
+d. 2/3
+
+Question
+The main goal of creating personas in UX is:
+Select one:
+a. Choosing app colors
+b. Technical documentation
+c. Representing real user behaviors and needs
+d. Finalizing backend infrastructure
+
+Question
+What's the next shape in the pattern: Circle, Square, Pentagon, Hexagon, …?
+Select one:
+a. Circle
+b. Triangle
+c. Pentagon
+d. Heptagon
+
+Question
+What Swift method lets you iterate over the contents of a collection along with their indices?
+Select one:
+a. map()
+b. filter()
+c. enumerated()
+d. indexed()
+
+Question
+According to Apple’s Human Interface Guidelines, what's recommended for alerts and dialogs?
+Select one:
+a. Frequent and animated appearance
+b. Clear and concise language
+c. Bright colors and bold fonts
+d. Extended detailed instructions
+
+Question
+Consider the series: 2, 5, 10, 17, 26. Identify the next number.
+Select one:
+a. 32
+b. 33
+c. 35
+d. 37
+
+Question
+What Swift property wrapper automatically publishes changes to subscribers?
+Select one:
+a. @State
+b. @ObservedObject
+c. @Published
+d. @EnvironmentObject
+
+Question
+What heuristic principle suggests interfaces should match users' real-world experiences?
+Select one:
+a. Consistency
+b. Feedback
+c. Match between system and real world
+d. Visibility
+
+Question
+In Swift, a method that has the same name but different parameters is demonstrating what concept?
+Select one:
+a. Polymorphism
+b. Method Overloading
+c. Method Overriding
+d. Encapsulation
+
+Question
+What's the probability of drawing two aces consecutively from a standard deck of 52 cards, without replacement?
+Select one:
+a. 1/221
+b. 1/169
+c. 1/256
+d. 1/221
+
+Question
+In design, the effective combination of serif and sans-serif fonts primarily improves:
+Select one:
+a. Visual complexity
+b. Cognitive load
+c. Aesthetic harmony and readability
+d. Load time
+
+Question
+In SwiftUI, how do you provide dynamic adjustment based on device orientation or screen size?
+Select one:
+a. Using fixed dimensions everywhere
+b. Avoiding layout modifiers
+c. Using flexible frames and layout constraints
+d. Hardcoding all sizes explicitly

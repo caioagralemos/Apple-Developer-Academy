@@ -562,3 +562,19 @@ a. Subclassing and overriding methods across different modules
 b. Access within the file only
 c. Only read-only properties
 d. Static properties only
+
+Question
+In Swift, the keyword "mutating" is used with:
+Select one:
+a. Class methods
+b. Struct methods
+c. Enum methods
+d. Protocol methods
+
+Question
+What Swift method lets you iterate over the contents of a collection along with their indices?
+Select one:
+a. map()
+b. filter()
+c. enumerated()
+d. indexed()

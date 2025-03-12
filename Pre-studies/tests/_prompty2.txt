@@ -37,3 +37,5 @@ c. [Option 3]
 d. [Option 4]
 
 Repeat this format for all 30 questions. Make sure the questions are challenging, well-balanced, and thought-provoking. Be careful not to choose all alternatives the same letter.
+
+You are repeating a lot of questions from the annexed file. Make sure NOT to repeat any of them, but to create new original ones.

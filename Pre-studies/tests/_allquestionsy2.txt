@@ -4270,3 +4270,273 @@ a. Using only grayscale
 b. Supporting Dynamic Type for text scaling
 c. Avoiding animations
 d. Reducing color contrast
+
+Question
+What is the next number in the sequence: 1, 3, 5, 9, 17, …?  
+
+Select one:  
+a. 25  
+b. 33  
+c. 31  
+d. 29  
+
+Question 
+In Swift, what is the primary purpose of the `@Environment` property wrapper in SwiftUI?  
+
+Select one:  
+a. To bind local state to a view  
+b. To access system-wide values like color scheme or screen size  
+c. To share data across all app instances  
+d. To lazily initialize properties  
+
+Question 
+In UI design, what does the principle of "repetition" primarily reinforce?  
+
+Select one:  
+a. Visual chaos to keep users engaged  
+b. Consistency and predictability in the interface  
+c. Random placement of elements for creativity  
+d. Increased cognitive effort for navigation  
+
+Question 
+If you flip a fair coin 4 times, what is the probability of getting at least 3 heads?  
+
+Select one:  
+a. 5/16  
+b. 1/4  
+c. 3/8  
+d. 1/2  
+
+Question
+In Swift, which keyword allows a subclass to call its superclass’s implementation of a method?  
+
+Select one:  
+a. super  
+b. parent  
+c. base  
+d. inherit  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for onboarding new users?  
+
+Select one:  
+a. Provide a lengthy tutorial covering all features  
+b. Minimize onboarding and let users explore independently  
+c. Show a single welcome screen with no interaction  
+d. Require users to watch a video before proceeding  
+
+Question 
+What is the next shape in the pattern: Star, Circle, Star, Square, Circle, …?  
+
+Select one:  
+a. Star  
+b. Square  
+c. Circle  
+d. Triangle  
+
+Question  
+In Swift, what happens if you declare a variable with `let` inside a loop?  
+
+Select one:  
+a. It can be reassigned within each iteration  
+b. It retains its value across iterations  
+c. It’s immutable within its scope and a new instance is created each iteration  
+d. It causes a compilation error  
+
+Question  
+In design theory, what is the main advantage of using a triadic color scheme?  
+
+Select one:  
+a. It ensures high contrast with minimal effort  
+b. It creates a balanced yet vibrant look  
+c. It simplifies typography choices  
+d. It reduces the need for white space  
+
+Question  
+If a bag contains 2 red, 3 blue, and 5 green marbles, what’s the probability of drawing a red marble followed by a blue marble without replacement?  
+
+Select one:  
+a. 1/15  
+b. 2/45  
+c. 1/10  
+d. 3/25  
+
+Question 
+In Swift, which design pattern would you use to transform an incompatible interface into one that a client can use?  
+
+Select one:  
+a. Factory  
+b. Adapter  
+c. Decorator  
+d. Proxy  
+
+Question 
+What logically follows: "If it rains, I’ll stay indoors. It’s not raining."?  
+
+Select one:  
+a. I’ll stay indoors  
+b. I won’t stay indoors  
+c. I might go outside or stay indoors  
+d. It’s sunny outside  
+
+Question
+In SwiftUI, what is the primary benefit of using `HStack` over `VStack`?  
+
+Select one:  
+a. It stacks views horizontally instead of vertically  
+b. It automatically adjusts for device orientation  
+c. It prioritizes vertical alignment over horizontal  
+d. It reduces memory usage for layouts  
+
+Question 
+What is the next number in the sequence: 2, 6, 12, 20, 30, …?  
+
+Select one:  
+a. 40  
+b. 42  
+c. 38  
+d. 45  
+
+Question 
+In user-centered design, what is the primary purpose of conducting a "think-aloud" protocol during testing?  
+
+Select one:  
+a. To measure app performance  
+b. To understand users’ thought processes while interacting  
+c. To finalize the visual design  
+d. To eliminate the need for wireframes  
+
+Question
+In Swift, what is the result of the expression `let x = 10; let y = x / 3`?  
+
+Select one:  
+a. 3.33  
+b. 3  
+c. 4  
+d. 3.0  
+
+Question
+If all fish swim and tuna is a fish, what can be concluded?  
+
+Select one:  
+a. Tuna might swim  
+b. Tuna swims  
+c. Some fish don’t swim  
+d. All animals swim  
+
+Question  
+According to Apple’s HIG, why should interactive elements avoid overlapping?  
+
+Select one:  
+a. To reduce rendering time  
+b. To prevent accidental taps and improve usability  
+c. To enforce a minimalist aesthetic  
+d. To simplify backend logic  
+
+Question  
+What is the next number in the sequence: 1, 2, 5, 14, 41, …?  
+
+Select one:  
+a. 120  
+b. 122  
+c. 123  
+d. 125  
+
+Question 
+In Swift, what does the `@discardableResult` attribute do when applied to a function?  
+
+Select one:  
+a. Forces the function to return nil  
+b. Allows the caller to ignore the return value without a warning  
+c. Prevents the function from being called  
+d. Ensures the result is stored in memory  
+
+Question  
+In UI design, what is the primary role of "leading lines" in layout composition?  
+
+Select one:  
+a. To increase visual noise  
+b. To guide the user’s eye through the interface  
+c. To reduce the need for typography  
+d. To enforce strict symmetry  
+
+Question 
+If you roll a fair six-sided die 3 times, what’s the probability of getting no sixes?  
+
+Select one:  
+a. 125/216  
+b. 25/36  
+c. 5/6  
+d. 91/216  
+
+Question  
+In Swift, what OOP concept is illustrated when a protocol defines a method that different types implement uniquely?  
+
+Select one:  
+a. Encapsulation  
+b. Inheritance  
+c. Polymorphism  
+d. Abstraction  
+
+Question 
+What is the next shape in the visual pattern: Diamond, Oval, Diamond, Oval, Star, …?  
+
+Select one:  
+a. Diamond  
+b. Oval  
+c. Star  
+d. Circle  
+
+Question
+In responsive design for iOS, what is the key benefit of using `UIScreen.main.bounds`?  
+
+Select one:  
+a. It locks the layout to a single orientation  
+b. It provides the current screen dimensions for adaptive layouts  
+c. It enforces fixed pixel sizes  
+d. It eliminates the need for Auto Layout  
+
+Question 
+What logically follows: "If a number is even, it’s divisible by 2. This number is not divisible by 2."?  
+
+Select one:  
+a. The number is odd  
+b. The number is even  
+c. The number might be even  
+d. The number is prime  
+
+Question 
+In Swift, what is the primary advantage of using a `struct` over a `class` for small data models?  
+
+Select one:  
+a. It supports inheritance  
+b. It uses value semantics, avoiding unintended side effects  
+c. It’s always faster than a class  
+d. It allows weak references  
+
+Question 
+In design theory, what does "symmetry" typically contribute to a layout?  
+
+Select one:  
+a. Visual instability  
+b. A sense of order and balance  
+c. Increased complexity  
+d. Reduced readability  
+
+Question
+If a spinner has 10 equal sections numbered 1 to 10, what’s the probability of landing on a number greater than 7?  
+
+Select one:  
+a. 3/10  
+b. 4/10  
+c. 2/5  
+d. 7/10  
+
+Question  
+In SwiftUI, what does the `.sheet()` modifier do when applied to a view?  
+
+Select one:  
+a. Adjusts the view’s opacity  
+b. Presents a modal view that slides up from the bottom  
+c. Clips the view to a rectangular shape  
+d. Stacks views horizontally  

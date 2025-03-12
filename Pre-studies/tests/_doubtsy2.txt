@@ -612,3 +612,39 @@ a. Discoverability
 b. Feedback
 c. Affordance
 d. Consistency
+
+Question
+According to Apple’s Human Interface Guidelines, what is the recommended approach for onboarding new users?
+
+Select one:
+a. Show a single welcome screen with no interaction
+b. Minimize onboarding and let users explore independently
+c. Require users to watch a video before proceeding
+d. Provide a lengthy tutorial covering all features
+
+Question
+In design theory, what is the main advantage of using a triadic color scheme?
+
+Select one:
+a. It simplifies typography choices
+b. It ensures high contrast with minimal effort
+c. It reduces the need for white space
+d. It creates a balanced yet vibrant look
+
+Question 
+In Swift, what does the @discardableResult attribute do when applied to a function?
+
+Select one:
+a. Prevents the function from being called
+b. Ensures the result is stored in memory
+c. Allows the caller to ignore the return value without a warning
+d. Forces the function to return nil
+
+Question
+In UI design, what is the primary role of "leading lines" in layout composition?
+
+Select one:
+a. To reduce the need for typography
+b. To enforce strict symmetry
+c. To guide the user’s eye through the interface
+d. To increase visual noise

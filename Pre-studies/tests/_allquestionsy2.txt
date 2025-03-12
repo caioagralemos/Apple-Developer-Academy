@@ -4540,3 +4540,273 @@ a. Adjusts the view’s opacity
 b. Presents a modal view that slides up from the bottom  
 c. Clips the view to a rectangular shape  
 d. Stacks views horizontally  
+
+Question  
+What is the next number in the sequence: 3, 6, 12, 24, 48, …?  
+
+Select one:  
+a. 72  
+b. 96  
+c. 84  
+d. 60  
+
+Question  
+In Swift, what is the primary purpose of the `@objc` attribute when applied to a method?  
+
+Select one:  
+a. To mark it as asynchronous  
+b. To expose it to Objective-C runtime  
+c. To make it private to the module  
+d. To enforce compile-time optimization  
+
+Question  
+In UI design, what is the primary purpose of using a "call-to-action" button with a bold color?  
+
+Select one:  
+a. To increase visual noise  
+b. To draw user attention and encourage interaction  
+c. To balance the color palette  
+d. To reduce the need for text labels  
+
+Question  
+A fair six-sided die is rolled twice. What is the probability that the first roll is odd and the second roll is even?  
+
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 1/3  
+d. 1/6  
+
+Question  
+In Swift, which keyword is used to explicitly indicate that a protocol can only be adopted by class types?  
+
+Select one:  
+a. class  
+b. struct  
+c. protocol  
+d. type  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended practice for using haptic feedback?  
+
+Select one:  
+a. Apply it to every tap for consistency  
+b. Use it sparingly to enhance key interactions  
+c. Avoid it entirely to save battery  
+d. Use it only for error notifications  
+
+Question  
+What is the next shape in the pattern: Pentagon, Square, Pentagon, Triangle, Square, …?  
+
+Select one:  
+a. Triangle  
+b. Pentagon  
+c. Square  
+d. Hexagon  
+
+Question  
+In Swift, what happens if you attempt to access a dictionary key that doesn’t exist without using optional handling?  
+
+Select one:  
+a. It returns nil  
+b. It crashes at runtime  
+c. It returns the first value in the dictionary  
+d. It automatically adds the key with a default value  
+
+Question  
+In design theory, what does the "rule of thirds" primarily help achieve in a layout?  
+
+Select one:  
+a. Symmetrical balance  
+b. Visual interest and focal points  
+c. Uniform spacing of elements  
+d. Minimalist aesthetics  
+
+Question  
+If P(A) = 0.6 and P(B) = 0.4, and A and B are mutually exclusive, what is P(A or B)?  
+
+Select one:  
+a. 0.24  
+b. 0.6  
+c. 1.0  
+d. 0.8  
+
+Question  
+In SwiftUI, what does the `.onAppear()` modifier do when attached to a view?  
+
+Select one:  
+a. Triggers an action when the view is tapped  
+b. Executes code when the view first appears on screen  
+c. Delays the view’s rendering  
+d. Hides the view until a condition is met  
+
+Question  
+What logically follows: "All programmers know Swift. Jane does not know Swift."?  
+
+Select one:  
+a. Jane is a programmer  
+b. Jane might be a programmer  
+c. Jane is not a programmer  
+d. All programmers know Jane  
+
+Question  
+What is the next number in the sequence: 1, 4, 10, 22, 46, …?  
+
+Select one:  
+a. 70  
+b. 94  
+c. 88  
+d. 62  
+
+Question  
+In Swift, which design pattern would you use to encapsulate a family of algorithms, allowing them to be interchangeable at runtime?  
+
+Select one:  
+a. Strategy  
+b. Singleton  
+c. Facade  
+d. Prototype  
+
+Question  
+In user-centered design, what is the primary benefit of creating a "user journey map"?  
+
+Select one:  
+a. To finalize the app’s visual style  
+b. To identify pain points and optimize user experience  
+c. To define the app’s database structure  
+d. To select a color scheme  
+
+Question  
+A bag contains 4 white balls and 6 black balls. What is the probability of drawing two white balls in a row with replacement?  
+
+Select one:  
+a. 4/25  
+b. 16/100  
+c. 2/5  
+d. 8/20  
+
+Question  
+In Swift, what is the key difference between `weak` and `unowned` references?  
+
+Select one:  
+a. `weak` is always optional; `unowned` is not  
+b. `unowned` is thread-safe; `weak` is not  
+c. `weak` prevents retain cycles; `unowned` does not  
+d. `unowned` is only for structs; `weak` is for classes  
+
+Question  
+According to Apple’s HIG, what should be avoided when designing navigation menus?  
+
+Select one:  
+a. Using icons with text labels  
+b. Overly deep hierarchies  
+c. Consistent placement of controls  
+d. Clear visual feedback  
+
+Question  
+What is the next number in the sequence: 5, 7, 11, 19, 35, …?  
+
+Select one:  
+a. 51  
+b. 67  
+c. 59  
+d. 43  
+
+Question  
+In Swift, what does the `CaseIterable` protocol provide when adopted by an enum?  
+
+Select one:  
+a. Automatic sorting of cases  
+b. A collection of all possible cases  
+c. Default values for each case  
+d. Optional case unwrapping  
+
+Question  
+In responsive design for iOS, what is the main advantage of using `traitCollectionDidChange`?  
+
+Select one:  
+a. It locks the UI to a fixed size  
+b. It allows dynamic adaptation to orientation or size changes  
+c. It simplifies color management  
+d. It reduces memory usage  
+
+Question  
+If you flip a fair coin 5 times, what is the probability of getting exactly 4 heads?  
+
+Select one:  
+a. 5/32  
+b. 1/16  
+c. 3/32  
+d. 1/8  
+
+Question  
+In Swift, what OOP concept is demonstrated when a subclass provides a different implementation of a method inherited from its superclass, while still adhering to the same interface?  
+
+Select one:  
+a. Encapsulation  
+b. Overloading  
+c. Polymorphism  
+d. Abstraction  
+
+Question  
+In design theory, what does the use of "analogous colors" typically create in a UI?  
+
+Select one:  
+a. High contrast and tension  
+b. A cohesive and harmonious look  
+c. Random visual patterns  
+d. Increased cognitive load  
+
+Question  
+What logically follows: "If a shape has 4 sides, it is a quadrilateral. This shape has 5 sides."?  
+
+Select one:  
+a. It is a quadrilateral  
+b. It is not a quadrilateral  
+c. It might be a quadrilateral  
+d. All shapes are quadrilaterals  
+
+Question  
+In SwiftUI, what does the `.rotationEffect()` modifier do to a view?  
+
+Select one:  
+a. Scales the view proportionally  
+b. Rotates the view by a specified angle  
+c. Flips the view horizontally  
+d. Adjusts the view’s opacity  
+
+Question  
+What is the next shape in the pattern: Circle, Hexagon, Circle, Pentagon, Hexagon, …?  
+
+Select one:  
+a. Circle  
+b. Pentagon  
+c. Hexagon  
+d. Square  
+
+Question  
+In Swift, what happens when you mark a variable with `@State` in SwiftUI and then modify it?  
+
+Select one:  
+a. The variable becomes immutable  
+b. The view automatically re-renders  
+c. It triggers a memory leak  
+d. The change is ignored  
+
+Question  
+In user-centered design, what is the key purpose of conducting "heuristic evaluations"?  
+
+Select one:  
+a. To measure app performance  
+b. To identify usability issues based on established principles  
+c. To finalize typography choices  
+d. To replace user testing  
+
+Question  
+What is the next number in the sequence: 2, 3, 5, 8, 13, …?  
+
+Select one:  
+a. 18  
+b. 21  
+c. 20  
+d. 15  

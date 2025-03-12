@@ -648,3 +648,66 @@ a. To reduce the need for typography
 b. To enforce strict symmetry
 c. To guide the user’s eye through the interface
 d. To increase visual noise
+
+Question
+In Swift, what happens if you attempt to access a dictionary key that doesn’t exist without using optional handling?
+
+Select one:
+a. It returns nil
+b. It crashes at runtime
+c. It returns the first value in the dictionary
+d. It automatically adds the key with a default value
+
+Question
+In Swift, which design pattern would you use to encapsulate a family of algorithms, allowing them to be interchangeable at runtime?
+
+Select one:
+a. Strategy
+b. Singleton
+c. Facade
+d. Prototype
+
+Question
+In Swift, what is the key difference between weak and unowned references?
+
+Select one:
+a. weak is always optional; unowned is not
+b. unowned is thread-safe; weak is not
+c. weak prevents retain cycles; unowned does not
+d. unowned is only for structs; weak is for classes
+
+Question
+In Swift, what does the CaseIterable protocol provide when adopted by an enum?
+
+Select one:
+a. Automatic sorting of cases
+b. A collection of all possible cases
+c. Default values for each case
+d. Optional case unwrapping
+
+Question
+In design theory, what does the use of "analogous colors" typically create in a UI?
+Select one:
+
+a. High contrast and tension
+b. A cohesive and harmonious look
+c. Random visual patterns
+d. Increased cognitive load
+
+Question
+In design theory, what does the "rule of thirds" primarily help achieve in a layout?
+
+Select one:
+a. Symmetrical balance
+b. Visual interest and focal points
+c. Uniform spacing of elements
+d. Minimalist aesthetics
+
+Question
+In user-centered design, what is the key purpose of conducting "heuristic evaluations"?
+
+Select one:
+a. To measure app performance
+b. To identify usability issues based on established principles
+c. To finalize typography choices
+d. To replace user testing

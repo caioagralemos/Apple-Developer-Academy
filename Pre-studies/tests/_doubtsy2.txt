@@ -711,3 +711,93 @@ a. To measure app performance
 b. To identify usability issues based on established principles
 c. To finalize typography choices
 d. To replace user testing
+
+Question
+In Swift, what happens if you declare a property with both lazy and let keywords?
+
+Select one:
+a. It compiles and works as a constant computed once
+b. It causes a compilation error
+c. It behaves like a regular variable
+d. It becomes immutable after first access
+
+Question
+In Swift, what does the @autoclosure attribute do when applied to a function parameter?
+
+Select one:
+a. Automatically unwraps optionals
+b. Delays evaluation of an expression until needed
+c. Ensures the closure executes immediately
+d. Prevents memory leaks
+
+Question
+In UI design, what does the principle of "closure" from Gestalt theory suggest about user perception?
+
+Select one:
+a. Users prefer symmetrical layouts
+b. Users mentally complete incomplete shapes
+c. Users group similar colors together
+d. Users focus on central elements first
+
+Question
+In Swift, what keyword would you use to ensure a protocol’s method can be called without knowing the exact implementing type?
+
+Select one:
+a. dynamic
+b. static
+c. open
+d. required
+
+Question
+A bag contains 4 red and 6 blue marbles. What is the probability of drawing a blue marble with replacement after drawing a red one?
+
+Select one:
+a. 6/10
+b. 24/100
+c. 4/10
+d. 2/5
+
+Question
+In user-centered design, what is the main advantage of conducting a "card sorting" exercise with users?
+
+Select one:
+a. It finalizes the app’s visual hierarchy
+b. It reveals how users naturally organize information
+c. It eliminates the need for prototypes
+d. It selects the best color scheme
+
+Question
+In Swift, what happens if you attempt to override a method marked with final in a subclass?
+
+Select one:
+a. It silently ignores the override
+b. It compiles but crashes at runtime
+c. It causes a compilation error
+d. It replaces the superclass method
+
+Question
+In design theory, what is the primary purpose of using a "split-complementary" color scheme?
+
+Select one:
+a. To create a monochromatic look
+b. To balance vibrancy with harmony
+c. To maximize contrast for accessibility
+d. To reduce visual complexity
+
+Question
+In Swift, what OOP concept is illustrated when a subclass hides a superclass property with its own declaration?
+Select one:
+
+a. Overriding
+b. Shadowing
+c. Encapsulation
+d. Polymorphism
+
+Question
+In Swift, what does the @inlinable attribute do when applied to a function?
+
+Select one:
+a. Forces the function to run asynchronously
+b. Allows the compiler to inline the function’s code
+c. Prevents the function from being overridden
+d. Ensures the function returns an optional

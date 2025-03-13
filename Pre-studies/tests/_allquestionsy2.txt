@@ -4810,3 +4810,273 @@ a. 18
 b. 21  
 c. 20  
 d. 15  
+
+Question 
+What is the next number in the sequence: 7, 14, 28, 56, …?  
+
+Select one:  
+a. 84  
+b. 112  
+c. 98  
+d. 128  
+
+Question 
+In Swift, what keyword ensures a variable can only be set within its defining scope but read externally?  
+
+Select one:  
+a. private  
+b. internal  
+c. private(set)  
+d. fileprivate  
+
+Question 
+According to Apple’s Human Interface Guidelines, what is the recommended practice for using sound in an app?  
+
+Select one:  
+a. Use it generously to enhance every interaction  
+b. Reserve it for critical alerts or user-requested actions  
+c. Avoid it entirely to maintain simplicity  
+d. Apply it only during onboarding  
+
+Question 
+If you flip a fair coin 3 times, what is the probability of getting at least one tail?  
+
+Select one:  
+a. 1/8  
+b. 3/8  
+c. 7/8  
+d. 5/8  
+
+Question 
+In UI design, what does the principle of "closure" from Gestalt theory suggest about user perception?  
+
+Select one:  
+a. Users prefer symmetrical layouts  
+b. Users mentally complete incomplete shapes  
+c. Users group similar colors together  
+d. Users focus on central elements first  
+
+Question
+In Swift, what is the primary benefit of using an optional binding (if let) over forced unwrapping?  
+
+Select one:  
+a. It prevents runtime crashes by safely handling nil  
+b. It reduces memory usage  
+c. It speeds up compilation  
+d. It ensures thread safety  
+
+Question  
+What logically follows: "If it’s a weekday, the office is open. Today is Sunday."?  
+
+Select one:  
+a. The office is open  
+b. The office is closed  
+c. The office might be open or closed  
+d. It’s not a weekday  
+
+Question 
+What is the next shape in the pattern: Circle, Triangle, Square, Circle, Triangle, …?  
+
+Select one:  
+a. Circle  
+b. Square  
+c. Pentagon  
+d. Triangle  
+
+Question  
+In SwiftUI, what modifier would you use to make a view respond dynamically to available screen width?  
+
+Select one:  
+a. .frame(maxWidth: .infinity)  
+b. .fixedSize()  
+c. .padding()  
+d. .offset()  
+
+Question  
+A bag contains 4 red and 6 blue marbles. What is the probability of drawing a blue marble with replacement after drawing a red one?  
+
+Select one:  
+a. 6/10  
+b. 24/100  
+c. 4/10  
+d. 2/5  
+
+Question 
+In Swift, which design pattern would you use to create a flexible system where objects can subscribe to updates from a central source?  
+
+Select one:  
+a. Builder  
+b. Observer  
+c. Proxy  
+d. Command  
+
+Question  
+What is the next number in the sequence: 1, 3, 9, 27, 81, …?  
+
+Select one:  
+a. 162  
+b. 243  
+c. 108  
+d. 324  
+
+Question  
+In user-centered design, what is the primary benefit of sketching multiple concepts before prototyping?  
+
+Select one:  
+a. It ensures pixel-perfect designs  
+b. It explores diverse solutions quickly and cheaply  
+c. It finalizes backend logic  
+d. It eliminates user testing  
+
+Question  
+In Swift, what happens if you declare a property with both `lazy` and `let` keywords?  
+
+Select one:  
+a. It compiles and works as a constant computed once  
+b. It causes a compilation error  
+c. It behaves like a regular variable  
+d. It becomes immutable after first access  
+
+Question  
+According to design theory, what does using a high-contrast color scheme primarily enhance in a UI?  
+
+Select one:  
+a. Aesthetic appeal only  
+b. Usability and legibility  
+c. Animation performance  
+d. Memory efficiency  
+
+Question  
+What logically follows: "All squares are rectangles. Some rectangles are not squares."?  
+
+Select one:  
+a. All rectangles are squares  
+b. Some squares are not rectangles  
+c. Some rectangles might not be squares  
+d. No squares are rectangles  
+
+Question 
+In SwiftUI, what does the `.overlay()` modifier do when applied to a view?  
+
+Select one:  
+a. Adds a view on top of the existing one  
+b. Replaces the view with a new one  
+c. Hides the original view  
+d. Adjusts the view’s opacity  
+
+Question  
+If two fair dice are rolled, what is the probability their sum is an odd number?  
+
+Select one:  
+a. 1/2  
+b. 1/3  
+c. 1/4  
+d. 2/3  
+
+Question
+In Swift, what OOP concept allows a single interface to represent multiple types with shared behavior?  
+
+Select one:  
+a. Encapsulation  
+b. Inheritance  
+c. Polymorphism  
+d. Composition  
+
+Question  
+What is the next number in the sequence: 10, 15, 25, 40, 60, …?  
+
+Select one:  
+a. 75  
+b. 85  
+c. 90  
+d. 100  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be avoided in text fields to improve usability?  
+
+Select one:  
+a. Placeholder text  
+b. Auto-correction features  
+c. Ambiguous labels or unclear purpose  
+d. Dynamic Type support  
+
+Question
+In Swift, what does the `@autoclosure` attribute do when applied to a function parameter?  
+
+Select one:  
+a. Automatically unwraps optionals  
+b. Delays evaluation of an expression until needed  
+c. Ensures the closure executes immediately  
+d. Prevents memory leaks  
+
+Question 
+What is the next shape in the pattern: Hexagon, Pentagon, Square, Hexagon, Pentagon, …?  
+
+Select one:  
+a. Square  
+b. Triangle  
+c. Hexagon  
+d. Pentagon  
+
+Question 
+In responsive design for iOS, what is the benefit of using `GeometryReader` in SwiftUI?  
+
+Select one:  
+a. It enforces fixed layouts  
+b. It provides access to the parent view’s size and position  
+c. It simplifies color management  
+d. It reduces rendering time  
+
+Question  
+If P(A) = 0.5 and P(B) = 0.2, and A and B are independent, what is the probability of neither A nor B occurring?  
+
+Select one:  
+a. 0.4  
+b. 0.3  
+c. 0.6  
+d. 0.1  
+
+Question  
+In Swift, what keyword would you use to ensure a protocol’s method can be called without knowing the exact implementing type?  
+
+Select one:  
+a. dynamic  
+b. static  
+c. open  
+d. required  
+
+Question   
+In UI/UX, what is the primary purpose of a wireframe compared to a high-fidelity prototype?  
+
+Select one:  
+a. To test detailed animations  
+b. To focus on layout and structure without visual polish  
+c. To finalize typography choices  
+d. To implement backend logic  
+
+Question  
+What logically follows: "If a number is divisible by 6, it’s divisible by 3. This number is not divisible by 3."?  
+
+Select one:  
+a. It’s divisible by 6  
+b. It’s not divisible by 6  
+c. It might be divisible by 6  
+d. It’s divisible by 2  
+
+Question   
+In Swift, what design pattern would you use to simplify a complex subsystem by providing a unified interface?  
+
+Select one:  
+a. Facade  
+b. Decorator  
+c. Strategy  
+d. Adapter  
+
+Question 
+What is the next number in the sequence: 2, 7, 17, 37, 77, …?  
+
+Select one:  
+a. 97  
+b. 117  
+c. 157  
+d. 137

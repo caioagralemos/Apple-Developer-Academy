@@ -801,3 +801,39 @@ a. Forces the function to run asynchronously
 b. Allows the compiler to inline the function’s code
 c. Prevents the function from being overridden
 d. Ensures the function returns an optional
+
+Question
+In Swift, what is the primary benefit of using a closure over a function for a one-off task?
+
+Select one:
+a. Closures are always faster
+b. Closures can capture values from their surrounding scope
+c. Functions cannot return values
+d. Closures automatically handle memory management
+
+Question
+If you roll two fair six-sided dice, what is the probability that their product is a prime number?
+
+Select one:
+a. 5/18
+b. 11/36
+c. 1/4
+d. 6/36
+
+Question
+In Swift, what happens if you declare a variable as var x: Int! and access it before assigning a value?
+
+Select one:
+a. It defaults to 0
+b. It causes a runtime crash
+c. It returns nil safely
+d. It triggers a compiler warning
+
+Question
+In responsive design for iOS, what is the benefit of using adaptive stack views over fixed layouts?
+
+Select one:
+a. They reduce code complexity
+b. They dynamically adjust to screen size and orientation
+c. They enforce a single orientation
+d. They eliminate the need for constraints

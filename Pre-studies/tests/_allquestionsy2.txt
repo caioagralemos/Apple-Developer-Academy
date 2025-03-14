@@ -5080,3 +5080,273 @@ a. 97
 b. 117  
 c. 157  
 d. 137
+
+Question
+What is the next number in the sequence: 3, 12, 27, 48, 75, …?  
+
+Select one:  
+a. 96  
+b. 108  
+c. 120  
+d. 132  
+
+Question 
+In Swift, what is the primary benefit of using a closure over a function for a one-off task?  
+
+Select one:  
+a. Closures are always faster  
+b. Closures can capture values from their surrounding scope  
+c. Functions cannot return values  
+d. Closures automatically handle memory management  
+
+Question 
+In UI design, what does the use of a bold typeface typically signify?  
+
+Select one:  
+a. Reduced readability  
+b. Emphasis or importance  
+c. Aesthetic decoration only  
+d. A non-interactive element  
+
+Question  
+If you roll two fair six-sided dice, what is the probability that their product is a prime number?  
+
+Select one:  
+a. 5/18  
+b. 11/36  
+c. 1/4  
+d. 7/36  
+
+Question 
+In Swift, what happens if you declare a variable as `var x: Int!` and access it before assigning a value?  
+
+Select one:  
+a. It defaults to 0  
+b. It causes a runtime crash  
+c. It returns nil safely  
+d. It triggers a compiler warning  
+
+Question
+According to Apple’s Human Interface Guidelines, what should be the primary focus when designing a toolbar?  
+
+Select one:  
+a. Including as many tools as possible  
+b. Providing quick access to frequently used actions  
+c. Using bright colors for visibility  
+d. Matching the app’s branding exactly  
+
+Question
+What logically follows: "If a shape is a circle, it has no sides. This shape has sides."?  
+
+Select one:  
+a. It is a circle  
+b. It is not a circle  
+c. It might be a circle  
+d. All shapes have sides  
+
+Question
+In SwiftUI, what is the effect of applying `.scaleEffect(2.0)` to a view?  
+
+Select one:  
+a. Doubles the view’s opacity  
+b. Increases the view’s size by a factor of 2  
+c. Rotates the view by 2 radians  
+d. Shrinks the view to half its size  
+
+Question
+What is the next number in the sequence: 1, 5, 13, 29, 61, …?  
+
+Select one:  
+a. 85  
+b. 93  
+c. 125  
+d. 141  
+
+Question
+In user-centered design, what is the main advantage of testing a prototype with a small user group before full development?  
+
+Select one:  
+a. It guarantees App Store approval  
+b. It identifies usability issues early  
+c. It eliminates the need for wireframes  
+d. It finalizes the color scheme  
+
+Question
+In Swift, which design pattern would you use to ensure a resource-heavy object is only created when needed?  
+
+Select one:  
+a. Singleton  
+b. Lazy Initialization  
+c. Factory Method  
+d. Prototype  
+
+Question
+A bag contains 3 yellow and 7 purple marbles. What is the probability of drawing two yellow marbles in a row without replacement?  
+
+Select one:  
+a. 1/15  
+b. 3/50  
+c. 1/10  
+d. 2/45  
+
+Question 
+In design theory, what does a "split-complementary" color scheme achieve compared to a complementary scheme?  
+
+Select one:  
+a. Less contrast, more harmony  
+b. Higher contrast, less balance  
+c. Monochromatic simplicity  
+d. Random visual noise  
+
+Question
+In Swift, what is the purpose of the `inout` keyword in a function declaration?  
+
+Select one:  
+a. It marks the function as asynchronous  
+b. It allows the function to modify its parameter’s original value  
+c. It restricts the parameter to optional types  
+d. It ensures the parameter is immutable  
+
+Question
+What is the next shape in the pattern: Oval, Star, Oval, Diamond, Star, …?  
+
+Select one:  
+a. Oval  
+b. Diamond  
+c. Star  
+d. Circle  
+
+Question 
+According to Apple’s HIG, why should an app avoid using custom gestures for primary actions?  
+
+Select one:  
+a. They increase app size  
+b. They may confuse users unfamiliar with the app  
+c. They conflict with system animations  
+d. They reduce battery life  
+
+Question  
+In Swift, what OOP concept is violated if a subclass directly accesses a superclass’s private properties?  
+
+Select one:  
+a. Polymorphism  
+b. Encapsulation  
+c. Inheritance  
+d. Abstraction  
+
+Question 
+What is the probability of flipping a fair coin 4 times and getting heads exactly once?  
+
+Select one:  
+a. 1/4  
+b. 1/8  
+c. 1/2  
+d. 4/16  
+
+Question 
+In SwiftUI, how does `.ignoresSafeArea()` affect a view’s layout?  
+
+Select one:  
+a. Constrains it to the safe area  
+b. Extends it beyond the safe area edges  
+c. Centers it within the safe area  
+d. Reduces its opacity outside the safe area  
+
+Question  
+What logically follows: "All prime numbers are odd except 2. This number is even."?  
+
+Select one:  
+a. It is not prime  
+b. It is prime only if it is 2  
+c. It is definitely prime  
+d. All even numbers are prime  
+
+Question
+In Swift, what is the result of the expression `let x = [1, 2, 3].reduce(0, +)`?  
+
+Select one:  
+a. 0  
+b. 6  
+c. 3  
+d. 1  
+
+Question
+In responsive design for iOS, what is the benefit of using `adaptive stack views` over fixed layouts?  
+
+Select one:  
+a. They reduce code complexity  
+b. They dynamically adjust to screen size and orientation  
+c. They enforce a single orientation  
+d. They eliminate the need for constraints  
+
+Question  
+What is the next number in the sequence: 8, 14, 26, 50, 98, …?  
+
+Select one:  
+a. 194  
+b. 186  
+c. 150  
+d. 202  
+
+Question 
+In user-centered design, what is the key difference between a sketch and a wireframe?  
+
+Select one:  
+a. Sketches are digital; wireframes are paper-based  
+b. Sketches are rough ideas; wireframes define structure  
+c. Wireframes include color; sketches do not  
+d. Sketches test interactions; wireframes do not  
+
+Question  
+In Swift, which keyword would you use to ensure a protocol method must be implemented by all conforming types without a default?  
+
+Select one:  
+a. required  
+b. mandatory  
+c. override  
+d. abstract  
+
+Question 
+If two events A and B are mutually exclusive with P(A) = 0.3 and P(B) = 0.4, what is P(A and B)?  
+
+Select one:  
+a. 0.7  
+b. 0.12  
+c. 0.0  
+d. 0.5  
+
+Question 
+In UI design, what does the "Fitts’s Law" principle suggest about interactive elements?  
+
+Select one:  
+a. Larger, closer targets are easier to tap  
+b. Smaller targets improve precision  
+c. Color affects interaction speed  
+d. Spacing has no impact on usability  
+
+Question
+In Swift, what design pattern would you use to wrap an existing class with additional functionality without modifying its code?  
+
+Select one:  
+a. Adapter  
+b. Decorator  
+c. Proxy  
+d. Facade  
+
+Question
+What is the next number in the sequence: 2, 10, 30, 68, 130, …?  
+
+Select one:  
+a. 222  
+b. 198  
+c. 250  
+d. 226  
+
+Question 
+According to Apple’s HIG, what is the recommended approach for handling destructive actions like deleting data?  
+
+Select one:  
+a. Perform them silently with no confirmation  
+b. Require explicit user confirmation  
+c. Use subtle animations to indicate completion  
+d. Hide them in secondary menus

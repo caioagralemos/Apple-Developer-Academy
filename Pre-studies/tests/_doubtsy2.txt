@@ -837,3 +837,30 @@ a. They reduce code complexity
 b. They dynamically adjust to screen size and orientation
 c. They enforce a single orientation
 d. They eliminate the need for constraints
+
+Question
+In SwiftUI, how does the .cornerRadius() modifier differ from .clipShape(Circle()) when applied to a view?
+
+Select one:
+a. .cornerRadius() rounds all corners; .clipShape(Circle()) makes a perfect circle
+b. .cornerRadius() only affects borders; .clipShape(Circle()) changes the view’s content
+c. .cornerRadius() applies padding; .clipShape(Circle()) does not
+d. They produce identical results
+
+Question
+In Swift, what happens if you mark a protocol with @objc but include a property that Objective-C cannot represent (e.g., a Swift enum)?
+
+Select one:
+a. The code compiles but crashes at runtime
+b. The compiler raises an error
+c. The property is ignored by Objective-C
+d. The protocol becomes optional
+
+Question
+In Swift, which design pattern would you use to provide a placeholder interface while a resource-heavy object loads asynchronously?
+
+Select one:
+a. Proxy
+b. Facade
+c. Adapter
+d. Decorator

@@ -5350,3 +5350,273 @@ a. Perform them silently with no confirmation
 b. Require explicit user confirmation  
 c. Use subtle animations to indicate completion  
 d. Hide them in secondary menus
+
+Question 
+What is the next number in the sequence: 1, 3, 7, 19, 51, …?  
+
+Select one:  
+a. 103  
+b. 131  
+c. 127  
+d. 151  
+
+Question 
+In Swift, what is the primary benefit of using a `guard let` statement instead of an `if let` for optional binding?  
+
+Select one:  
+a. It reduces memory usage  
+b. It forces early exit, improving code readability  
+c. It automatically assigns a default value  
+d. It allows multiple optional bindings in one line  
+
+Question 
+According to Apple’s Human Interface Guidelines, what should be the primary focus when designing app icons?  
+
+Select one:  
+a. Using vibrant gradients for visual appeal  
+b. Ensuring simplicity and recognizability  
+c. Incorporating detailed animations  
+d. Matching the app’s background color  
+
+Question
+If you roll a fair six-sided die, what is the probability of landing on a number less than 3 or greater than 5?  
+
+Select one:  
+a. 1/3  
+b. 2/3  
+c. 1/2  
+d. 5/6  
+
+Question 
+In Swift, what is the output of this code: `let x = 5; let y = x % 2 == 0 ? "Even" : "Odd"`?  
+
+Select one:  
+a. "Even"  
+b. "Odd"  
+c. 5  
+d. nil  
+
+Question  
+In UI design, what does the principle of "figure-ground organization" help users achieve?  
+
+Select one:  
+a. Distinguish interactive elements from the background  
+b. Group related items together  
+c. Predict navigation patterns  
+d. Identify color contrasts  
+
+Question 
+What logically follows: "If a number is divisible by 10, it ends in 0. This number does not end in 0."?  
+
+Select one:  
+a. It is divisible by 10  
+b. It is not divisible by 10  
+c. It might be divisible by 10  
+d. It ends in 5  
+
+Question
+In SwiftUI, how does the `.cornerRadius()` modifier differ from `.clipShape(Circle())` when applied to a view?  
+
+Select one:  
+a. `.cornerRadius()` rounds all corners; `.clipShape(Circle())` makes a perfect circle  
+b. `.cornerRadius()` only affects borders; `.clipShape(Circle())` changes the view’s content  
+c. `.cornerRadius()` applies padding; `.clipShape(Circle())` does not  
+d. They produce identical results  
+
+Question
+What is the next number in the sequence: 2, 6, 12, 20, 30, …?  
+
+Select one:  
+a. 40  
+b. 42  
+c. 38  
+d. 45  
+
+Question  
+In Swift, which design pattern would you use to manage a pool of reusable objects, such as table view cells?  
+
+Select one:  
+a. Flyweight  
+b. Singleton  
+c. Prototype  
+d. Observer  
+
+Question  
+In user-centered design, what is the primary advantage of using a low-fidelity prototype over a high-fidelity one early in the process?  
+
+Select one:  
+a. It provides detailed visual feedback  
+b. It allows rapid iteration with minimal investment  
+c. It tests backend functionality  
+d. It ensures accessibility compliance  
+
+Question  
+If two fair coins are flipped, what is the probability of getting one head and one tail in any order?  
+
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 3/4  
+d. 1/3  
+
+Question 
+In Swift, what is the result type of this expression: `let result = String(42) + " items"`?  
+
+Select one:  
+a. Int  
+b. String  
+c. Optional<String>  
+d. Double  
+
+Question  
+According to design theory, what does a "warm color palette" (e.g., reds, oranges) typically evoke in a UI?  
+
+Select one:  
+a. Calmness and neutrality  
+b. Energy and urgency  
+c. Professionalism and trust  
+d. Minimalism and simplicity  
+
+Question  
+What logically follows: "All roses are plants. Some plants need sunlight. This is a rose."?  
+
+Select one:  
+a. It definitely needs sunlight  
+b. It might need sunlight  
+c. It does not need sunlight  
+d. All plants are roses  
+
+Question  
+In Swift, what happens if you mark a protocol with `@objc` but include a property that Objective-C cannot represent (e.g., a Swift enum)?  
+
+Select one:  
+a. The code compiles but crashes at runtime  
+b. The compiler raises an error  
+c. The property is ignored by Objective-C  
+d. The protocol becomes optional  
+
+Question 
+In responsive design for iOS, what is the key advantage of using `UITraitCollection` over hardcoding layout values?  
+
+Select one:  
+a. It reduces app size  
+b. It adapts layouts to device traits dynamically  
+c. It simplifies color scheme management  
+d. It eliminates the need for storyboards  
+
+Question 
+What is the next number in the sequence: 1, 4, 13, 40, 121, …?  
+
+Select one:  
+a. 364  
+b. 360  
+c. 400  
+d. 363  
+
+Question  
+In Swift, which OOP concept is violated if a class exposes all its internal properties as `public var` without getters or setters?  
+
+Select one:  
+a. Inheritance  
+b. Encapsulation  
+c. Polymorphism  
+d. Abstraction  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should you prioritize when choosing a font for readability?  
+
+Select one:  
+a. Decorative styles for uniqueness  
+b. High legibility across sizes  
+c. Bold weights for all text  
+d. Fixed-width fonts only  
+
+Question 
+If a bag has 3 red and 4 blue balls, what is the probability of drawing a red ball followed by a blue ball without replacement?  
+
+Select one:  
+a. 12/49  
+b. 3/7  
+c. 4/21  
+d. 1/3  
+
+Question 
+In SwiftUI, what does applying `.blur(radius: 5)` to a view achieve?  
+
+Select one:  
+a. Sharpens the view’s edges  
+b. Applies a Gaussian blur effect  
+c. Reduces the view’s opacity  
+d. Adds a shadow with a 5-point radius  
+
+Question 
+What is the next number in the sequence: 5, 9, 17, 33, 65, …?  
+
+Select one:  
+a. 129  
+b. 130  
+c. 131  
+d. 128  
+
+Question  
+In user-centered design, what is the primary purpose of a "user persona" during the design phase?  
+
+Select one:  
+a. To define the app’s technical architecture  
+b. To guide decisions by representing target user needs  
+c. To finalize the app’s color palette  
+d. To replace usability testing  
+
+Question 
+In Swift, what is the effect of declaring a variable as `var x: Int? = nil` and then using `x!` without assigning a value?  
+
+Select one:  
+a. It defaults to 0  
+b. It causes a runtime crash  
+c. It returns an empty string  
+d. It compiles but warns about potential nil  
+
+Question
+In design theory, what does the principle of "continuation" suggest about layout design?  
+
+Select one:  
+a. Elements should be randomly placed for variety  
+b. Lines or curves guide the eye in a predictable direction  
+c. All elements must be centered  
+d. Color should dominate over structure  
+
+Question
+What logically follows: "If it’s cold, I wear a jacket. I’m not wearing a jacket."?  
+
+Select one:  
+a. It’s definitely not cold  
+b. It might not be cold  
+c. It’s definitely cold  
+d. I don’t own a jacket  
+
+Question  
+In Swift, which design pattern would you use to provide a placeholder interface while a resource-heavy object loads asynchronously?  
+
+Select one:  
+a. Proxy  
+b. Facade  
+c. Adapter  
+d. Decorator  
+
+Question  
+If you roll two fair six-sided dice, what is the probability that their sum is a multiple of 3?  
+
+Select one:  
+a. 1/3  
+b. 5/12  
+c. 1/2  
+d. 11/36  
+
+Question 
+According to Apple’s Human Interface Guidelines, what is the recommended approach for handling undo actions in an iOS app?  
+
+Select one:  
+a. Automatically undo without user input  
+b. Provide a clear, simple way to reverse actions  
+c. Hide undo options to avoid confusion  
+d. Require multiple steps to confirm undo  

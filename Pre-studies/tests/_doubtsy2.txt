@@ -963,3 +963,12 @@ a. Proxy
 b. Adapter
 c. Decorator
 d. Composite
+
+Question
+In Swift, which design pattern would you use to create a system where multiple objects can react to a single event, like a button press notifying various UI elements?
+
+Select one:
+a. Command
+b. Observer
+c. Strategy
+d. Prototype

@@ -6160,3 +6160,273 @@ a. Modernity and simplicity
 b. Tradition and elegance  
 c. Random visual noise  
 d. Reduced accessibility
+
+Question 
+What is the next number in the sequence: 1, 2, 4, 8, 15, …?  
+
+Select one:  
+a. 26  
+b. 28  
+c. 30  
+d. 32  
+
+Question 
+In Swift, what is the primary purpose of the `@objcMembers` attribute when applied to a class?  
+
+Select one:  
+a. To make all members private by default  
+b. To expose all members to the Objective-C runtime  
+c. To enforce Swift-only compilation  
+d. To optimize memory usage  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for designing a search field?  
+
+Select one:  
+a. Place it at the bottom of the screen for accessibility  
+b. Make it prominent and easily accessible, typically near the top  
+c. Hide it behind a menu to reduce clutter  
+d. Use a custom icon without a text label  
+
+Question
+If you flip a fair coin 3 times, what is the probability of getting exactly one head?  
+
+Select one:  
+a. 1/2  
+b. 3/8  
+c. 1/4  
+d. 5/8  
+
+Question
+In SwiftUI, what happens if you apply `.font(.title)` to a Text view without specifying a weight?  
+
+Select one:  
+a. It uses the system default weight for the title style  
+b. It defaults to bold automatically  
+c. It throws a runtime error  
+d. It ignores the font modifier  
+
+Question  
+What logically follows: "If a number is divisible by 8, it is divisible by 4. This number is not divisible by 4."?  
+
+Select one:  
+a. It is divisible by 8  
+b. It might be divisible by 8  
+c. It is not divisible by 8  
+d. It is odd  
+
+Question  
+In Swift, which design pattern would you use to create a system where multiple objects can react to a single event, like a button press notifying various UI elements?  
+
+Select one:  
+a. Command  
+b. Observer  
+c. Strategy  
+d. Prototype  
+
+Question  
+In UI design, what does the principle of "contrast" primarily aim to achieve?  
+
+Select one:  
+a. Uniformity across all elements  
+b. Emphasis on key elements and improved readability  
+c. A minimalist aesthetic with fewer colors  
+d. Random visual interest  
+
+Question 
+What is the next number in the sequence: 3, 5, 8, 12, 17, …?  
+
+Select one:  
+a. 22  
+b. 23  
+c. 25  
+d. 27  
+
+Question 
+In Swift, what is the result of this expression: `let x = [1, 2, 3].reduce(1, *)`?  
+
+Select one:  
+a. 6  
+b. 7  
+c. 3  
+d. 1  
+
+Question  
+In user-centered design, what is the primary benefit of conducting a "card sorting" exercise with users?  
+
+Select one:  
+a. To finalize the app’s color scheme  
+b. To understand how users group and prioritize content  
+c. To test high-fidelity interactions  
+d. To define backend data structures  
+
+Question 
+If a bag contains 4 red and 2 blue marbles, what is the probability of drawing two red marbles in a row without replacement?  
+
+Select one:  
+a. 2/5  
+b. 4/15  
+c. 1/2  
+d. 8/25  
+
+Question  
+In Swift, which OOP concept is illustrated when a protocol requires a method, and conforming types provide different implementations?  
+
+Select one:  
+a. Inheritance  
+b. Encapsulation  
+c. Polymorphism  
+d. Composition  
+
+Question  
+In responsive design for iOS, what is the main advantage of using `UIStackView` over manually setting frames?  
+
+Select one:  
+a. It locks elements to fixed positions  
+b. It simplifies dynamic arrangement of subviews  
+c. It reduces the need for Auto Layout constraints entirely  
+d. It improves rendering speed  
+
+Question 
+What logically follows: "All trains run on tracks. This vehicle does not run on tracks."?  
+
+Select one:  
+a. It might be a train  
+b. It is a train  
+c. It is not a train  
+d. All vehicles run on tracks  
+
+Question  
+What is the next number in the sequence: 2, 3, 6, 11, 18, …?  
+
+Select one:  
+a. 25  
+b. 27  
+c. 29  
+d. 31  
+
+Question  
+In Swift, what happens if you declare a property as `lazy var x = computeValue()` and never access it?  
+
+Select one:  
+a. The value is computed at initialization  
+b. The computation is skipped until first access  
+c. It causes a compilation error  
+d. It defaults to nil  
+
+Question 
+According to design theory, what does a "triadic color scheme" typically provide in a UI?  
+
+Select one:  
+a. High contrast with a single hue  
+b. Balanced vibrancy using three evenly spaced colors  
+c. Subtle gradients for minimalism  
+d. Random color variation  
+
+Question  
+If you roll two fair six-sided dice, what is the probability that their sum equals 9?  
+
+Select one:  
+a. 1/9  
+b. 1/6  
+c. 2/9  
+d. 5/36  
+
+Question  
+In SwiftUI, what does the `.offset(x:y:)` modifier do to a view?  
+
+Select one:  
+a. Resizes the view to the specified dimensions  
+b. Moves the view by the given x and y coordinates  
+c. Rotates the view around its center  
+d. Clips the view to a new bounding box  
+
+Question 
+In Swift, which keyword would you use to allow a method to be overridden by subclasses while still providing a default implementation in a protocol extension?  
+
+Select one:  
+a. open  
+b. override  
+c. dynamic  
+d. optional  
+
+Question  
+In user-centered design, what is the main purpose of a "mockup" compared to a wireframe?  
+
+Select one:  
+a. To test backend functionality  
+b. To add visual design details for stakeholder review  
+c. To define the app’s navigation flow  
+d. To replace usability testing  
+
+Question  
+What is the next number in the sequence: 1, 5, 12, 22, 35, …?  
+
+Select one:  
+a. 48  
+b. 51  
+c. 55  
+d. 60  
+
+Question  
+In Swift, what design pattern would you use to create a flexible system where an object’s behavior can be swapped at runtime, such as changing sorting algorithms?  
+
+Select one:  
+a. Decorator  
+b. Strategy  
+c. Adapter  
+d. Facade  
+
+Question 
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a button’s appearance?  
+
+Select one:  
+a. Using clear labels with icons  
+b. Making it too small or visually ambiguous  
+c. Providing subtle haptic feedback  
+d. Aligning it with system-standard styles  
+
+Question  
+If P(A) = 0.5 and P(B) = 0.3, and A and B are independent, what is the probability of both A and B occurring?  
+
+Select one:  
+a. 0.15  
+b. 0.8  
+c. 0.65  
+d. 0.2  
+
+Question  
+In Swift, what is the result type of this expression: `let x = 7; let y = Double(x) / 2`?  
+
+Select one:  
+a. Int  
+b. Float  
+c. Double  
+d. Optional<Double>  
+
+Question   
+In UI design, what does the principle of "balance" typically contribute to a layout?  
+
+Select one:  
+a. Visual chaos to engage users  
+b. A sense of stability and proportion  
+c. Overemphasis on a single element  
+d. Random distribution of elements  
+
+Question 
+What logically follows: "If a device is a phone, it has a touchscreen. This device does not have a touchscreen."?  
+
+Select one:  
+a. It is a phone  
+b. It might be a phone  
+c. It is not a phone  
+d. All devices have touchscreens  
+
+Question
+In SwiftUI, what is the primary benefit of using `@ObservedObject` over `@State` for managing view data?  
+
+Select one:  
+a. It restricts data to a single view  
+b. It enables external object observation and updates  
+c. It ensures data is immutable  
+d. It reduces memory usage  

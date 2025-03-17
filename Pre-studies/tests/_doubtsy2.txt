@@ -927,3 +927,39 @@ a. Wireframes include interactivity; mockups do not
 b. Mockups add visual design details; wireframes focus on structure
 c. Wireframes are high-fidelity; mockups are low-fidelity
 d. Mockups test usability; wireframes define backend logic
+
+Question
+In Swift, what is the primary purpose of using a typealias?
+
+Select one:
+a. To create a new class type
+b. To provide an alternative name for an existing type
+c. To enforce type safety in generics
+d. To mark a variable as immutable
+
+Question
+In Swift, what is the purpose of the @available attribute?
+
+Select one:
+a. To mark a variable as optional
+b. To specify the OS versions where code is available
+c. To enforce lazy initialization
+d. To restrict access to a method
+
+Question
+In SwiftUI, what happens if you apply .disabled(true) to a button?
+
+Select one:
+a. It hides the button from the view
+b. It prevents user interaction and grays it out
+c. It changes the button’s color to red
+d. It removes the button’s action but keeps it interactive
+
+Question
+In Swift, what design pattern would you use to create a lightweight object that delegates complex tasks to a heavier object?
+
+Select one:
+a. Proxy
+b. Adapter
+c. Decorator
+d. Composite

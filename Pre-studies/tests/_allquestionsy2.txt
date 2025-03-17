@@ -5890,3 +5890,273 @@ a. Mediator
 b. Observer  
 c. Composite  
 d. Flyweight
+
+Question
+What is the next number in the sequence: 1, 3, 7, 15, 31, …?  
+
+Select one:  
+a. 47  
+b. 63  
+c. 62  
+d. 64  
+
+Question 
+In Swift, what is the primary purpose of using a `typealias`?  
+
+Select one:  
+a. To create a new class type  
+b. To provide an alternative name for an existing type  
+c. To enforce type safety in generics  
+d. To mark a variable as immutable  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be the main focus when designing a modal view?  
+
+Select one:  
+a. Including as many options as possible  
+b. Keeping it task-focused and dismissible  
+c. Using bright animations to draw attention  
+d. Making it full-screen with no exit option  
+
+Question 
+If you roll a fair six-sided die, what is the probability of landing on a number that is both odd and greater than 3?  
+
+Select one:  
+a. 1/6  
+b. 1/3  
+c. 1/2  
+d. 2/3  
+
+Question 
+In SwiftUI, what does the `.foregroundColor()` modifier primarily affect?  
+
+Select one:  
+a. The view’s background color  
+b. The text or symbol color of the view  
+c. The border color of the view  
+d. The shadow color around the view  
+
+Question 
+What logically follows: "If all dogs bark, and this animal does not bark, then …"?  
+
+Select one:  
+a. It is a dog  
+b. It might be a dog  
+c. It is not a dog  
+d. All animals bark  
+
+Question 
+In Swift, which design pattern would you use to create a system where an object notifies a single delegate of state changes?  
+
+Select one:  
+a. Observer  
+b. Delegation  
+c. Singleton  
+d. Factory  
+
+Question  
+In UI design, what is the primary benefit of using a grid system for layout?  
+
+Select one:  
+a. It increases rendering speed  
+b. It ensures consistent alignment and spacing  
+c. It simplifies color selection  
+d. It reduces the need for user testing  
+
+Question 
+What is the next number in the sequence: 2, 5, 11, 23, 47, …?  
+
+Select one:  
+a. 95  
+b. 93  
+c. 91  
+d. 89  
+
+Question  
+In Swift, what happens if you declare a variable as `var x: Int = 5` and later attempt to assign it a String value?  
+
+Select one:  
+a. It automatically converts the String to an Int  
+b. It causes a compilation error  
+c. It assigns nil to the variable  
+d. It silently ignores the assignment  
+
+Question 
+In user-centered design, what is the primary advantage of conducting a usability test with a paper prototype?  
+
+Select one:  
+a. It provides detailed backend feedback  
+b. It allows quick, low-cost iteration based on user input  
+c. It ensures pixel-perfect visuals  
+d. It replaces the need for digital tools  
+
+Question 
+If two fair coins are flipped, what is the probability of getting at least one head?  
+
+Select one:  
+a. 1/4  
+b. 1/2  
+c. 3/4  
+d. 1/3  
+
+Question  
+In Swift, what OOP concept is demonstrated when a subclass hides a superclass method with a new implementation using the same name but different parameters?  
+
+Select one:  
+a. Overriding  
+b. Overloading  
+c. Encapsulation  
+d. Inheritance  
+
+Question 
+According to design theory, what does a "complementary color scheme" typically achieve in a UI?  
+
+Select one:  
+a. Subtle harmony with low contrast  
+b. High contrast and visual pop  
+c. Monotone simplicity  
+d. Random aesthetic variation  
+
+Question  
+What is the next number in the sequence: 1, 4, 9, 16, 25, …?  
+
+Select one:  
+a. 32  
+b. 36  
+c. 40  
+d. 49  
+
+Question  
+In Swift, what is the purpose of the `@available` attribute?  
+
+Select one:  
+a. To mark a variable as optional  
+b. To specify the OS versions where code is available  
+c. To enforce lazy initialization  
+d. To restrict access to a method  
+
+Question  
+In responsive design for iOS, what is the key benefit of using `UIViewController`’s `viewWillTransition(to:with:)` method?  
+
+Select one:  
+a. It locks the UI to a single size  
+b. It allows adaptation to orientation changes  
+c. It simplifies color management  
+d. It reduces memory usage  
+
+Question  
+What logically follows: "If a fruit is an apple, it is red or green. This fruit is neither red nor green."?  
+
+Select one:  
+a. It is an apple  
+b. It might be an apple  
+c. It is not an apple  
+d. All fruits are apples  
+
+Question 
+In SwiftUI, what happens if you apply `.disabled(true)` to a button?  
+
+Select one:  
+a. It hides the button from the view  
+b. It prevents user interaction and grays it out  
+c. It changes the button’s color to red  
+d. It removes the button’s action but keeps it interactive  
+
+Question 
+If a bag contains 5 red and 3 blue marbles, what is the probability of drawing a red marble on the first draw?  
+
+Select one:  
+a. 5/8  
+b. 3/8  
+c. 1/2  
+d. 5/6  
+
+Question  
+In Swift, which keyword would you use to ensure a method can only be called on the type itself, not on instances?  
+
+Select one:  
+a. static  
+b. class  
+c. final  
+d. private  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended practice for handling temporary disruptions like network errors?  
+
+Select one:  
+a. Automatically retry without informing the user  
+b. Display a clear message with a retry option  
+c. Crash the app to alert the user  
+d. Hide the error and proceed silently  
+
+Question   
+What is the next number in the sequence: 3, 9, 21, 45, 93, …?  
+
+Select one:  
+a. 189  
+b. 181  
+c. 177  
+d. 192  
+
+Question 
+In UI design, what does the principle of "proximity" suggest about grouping elements?  
+
+Select one:  
+a. Unrelated items should be placed close together  
+b. Related items should be spaced far apart  
+c. Related items should be grouped closely to imply connection  
+d. All items should be evenly distributed regardless of relation  
+
+Question 
+In Swift, what design pattern would you use to create a lightweight object that delegates complex tasks to a heavier object?  
+
+Select one:  
+a. Proxy  
+b. Adapter  
+c. Decorator  
+d. Composite  
+
+Question  
+If you roll a fair six-sided die twice, what is the probability that the sum is less than 5?  
+
+Select one:  
+a. 1/6  
+b. 1/9  
+c. 1/12  
+d. 5/36  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, 2, 3].map { $0 * 2 }`?  
+
+Select one:  
+a. [1, 2, 3]  
+b. [2, 4, 6]  
+c. 6  
+d. [1, 4, 9]  
+
+Question  
+In user-centered design, what is the key difference between a wireframe and a high-fidelity prototype?  
+
+Select one:  
+a. Wireframes include backend logic; prototypes do not  
+b. Wireframes focus on structure; prototypes add visuals and interactivity  
+c. Prototypes are static; wireframes are interactive  
+d. Wireframes are always digital; prototypes are paper-based  
+
+Question 
+What logically follows: "If it’s a holiday, the store is closed. The store is open."?  
+
+Select one:  
+a. It’s definitely a holiday  
+b. It’s not a holiday  
+c. It might be a holiday  
+d. The store is always closed  
+
+Question
+According to design theory, what does using a serif font typically convey in a UI compared to a sans-serif font?  
+
+Select one:  
+a. Modernity and simplicity  
+b. Tradition and elegance  
+c. Random visual noise  
+d. Reduced accessibility

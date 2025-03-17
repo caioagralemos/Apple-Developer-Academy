@@ -5619,4 +5619,274 @@ Select one:
 a. Automatically undo without user input  
 b. Provide a clear, simple way to reverse actions  
 c. Hide undo options to avoid confusion  
-d. Require multiple steps to confirm undo  
+d. Require multiple steps to confirm undo
+
+Question
+What is the next number in the sequence: 1, 5, 14, 30, 55, …?  
+
+Select one:  
+a. 91  
+b. 85  
+c. 75  
+d. 100  
+
+Question
+In Swift, what is the primary purpose of using a `where` clause with generics?  
+
+Select one:  
+a. To restrict generic types to specific constraints  
+b. To define a default value for the generic type  
+c. To allow multiple inheritance in protocols  
+d. To mark the generic as optional  
+
+Question 
+According to Apple’s Human Interface Guidelines, what should be the primary consideration when choosing icons for an iOS app?  
+
+Select one:  
+a. Using as many colors as possible  
+b. Ensuring they are simple and instantly recognizable  
+c. Making them large to fill the screen  
+d. Including detailed gradients for depth  
+
+Question
+If a fair six-sided die is rolled twice, what is the probability that the first roll is a 1 and the second roll is greater than 4?  
+
+Select one:  
+a. 1/9  
+b. 1/18  
+c. 1/12  
+d. 2/9  
+
+Question  
+In SwiftUI, how does the `.matchedGeometryEffect()` modifier enhance user experience?  
+
+Select one:  
+a. It applies a blur effect to overlapping views  
+b. It creates smooth transitions between shared elements  
+c. It locks views to a fixed position  
+d. It adjusts opacity based on screen size  
+
+Question
+What logically follows: "If a vehicle has four wheels, it’s a car. This vehicle has three wheels."?  
+
+Select one:  
+a. It might be a car  
+b. It is not a car  
+c. It is definitely a car  
+d. All vehicles have four wheels  
+
+Question
+In Swift, which design pattern would you use to encapsulate a set of operations that can be executed later, such as an undo feature?  
+
+Select one:  
+a. Command  
+b. State  
+c. Mediator  
+d. Chain of Responsibility  
+
+Question
+What is the next number in the sequence: 2, 8, 18, 32, 50, …?  
+
+Select one:  
+a. 72  
+b. 68  
+c. 64  
+d. 80  
+
+Question  
+In UI design, what does the principle of "alignment" primarily contribute to a layout?  
+
+Select one:  
+a. Random placement of elements  
+b. A structured and organized appearance  
+c. Increased visual noise  
+d. Reduced color contrast  
+
+Question  
+In Swift, what happens if you declare a variable as `var x: String? = "Hello"` and then use `x?.count`?  
+
+Select one:  
+a. It crashes if x is nil  
+b. It returns 5  
+c. It returns an optional Int  
+d. It returns nil regardless of the value  
+
+Question 
+If two independent events A and B have probabilities P(A) = 0.7 and P(B) = 0.4, what is the probability that at least one occurs?  
+
+Select one:  
+a. 0.82  
+b. 0.28  
+c. 0.88  
+d. 1.1  
+
+Question
+In user-centered design, what is the main benefit of conducting a "contextual inquiry" during research?  
+
+Select one:  
+a. It finalizes the app’s visual style  
+b. It observes users in their natural environment  
+c. It eliminates the need for prototypes  
+d. It focuses solely on developer feedback  
+
+Question
+In Swift, what keyword would you use to allow a subclass to provide an alternative implementation of a stored property’s getter?  
+
+Select one:  
+a. override  
+b. extend  
+c. redefine  
+d. super  
+
+Question  
+What is the next number in the sequence: 3, 15, 35, 63, 99, …?  
+
+Select one:  
+a. 135  
+b. 143  
+c. 150  
+d. 128  
+
+Question  
+According to design theory, what does using a sans-serif font typically convey in a UI compared to a serif font?  
+
+Select one:  
+a. Tradition and formality  
+b. Modernity and simplicity  
+c. Complexity and detail  
+d. Reduced readability  
+
+Question  
+In SwiftUI, what is the primary advantage of using `@EnvironmentObject` over `@State` for data sharing?  
+
+Select one:  
+a. It restricts data to a single view  
+b. It allows data to be shared across multiple views without prop drilling  
+c. It ensures data is immutable  
+d. It automatically resets data on view dismissal  
+
+Question
+If a bag contains 5 green and 3 yellow marbles, what is the probability of drawing a green marble followed by a yellow one without replacement?  
+
+Select one:  
+a. 5/16  
+b. 15/56  
+c. 3/8  
+d. 1/4  
+
+Question 
+What logically follows: "All birds can fly except penguins. This is not a penguin."?  
+
+Select one:  
+a. It cannot fly  
+b. It might be a bird that can fly  
+c. It is definitely a bird that can fly  
+d. It is not a bird  
+
+Question 
+In Swift, which OOP concept is illustrated when a class adopts multiple protocols with different method signatures?  
+
+Select one:  
+a. Inheritance  
+b. Encapsulation  
+c. Polymorphism  
+d. Composition  
+
+Question   
+In responsive design for iOS, what does the use of `safeAreaInsets` help developers achieve?  
+
+Select one:  
+a. Fixed layouts across all devices  
+b. Proper alignment avoiding notches and edges  
+c. Increased animation performance  
+d. Elimination of Auto Layout constraints  
+
+Question 
+What is the next number in the sequence: 4, 10, 28, 82, 244, …?  
+
+Select one:  
+a. 730  
+b. 700  
+c. 728  
+d. 750  
+
+Question 
+In Swift, what is the effect of using `@frozen` with an enum declaration?  
+
+Select one:  
+a. It prevents adding new cases in future updates  
+b. It allows dynamic case creation at runtime  
+c. It restricts the enum to a single case  
+d. It makes the enum mutable  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a tab bar?  
+
+Select one:  
+a. Using standard icons  
+b. Overloading it with more than five items  
+c. Providing clear labels  
+d. Consistent placement across screens  
+
+Question  
+If you flip a fair coin 4 times, what is the probability of getting exactly 2 heads and 2 tails?  
+
+Select one:  
+a. 1/4  
+b. 3/8  
+c. 1/2  
+d. 5/16  
+
+Question 
+In UI/UX, what is the primary difference between a wireframe and a mockup?  
+
+Select one:  
+a. Wireframes include interactivity; mockups do not  
+b. Mockups add visual design details; wireframes focus on structure  
+c. Wireframes are high-fidelity; mockups are low-fidelity  
+d. Mockups test usability; wireframes define backend logic  
+
+Question 
+In Swift, what is the result of this expression: `let x = [1, 2, 3].first(where: { $0 > 2 })`?  
+
+Select one:  
+a. 1  
+b. 2  
+c. 3  
+d. nil  
+
+Question  
+What logically follows: "If a number is prime, it has exactly two factors. This number has three factors."?  
+
+Select one:  
+a. It is prime  
+b. It is not prime  
+c. It might be prime  
+d. All numbers have three factors  
+
+Question  
+In SwiftUI, what does the `.zIndex()` modifier control in a view hierarchy?  
+
+Select one:  
+a. The view’s opacity level  
+b. The stacking order of overlapping views  
+c. The view’s horizontal alignment  
+d. The view’s animation speed  
+
+Question 
+In design theory, what does a "cool color palette" (e.g., blues, greens) typically evoke in a UI?  
+
+Select one:  
+a. Urgency and excitement  
+b. Calmness and trust  
+c. Visual clutter  
+d. High contrast  
+
+Question
+In Swift, which design pattern would you use to create a centralized point for handling multiple object interactions, such as a chat system?  
+
+Select one:  
+a. Mediator  
+b. Observer  
+c. Composite  
+d. Flyweight

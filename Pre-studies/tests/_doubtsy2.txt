@@ -864,3 +864,66 @@ a. Proxy
 b. Facade
 c. Adapter
 d. Decorator
+
+Question
+In SwiftUI, how does the .matchedGeometryEffect() modifier enhance user experience?
+
+Select one:
+a. It applies a blur effect to overlapping views
+b. It creates smooth transitions between shared elements
+c. It locks views to a fixed position
+d. It adjusts opacity based on screen size
+
+Question
+In Swift, which design pattern would you use to encapsulate a set of operations that can be executed later, such as an undo feature?
+
+Select one:
+a. Command
+b. State
+c. Mediator
+d. Chain of Responsibility
+
+Question
+In Swift, what happens if you declare a variable as var x: String? = "Hello" and then use x?.count?
+
+Select one:
+a. It crashes if x is nil
+b. It returns 5
+c. It returns an optional Int
+d. It returns nil regardless of the value
+
+Question
+In Swift, what keyword would you use to allow a subclass to provide an alternative implementation of a stored property’s getter?
+
+Select one:
+a. override
+b. extend
+c. redefine
+d. super
+
+Question
+In Swift, what is the effect of using @frozen with an enum declaration?
+
+Select one:
+a. It prevents adding new cases in future updates
+b. It allows dynamic case creation at runtime
+c. It restricts the enum to a single case
+d. It makes the enum mutable
+
+Question
+In SwiftUI, what does the .zIndex() modifier control in a view hierarchy?
+
+Select one:
+a. The view’s opacity level
+b. The stacking order of overlapping views
+c. The view’s horizontal alignment
+d. The view’s animation speed
+
+Question
+In UI/UX, what is the primary difference between a wireframe and a mockup?
+
+Select one:
+a. Wireframes include interactivity; mockups do not
+b. Mockups add visual design details; wireframes focus on structure
+c. Wireframes are high-fidelity; mockups are low-fidelity
+d. Mockups test usability; wireframes define backend logic

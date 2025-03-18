@@ -1026,3 +1026,21 @@ a. It’s accessible with a getter
 b. It causes a compilation error
 c. It defaults to 0 in the subclass
 d. It becomes public in the subclass
+
+Question
+In Swift, what is the primary purpose of using the Never return type in a function?
+
+Select one:
+a. To indicate the function always returns nil
+b. To mark the function as never returning (e.g., it crashes or loops infinitely)
+c. To ensure the function returns an optional value
+d. To restrict the function to void returns
+
+Question
+In Swift, what is the primary purpose of using the Never return type in a function?
+
+Select one:
+a. To indicate the function always returns nil
+b. To mark the function as never returning (e.g., it crashes or loops infinitely)
+c. To ensure the function returns an optional value
+d. To restrict the function to void returns

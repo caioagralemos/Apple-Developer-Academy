@@ -972,3 +972,57 @@ a. Command
 b. Observer
 c. Strategy
 d. Prototype
+
+Question
+What does the use of a "muted color palette" typically convey in a UI design?
+
+Select one:
+a. Urgency and excitement
+b. Subtlety and calmness
+c. High contrast and focus
+d. Visual complexity
+
+Question
+In Swift, which design pattern would you use to allow a view controller to communicate user actions to a single responsible object?
+
+Select one:
+a. Observer
+b. Delegation
+c. Factory
+d. Strategy
+
+Question
+In SwiftUI, how does the .adaptiveSize() modifier improve a view’s responsiveness?
+
+Select one:
+a. It locks the view to a fixed size
+b. It adjusts the view based on available screen space
+c. It applies a uniform padding to all edges
+d. It restricts the view to portrait orientation
+
+Question
+In Swift, what is the purpose of the @discardableResult attribute on a function?
+
+Select one:
+a. It ensures the function’s result is always used
+b. It allows the result to be ignored without a warning
+c. It marks the function as optional
+d. It restricts the function to void returns
+
+Question
+In Swift, what happens if you declare a property as private var x: Int in a class and try to access it from a subclass?
+
+Select one:
+a. It’s accessible with a getter
+b. It causes a compilation error
+c. It defaults to 0 in the subclass
+d. It becomes public in the subclass
+
+Question
+In Swift, what happens if you declare a property as private var x: Int in a class and try to access it from a subclass?
+
+Select one:
+a. It’s accessible with a getter
+b. It causes a compilation error
+c. It defaults to 0 in the subclass
+d. It becomes public in the subclass

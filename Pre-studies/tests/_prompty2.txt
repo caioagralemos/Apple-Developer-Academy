@@ -25,7 +25,7 @@ Do not repeat any questions from the attached dataset. Ensure all questions are 
 Mix the topics so that the test is varied (not grouped by subject).
 Increase difficulty variety: Some questions should be easy, while others should introduce tricky choices ("trap answers") to encourage critical thinking.
 Make answer choices realistic: Avoid obvious eliminations; create plausible incorrect answers.
-Ensure topic balance: The test should contain a fair mix of logic, Swift programming, and design-related questions.
+Maintain topic balance: Distribute questions evenly across logical reasoning (approx. 6), Swift programming (approx. 12), and Swift design/UI/UX (approx. 12).
 Format the output like this:
 Question
 [Insert the question]

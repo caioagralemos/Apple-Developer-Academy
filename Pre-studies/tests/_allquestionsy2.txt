@@ -6430,3 +6430,273 @@ a. It restricts data to a single view
 b. It enables external object observation and updates  
 c. It ensures data is immutable  
 d. It reduces memory usage  
+
+Question
+What does the use of a "muted color palette" typically convey in a UI design?
+
+Select one:
+a. Urgency and excitement
+b. Subtlety and calmness
+c. High contrast and focus
+d. Visual complexity
+
+Question
+What is the next number in the sequence: 1, 3, 5, 9, 17, …?
+
+Select one:
+a. 25
+b. 33
+c. 29
+d. 31
+
+Question
+In Swift, what is the primary benefit of using a generic function over a non-generic one?
+
+Select one:
+a. It reduces compilation time
+b. It allows type flexibility while maintaining type safety
+c. It restricts the function to a single type
+d. It automatically handles memory management
+
+Question
+According to Apple’s Human Interface Guidelines, what is the recommended practice for presenting critical alerts?
+
+Select one:
+a. Display them subtly in the background
+b. Use a prominent, interruptive modal with clear actions
+c. Embed them in the navigation bar
+d. Show them only once without user acknowledgment
+
+Question
+In Swift, which design pattern would you use to allow a view controller to communicate user actions to a single responsible object?
+
+Select one:
+a. Observer
+b. Delegation
+c. Factory
+d. Strategy
+
+Question
+If a bag contains 2 red, 3 blue, and 5 green marbles, what is the probability of drawing a blue marble on the first try?
+
+Select one:
+a. 1/5
+b. 3/10
+c. 1/3
+d. 2/5
+
+Question
+In UI design, what is the primary purpose of establishing a clear visual hierarchy?
+
+Select one:
+a. To evenly distribute all elements
+b. To guide users’ attention to key information
+c. To maximize the use of bright colors
+d. To reduce the number of interactive elements
+
+Question
+In Swift, what happens if you declare a variable as var x: Int? = 10 and then use x ?? 5?
+
+Select one:
+a. It returns 5
+b. It returns 10
+c. It returns nil
+d. It causes a compilation error
+
+Question
+What logically follows: "If a user completes a task, they receive a reward. The user did not receive a reward."?
+
+Select one:
+a. The user completed the task
+b. The user might have completed the task
+c. The user did not complete the task
+d. All users receive rewards
+
+Question
+In SwiftUI, how does the .adaptiveSize() modifier improve a view’s responsiveness?
+
+Select one:
+a. It locks the view to a fixed size
+b. It adjusts the view based on available screen space
+c. It applies a uniform padding to all edges
+d. It restricts the view to portrait orientation
+
+Question
+What is the next number in the sequence: 2, 4, 7, 11, 16, …?
+
+Select one:
+a. 22
+b. 20
+c. 25
+d. 23
+
+Question
+In Swift, what OOP concept is demonstrated when a class provides a custom implementation of a protocol method while adhering to its signature?
+
+Select one:
+a. Inheritance
+b. Encapsulation
+c. Polymorphism
+d. Composition
+
+Question
+In design theory, what does the use of "proportional spacing" contribute to a layout?
+
+Select one:
+a. Visual clutter for engagement
+b. Balanced and harmonious arrangement
+c. Random placement of elements
+d. Overemphasis on a single focal point
+
+Question
+In Swift, what is the purpose of the @discardableResult attribute on a function?
+
+Select one:
+a. It ensures the function’s result is always used
+b. It allows the result to be ignored without a warning
+c. It marks the function as optional
+d. It restricts the function to void returns
+
+Question
+According to Apple’s Human Interface Guidelines, why should interactive elements have a minimum size of 44x44 points?
+
+Select one:
+a. To match the app’s branding
+b. To ensure visibility on small screens
+c. To make them easily tappable for users
+d. To reduce rendering time
+
+Question
+If two fair six-sided dice are rolled, what is the probability that their sum is exactly 6?
+
+Select one:
+a. 5/36
+b. 1/6
+c. 4/36
+d. 1/9
+
+Question
+In Swift, what is the key difference between a closure and a function when used as a parameter?
+
+Select one:
+a. Closures cannot return values
+b. Closures can capture their surrounding context
+c. Functions are always named, closures are not
+d. Functions execute faster than closures
+
+Question
+In user-centered design, what is the main advantage of testing wireframes with users early in the process?
+
+Select one:
+a. It finalizes the visual style
+b. It identifies usability issues before heavy development
+c. It ensures color scheme approval
+d. It replaces the need for high-fidelity prototypes
+
+Question
+What is the next number in the sequence: 1, 2, 6, 15, 31, …?
+
+Select one:
+a. 56
+b. 62
+c. 48
+d. 60
+
+Question
+In Swift, what design pattern would you use to lazily create an expensive object only when it’s first needed?
+
+Select one:
+a. Singleton
+b. Lazy Initialization
+c. Prototype
+d. Builder
+
+Question
+In UI design, what does the use of a "gradient background" typically achieve compared to a solid color?
+
+Select one:
+a. Reduced readability
+b. Enhanced depth and visual interest
+c. Uniform simplicity
+d. Increased cognitive load
+
+Question
+In Swift, what happens if you declare a property as private var x: Int in a class and try to access it from a subclass?
+
+Select one:
+a. It’s accessible with a getter
+b. It causes a compilation error
+c. It defaults to 0 in the subclass
+d. It becomes public in the subclass
+
+Question
+What logically follows: "If a feature requires login, it’s restricted. This feature is not restricted."?
+
+Select one:
+a. It requires login
+b. It might require login
+c. It does not require login
+d. All features are restricted
+
+Question
+In SwiftUI, what does the .safeAreaInset(edge:) modifier allow you to do in a responsive layout?
+
+Select one:
+a. Add padding only to the top edge
+b. Adjust content to avoid overlapping system UI elements
+c. Fix the view’s size across all devices
+d. Apply a uniform border around the view
+
+Question
+In design theory, what is the primary benefit of using a "symmetrical layout" in a UI?
+
+Select one:
+a. It creates visual chaos for engagement
+b. It provides balance and predictability
+c. It emphasizes a single focal point
+d. It reduces the need for color contrast
+
+Question
+In Swift, what is the result of this expression: let x = [1, 2, 3].filter { $0 > 1 }.count?
+
+Select one:
+a. 1
+b. 2
+c. 3
+d. 0
+
+Question
+If a spinner has 6 equal sections numbered 1 to 6, what is the probability of landing on an even number?
+
+Select one:
+a. 1/2
+b. 1/3
+c. 2/3
+d. 1/6
+
+Question
+In Swift, what OOP concept is violated if a subclass modifies a superclass’s internal state directly without using provided methods?
+
+Select one:
+a. Polymorphism
+b. Encapsulation
+c. Inheritance
+d. Abstraction
+
+Question
+According to Apple’s Human Interface Guidelines, what should be the primary goal when designing onboarding screens?
+
+Select one:
+a. Showcasing all app features in detail
+b. Guiding users quickly to core functionality
+c. Using complex animations for engagement
+d. Requiring immediate user registration
+
+Question
+In SwiftUI, what is the benefit of using a VStack over manually positioning views with frames?
+
+Select one:
+a. It enforces fixed positioning
+b. It simplifies vertical alignment and spacing
+c. It reduces the need for subviews
+d. It locks the layout to a single orientation

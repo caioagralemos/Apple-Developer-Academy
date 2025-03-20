@@ -4,7 +4,7 @@ Logical reasoning
 - Number series
 - Basic probability
 - General logic concepts
-// - Visual patterns (don't do that unless you can actually generate images and put them into the test)
+// - Visual patterns (don't do that unless you can actually generate images and put them into the quiz)
 
 Swift programming
 - Basic concepts

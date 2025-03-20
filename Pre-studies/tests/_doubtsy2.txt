@@ -1044,3 +1044,30 @@ a. To indicate the function always returns nil
 b. To mark the function as never returning (e.g., it crashes or loops infinitely)
 c. To ensure the function returns an optional value
 d. To restrict the function to void returns
+
+Question
+In SwiftUI, what is the benefit of using @Environment(\.dismiss) over manually managing view dismissal?
+
+Select one:
+a. It reduces memory usage significantly
+b. It ensures the view stays visible
+c. It locks the view to a fixed position
+d. It simplifies programmatic dismissal in a platform-consistent way
+
+Question
+In Swift, what happens if you declare a protocol with a method marked mutating and a class conforms to it?
+
+Select one:
+a. The method becomes optional
+b. It causes a compilation error
+c. The mutating keyword is ignored for classes
+d. The class must mark the method as mutating
+
+Question
+In Swift, what keyword ensures a method can be called on a type itself and inherited by subclasses, but not overridden unless explicitly allowed?
+
+Select one:
+a. open
+b. class
+c. final
+d. static

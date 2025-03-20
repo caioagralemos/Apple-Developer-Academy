@@ -7240,3 +7240,273 @@ a. Subtle transitions and calm aesthetics
 b. Clear differentiation of elements and accessibility  
 c. Uniform appearance across all components  
 d. Reduced visual hierarchy  
+
+Question  
+A sequence starts at 3, and each term is the previous term multiplied by 3 then decreased by 2. The sequence begins: 3, 7, 19, … What is the fourth term?  
+
+Select one:  
+a. 51  
+b. 55  
+c. 57  
+d. 61  
+
+Question  
+In Swift, what is the primary purpose of using an optional binding with `if let`?  
+
+Select one:  
+a. To force unwrap an optional value  
+b. To safely unwrap an optional and execute code if it’s non-nil  
+c. To assign a default value to an optional  
+d. To check if an optional conforms to a protocol  
+
+Question
+In UI design, what does the principle of "repetition" primarily achieve in a layout?  
+
+Select one:  
+a. Creates visual chaos to engage users  
+b. Reinforces consistency and strengthens design unity  
+c. Emphasizes a single element over others  
+d. Reduces the need for white space  
+
+Question
+A bag contains 6 white and 4 black marbles. What is the probability of drawing a white marble on the first draw?  
+
+Select one:  
+a. 2/5  
+b. 3/5  
+c. 2/3  
+d. 4/5  
+
+Question  
+In SwiftUI, what does the `.overlay()` modifier do when applied to a view?  
+
+Select one:  
+a. Replaces the view with a new one  
+b. Positions another view on top of the original view  
+c. Adjusts the view’s opacity  
+d. Shrinks the view’s frame  
+
+Question 
+In Swift, which design pattern would you use to create a system where an object’s state triggers updates in multiple dependent objects, like a weather app updating its UI?  
+
+Select one:  
+a. Strategy  
+b. Proxy  
+c. Observer  
+d. Command  
+
+Question  
+If all programmers know a language, and some languages are object-oriented, what logically follows about a programmer named Alex?  
+
+Select one:  
+a. Alex definitely knows an object-oriented language  
+b. Alex might know an object-oriented language  
+c. Alex does not know any languages  
+d. All languages Alex knows are object-oriented  
+
+Question
+In Swift, what is the result of this expression: `let x = 7 % 2`?  
+
+Select one:  
+a. 0  
+b. 1  
+c. 2  
+d. 3  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for using custom gestures in an iOS app?  
+
+Select one:  
+a. Use them extensively to replace buttons  
+b. Limit them to enhance, not replace, standard interactions  
+c. Avoid them entirely for consistency  
+d. Make them the primary navigation method  
+
+Question 
+A sequence is defined as: each term is the sum of the previous two terms, starting with 1 and 2. It begins: 1, 2, 3, 5, … What is the sixth term?  
+
+Select one:  
+a. 8  
+b. 11  
+c. 13  
+d. 21  
+
+Question  
+In Swift, what is the key difference between `weak` and `unowned` references in terms of memory management?  
+
+Select one:  
+a. `weak` is always nil when deallocated; `unowned` assumes it’s never nil  
+b. `unowned` is optional; `weak` is not  
+c. `weak` prevents deallocation; `unowned` does not  
+d. `unowned` is used only with structs; `weak` with classes  
+
+Question  
+In user-centered design, what is the primary purpose of conducting a "heuristic evaluation" on a prototype?  
+
+Select one:  
+a. To finalize the app’s visual style  
+b. To assess usability against established principles  
+c. To replace user testing with developer feedback  
+d. To define the app’s backend architecture  
+
+Question
+Two fair six-sided dice are rolled. What is the probability that their sum is a prime number less than 6?  
+
+Select one:  
+a. 1/6  
+b. 2/9  
+c. 1/4  
+d. 5/36  
+
+Question  
+In Swift, what does the `@IBInspectable` attribute allow when added to a property in a UIKit class?  
+
+Select one:  
+a. It makes the property editable in Interface Builder  
+b. It restricts the property to runtime-only access  
+c. It automatically generates a getter and setter  
+d. It marks the property as optional  
+
+Question
+In design theory, what is the main advantage of using a "split-complementary" color scheme in a UI?  
+
+Select one:  
+a. It maximizes contrast with a single hue  
+b. It balances vibrancy and harmony with less tension  
+c. It ensures a monochromatic aesthetic  
+d. It reduces readability for subtle effects  
+
+Question
+In Swift, what is the output type of this expression: `let x = [1, 2, 3].compactMap { $0 > 1 ? $0 : nil }`?  
+
+Select one:  
+a. [Int?]  
+b. [Int]  
+c. Int?  
+d. [Bool]  
+
+Question  
+In responsive design for iOS, what does the `UIViewController` method `viewWillTransition(to:with:)` primarily help with?  
+
+Select one:  
+a. Adjusting layouts during device rotation  
+b. Loading initial view constraints  
+c. Setting static frame sizes  
+d. Managing color scheme changes  
+
+Question
+If it’s sunny, then the picnic is outdoors. The picnic is not outdoors. What logically follows?  
+
+Select one:  
+a. It’s definitely not sunny  
+b. It might be sunny  
+c. It’s definitely sunny  
+d. The picnic is always indoors  
+
+Question
+In Swift, which OOP concept is illustrated when a subclass provides a different implementation of a method declared in its superclass with the same name and parameters?  
+
+Select one:  
+a. Overloading  
+b. Overriding  
+c. Encapsulation  
+d. Abstraction  
+
+Question 
+In SwiftUI, what happens if you apply `.scaleEffect(2)` to a view?  
+
+Select one:  
+a. It doubles the view’s size in all dimensions  
+b. It increases the view’s opacity twofold  
+c. It shifts the view by 2 points  
+d. It rotates the view by 2 degrees  
+
+Question 
+A sequence follows this rule: each term is the previous term squared minus 1, starting with 2. It begins: 2, 3, 8, … What is the fourth term?  
+
+Select one:  
+a. 15  
+b. 63  
+c. 24  
+d. 80  
+
+Question  
+In Swift, what is the purpose of the `fallthrough` keyword in a `switch` statement?  
+
+Select one:  
+a. It exits the switch early  
+b. It allows execution to continue into the next case  
+c. It marks a case as optional  
+d. It repeats the current case  
+
+Question
+According to Apple’s Human Interface Guidelines, what should be the primary focus when designing a context menu in an iOS app?  
+
+Select one:  
+a. Including every possible action  
+b. Offering quick access to relevant, task-specific actions  
+c. Using bright colors to draw attention  
+d. Replacing all button interactions  
+
+Question  
+In Swift, what design pattern would you use to create a system where an object’s creation process is separated into multiple steps, such as building a complex form?  
+
+Select one:  
+a. Builder  
+b. Factory Method  
+c. Prototype  
+d. Singleton  
+
+Question  
+In user-centered design, what distinguishes an "interaction specification" from a high-fidelity prototype?  
+
+Select one:  
+a. It includes detailed visuals and animations  
+b. It documents how users interact with UI elements  
+c. It focuses on backend integration  
+d. It replaces the need for wireframes  
+
+Question
+Two cards are drawn from a standard deck of 52 with replacement. What is the probability that both are spades?  
+
+Select one:  
+a. 1/16  
+b. 1/13  
+c. 1/4  
+d. 1/52  
+
+Question  
+In Swift, what is the result of this code: `let x = "Swift"; let y = x.dropFirst(2)`?  
+
+Select one:  
+a. "Sw"  
+b. "ift"  
+c. "wi"  
+d. "Swi"  
+
+Question
+In design theory, what does the term "leading" refer to in typography?  
+
+Select one:  
+a. The thickness of a font’s strokes  
+b. The space between lines of text  
+c. The adjustment between character pairs  
+d. The slant of italicized text  
+
+Question 
+In Swift, what is the key benefit of using a protocol with associated types over a simple protocol?  
+
+Select one:  
+a. It enforces class-only conformance  
+b. It allows for greater type flexibility in generic contexts  
+c. It restricts methods to static implementations  
+d. It eliminates the need for extensions  
+
+Question 
+In SwiftUI, what does the `.navigationTitle()` modifier do when added to a view within a `NavigationView`?  
+
+Select one:  
+a. Sets the title of the navigation bar  
+b. Adds a subtitle below the view  
+c. Changes the view’s background color  
+d. Aligns the view to the top edge  

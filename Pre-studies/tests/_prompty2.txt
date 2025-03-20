@@ -6,7 +6,7 @@ Logical reasoning
 - General logic concepts
 // - Visual patterns (don't do that unless you can actually generate images and put them into the quiz)
 
-Swift programming
+Swift programming // Never use UIKit questions, just basic Swift
 - Basic concepts
 - Object-Oriented Programming (OOP)
 - Swift fundamentals

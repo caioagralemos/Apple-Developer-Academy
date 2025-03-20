@@ -1071,3 +1071,39 @@ a. open
 b. class
 c. final
 d. static
+
+Question
+In Swift, what is the key difference between weak and unowned references in terms of memory management?
+
+Select one:
+a. weak is always nil when deallocated; unowned assumes it’s never nil
+b. unowned is optional; weak is not
+c. weak prevents deallocation; unowned does not
+d. unowned is used only with structs; weak with classes
+
+Question
+In Swift, what is the output type of this expression: let x = [1, 2, 3].compactMap { $0 > 1 ? $0 : nil }?
+
+Select one:
+a. [Int?]
+b. [Int]
+c. Int?
+d. [Bool]
+
+Question
+In design theory, what does the term "leading" refer to in typography?
+
+Select one:
+a. The thickness of a font’s strokes
+b. The space between lines of text
+c. The adjustment between character pairs
+d. The slant of italicized text
+
+Question
+Two cards are drawn from a standard deck of 52 with replacement. What is the probability that both are spades?
+
+Select one:
+a. 1/16
+b. 1/13
+c. 1/4
+d. 1/52

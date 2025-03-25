@@ -1152,3 +1152,13 @@ a. It defaults to Any
 b. It causes a compilation error
 c. It infers the type from context
 d. It ignores the associated type requirement
+
+Question
+In Swift, what is the result type of the expression let x = 6 / 2.0?
+
+Select one:
+a. Int
+b. Float
+c. Double
+d. Decimal
+

@@ -7780,3 +7780,273 @@ a. yes
 b. no  
 c. north  
 d. true
+
+Question  
+A sequence begins: 2, 7, 14, 23, 34, … What is the next number?  
+
+Select one:  
+a. 47  
+b. 45  
+c. 50  
+d. 52  
+
+Question  
+In Swift, what is the purpose of the `@Published` property wrapper in a class conforming to `ObservableObject`?  
+
+Select one:  
+a. It makes the property immutable  
+b. It automatically notifies subscribers when the property changes  
+c. It restricts access to the property outside the class  
+d. It lazily initializes the property  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be the primary focus when designing a button?  
+
+Select one:  
+a. Using bright colors to make it stand out  
+b. Ensuring it’s visually distinct and tappable  
+c. Minimizing its size to save space  
+d. Adding complex animations for emphasis  
+
+Question  
+If a bag has 5 red and 7 blue marbles, what is the probability of drawing a blue marble on the first try?  
+
+Select one:  
+a. 5/12  
+b. 7/12  
+c. 1/2  
+d. 7/10  
+
+Question  
+In Swift, what design pattern would you use to encapsulate a set of steps for constructing a complex object, like a multi-part configuration?  
+
+Select one:  
+a. Observer  
+b. Builder  
+c. Singleton  
+d. Proxy  
+
+Question  
+In UI design, what does the principle of "alignment" typically achieve in a layout?  
+
+Select one:  
+a. Random placement for visual interest  
+b. A structured and cohesive appearance  
+c. Overlapping elements for depth  
+d. Increased cognitive load for engagement  
+
+Question  
+A sequence starts: 1, 5, 13, 29, … What is the next number?  
+
+Select one:  
+a. 45  
+b. 61  
+c. 53  
+d. 49  
+
+Question  
+In Swift, what is the result type of the expression `let x = 6 / 2.0`?  
+
+Select one:  
+a. Int  
+b. Float  
+c. Double  
+d. Decimal  
+
+Question  
+In user-centered design, what is the main benefit of creating a "persona" before prototyping?  
+
+Select one:  
+a. To finalize the app’s color scheme  
+b. To represent the target user’s goals and behaviors  
+c. To define the backend architecture  
+d. To eliminate the need for usability testing  
+
+Question  
+In Swift, what keyword allows a method in a protocol to modify the properties of a conforming struct?  
+
+Select one:  
+a. static  
+b. mutating  
+c. dynamic  
+d. variable  
+
+Question  
+In SwiftUI, what does the `.foregroundColor(.blue)` modifier do when applied to a `Text` view?  
+
+>Select one:  
+a. Changes the background color to blue  
+b. Sets the text color to blue  
+c. Adds a blue border around the text  
+d. Applies a blue shadow to the text  
+
+Question  
+If all students in a class passed the exam, and some exams were difficult, what logically follows about a student named Mia?  
+
+Select one:  
+a. Mia definitely found the exam difficult  
+b. Mia passed the exam  
+c. Mia might not have passed the exam  
+d. All exams Mia took were difficult  
+
+Question  
+In Swift, what OOP concept is demonstrated when a subclass provides a specialized version of a method inherited from its superclass?  
+
+Select one:  
+a. Encapsulation  
+b. Polymorphism  
+c. Inheritance  
+d. Abstraction  
+
+Question  
+In design theory, what does a "complementary color scheme" typically provide in a UI?  
+
+Select one:  
+a. Subtle harmony with low contrast  
+b. High contrast and visual energy  
+c. Uniform tones across elements  
+d. Random color variation  
+
+Question  
+A fair six-sided die is rolled twice. What is the probability that the sum of the rolls is exactly 11?  
+
+Select one:  
+a. 1/18  
+b. 2/36  
+c. 3/36  
+d. 1/12  
+
+Question  
+In Swift, what happens if you declare a property as `lazy var x = computeValue()` and the function `computeValue()` is never called?  
+
+Select one:  
+a. The property is computed at initialization  
+b. The computation is deferred until first access  
+c. It causes a runtime error  
+d. The property defaults to 0  
+
+Question  
+In responsive design for SwiftUI, what does the `.frame(maxHeight: .infinity)` modifier do to a view?  
+
+Select one:  
+a. Locks the view to a fixed height  
+b. Allows the view to expand to the maximum available height  
+c. Shrinks the view to its minimum content height  
+d. Applies a uniform padding to the top and bottom  
+
+Question  
+In user-centered design, what is the primary purpose of conducting a "task analysis" early in the process?  
+
+Select one:  
+a. To finalize the app’s typography  
+b. To break down user goals into actionable steps  
+c. To ensure accessibility compliance  
+d. To select the app’s primary color  
+
+Question  
+In Swift, what is the output of this expression: `let x = [1, 2, 3].filter { $0 % 2 == 0 }.first`?  
+
+Select one:  
+a. 1  
+b. 2  
+c. 3  
+d. nil  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a list view?  
+
+Select one:  
+a. Using clear section headers  
+b. Overcrowding rows with too much information  
+c. Supporting swipe actions for quick tasks  
+d. Providing consistent row heights  
+
+Question  
+A sequence begins: 3, 10, 21, 36, … What is the next number?  
+
+Select one:  
+a. 45  
+b. 55  
+c. 50  
+d. 60  
+
+Question  
+In Swift, what design pattern would you use to allow an object to notify multiple subscribers of state changes, like a temperature sensor updating displays?  
+
+Select one:  
+a. Strategy  
+b. Observer  
+c. Decorator  
+d. Facade  
+
+Question  
+In UI design, what does the use of "leading" refer to in typography?  
+
+Select one:  
+a. The space between individual characters  
+b. The vertical space between lines of text  
+c. The thickness of the font strokes  
+d. The slant of italicized characters  
+
+Question  
+If a spinner has 10 equal sections numbered 1 to 10, what is the probability of landing on a number greater than 7?  
+
+Select one:  
+a. 3/10  
+b. 4/10  
+c. 7/10  
+d. 1/2  
+
+Question  
+In Swift, what is the purpose of the `@EnvironmentObject` property wrapper in SwiftUI?  
+
+Select one:  
+a. To create a local state variable  
+b. To share an observable object across multiple views  
+c. To enforce a constant value across the app  
+d. To restrict data access to a single view  
+
+Question  
+In user-centered design, what distinguishes a "low-fidelity prototype" from a "high-fidelity prototype"?  
+
+Select one:  
+a. It includes detailed visuals and interactions  
+b. It focuses on basic structure and layout exploration  
+c. It defines backend functionality  
+d. It finalizes the app’s branding  
+
+Question  
+In Swift, what OOP concept is violated if a class exposes its internal state directly as `public var data: [String]` without a getter or setter?  
+
+Select one:  
+a. Polymorphism  
+b. Encapsulation  
+c. Inheritance  
+d. Abstraction  
+
+Question  
+In SwiftUI, what does the `.cornerRadius(10)` modifier do when applied to a `Rectangle` view?  
+
+Select one:  
+a. Adds a 10-point border around the rectangle  
+b. Rounds the corners with a 10-point radius  
+c. Scales the rectangle by 10%  
+d. Applies a 10-point shadow effect  
+
+Question  
+What logically follows: "If a task requires approval, it’s delayed. This task is not delayed."?  
+
+Select one:  
+a. It requires approval  
+b. It might require approval  
+c. It does not require approval  
+d. All tasks are delayed  
+
+Question  
+In Swift, what is the result of this expression: `let x = "hello"; let y = x.uppercased().count`?  
+
+Select one:  
+a. 5  
+b. "HELLO"  
+c. 6  
+d. nil

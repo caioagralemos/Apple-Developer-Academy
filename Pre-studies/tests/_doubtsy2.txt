@@ -1107,3 +1107,48 @@ a. 1/16
 b. 1/13
 c. 1/4
 d. 1/52
+
+Question
+In Swift, what is the output of this code: let numbers = [2, 4, 6]; let result = numbers.reduce(0) { $0 + $1 / 2 }?
+
+Select one:
+a. 6
+b. 12
+c. 3
+d. 0
+
+Question
+In Swift, what is the primary purpose of using the @StateObject property wrapper in SwiftUI?
+
+Select one:
+a. To create a persistent value across app launches
+b. To manage an observable object owned by the view
+c. To bind a value to a parent view’s state
+d. To mark a variable as immutable
+
+Question
+In Swift, what is the result type of this expression: let x = [1.5, 2.5, 3.5].map { Int($0) }?
+
+Select one:
+a. [Double]
+b. [Int?]
+c. [Int]
+d. [Float]
+
+Question
+In Swift, what is the key benefit of using a closure with a capture list, such as [weak self], in an asynchronous operation?
+
+Select one:
+a. It ensures the closure executes immediately
+b. It prevents strong reference cycles
+c. It restricts the closure to synchronous use
+d. It eliminates the need for return values
+
+Question
+In Swift, what happens if you declare a protocol with an associated type and a conforming struct fails to specify it?
+
+Select one:
+a. It defaults to Any
+b. It causes a compilation error
+c. It infers the type from context
+d. It ignores the associated type requirement

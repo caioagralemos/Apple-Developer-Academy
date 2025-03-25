@@ -7510,3 +7510,273 @@ a. Sets the title of the navigation bar
 b. Adds a subtitle below the view  
 c. Changes the view’s background color  
 d. Aligns the view to the top edge  
+
+Question  
+A sequence is defined as follows: each term is the sum of the two previous terms plus 2, starting with 1 and 3. The sequence begins: 1, 3, 6, 11, … What is the fifth term?  
+
+Select one:  
+a. 19  
+b. 20  
+c. 22  
+d. 25  
+
+Question  
+In Swift, what is the output of this code: `let numbers = [2, 4, 6]; let result = numbers.reduce(0) { $0 + $1 / 2 }`?  
+
+Select one:  
+a. 6  
+b. 12  
+c. 3  
+d. 0  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for using icons in a navigation bar?  
+
+Select one:  
+a. Use detailed, colorful icons to stand out  
+b. Pair icons with text labels for clarity  
+c. Use icons only without labels to save space  
+d. Avoid icons and use text buttons instead  
+
+Question  
+A bag contains 4 red and 6 blue marbles. If two marbles are drawn with replacement, what is the probability both are red?  
+
+Select one:  
+a. 4/25  
+b. 16/100  
+c. 2/5  
+d. 8/25  
+
+Question  
+In Swift, what is the primary purpose of using the `@StateObject` property wrapper in SwiftUI?  
+
+Select one:  
+a. To create a persistent value across app launches  
+b. To manage an observable object owned by the view  
+c. To bind a value to a parent view’s state  
+d. To mark a variable as immutable  
+
+Question  
+In design theory, what does the principle of "alignment" primarily contribute to a UI layout?  
+
+Select one:  
+a. Visual randomness for creativity  
+b. A sense of order and cohesion  
+c. Increased complexity for engagement  
+d. Uniform spacing between all elements  
+
+Question  
+If all vehicles in a garage are either cars or trucks, and all trucks are red, which of the following must be true about a blue vehicle in the garage?  
+
+Select one:  
+a. It is a truck  
+b. It might be a car  
+c. It is a car  
+d. It cannot exist in the garage  
+
+Question  
+In Swift, which design pattern would you use to create a system where an object can be extended with additional responsibilities, like adding logging to a network request, without modifying its core code?  
+
+Select one:  
+a. Strategy  
+b. Decorator  
+c. Proxy  
+d. Facade  
+
+Question  
+In user-centered design, what is the main purpose of conducting a "contextual inquiry" before prototyping?  
+
+Select one:  
+a. To finalize the app’s visual theme  
+b. To observe users in their natural environment  
+c. To define the app’s backend structure  
+d. To select the app’s color palette  
+
+Question  
+A number series follows this rule: each term is the previous term multiplied by 2 then increased by 1, starting with 2. It begins: 2, 5, 11, 23, … What is the fifth term?  
+
+Select one:  
+a. 45  
+b. 47  
+c. 50  
+d. 52  
+
+Question  
+In Swift, what happens if you declare a property as `private lazy var x = 10` and attempt to access it from outside its defining scope?  
+
+Select one:  
+a. It returns 10  
+b. It causes a compilation error  
+c. It defaults to nil  
+d. It executes the lazy computation externally  
+
+Question  
+In responsive design for SwiftUI, what does the `.scaledToFit()` modifier do when applied to an Image view?  
+
+Select one:  
+a. Stretches the image to fill its container  
+b. Maintains the image’s aspect ratio while fitting within bounds  
+c. Crops the image to a square shape  
+d. Doubles the image’s original size  
+
+Question  
+A fair six-sided die is rolled twice. What is the probability that the sum of the rolls is exactly 7?  
+
+Select one:  
+a. 1/6  
+b. 5/36  
+c. 1/9  
+d. 7/36  
+
+Question  
+In Swift, what is the result type of this expression: `let x = [1.5, 2.5, 3.5].map { Int($0) }`?  
+
+Select one:  
+a. [Double]  
+b. [Int?]  
+c. [Int]  
+d. [Float]  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a table view?  
+
+Select one:  
+a. Using disclosure indicators for expandable rows  
+b. Overloading cells with excessive text and controls  
+c. Providing a clear section header  
+d. Supporting swipe actions for quick tasks  
+
+Question  
+In Swift, which OOP concept is demonstrated when a class conforms to a protocol and provides a custom implementation of a required method with the same name but different behavior across types?  
+
+Select one:  
+a. Inheritance  
+b. Encapsulation  
+c. Polymorphism  
+d. Abstraction  
+
+Question  
+In design theory, what does a "monochromatic color scheme" typically achieve in a UI?  
+
+Select one:  
+a. High contrast for accessibility  
+b. Visual harmony with subtle variations  
+c. Vibrant differentiation of elements  
+d. Random aesthetic appeal  
+
+Question  
+If some books are novels and all novels are fiction, which of the following must be true about a non-fiction book?  
+
+Select one:  
+a. It is a novel  
+b. It might be a novel  
+c. It is not a novel  
+d. It cannot exist  
+
+Question  
+In Swift, what is the output of this code: `let x = 5; let y = x > 3 ? x : nil; print(y ?? 0)`?  
+
+Select one:  
+a. 5  
+b. 0  
+c. nil  
+d. 3  
+
+Question  
+In SwiftUI, what is the primary benefit of using a `GeometryReader` in a responsive layout?  
+
+Select one:  
+a. It enforces a fixed frame size  
+b. It provides access to the parent view’s size and coordinates  
+c. It simplifies color management  
+d. It replaces all Auto Layout constraints  
+
+Question  
+A sequence starts with 3, and each term is generated by adding 4 then multiplying by 2. It begins: 3, 14, 36, … What is the fourth term?  
+
+Select one:  
+a. 80  
+b. 88  
+c. 96  
+d. 104  
+
+Question  
+In Swift, which design pattern would you use to create a system where an object acts as a placeholder for another, controlling access to it, such as caching a resource?  
+
+Select one:  
+a. Proxy  
+b. Mediator  
+c. Composite  
+d. Adapter  
+
+Question  
+In user-centered design, what distinguishes a "high-fidelity prototype" from a "low-fidelity prototype"?  
+
+Select one:  
+a. It focuses on structure over visuals  
+b. It includes detailed visuals and interactions  
+c. It is limited to paper sketches  
+d. It defines backend logic  
+
+Question  
+In Swift, what is the key benefit of using a closure with a capture list, such as `[weak self]`, in an asynchronous operation?  
+
+Select one:  
+a. It ensures the closure executes immediately  
+b. It prevents strong reference cycles  
+c. It restricts the closure to synchronous use  
+d. It eliminates the need for return values  
+
+Question  
+In design theory, what does "tracking" refer to in typography?  
+
+Select one:  
+a. The space between lines of text  
+b. The uniform spacing between all characters  
+c. The adjustment between specific letter pairs  
+d. The angle of italicized text  
+
+Question  
+A fair coin is flipped 4 times. What is the probability of getting exactly 1 head?  
+
+Select one:  
+a. 1/4  
+b. 1/8  
+c. 4/16  
+d. 3/16  
+
+Question  
+In Swift, what happens if you declare a protocol with an associated type and a conforming struct fails to specify it?  
+
+Select one:  
+a. It defaults to Any  
+b. It causes a compilation error  
+c. It infers the type from context  
+d. It ignores the associated type requirement  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended practice for handling a destructive action like deleting data?  
+
+Select one:  
+a. Perform it silently without confirmation  
+b. Use a subtle hint in the UI  
+c. Require explicit user confirmation  
+d. Hide the option in a menu  
+
+Question  
+In SwiftUI, what does the `.aspectRatio(contentMode: .fit)` modifier do when applied to a view?  
+
+Select one:  
+a. Distorts the view to fill its container  
+b. Maintains the view’s aspect ratio while fitting within bounds  
+c. Crops the view to a fixed ratio  
+d. Doubles the view’s size proportionally  
+
+Question  
+In Swift, what is the output of this code: `enum Direction { case north, south }; let dir = Direction.north; print(dir == .north ? "yes" : "no")`?  
+
+Select one:  
+a. yes  
+b. no  
+c. north  
+d. true

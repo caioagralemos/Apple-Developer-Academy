@@ -1,7 +1,7 @@
 Generate a multiple-choice quiz with 30 questions covering the following topics:
 
 Logical reasoning
-- Number series
+- Number series (Give me a series and try to make me guess the next number according to a pattern, but don't tell me what the pattern is)
 - Basic probability
 - General logic concepts
 // - Visual patterns (don't do that unless you can actually generate images and put them into the quiz)

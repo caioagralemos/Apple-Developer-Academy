@@ -1206,3 +1206,69 @@ a. Proxy
 b. Mediator
 c. Command
 d. Composite
+
+Question
+Review the code snippet. What are valid ways to call this function?
+
+enum IceCreamFlavour {
+case vanilla, chocolate, strawberry
+}
+
+enum SyrupFlavor {
+case chocolate, caramel, strawberry
+}
+
+enum Fruit {
+case strawberry, blueberry, blackberry, banana
+}
+
+func buildSundae(iceCreamFlavor: IceCreamFlavour, syrup: SyrupFlavor?, fruit: Fruit = .strawberry) {
+if let syrup = syrup {
+print("We've made a sundae with \(iceCreamFlavor), \(syrup) syrup, and a \(fruit) on top! ")
+} else {
+print("We've made a sundae with \(iceCreamFlavor) ice cream and a \(fruit) on top!")
+}
+}
+
+Select three:
+a. buildSundae(iceCreamFlavor: .vanilla, fruit: .blueberry)
+b. buildSundae(iceCreamFlavor: .chocolate, syrup: .caramel)
+c. buildSundae(iceCreamFlavor: .vanilla)
+d. buildSundae(iceCreamFlavor: .strawberry, syrup: nil, fruit: .blackberry)
+e. buildSundae(iceCreamFlavor: .chocolate, syrup: .caramel, fruit: .banana)
+
+Question
+In the following code, what is the value of the result constant?
+
+func randomNumber() -> Int {
+Int.random(in: 1...8)
+}
+
+let number = randomNumber()
+let pi = 3.14
+let result = 3.14 + number
+
+Select one:
+a. This code will not compile because there is not a return keyword in our function
+b. This code will not compile because we are trying to add two different types together
+c. A number between 4.14 and 11.14
+d. 11.14
+
+Question
+An enumeration type can have which of the following features?
+
+Select all that apply:
+a. Computed properties
+b. Initializers
+c. Protocol Methods
+d. Instance Methods
+e. Protocol Conformance
+
+Question
+In Swift, what is the result type of this expression: let x = 5.0 * Float(2)?
+
+Select one:
+a. Int
+b. Float
+c. Double
+d. Decimal

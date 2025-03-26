@@ -8590,3 +8590,273 @@ a. Random placement for creativity
 b. Grouping related elements for clarity  
 c. Uniform spacing across all components  
 d. High contrast between sections  
+
+Question  
+A sequence begins: 1, 3, 8, 21, … What is the next number?  
+
+Select one:  
+a. 34  
+b. 55  
+c. 42  
+d. 63  
+
+Question  
+In Swift, what is the output of this code: `let x = 10; let y = x % 3; print(y)`?  
+
+Select one:  
+a. 3  
+b. 1  
+c. 0  
+d. 2  
+
+Question  
+In design theory, what is the primary purpose of using "hierarchy" in a UI layout?  
+
+Select one:  
+a. To ensure all elements are equally spaced  
+b. To guide the user’s attention to important content first  
+c. To create a random arrangement of elements  
+d. To minimize the use of color  
+
+Question  
+If a bag has 5 red and 3 blue marbles, what is the probability of drawing a red marble on the first try?  
+
+Select one:  
+a. 3/8  
+b. 5/8  
+c. 1/2  
+d. 2/5  
+
+Question  
+In Swift, which design pattern would you use to allow an object to be constructed step-by-step, like building a custom meal order?  
+
+Select one:  
+a. Factory Method  
+b. Singleton  
+c. Builder  
+d. Observer  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be the focus when designing a button’s appearance?  
+
+Select one:  
+a. Using complex gradients for visual appeal  
+b. Making it subtle to blend into the background  
+c. Ensuring it’s clearly tappable and distinct  
+d. Minimizing its size to save space  
+
+Question  
+A sequence starts: 7, 14, 28, 56, … What comes next?  
+
+Select one:  
+a. 84  
+b. 112  
+c. 100  
+d. 128  
+
+Question  
+In Swift, what is the result type of this expression: `let x = [2, 4, 6].filter { $0 > 3 }`?  
+
+Select one:  
+a. [Int?]  
+b. Int  
+c. [Int]  
+d. [Double]  
+
+Question  
+In user-centered design, what is the main advantage of using wireframes over sketches?  
+
+Select one:  
+a. They provide a more detailed layout structure  
+b. They finalize the app’s color scheme  
+c. They focus on quick idea generation  
+d. They define backend functionality  
+
+Question  
+If a fair six-sided die is rolled, what is the probability of landing on a number greater than 4?  
+
+Select one:  
+a. 1/3  
+b. 1/2  
+c. 2/3  
+d. 1/6  
+
+Question  
+In Swift, what happens if you declare a variable as `var x: Int? = nil` and never assign a value before accessing it?  
+
+Select one:  
+a. It defaults to 0  
+b. It remains nil  
+c. It causes a compilation error  
+d. It throws a runtime exception  
+
+Question  
+In SwiftUI, what does the `.rotationEffect(.degrees(90))` modifier do to a view?  
+
+Select one:  
+a. Rotates the view 90 degrees clockwise  
+b. Flips the view horizontally  
+c. Scales the view by 90%  
+d. Shifts the view 90 points to the right  
+
+Question  
+What logically follows: "If a car is electric, it has a battery. This car does not have a battery."?  
+
+Select one:  
+a. It might be electric  
+b. It is electric  
+c. It is not electric  
+d. All cars have batteries  
+
+Question  
+In Swift, what OOP concept is illustrated when a protocol defines a method that different conforming types implement uniquely?  
+
+Select one:  
+a. Encapsulation  
+b. Polymorphism  
+c. Inheritance  
+d. Abstraction  
+
+Question  
+In design theory, what does using an "analogous" color scheme typically achieve in a UI?  
+
+Select one:  
+a. High contrast with opposing hues  
+b. A cohesive look with closely related colors  
+c. Random vibrancy for visual appeal  
+d. Monotone simplicity  
+
+Question  
+A sequence begins: 5, 9, 17, 33, … What is the next number?  
+
+Select one:  
+a. 49  
+b. 65  
+c. 57  
+d. 41  
+
+Question  
+In Swift, what is the output of this code: `let x = 4; let y = x > 5 ? x * 2 : x + 1; print(y)`?  
+
+Select one:  
+a. 8  
+b. 5  
+c. 4  
+d. 9  
+
+Question  
+In responsive design for SwiftUI, what does the `.scaleEffect(1.5)` modifier do to an Image view?  
+
+Select one:  
+a. Increases its size by 50% in all dimensions  
+b. Reduces its opacity by 50%  
+c. Stretches it horizontally only  
+d. Crops it to 1.5 times its original size  
+
+Question  
+If all fish swim and some animals are fish, what must be true about a non-swimming animal?  
+
+Select one:  
+a. It might be a fish  
+b. It is a fish  
+c. It is not a fish  
+d. All animals swim  
+
+Question  
+In Swift, what keyword indicates a function parameter can be modified by the function and reflected in the caller’s scope?  
+
+Select one:  
+a. inout  
+b. var  
+c. let  
+d. mutating  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a form?  
+
+Select one:  
+a. Using placeholder text in fields  
+b. Requiring unnecessary user input  
+c. Providing clear labels for each field  
+d. Supporting keyboard navigation  
+
+Question  
+A bag contains 2 white and 8 red marbles. What is the probability of drawing a white marble followed by a red one with replacement?  
+
+Select one:  
+a. 4/25  
+b. 8/50  
+c. 16/100  
+d. 2/10  
+
+Question  
+In Swift, which design pattern would you use to allow multiple objects to react to a single event, like a notification system?  
+
+Select one:  
+a. Proxy  
+b. Observer  
+c. Command  
+d. Decorator  
+
+Question  
+In user-centered design, what is the primary purpose of creating an "interaction specification"?  
+
+Select one:  
+a. To finalize visual styling  
+b. To detail how users interact with UI elements  
+c. To define the app’s database schema  
+d. To replace high-fidelity prototypes  
+
+Question  
+A sequence starts: 10, 15, 25, 40, … What comes next?  
+
+Select one:  
+a. 60  
+b. 55  
+c. 65  
+d. 50  
+
+Question  
+In Swift, what is the result type of this expression: `let x = 5.0 * Float(2)`?  
+
+Select one:  
+a. Int  
+b. Float  
+c. Double  
+d. Decimal  
+
+Question  
+In SwiftUI, what is the primary benefit of using `@Environment(\.verticalSizeClass)` in a view?  
+
+Select one:  
+a. It locks the view to a fixed height  
+b. It adapts the layout based on vertical space availability  
+c. It applies a default margin to the top  
+d. It restricts the view to horizontal layouts  
+
+Question  
+What logically follows: "If a file is encrypted, it requires a key. This file does not require a key."?  
+
+Select one:  
+a. It is encrypted  
+b. It might be encrypted  
+c. It is not encrypted  
+d. All files require a key  
+
+Question  
+In Swift, what is the output of this code: `let x = [1, 2, 3].map { String($0) }.joined(separator: "-")`?  
+
+Select one:  
+a. "123"  
+b. "1-2-3"  
+c. [1, 2, 3]  
+d. "1, 2, 3"  
+
+Question  
+In design theory, what does "kerning" adjust in typography?  
+
+Select one:  
+a. Space between lines of text  
+b. Uniform spacing across all characters  
+c. Spacing between specific letter pairs  
+d. Font stroke thickness  

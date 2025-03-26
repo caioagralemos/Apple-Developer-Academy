@@ -1188,3 +1188,21 @@ a. It locks the view to a fixed color
 b. It adapts the view to light or dark mode
 c. It applies a random color scheme
 d. It overrides user color preferences
+
+Question
+In responsive design for SwiftUI, what does the .aspectRatio(1, contentMode: .fill) modifier do to an image?
+
+Select one:
+a. Maintains a square ratio, stretching to fill
+b. Crops the image to a 1:1 ratio
+c. Scales the image to fit a square without distortion
+d. Adds a 1-point border around the image
+
+Question
+In Swift, what design pattern would you use to create an object that delegates tasks to another object, like a remote control managing a device?
+
+Select one:
+a. Proxy
+b. Mediator
+c. Command
+d. Composite

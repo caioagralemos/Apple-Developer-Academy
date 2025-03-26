@@ -9132,3 +9132,273 @@ a. It requires funding
 b. It might require funding  
 c. It does not require funding  
 d. All projects are delayed
+
+Question  
+In Swift, what happens if you declare a variable as `var x: String = "test"` and later attempt to assign it an integer value like `x = 5`?  
+
+Select one:  
+a. The integer is automatically converted to a string  
+b. It causes a compilation error  
+c. The variable becomes an optional Int  
+d. The assignment is ignored at runtime  
+
+Question  
+In UI design, what is the primary benefit of using a "call to action" button with a distinct color?  
+
+Select one:  
+a. It blends seamlessly with the background  
+b. It draws user attention to a key interaction  
+c. It reduces the need for text labels  
+d. It ensures compliance with accessibility standards  
+
+Question  
+What logically follows: "If a feature is experimental, it’s optional. This feature is not optional."?  
+
+Select one:  
+a. It might be experimental  
+b. It is experimental  
+c. It is not experimental  
+d. All features are optional  
+
+Question  
+In Swift, which design pattern would you use to ensure an object can switch between multiple strategies at runtime, such as sorting algorithms?  
+
+Select one:  
+a. Singleton  
+b. Strategy  
+c. Builder  
+d. Prototype  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for displaying temporary notifications?  
+
+Select one:  
+a. Use a permanent banner across the top  
+b. Show them briefly and unobtrusively  
+c. Require user dismissal for every notification  
+d. Overlay them on critical UI elements  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, 2, 3]; let y = x[1...].reduce(0, +)`?  
+
+Select one:  
+a. 5  
+b. 6  
+c. 3  
+d. 0  
+
+Question  
+In user-centered design, what is the key advantage of conducting a "card sorting" exercise during the research phase?  
+
+Select one:  
+a. It finalizes the app’s visual hierarchy  
+b. It helps understand how users categorize information  
+c. It determines the app’s color scheme  
+d. It replaces the need for wireframes  
+
+Question  
+In Swift, how does a `struct` behave when assigned to a new variable compared to a `class`?  
+
+Select one:  
+a. Both create a reference to the same instance  
+b. A struct creates a copy; a class creates a reference  
+c. A class creates a copy; a struct creates a reference  
+d. Both create independent copies with no shared state  
+
+Question  
+What logically follows: "If a user is premium, they get early access. This user does not get early access."?  
+
+Select one:  
+a. They are premium  
+b. They are not premium  
+c. They might be premium  
+d. All users get early access  
+
+Question  
+In Swift design, what is the benefit of using a `@Published` property in an `ObservableObject` for a responsive UI?  
+
+Select one:  
+a. It restricts property access to the main thread  
+b. It triggers UI updates when the property changes  
+c. It ensures the property is immutable  
+d. It delays updates until manually triggered  
+
+Question  
+In Swift, what keyword would you use to ensure a protocol method can only be implemented by reference types with inheritance?  
+
+Select one:  
+a. class  
+b. AnyObject  
+c. reference  
+d. struct  
+
+Question  
+In design theory, what does using a "sans-serif" font typically convey in a UI compared to a "serif" font?  
+
+Select one:  
+a. A more formal and traditional tone  
+b. A modern and clean aesthetic  
+c. Increased complexity for readability  
+d. A handwritten, casual feel  
+
+Question  
+In Swift, what is the output of this code: `let a = 3; let b = 4; let c = a &+ b`?  
+
+Select one:  
+a. 12  
+b. 7  
+c. 1  
+d. 0  
+
+Question  
+What logically follows: "If a setting is advanced, it’s hidden by default. This setting is not hidden by default."?  
+
+Select one:  
+a. It is advanced  
+b. It might be advanced  
+c. It is not advanced  
+d. All settings are hidden  
+
+Question  
+In responsive design for SwiftUI, what does the `.safeAreaInset(edge: .bottom)` modifier achieve?  
+
+Select one:  
+a. It locks the view to the top edge  
+b. It adds content below the safe area at the bottom  
+c. It ignores safe area boundaries entirely  
+d. It stretches the view across the full screen  
+
+Question  
+In Swift, which OOP concept is demonstrated when a method accepts any type conforming to a protocol as a parameter?  
+
+Select one:  
+a. Inheritance  
+b. Polymorphism  
+c. Encapsulation  
+d. Composition  
+
+Question  
+In user-centered design, what is the primary purpose of creating a "scenario" during the planning phase?  
+
+Select one:  
+a. To define the app’s final typography  
+b. To describe how users achieve goals in context  
+c. To finalize backend integration  
+d. To select the app’s iconography  
+
+Question  
+In Swift, what happens if you declare a property as `var x: Int { return 5 }` without a setter?  
+
+Select one:  
+a. It becomes a stored property with a default value  
+b. It is a read-only computed property  
+c. It causes a compilation error  
+d. It defaults to a mutable variable  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended practice for handling long lists of data?  
+
+Select one:  
+a. Display all items without scrolling  
+b. Use pagination or lazy loading for performance  
+c. Hide excess items in a submenu  
+d. Require manual filtering by the user  
+
+Question  
+What logically follows: "If a file is encrypted, it requires a key. This file does not require a key."?  
+
+Select one:  
+a. It might be encrypted  
+b. It is encrypted  
+c. It is not encrypted  
+d. All files require keys  
+
+Question  
+In Swift, what design pattern would you use to create an object that coordinates interactions between multiple objects, like a chat system managing users?  
+
+Select one:  
+a. Mediator  
+b. Observer  
+c. Factory  
+d. Decorator  
+
+Question  
+In design theory, what is the primary effect of increasing "tracking" in typography?  
+
+Select one:  
+a. It adjusts spacing between specific letter pairs  
+b. It increases the space between all characters uniformly  
+c. It changes the vertical gap between lines  
+d. It alters the font’s weight  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, nil, 3].compactMap { $0 }`?  
+
+Select one:  
+a. [1, nil, 3]  
+b. [1, 3]  
+c. [1, 0, 3]  
+d. [Int?]  
+
+Question  
+In SwiftUI, what does the `.rotationEffect(.degrees(90))` modifier do to a view?  
+
+Select one:  
+a. Flips the view horizontally  
+b. Rotates the view 90 degrees clockwise  
+c. Scales the view by 90%  
+d. Shifts the view 90 points to the right  
+
+Question  
+In Swift, what is the key difference between a `let` constant and a `var` variable declared within a function?  
+
+Select one:  
+a. `let` is mutable; `var` is immutable  
+b. `var` can be reassigned; `let` cannot  
+c. `let` is lazily evaluated; `var` is not  
+d. `var` is optional; `let` is not  
+
+Question  
+In user-centered design, what distinguishes an "experience map" from a "user journey map"?  
+
+Select one:  
+a. It focuses on backend processes  
+b. It captures a broader view of user emotions and touchpoints  
+c. It details specific UI interactions only  
+d. It replaces wireframes entirely  
+
+Question  
+What logically follows: "If a tool is free, it has ads. This tool has no ads."?  
+
+Select one:  
+a. It is free  
+b. It might be free  
+c. It is not free  
+d. All tools have ads  
+
+Question  
+In Swift, which OOP concept is violated if a class exposes all its properties as `public var` without restrictions?  
+
+Select one:  
+a. Polymorphism  
+b. Encapsulation  
+c. Inheritance  
+d. Abstraction  
+
+Question  
+In design theory, what does a "warm color palette" (e.g., reds, oranges) typically evoke in a UI compared to a "cool" one?  
+
+Select one:  
+a. A sense of calm and neutrality  
+b. Energy, urgency, or warmth  
+c. Minimalist simplicity  
+d. Random visual chaos  
+
+Question  
+In Swift, what is the output of this code: `let x = 10; let y = String(x).count; print(y)`?  
+
+Select one:  
+a. 10  
+b. 2  
+c. 1  
+d. "10"

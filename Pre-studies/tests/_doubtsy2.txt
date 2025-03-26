@@ -1308,3 +1308,21 @@ a. 3
 b. 7  
 c. 4  
 d. 1
+
+Question
+In Swift, which OOP concept is demonstrated when a method accepts any type conforming to a protocol as a parameter?
+
+Select one:
+a. Inheritance
+b. Polymorphism
+c. Encapsulation
+d. Composition
+
+Question
+In design theory, what is the primary effect of increasing "tracking" in typography?
+
+Select one:
+a. It adjusts spacing between specific letter pairs
+b. It increases the space between all characters uniformly
+c. It changes the vertical gap between lines
+d. It alters the font’s weight

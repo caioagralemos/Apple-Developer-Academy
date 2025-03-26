@@ -8050,3 +8050,273 @@ a. 5
 b. "HELLO"  
 c. 6  
 d. nil
+
+Question
+A sequence begins: 1, 4, 9, 16, 25, … What is the next number?
+
+Select one:
+a. 30
+b. 36
+c. 42
+d. 49
+
+Question
+In Swift, what is the primary purpose of the `inout` keyword in a function parameter?
+
+Select one:
+a. To make the parameter optional
+b. To allow the function to modify the original value
+c. To restrict the parameter to a constant
+d. To enforce lazy evaluation
+
+Question
+According to Apple’s Human Interface Guidelines, what should be the main goal of an app’s splash screen?
+
+Select one:
+a. To display a detailed tutorial
+b. To provide a quick, branded introduction to the app
+c. To load all app resources silently
+d. To prompt immediate user login
+
+Question
+If you flip a fair coin 3 times, what is the probability of getting exactly 1 tail?
+
+Select one:
+a. 1/8
+b. 3/8
+c. 1/4
+d. 1/2
+
+Question
+In Swift, what is the output of this expression: `let x = [1, 3, 5].map { $0 * 2 }.first`?
+
+Select one:
+a. 2
+b. 1
+c. 6
+d. nil
+
+Question
+In UI design, what does the principle of "contrast" primarily enhance in a layout?
+
+Select one:
+a. Uniformity across elements
+b. Visual distinction between components
+c. Random placement for creativity
+d. Subtle blending of colors
+
+Question
+In Swift, which design pattern would you use to create a system where an object’s creation logic is abstracted, such as generating different types of buttons?
+
+Select one:
+a. Factory Method
+b. Singleton
+c. Observer
+d. Decorator
+
+Question
+A sequence begins: 3, 6, 12, 24, … What comes next?
+
+Select one:
+a. 36
+b. 48
+c. 42
+d. 50
+
+Question
+In user-centered design, what is the primary advantage of using sketches in the early stages?
+
+Select one:
+a. To finalize typography choices
+b. To quickly explore and communicate ideas
+c. To define the app’s backend logic
+d. To test high-fidelity interactions
+
+Question
+In Swift, what happens if you declare a variable as `let x: Int? = nil` and then use `x!`?
+
+Select one:
+a. It returns 0
+b. It causes a runtime crash
+c. It unwraps to nil silently
+d. It defaults to the last assigned value
+
+Question
+If two fair six-sided dice are rolled, what is the probability that their sum is a multiple of 3?
+
+Select one:
+a. 1/3
+b. 5/12
+c. 1/2
+d. 2/3
+
+Question
+In SwiftUI, what does the `.clipShape(Circle())` modifier do to a rectangular view?
+
+Select one:
+a. Adds a circular border around it
+b. Crops it into a circular shape
+c. Scales it to fit a circular frame
+d. Applies a circular shadow
+
+Question
+In Swift, what OOP concept is illustrated when a struct conforms to a protocol and provides a unique implementation of a required method?
+
+Select one:
+a. Inheritance
+b. Polymorphism
+c. Encapsulation
+d. Abstraction
+
+Question
+What logically follows: "If a product is on sale, it’s discounted. This product is not discounted."?
+
+Select one:
+a. It is on sale
+b. It might be on sale
+c. It is not on sale
+d. All products are discounted
+
+Question
+In design theory, what does using a "triadic color scheme" typically achieve in a UI?
+
+Select one:
+a. Subtle harmony with low contrast
+b. Balanced vibrancy with three evenly spaced hues
+c. High contrast with opposing colors
+d. Monotone simplicity
+
+Question
+In Swift, what is the result type of this expression: `let x = [1, 2, 3].compactMap { $0 % 2 == 0 ? $0 : nil }`?
+
+Select one:
+a. [Int?]
+b. [Int]
+c. [Bool]
+d. Int?
+
+Question
+A sequence starts: 2, 5, 11, 23, … What is the next number?
+
+Select one:
+a. 47
+b. 35
+c. 41
+d. 50
+
+Question
+In responsive design for SwiftUI, what does the `.minimumScaleFactor(0.5)` modifier do to a Text view?
+
+Select one:
+a. Shrinks the text to half its size permanently
+b. Allows the text to scale down to 50% when space is limited
+c. Doubles the text size for readability
+d. Locks the text at its original size
+
+Question
+In Swift, which design pattern would you use to wrap an existing object with additional functionality, like adding a border to a view?
+
+Select one:
+a. Strategy
+b. Proxy
+c. Decorator
+d. Facade
+
+Question
+If all birds can fly and some animals are birds, what must be true about a non-flying animal?
+
+Select one:
+a. It is a bird
+b. It might be a bird
+c. It is not a bird
+d. All animals can fly
+
+Question
+In Swift, what is the output of this code: `let x = 8; let y = x / 2.0; print(type(of: y))`?
+
+Select one:
+a. Int
+b. Float
+c. Double
+d. String
+
+Question
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a search feature?
+
+Select one:
+a. Providing a clear search icon
+b. Hiding the search bar in a submenu
+c. Supporting predictive text input
+d. Allowing scope filtering
+
+Question
+A bag contains 3 yellow and 5 purple marbles. What is the probability of drawing a yellow marble on the first try?
+
+Select one:
+a. 3/8
+b. 5/8
+c. 1/3
+d. 2/5
+
+Question
+In SwiftUI, what is the primary benefit of using `@Environment(\.colorScheme)` in a view?
+
+Select one:
+a. It locks the view to a fixed color
+b. It adapts the view to light or dark mode
+c. It applies a random color scheme
+d. It overrides user color preferences
+
+Question
+In Swift, what keyword is used to indicate that a protocol can only be adopted by class types?
+
+Select one:
+a. class
+b. struct
+c. protocol
+d. AnyObject
+
+Question
+In user-centered design, what is the main purpose of an "interaction specification"?
+
+Select one:
+a. To define the app’s color palette
+b. To detail how users interact with UI elements
+c. To finalize backend integration
+d. To replace wireframes entirely
+
+Question
+A sequence begins: 1, 3, 7, 15, … What comes next?
+
+Select one:
+a. 31
+b. 23
+c. 27
+d. 35
+
+Question
+In Swift, what is the key difference between `map` and `flatMap` when applied to an array of optionals?
+
+Select one:
+a. `map` unwraps optionals; `flatMap` does not
+b. `flatMap` removes nil values and flattens the result
+c. `map` flattens nested arrays; `flatMap` does not
+d. `flatMap` applies only to strings
+
+Question
+In design theory, what does "kerning" refer to in typography?
+
+Select one:
+a. The space between lines of text
+b. The adjustment between specific character pairs
+c. The overall character spacing
+d. The font weight variation
+
+Question
+In SwiftUI, what does the `.onAppear` modifier allow a view to do?
+
+Select one:
+a. Execute code when the view is tapped
+b. Perform an action when the view first appears
+c. Delay the view’s rendering
+d. Hide the view until a condition is met

@@ -1162,3 +1162,29 @@ b. Float
 c. Double
 d. Decimal
 
+Question
+In responsive design for SwiftUI, what does the .minimumScaleFactor(0.5) modifier do to a Text view?
+
+Select one:
+a. Shrinks the text to half its size permanently
+b. Allows the text to scale down to 50% when space is limited
+c. Doubles the text size for readability
+d. Locks the text at its original size
+
+Question
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a search feature?
+
+Select one:
+a. Providing a clear search icon
+b. Hiding the search bar in a submenu
+c. Supporting predictive text input
+d. Allowing scope filtering
+
+Question
+In SwiftUI, what is the primary benefit of using @Environment(\.colorScheme) in a view?
+
+Select one:
+a. It locks the view to a fixed color
+b. It adapts the view to light or dark mode
+c. It applies a random color scheme
+d. It overrides user color preferences

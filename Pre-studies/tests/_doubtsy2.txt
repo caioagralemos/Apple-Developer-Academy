@@ -1272,3 +1272,39 @@ a. Int
 b. Float
 c. Double
 d. Decimal
+
+Question  
+What does this Swift code output: `let x = 7; let y = x & 3; print(y)`?  
+
+Select one:  
+a. 3  
+b. 7  
+c. 4  
+d. 1  
+
+Question
+What is the result type of this Swift expression: `let x = (1...5).map { Double($0) }`?  
+
+Select one:
+a. [Int]  
+b. [Double]  
+c. Range<Double>  
+d. Double
+
+Question
+What is the output of this Swift code: `let x = [0, 1, 2].forEach { if $0 > 0 { return } }; print("Done")`?  
+
+Select one:
+a. Done  
+b. 0  
+c. 1  
+d. Nothing (it crashes)
+
+Question
+What does this Swift code output: `let x = 7; let y = x & 3; print(y)`?  
+
+Select one:
+a. 3  
+b. 7  
+c. 4  
+d. 1

@@ -8860,3 +8860,275 @@ a. Space between lines of text
 b. Uniform spacing across all characters  
 c. Spacing between specific letter pairs  
 d. Font stroke thickness  
+
+Here are the same questions reformatted as requested, without "---" or question numbers:
+
+Question  
+A sequence is defined: each term increases by the previous term’s value plus 3, starting at 1. It begins: 1, 4, 7, 10, … What is the sixth term?  
+
+Select one:  
+a. 19  
+b. 22  
+c. 25  
+d. 28  
+
+Question  
+What is the output of this Swift code: `let a = [1, 2, 3, 4].drop(while: { $0 < 3 }); print(a.count)`?  
+
+Select one:  
+a. 2  
+b. 3  
+c. 4  
+d. 1  
+
+Question  
+In SwiftUI, what does the `.shadow(radius: 5)` modifier add to a view?  
+
+Select one:  
+a. A 5-point border  
+b. A 5-unit drop shadow  
+c. A 5% opacity reduction  
+d. A 5-degree rotation  
+
+Question  
+If all trains run on rails and some vehicles are trains, what must be true about a vehicle that does not run on rails?  
+
+Select one:  
+a. It might be a train  
+b. It is a train  
+c. It is not a train  
+d. All vehicles run on rails  
+
+Question  
+What is the result type of this Swift expression: `let x = Set([1, 2, 2, 3]).union([3, 4])`?  
+
+Select one:  
+a. [Int]  
+b. Set<Int>  
+c. [Int?]  
+d. Dictionary<Int, Int>  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is a key consideration when designing a segmented control?  
+
+Select one:  
+a. Using it for navigation between apps  
+b. Ensuring each segment is clearly distinct and tappable  
+c. Limiting it to two segments  
+d. Replacing it with a button  
+
+Question  
+A sequence starts at 5, and each term is the previous term plus twice its position: 5, 7, 11, 17, … What is the fifth term?  
+
+Select one:  
+a. 25  
+b. 27  
+c. 29  
+d. 31  
+
+Question  
+What does this Swift code output: `let x = 3; let y = (x + 1) / 2; print(y)`?  
+
+Select one:  
+a. 1  
+b. 2  
+c. 1.5  
+d. 3  
+
+Question  
+In UI design, what does a "call-to-action" button typically aim to achieve?  
+
+Select one:  
+a. Subtle decoration  
+b. Prompting immediate user interaction  
+c. Blending into the background  
+d. Reducing visual hierarchy  
+
+Question  
+If a store offers a discount, it’s crowded. The store is not crowded today. What follows?  
+
+Select one:  
+a. It offers a discount  
+b. It might offer a discount  
+c. It does not offer a discount  
+d. All stores are crowded  
+
+Question  
+What is the output of this Swift code: `let x = [0, 1, 2].forEach { if $0 > 0 { return } }; print("Done")`?  
+
+Select one:  
+a. Done  
+b. 0  
+c. 1  
+d. Nothing (it crashes)  
+
+Question  
+In SwiftUI, what does the `.rotation3DEffect(.degrees(45), axis: (x: 1, y: 0, z: 0))` modifier do?  
+
+Select one:  
+a. Rotates the view 45 degrees around the x-axis  
+b. Flips the view vertically  
+c. Scales the view by 45%  
+d. Shifts the view 45 points left  
+
+Question  
+What is the result type of this Swift expression: `let x = (1...5).map { Double($0) }`?  
+
+Select one:  
+a. [Int]  
+b. [Double]  
+c. Range<Double>  
+d. Double  
+
+Question  
+What is the primary benefit of using a "safe area" in iOS layout design?  
+
+Select one:  
+a. It maximizes screen usage  
+b. It avoids content overlap with system elements  
+c. It enforces a fixed aspect ratio  
+d. It simplifies color selection  
+
+Question  
+In Swift, what does the `@discardableResult` attribute do when applied to a function?  
+
+Select one:  
+a. Prevents the function from returning a value  
+b. Allows the return value to be ignored without a warning  
+c. Marks the function as optional  
+d. Ensures the function runs asynchronously  
+
+Question  
+A sequence is generated: each term is the sum of the previous term and its reverse, starting at 2. It begins: 2, 4, 8, 16, … What is the fifth term?  
+
+Select one:  
+a. 23  
+b. 29  
+c. 32  
+d. 34  
+
+Question  
+What is the output of this Swift code: `let x = "test"; let y = x.replacingOccurrences(of: "t", with: "p"); print(y)`?  
+
+Select one:  
+a. pest  
+b. tes  
+c. pesp  
+d. test  
+
+Question  
+In user-centered design, what does a "journey map" primarily illustrate?  
+
+Select one:  
+a. Backend data flow  
+b. User experience across touchpoints  
+c. Final visual styling  
+d. Color scheme progression  
+
+Question  
+What happens in Swift if you call `fatalError("Oops")` in a function?  
+
+Select one:  
+a. It prints "Oops" and continues  
+b. It terminates the program with "Oops"  
+c. It returns nil  
+d. It logs "Oops" silently  
+
+Question  
+In SwiftUI, what does the `.textFieldStyle(RoundedBorderTextFieldStyle())` modifier do to a TextField?  
+
+Select one:  
+a. Adds a rounded border around it  
+b. Centers the text horizontally  
+c. Increases the font size  
+d. Removes the keyboard on tap  
+
+Question  
+If every chef cooks and some workers are chefs, what must be true about a worker who does not cook?  
+
+Select one:  
+a. They might be a chef  
+b. They are a chef  
+c. They are not a chef  
+d. All workers cook  
+
+Question  
+What is the result type of this Swift expression: `let x = ["a": 1, "b": 2].mapValues { $0 * 2 }`?  
+
+Select one:  
+a. [String: Int]  
+b. [String]  
+c. [Int]  
+d. Dictionary<String, Double>  
+
+Question  
+According to Apple’s HIG, what should be the approach for designing a picker view?  
+
+Select one:  
+a. Use it for complex navigation  
+b. Keep options concise and relevant  
+c. Overload it with all possible choices  
+d. Replace it with a text field  
+
+Question  
+What does this Swift code output: `let x = 7; let y = x & 3; print(y)`?  
+
+Select one:  
+a. 3  
+b. 7  
+c. 4  
+d. 1  
+
+Question  
+In design theory, what does using a "gradient background" typically achieve in a UI?  
+
+Select one:  
+a. Flat simplicity  
+b. Depth and visual interest  
+c. Reduced readability  
+d. Uniform color distribution  
+
+Question  
+In Swift, what is the output of this code: `struct S { var x = 1; mutating func inc() { x += 1 } }; var s = S(); s.inc(); print(s.x)`?  
+
+Select one:  
+a. 0  
+b. 1  
+c. 2  
+d. It crashes  
+
+Question  
+In SwiftUI, what does the `.disabled(true)` modifier do to a Button?  
+
+Select one:  
+a. Hides it from the view  
+b. Prevents user interaction  
+c. Reduces its opacity to 0  
+d. Changes its color to gray  
+
+Question  
+What is the result type of this Swift expression: `let x = (1, "hello")`?  
+
+Select one:  
+a. [Any]  
+b. (Int, String)  
+c. Dictionary<Int, String>  
+d. String  
+
+Question  
+In user-centered design, what is the primary benefit of a "card-based layout" in a UI?  
+
+Select one:  
+a. It maximizes text density  
+b. It organizes content into scannable chunks  
+c. It reduces interactivity  
+d. It enforces a single-column design  
+
+Question  
+If a project requires funding, it’s delayed. The project is not delayed. What follows?  
+
+Select one:  
+a. It requires funding  
+b. It might require funding  
+c. It does not require funding  
+d. All projects are delayed

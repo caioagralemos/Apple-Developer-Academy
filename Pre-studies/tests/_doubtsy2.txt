@@ -1326,3 +1326,30 @@ a. It adjusts spacing between specific letter pairs
 b. It increases the space between all characters uniformly
 c. It changes the vertical gap between lines
 d. It alters the font’s weight
+
+Question
+In Swift, what is the key difference between forEach and map when iterating over a collection?
+
+Select one:
+a. forEach returns a new array; map does not
+b. map transforms and returns a new array; forEach does not
+c. forEach is faster but less flexible
+d. map executes synchronously; forEach does not
+
+Question
+In SwiftUI, what does the .matchedGeometryEffect(id:) modifier enable in responsive design?
+
+Select one:
+a. Random animations across all views
+b. Smooth transitions between views with shared identities
+c. Fixed positioning regardless of screen size
+d. Automatic color matching for accessibility
+
+Question
+According to Apple’s Human Interface Guidelines, why should text truncation be avoided in critical UI elements?
+
+Select one:
+a. It increases rendering speed
+b. It ensures all information remains fully visible
+c. It simplifies localization efforts
+d. It reduces the need for scrolling

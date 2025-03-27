@@ -9402,3 +9402,273 @@ a. 10
 b. 2  
 c. 1  
 d. "10"
+
+Question  
+In Swift, what happens when you define a property with a default value in a struct and then provide a custom initializer that doesn’t set it?  
+
+Select one:  
+a. The default value is ignored, and the property remains uninitialized  
+b. The default value is automatically applied if not set in the initializer  
+c. A compilation error occurs because all properties must be explicitly initialized  
+d. The property becomes optional and defaults to nil  
+
+Question  
+When designing an iOS app, what does Apple’s Human Interface Guidelines recommend about the use of custom gestures?  
+
+Select one:  
+a. Use them extensively to enhance user engagement  
+b. Limit them to cases where they simplify frequent actions  
+c. Avoid them entirely in favor of button-based controls  
+d. Require them for all primary navigation actions  
+
+Question  
+In Swift, how does the `is` keyword function when checking an object’s type?  
+
+Select one:  
+a. It unwraps the object if it matches the specified type  
+b. It returns a Boolean indicating if the object is of that type  
+c. It casts the object to the specified type automatically  
+d. It throws an error if the types don’t match  
+
+Question  
+What is a key principle of user-centered design when creating a navigation flow for an app?  
+
+Select one:  
+a. Hide options to reduce clutter  
+b. Ensure users can predict where actions lead  
+c. Randomize layouts to keep users engaged  
+d. Limit navigation to a single path for simplicity  
+
+Question  
+In Swift, what design pattern would you use to encapsulate a family of related algorithms, such as compression methods, allowing them to be swapped at runtime?  
+
+Select one:  
+a. Builder  
+b. Strategy  
+c. Prototype  
+d. Mediator  
+
+Question  
+In design theory, what does increasing the "weight" of a font typically emphasize in a UI layout?  
+
+Select one:  
+a. Subtle details in the background  
+b. Importance or prominence of specific text  
+c. Uniformity across all text elements  
+d. Spacing between characters  
+
+Question  
+In Swift, what is the effect of using a `guard` statement with multiple conditions combined with `&&`?  
+
+Select one:  
+a. It executes the else block only if all conditions are false  
+b. It unwraps optionals automatically without further checks  
+c. It requires at least one condition to be true to proceed  
+d. It skips all subsequent code if any condition fails  
+
+Question  
+When using SwiftUI for responsive design, what does the `.geometryReader` provide that helps adapt layouts?  
+
+Select one:  
+a. A fixed frame size for all devices  
+b. Access to the parent view’s dimensions and position  
+c. Automatic padding for safe areas  
+d. A default scaling factor for text  
+
+Question  
+In Swift’s OOP, what happens if a subclass overrides a method but forgets to call `super` when required by the superclass?  
+
+Select one:  
+a. The superclass logic is still executed automatically  
+b. A runtime error occurs due to the missing call  
+c. The subclass method runs independently, skipping superclass logic  
+d. The compiler enforces the `super` call with an error  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be prioritized when designing a loading indicator?  
+
+Select one:  
+a. Making it visually elaborate to distract users  
+b. Keeping it subtle and informative about progress  
+c. Hiding it unless the wait exceeds 10 seconds  
+d. Replacing it with static text updates  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, 2, 3].contains { $0 > 0 }`?  
+
+Select one:  
+a. An array of all positive numbers  
+b. True, because at least one element satisfies the condition  
+c. False, because not all elements are unique  
+d. A compilation error due to invalid syntax  
+
+Question  
+In UI/UX, what is the primary advantage of using interactive prototypes over static wireframes during user testing?  
+
+Select one:  
+a. They finalize the color scheme earlier  
+b. They allow users to experience functionality and flow  
+c. They reduce the need for user feedback  
+d. They focus solely on visual aesthetics  
+
+Question  
+In Swift, how does a `static` function in an enum differ from an instance method?  
+
+Select one:  
+a. It can only access instance properties  
+b. It belongs to the enum type itself, not individual cases  
+c. It requires an instance to be called  
+d. It cannot return values  
+
+Question  
+What does design theory suggest about using a "cool" color palette (e.g., blues, greens) in an app’s interface?  
+
+Select one:  
+a. It conveys energy and urgency  
+b. It promotes a sense of calm and trust  
+c. It maximizes visual contrast automatically  
+d. It reduces readability for text  
+
+Question  
+In Swift, what design pattern would you use to create an object that hides the complexity of a subsystem, such as simplifying database access?  
+
+Select one:  
+a. Facade  
+b. Adapter  
+c. Composite  
+d. Command  
+
+Question  
+When sketching an app’s initial layout, what is the main goal from a user-centered design perspective?  
+
+Select one:  
+a. To lock in the final visual design  
+b. To explore basic structure and user flow quickly  
+c. To define precise typography and colors  
+d. To test backend integration  
+
+Question  
+In Swift, what happens if you declare a variable as `var x: Int = 5` inside a function and shadow it in a nested scope with `let x = 10`?  
+
+Select one:  
+a. The outer `x` becomes 10 permanently  
+b. The inner scope uses 10, outer scope retains 5  
+c. A compilation error occurs due to redeclaration  
+d. The inner `x` overrides the outer one globally  
+
+Question  
+In SwiftUI, what does the `.matchedGeometryEffect(id:)` modifier enable in responsive design?  
+
+Select one:  
+a. Random animations across all views  
+b. Smooth transitions between views with shared identities  
+c. Fixed positioning regardless of screen size  
+d. Automatic color matching for accessibility  
+
+Question  
+In Swift’s OOP, what is the key benefit of using a protocol with an `associatedtype` over a concrete type?  
+
+Select one:  
+a. It enforces a single implementation across all conformers  
+b. It allows flexibility in the type used by conforming types  
+c. It restricts conformance to classes only  
+d. It eliminates the need for default implementations  
+
+Question  
+According to Apple’s Human Interface Guidelines, why should text truncation be avoided in critical UI elements?  
+
+Select one:  
+a. It increases rendering speed  
+b. It ensures all information remains fully visible  
+c. It simplifies localization efforts  
+d. It reduces the need for scrolling  
+
+Question  
+In Swift, what is the output of this code: `let a = 3; let b = 5; let c = a > b ? a : b; print(c)`?  
+
+Select one:  
+a. 3  
+b. 5  
+c. True  
+d. A runtime error  
+
+Question  
+In UI design, what does the principle of "repetition" contribute to a layout?  
+
+Select one:  
+a. Random variation for visual interest  
+b. Consistency and reinforcement of design elements  
+c. Increased cognitive load for users  
+d. Elimination of hierarchical structure  
+
+Question  
+In Swift, what design pattern would you use to create a flexible system where objects can be composed into tree-like structures, such as a file system?  
+
+Select one:  
+a. Observer  
+b. Composite  
+c. Prototype  
+d. Singleton  
+
+Question  
+When creating an interaction specification in user-centered design, what is the primary focus?  
+
+Select one:  
+a. Finalizing the app’s branding  
+b. Defining precise user actions and system responses  
+c. Selecting the app’s primary color palette  
+d. Optimizing backend performance  
+
+Question  
+In Swift, what is the result of this expression: `let x = "Swift".dropFirst(2)`?  
+
+Select one:  
+a. "ift"  
+b. "Sw"  
+c. "Swift"  
+d. A compilation error  
+
+Question  
+In SwiftUI, how does the `.adaptiveMinimum(size:)` modifier enhance responsive design for stack layouts?  
+
+Select one:  
+a. It forces all elements to a fixed minimum size  
+b. It ensures elements shrink below a specified size  
+c. It allows elements to adapt while respecting a minimum size  
+d. It disables stacking on smaller screens  
+
+Question  
+In Swift’s OOP, what happens if a class conforms to a protocol but omits a required property?  
+
+Select one:  
+a. The property is auto-implemented as nil  
+b. A compilation error occurs  
+c. The protocol ignores the missing property  
+d. The class uses a default value from the protocol  
+
+Question  
+What does Apple’s Human Interface Guidelines suggest about using haptics in an app?  
+
+Select one:  
+a. Use them sparingly to enhance key interactions  
+b. Apply them to every touch event for feedback  
+c. Avoid them to improve performance  
+d. Reserve them for error states only  
+
+Question  
+In Swift, what is the key difference between `forEach` and `map` when iterating over a collection?  
+
+Select one:  
+a. `forEach` returns a new array; `map` does not  
+b. `map` transforms and returns a new array; `forEach` does not  
+c. `forEach` is faster but less flexible  
+d. `map` executes synchronously; `forEach` does not  
+
+Question  
+In design theory, what is the effect of using high "contrast" between text and background in a UI?  
+
+Select one:  
+a. It reduces readability for all users  
+b. It improves legibility and draws attention  
+c. It creates a monotone aesthetic  
+d. It minimizes the need for typography adjustments  

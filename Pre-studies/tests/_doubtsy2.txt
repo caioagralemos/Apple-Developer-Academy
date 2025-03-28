@@ -1353,3 +1353,22 @@ a. It increases rendering speed
 b. It ensures all information remains fully visible
 c. It simplifies localization efforts
 d. It reduces the need for scrolling
+
+
+Question  
+In Swift, what happens when you use the `+=` operator to append an element to an immutable array declared with `let`?  
+
+Select one:  
+a. The array silently accepts the new element  
+b. A compilation error occurs due to immutability  
+c. The operation creates a new array copy  
+d. The program crashes at runtime  
+
+Question  
+When creating an adaptive SwiftUI layout, what does the `.environment(\.sizeCategory)` modifier allow you to adapt to?  
+
+Select one:  
+a. Screen resolution changes  
+b. User-preferred text size settings  
+c. Device orientation shifts  
+d. Color scheme preferences  

@@ -9672,3 +9672,273 @@ a. It reduces readability for all users
 b. It improves legibility and draws attention  
 c. It creates a monotone aesthetic  
 d. It minimizes the need for typography adjustments  
+
+Question  
+In Swift, what happens when you use the `+=` operator to append an element to an immutable array declared with `let`?  
+
+Select one:  
+a. The array silently accepts the new element  
+b. A compilation error occurs due to immutability  
+c. The operation creates a new array copy  
+d. The program crashes at runtime  
+
+Question  
+What does Apple’s Human Interface Guidelines recommend regarding the use of transparency in UI elements?  
+
+Select one:  
+a. Use it extensively to create a modern look  
+b. Apply it subtly to enhance depth without confusion  
+c. Avoid it entirely for clarity  
+d. Reserve it only for error states  
+
+Question  
+In Swift, what is the primary purpose of the `fallthrough` keyword in a `switch` statement?  
+
+Select one:  
+a. To exit the switch block early  
+b. To continue execution into the next case  
+c. To skip the default case  
+d. To loop back to the first case  
+
+Question  
+In user-centered design, what is the key benefit of conducting a "think-aloud" protocol during usability testing?  
+
+Select one:  
+a. It speeds up the testing process  
+b. It reveals user thought processes and pain points  
+c. It eliminates the need for prototypes  
+d. It ensures all feedback is quantitative  
+
+Question  
+In Swift, which design pattern would you use to manage a single configuration object that multiple classes can access, like app settings?  
+
+Select one:  
+a. Observer  
+b. Singleton  
+c. Strategy  
+d. Composite  
+
+Question  
+In design theory, what does a "high-fidelity mockup" typically include that a wireframe does not?  
+
+Select one:  
+a. Detailed visual design and interactions  
+b. Backend logic specifications  
+c. Rough sketches of layout  
+d. User flow diagrams  
+
+Question  
+In Swift, what is the output of this code: `let x = 5; let y = x / 2; print(y)`?  
+
+Select one:  
+a. 2.5  
+b. 2  
+c. 3  
+d. 5  
+
+Question  
+When creating an adaptive SwiftUI layout, what does the `.environment(\.sizeCategory)` modifier allow you to adapt to?  
+
+Select one:  
+a. Screen resolution changes  
+b. User-preferred text size settings  
+c. Device orientation shifts  
+d. Color scheme preferences  
+
+Question  
+In Swift’s OOP, what happens if a subclass attempts to override a method marked as `final` in its superclass?  
+
+Select one:  
+a. The override is ignored silently  
+b. A compilation error occurs  
+c. The method becomes optional  
+d. The superclass method is still called  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for handling destructive actions, like deleting data?  
+
+Select one:  
+a. Perform them immediately without confirmation  
+b. Require explicit user confirmation  
+c. Hide them in a secondary menu  
+d. Use subtle animations to indicate completion  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, 2, 3].reversed().first`?  
+
+Select one:  
+a. 1  
+b. 3  
+c. nil  
+d. [3, 2, 1]  
+
+Question  
+In design theory, what does reducing "visual noise" in a UI typically improve?  
+
+Select one:  
+a. Animation complexity  
+b. User focus and comprehension  
+c. Color variety  
+d. Element density  
+
+Question  
+In Swift, what keyword would you use to ensure a method in a protocol can only be adopted by value types like structs?  
+
+Select one:  
+a. struct  
+b. class  
+c. mutating  
+d. static  
+
+Question  
+In user-centered design, what is the primary purpose of a "user persona" during the sketching phase?  
+
+Select one:  
+a. To finalize the app’s typography  
+b. To represent target users’ goals and behaviors  
+c. To define backend requirements  
+d. To select a color palette  
+
+Question  
+In Swift, what design pattern allows you to transform an incompatible interface into one that a client expects, such as adapting a third-party API?  
+
+Select one:  
+a. Facade  
+b. Adapter  
+c. Proxy  
+d. Mediator  
+
+Question  
+When designing a SwiftUI app, what does the `.overlay()` modifier enable you to do with a view?  
+
+Select one:  
+a. Hide the view behind another  
+b. Layer content on top of the base view  
+c. Stretch the view to fill the screen  
+d. Reduce the view’s opacity  
+
+Question  
+In Swift, what is the output of this code: `let x = "abc"; let y = x.dropLast(); print(y.count)`?  
+
+Select one:  
+a. 3  
+b. 2  
+c. 1  
+d. 0  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be the focus when designing a status bar?  
+
+Select one:  
+a. Displaying as much information as possible  
+b. Keeping it unobtrusive and contextually relevant  
+c. Hiding it unless requested by the user  
+d. Using bold colors to draw attention  
+
+Question  
+In Swift’s OOP, what is the benefit of using a `private init` in a class?  
+
+Select one:  
+a. It allows instantiation from any scope  
+b. It restricts instantiation to within the class  
+c. It makes the class immutable  
+d. It enforces subclassing  
+
+Question  
+In design theory, what does using a "monospaced" font typically convey in a UI?  
+
+Select one:  
+a. A decorative, artistic feel  
+b. Precision and alignment, often for code  
+c. A casual, handwritten style  
+d. Increased readability for long paragraphs  
+
+Question  
+In Swift, what is the result of this expression: `let x = ["a", "b"].joined().count`?  
+
+Select one:  
+a. 2  
+b. 1  
+c. 3  
+d. 0  
+
+Question  
+In user-centered design, what distinguishes an "interaction specification" from a wireframe?  
+
+Select one:  
+a. It focuses on visual styling  
+b. It details specific user actions and responses  
+c. It defines the color scheme  
+d. It replaces prototypes entirely  
+
+Question  
+In Swift, what design pattern would you use to manage complex object creation with multiple optional parameters, like configuring a spaceship?  
+
+Select one:  
+a. Builder  
+b. Factory Method  
+c. Prototype  
+d. Singleton  
+
+Question  
+When creating a responsive SwiftUI layout, what does the `.scaledToFit()` modifier do to an image?  
+
+Select one:  
+a. Stretches it to fill the frame  
+b. Maintains its aspect ratio while fitting within bounds  
+c. Crops it to match the container size  
+d. Doubles its original dimensions  
+
+Question  
+In Swift, what happens if you attempt to access an array index that is out of bounds, like `let x = [1, 2][3]`?  
+
+Select one:  
+a. It returns nil  
+b. It causes a runtime crash  
+c. It wraps around to the first element  
+d. It returns the last element  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is a key reason to avoid excessive animations in an app?  
+
+Select one:  
+a. They increase battery usage  
+b. They can distract users from core tasks  
+c. They slow down development time  
+d. They conflict with accessibility features  
+
+Question  
+In Swift, what is the primary difference between a `weak` and an `unowned` reference in terms of memory management?  
+
+Select one:  
+a. `weak` is always nil when deallocated; `unowned` crashes if accessed  
+b. `unowned` becomes nil; `weak` retains a reference  
+c. `weak` requires an optional type; `unowned` does not  
+d. Both behave identically in all cases  
+
+Question  
+In design theory, what does adjusting "line height" in typography primarily affect in a UI?  
+
+Select one:  
+a. Character spacing within words  
+b. Vertical spacing between text lines  
+c. Font thickness for emphasis  
+d. Horizontal alignment of text  
+
+Question  
+In Swift, what is the output of this code: `let x = 10; let y = x > 0 ? x : -x; print(y)`?  
+
+Select one:  
+a. 0  
+b. -10  
+c. 10  
+d. nil  
+
+Question  
+In user-centered design, what is the main advantage of iterating on wireframes before moving to high-fidelity prototypes?  
+
+Select one:  
+a. It locks in the final design early  
+b. It allows quick refinement of structure and flow  
+c. It ensures backend compatibility  
+d. It finalizes visual aesthetics  

@@ -9942,3 +9942,273 @@ a. It locks in the final design early
 b. It allows quick refinement of structure and flow  
 c. It ensures backend compatibility  
 d. It finalizes visual aesthetics  
+
+Question  
+In Swift, what happens when using the keyword `unowned` with a reference?
+
+Select one:  
+a. It ensures the reference always stays alive  
+b. It creates a reference that doesn't keep the object alive  
+c. It forces a weak reference  
+d. It guarantees automatic memory management  
+
+Question  
+What typography principle improves readability through spacing between lines of text?
+
+Select one:  
+a. Kerning  
+b. Leading  
+c. Tracking  
+d. Alignment  
+
+Question  
+Which design pattern helps separate an object's construction from its representation in Swift?
+
+Select one:  
+a. Singleton  
+b. Builder  
+c. Adapter  
+d. Decorator  
+
+Question  
+When implementing responsive design, what's a major advantage of Swift's layout priorities?
+
+Select one:  
+a. Automatically adapts all colors to accessibility standards  
+b. Resolves conflicts between constraints elegantly  
+c. Forces a fixed layout  
+d. Enhances animation performance  
+
+Question  
+What does the term 'user persona' mean in UX design?
+
+Select one:  
+a. Final visual style guide  
+b. Representation of target user behaviors and goals  
+c. Specific UI animation  
+d. Detailed technical specifications  
+
+Question  
+In Swift, how would you enforce a method to be implemented by subclasses?
+
+Select one:  
+a. abstract  
+b. required  
+c. override  
+d. final  
+
+Question  
+A prototype that's interactive but not visually detailed is typically called:
+
+Select one:  
+a. Sketch  
+b. Wireframe  
+c. Low-fidelity prototype  
+d. High-fidelity prototype  
+
+Question  
+In Swift, what's a protocol’s default implementation achieved through?
+
+Select one:  
+a. Extensions  
+b. Structs  
+c. Classes  
+d. Enums  
+
+Question  
+What's the visual effect created by using colors adjacent to each other on the color wheel?
+
+Select one:  
+a. Complementary  
+b. Analogous  
+c. Monochromatic  
+d. Triadic  
+
+Question  
+Which Swift keyword is used to exit early if conditions aren't met?
+
+Select one:  
+a. if  
+b. guard  
+c. break  
+d. defer  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should navigation emphasize most?
+
+Select one:  
+a. Rich visual effects  
+b. Predictability and ease of use  
+c. Maximum information density  
+d. Extensive customization  
+
+Question  
+In Swift, when comparing two class instances for identity, you should use:
+
+Select one:  
+a. ==  
+b. ===  
+c. !=  
+d. !==  
+
+Question  
+Which layout type is best suited for showing content layers overlapping in SwiftUI?
+
+Select one:  
+a. VStack  
+b. ZStack  
+c. HStack  
+d. LazyVGrid  
+
+Question  
+Which OOP concept involves defining general functionality in a superclass?
+
+Select one:  
+a. Composition  
+b. Inheritance  
+c. Encapsulation  
+d. Aggregation  
+
+Question  
+Which of these correctly describes adaptive design?
+
+Select one:  
+a. Single fixed layout for all devices  
+b. Adjusting UI dynamically to different screen sizes and contexts  
+c. Restricting users to portrait orientation  
+d. Using identical elements across all screens  
+
+Question  
+In Swift, a struct is best used when you want:
+
+Select one:  
+a. Shared mutable state  
+b. Immutable, value-based data types  
+c. Extensive inheritance  
+d. Asynchronous behavior  
+
+Question  
+What is essential to reduce cognitive load in app interfaces?
+
+Select one:  
+a. Heavy animations  
+b. Clear visual hierarchy  
+c. Complex navigation  
+d. High information density  
+
+Question  
+Which Swift protocol enables sorting of custom data types?
+
+Select one:  
+a. Equatable  
+b. Comparable  
+c. Codable  
+d. Hashable  
+
+Question  
+A critical advantage of wireframes is to:
+
+Select one:  
+a. Establish detailed visual styling  
+b. Quickly test interaction flows  
+c. Finalize backend coding  
+d. Implement animations early  
+
+Question  
+What's the main goal of Apple’s Dynamic Type feature?
+
+Select one:  
+a. Animating text smoothly  
+b. Allowing users to adjust text size for better readability  
+c. Ensuring text fits uniformly on all screens  
+d. Reducing text contrast  
+
+Question  
+What best defines a Swift tuple?
+
+Select one:  
+a. Ordered, fixed-size group of related values  
+b. Collection of unique elements  
+c. Key-value pairs  
+d. Dynamically sized arrays  
+
+Question  
+In UI design, the principle of proximity helps to:
+
+Select one:  
+a. Align items uniformly  
+b. Indicate relationships by grouping related items  
+c. Create visual excitement  
+d. Limit color usage  
+
+Question  
+In Swift, using the `lazy` keyword for a property will:
+
+Select one:  
+a. Immediately allocate memory  
+b. Delay initialization until first accessed  
+c. Prevent modification after initial set  
+d. Automatically make property thread-safe  
+
+Question  
+What principle emphasizes designing interfaces to accommodate user mistakes?
+
+Select one:  
+a. Visibility  
+b. Error tolerance  
+c. Minimalism  
+d. Consistency  
+
+Question  
+When dealing with asynchronous tasks in Swift, what keyword denotes a point where a function pauses its execution?
+
+Select one:  
+a. await  
+b. async  
+c. defer  
+d. try  
+
+Question  
+In SwiftUI, the main purpose of `@State` is to:
+
+Select one:  
+a. Provide global state management  
+b. Manage a view’s local mutable state  
+c. Handle asynchronous tasks  
+d. Store persistent data  
+
+Question  
+What principle does "white space" primarily contribute to in design?
+
+Select one:  
+a. Complexity  
+b. Clarity and readability  
+c. Increased information density  
+d. Animation smoothness  
+
+Question  
+Which Swift construct supports creating lightweight, stateless methods on existing types?
+
+Select one:  
+a. Classes  
+b. Protocols  
+c. Extensions  
+d. Enums  
+
+Question  
+In Swift, a closure can capture variables from its surrounding context. This concept is called:
+
+Select one:  
+a. Binding  
+b. Capturing  
+c. Retention  
+d. Wrapping  
+
+Question  
+According to Apple’s HIG, what's a recommended approach for alert messages?
+
+Select one:  
+a. Frequent alerts for minor issues  
+b. Clear, concise, and actionable messages  
+c. Highly detailed technical descriptions  
+d. Animated transitions for each alert  

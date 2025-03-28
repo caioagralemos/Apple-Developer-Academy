@@ -1372,3 +1372,40 @@ a. Screen resolution changes
 b. User-preferred text size settings  
 c. Device orientation shifts  
 d. Color scheme preferences  
+
+
+Question  
+In Swift, what happens when using the keyword `unowned` with a reference?
+
+Select one:  
+a. It ensures the reference always stays alive  
+b. It creates a reference that doesn't keep the object alive  
+c. It forces a weak reference  
+d. It guarantees automatic memory management  
+
+Question  
+What typography principle improves readability through spacing between lines of text?
+
+Select one:  
+a. Kerning  
+b. Leading  
+c. Tracking  
+d. Alignment  
+
+Question  
+What's the visual effect created by using colors adjacent to each other on the color wheel?
+
+Select one:  
+a. Complementary  
+b. Analogous  
+c. Monochromatic  
+d. Triadic  
+
+Question  
+In Swift, a closure can capture variables from its surrounding context. This concept is called:
+
+Select one:  
+a. Binding  
+b. Capturing  
+c. Retention  
+d. Wrapping  

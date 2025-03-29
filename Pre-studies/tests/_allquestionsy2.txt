@@ -10212,3 +10212,813 @@ a. Frequent alerts for minor issues
 b. Clear, concise, and actionable messages  
 c. Highly detailed technical descriptions  
 d. Animated transitions for each alert  
+
+Question  
+In Swift, what happens when you use the reversed() method on an array and then call map on the result?  
+
+Select one:  
+a. It returns an empty array  
+b. It causes a compilation error due to incompatible types  
+c. It transforms the elements in reverse order  
+d. It transforms the elements in the original order  
+
+Question  
+What does Apple’s Human Interface Guidelines recommend about using icons in an app’s navigation?  
+
+Select one:  
+a. Avoid icons entirely for consistency  
+b. Use icons without labels to save space  
+c. Pair icons with text labels for clarity  
+d. Use text labels only without icons  
+
+Question  
+In Swift, how can you ensure a protocol is only adopted by classes and not structs or enums?  
+
+Select one:  
+a. Mark the protocol with final  
+b. Use AnyObject as a constraint in the protocol definition  
+c. Define it within a class scope  
+d. Add the class keyword before the protocol’s inheritance list  
+
+Question  
+When designing a SwiftUI layout, what does the .clipShape(Circle()) modifier achieve?  
+
+Select one:  
+a. It scales the view to fit a circular frame  
+b. It masks the view’s content to a circular shape  
+c. It adds a circular border around the view  
+d. It rotates the view into a circular pattern  
+
+Question  
+In Swift’s OOP, what is the outcome if a subclass overrides a property with a different type than its superclass?  
+
+Select one:  
+a. It silently reverts to the superclass’s implementation  
+b. The superclass type is enforced at runtime  
+c. A compilation error occurs due to type mismatch  
+d. The code compiles and uses the subclass type  
+
+Question  
+What is a key benefit of sketching during the early stages of user-centered design?  
+
+Select one:  
+a. It defines the exact color scheme  
+b. It allows rapid exploration of ideas and layouts  
+c. It replaces the need for user testing  
+d. It finalizes the app’s visual style  
+
+Question  
+In Swift, what is the output of this code: let x = [1, 2, 3].prefix(2); print(x.count)?  
+
+Select one:  
+a. 0  
+b. 1  
+c. 2  
+d. 3  
+
+Question  
+In design theory, what does a "triadic" color scheme involve?  
+
+Select one:  
+a. Using random colors for visual chaos  
+b. Combining shades of a single color  
+c. Using three colors equally spaced on the color wheel  
+d. Pairing two opposing colors with a neutral tone  
+
+Question  
+Which design pattern in Swift would you use to create a reusable template for objects that can be cloned, such as duplicating game characters?  
+
+Select one:  
+a. Singleton  
+b. Prototype  
+c. Builder  
+d. Factory Method  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should you prioritize when designing a search feature?  
+
+Select one:  
+a. Using animations to reveal results  
+b. Hiding it behind multiple menus  
+c. Making it fast and easy to access  
+d. Adding complex filters by default  
+
+Question  
+In Swift, what is the primary difference between a stored property and a computed property in a struct?  
+
+Select one:  
+a. Stored properties require initializers; computed properties do not  
+b. Computed properties persist in memory; stored properties do not  
+c. Stored properties hold values; computed properties calculate values  
+d. Stored properties are immutable; computed properties are mutable  
+
+Question  
+In responsive design with SwiftUI, what does the .aspectRatio(contentMode: .fit) modifier do to an image?  
+
+Select one:  
+a. It doubles the image’s size proportionally  
+b. It maintains the image’s aspect ratio while fitting within bounds  
+c. It distorts the image to fill the frame  
+d. It crops the image to a square shape  
+
+Question  
+What does the Swift keyword inout allow when used with a function parameter?  
+
+Select one:  
+a. It enforces a copy of the parameter  
+b. It restricts the parameter to constant values  
+c. It allows the function to modify the caller’s original value  
+d. It makes the parameter optional  
+
+Question  
+In UI/UX, what is the main purpose of an interaction specification compared to a wireframe?  
+
+Select one:  
+a. It outlines the backend architecture  
+b. It serves as a high-fidelity prototype  
+c. It details how users interact with elements dynamically  
+d. It focuses on visual polish and branding  
+
+Question  
+In Swift, what happens if you attempt to call a method marked private from outside its defining scope?  
+
+Select one:  
+a. It executes but logs a warning  
+b. It bypasses the restriction at runtime  
+c. A compilation error occurs  
+d. It silently fails and returns nil  
+
+Question  
+What does design theory suggest about using a bold typeface in a UI layout?  
+
+Select one:  
+a. It reduces readability for all text  
+b. It only works for decorative purposes  
+c. It emphasizes key content and creates hierarchy  
+d. It should be avoided to maintain uniformity  
+
+Question  
+Which Swift design pattern would you use to encapsulate a request as an object, enabling undo functionality in an app?  
+
+Select one:  
+a. Strategy  
+b. Adapter  
+c. Command  
+d. Observer  
+
+Question  
+According to Apple’s Human Interface Guidelines, why should you avoid using jargon in error messages?  
+
+Select one:  
+a. It makes messages shorter  
+b. It aligns with developer preferences  
+c. It confuses users and reduces clarity  
+d. It increases technical accuracy  
+
+Question  
+In Swift, what is the result of this expression: let x = [1, 2, 3].filter { $0 % 2 == 0 }.first ?? 0?  
+
+Select one:  
+a. 0  
+b. 3  
+c. 2  
+d. 1  
+
+Question  
+In user-centered design, what is a potential downside of skipping the prototyping phase?  
+
+Select one:  
+a. It ensures a polished final design  
+b. It reduces the need for user feedback  
+c. It risks missing critical usability issues  
+d. It speeds up development significantly  
+
+Question  
+In Swift’s OOP, what is the effect of marking a class method with static instead of class?  
+
+Select one:  
+a. It makes the method instance-specific  
+b. It restricts the method to private access  
+c. It prevents overriding in subclasses  
+d. It allows overriding in subclasses  
+
+Question  
+In SwiftUI, how does the .background(Color.red) modifier affect a view?  
+
+Select one:  
+a. It tints the view’s content red  
+b. It overlays red on top of the view  
+c. It fills the view’s background with red  
+d. It outlines the view with a red border  
+
+Question  
+What is a key principle of adaptive design in Swift when targeting multiple device sizes?  
+
+Select one:  
+a. Hardcoding positions for consistency  
+b. Limiting support to a single orientation  
+c. Adjusting layouts dynamically based on screen traits  
+d. Using fixed pixel dimensions for all layouts  
+
+Question  
+In Swift, what does the Never return type signify in a function declaration?  
+
+Select one:  
+a. The function executes without a return value  
+b. The function returns nil by default  
+c. The function never returns due to an infinite loop or crash  
+d. The function returns an optional value  
+
+Question  
+In design theory, what does "alignment" primarily contribute to a UI layout?  
+
+Select one:  
+a. Increased text density  
+b. Uniform color distribution  
+c. Visual order and structure  
+d. Random placement for creativity  
+
+Question  
+Which Swift design pattern would you use to simplify a complex subsystem, such as wrapping a legacy payment API?  
+
+Select one:  
+a. Composite  
+b. Decorator  
+c. Facade  
+d. Proxy  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be the approach to designing a progress indicator?  
+
+Select one:  
+a. Use it as a decorative element  
+b. Hide it unless requested by the user  
+c. Keep it subtle and dismissible when complete  
+d. Make it prominent and always visible  
+
+Question  
+In Swift, what is the output of this code: let x = (1...3).reduce(0) { $0 + $1 }; print(x)?  
+
+Select one:  
+a. 9  
+b. 0  
+c. 6  
+d. 3  
+
+Question  
+In user-centered design, what is the primary advantage of using low-fidelity prototypes over high-fidelity ones early on?  
+
+Select one:  
+a. They replace the need for sketches  
+b. They finalize the app’s branding  
+c. They allow quick iteration and concept testing  
+d. They provide detailed visual feedback  
+
+Question  
+In Swift’s OOP, what happens if a protocol defines an associatedtype and a conforming type fails to specify it?  
+
+Select one:  
+a. It defaults to Any at runtime  
+b. The protocol ignores the requirement  
+c. A compilation error occurs  
+d. The type infers it automatically
+
+Question  
+In Swift, what happens when you declare a variable with an optional type and assign it a value without unwrapping it later?  
+
+Select one:  
+a. A runtime error occurs due to implicit unwrapping  
+b. The value is discarded, and the variable becomes nil  
+c. The variable remains optional and requires explicit unwrapping to access the value  
+d. The variable automatically unwraps when accessed  
+
+Question  
+What design theory principle suggests that repeating visual elements like colors or shapes helps users recognize patterns?  
+
+Select one:  
+a. Proximity  
+b. Hierarchy  
+c. Contrast  
+d. Consistency  
+
+Question  
+In Swift’s object-oriented programming, what is the outcome if a subclass overrides an inherited method with a more restrictive access level?  
+
+Select one:  
+a. The subclass method silently adopts the superclass’s access level  
+b. A compilation error occurs because access cannot be more restrictive than the superclass  
+c. The method becomes private by default  
+d. The compiler allows it as long as the method is still callable  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for designing buttons with multiple actions?  
+
+Select one:  
+a. Combine all actions into one button with no distinction  
+b. Use a single button with a long-press to reveal options  
+c. Provide clear, separate buttons for each action to avoid confusion  
+d. Hide secondary actions behind a swipe gesture  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, 2, 3]; let y = x; y.append(4); print(x.count)`?  
+
+Select one:  
+a. 0  
+b. A compilation error occurs  
+c. 4  
+d. 3  
+
+Question  
+In user-centered design, what is the primary advantage of sketching multiple layout variations early in the process?  
+
+Select one:  
+a. It ensures pixel-perfect accuracy from the start  
+b. It allows exploration of diverse ideas before committing to a direction  
+c. It finalizes the app’s branding immediately  
+d. It replaces the need for user testing  
+
+Question  
+Which Swift design pattern would you use to encapsulate a set of operations that can be undone, such as a text editor’s undo feature?  
+
+Select one:  
+a. Observer  
+b. Strategy  
+c. Command  
+d. Prototype  
+
+Question  
+What does increasing the "leading" in typography achieve in a Swift-designed interface?  
+
+Select one:  
+a. It reduces the font size for compactness  
+b. It adjusts spacing between individual characters  
+c. It enhances readability by increasing space between lines  
+d. It emphasizes bold text for hierarchy  
+
+Question  
+In Swift, how does a closure’s capture list affect variable behavior when the closure is executed later?  
+
+Select one:  
+a. It ensures variables are always referenced live  
+b. It prevents variables from being captured entirely  
+c. It captures variables by value at the time of closure creation  
+d. It forces variables to be immutable within the closure  
+
+Question  
+In responsive design for Swift, what is a key benefit of using flexible constraints over fixed sizes?  
+
+Select one:  
+a. It locks elements in place for consistency  
+b. It adapts layouts dynamically to different screen sizes  
+c. It guarantees identical layouts across all devices  
+d. It reduces the need for testing on multiple devices  
+
+Question  
+What is the output of this Swift code: `let a = 5; let b = 2; let c = a / b * b; print(c)`?  
+
+Select one:  
+a. 2  
+b. 6  
+c. 5  
+d. 4  
+
+Question  
+In Swift’s OOP, what happens if you declare a property as `private var` in a class and try to access it from an extension in the same file?  
+
+Select one:  
+a. The property becomes implicitly public in the extension  
+b. A compilation error occurs due to private restrictions  
+c. Access is allowed because extensions share file scope  
+d. The extension can only read, not modify, the property  
+
+Question  
+According to Apple’s Human Interface Guidelines, why should critical actions like saving data offer immediate feedback?  
+
+Select one:  
+a. To enforce a minimalist interface  
+b. To reduce server load  
+c. To simplify the design process  
+d. To reassure users the action was successful  
+
+Question  
+In user-centered design, what distinguishes an interaction specification from a prototype?  
+
+Select one:  
+a. It serves as a high-fidelity visual mockup  
+b. It defines detailed user interactions and system responses  
+c. It focuses on visual polish rather than behavior  
+d. It replaces wireframes entirely  
+
+Question  
+Which Swift design pattern ensures that an object’s creation logic is centralized and can produce varying types, like generating different enemy types in a game?  
+
+Select one:  
+a. Decorator  
+b. Factory Method  
+c. Adapter  
+d. Singleton  
+
+Question  
+In design theory, what does a complementary color scheme typically achieve in a Swift interface?  
+
+Select one:  
+a. It blends elements into the background  
+b. It creates a subtle, uniform look  
+c. It provides high contrast for visual impact  
+d. It reduces the need for typography adjustments  
+
+Question  
+In Swift, what is the effect of using the `inout` keyword with a parameter in a function that swaps two integers?  
+
+Select one:  
+a. It forces the parameters to be optional  
+b. It creates a copy of the integers for internal use  
+c. It allows the function to modify the original values passed in  
+d. It restricts the parameters to read-only access  
+
+Question  
+What is the primary goal of creating wireframes in a Swift app’s design process?  
+
+Select one:  
+a. To define backend logic  
+b. To test high-fidelity animations  
+c. To outline the basic structure and navigation flow  
+d. To finalize the app’s color palette  
+
+Question  
+In Swift, what is the result of this code: `let x = ["a", "b", "c"]; let y = x.dropFirst().last ?? "z"; print(y)`?  
+
+Select one:  
+a. "z"  
+b. "a"  
+c. "c"  
+d. "b"  
+
+Question  
+In adaptive design for Swift, what does testing on multiple device simulators primarily ensure?  
+
+Select one:  
+a. Elimination of the need for Auto Layout  
+b. Uniform performance across all devices  
+c. Compatibility and usability across varied hardware  
+d. Consistent layouts regardless of screen size  
+
+Question  
+Which OOP concept in Swift allows a single interface to represent multiple underlying types, such as a protocol for different shapes?  
+
+Select one:  
+a. Inheritance  
+b. Polymorphism  
+c. Composition  
+d. Encapsulation  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be avoided when designing a form entry screen?  
+
+Select one:  
+a. Consistent spacing between fields  
+b. Placeholder text as hints  
+c. Overly complex validation that confuses users  
+d. Clear labels for each field  
+
+Question  
+In Swift, what happens when you use a `break` statement inside a `switch` case with multiple conditions?  
+
+Select one:  
+a. It loops back to the start of the switch  
+b. It causes a compilation error  
+c. It exits the entire switch statement  
+d. It skips to the next case without executing the rest of the current one  
+
+Question  
+In design theory, what does reducing "kerning" between letters in a Swift app’s title typically do?  
+
+Select one:  
+a. Adjusts the vertical spacing between lines  
+b. Tightens specific letter pairs for a compact look  
+c. Increases the space between all characters uniformly  
+d. Emphasizes the font’s weight  
+
+Question  
+Which Swift design pattern would you use to add new behaviors to an object dynamically, such as adding logging to a network request?  
+
+Select one:  
+a. Composite  
+b. Proxy  
+c. Decorator  
+d. Mediator  
+
+Question  
+In user-centered design, what is a key reason to involve users during the prototyping phase?  
+
+Select one:  
+a. To reduce development time  
+b. To select the app’s typography  
+c. To gather feedback and refine usability  
+d. To lock in the final design early  
+
+Question  
+In Swift, what is the output of this code: `let x = 10; let y = x % 3; let z = y == 0 ? x : y; print(z)`?  
+
+Select one:  
+a. 0  
+b. 3  
+c. 1  
+d. 10  
+
+Question  
+In responsive design for Swift, what is a primary advantage of using relative units (like percentages) over absolute units (like points)?  
+
+Select one:  
+a. It reduces rendering time significantly  
+b. It allows layouts to scale proportionally to screen size  
+c. It ensures fixed positioning across devices  
+d. It eliminates the need for constraints  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended practice for handling temporary states like network delays?  
+
+Select one:  
+a. Require manual refresh by the user  
+b. Display a detailed error log  
+c. Provide a subtle indicator to maintain user awareness  
+d. Show a blank screen until the operation completes  
+
+Question  
+In Swift’s OOP, what is the benefit of using a `protocol` with a `default implementation` via an extension?  
+
+Select one:  
+a. It restricts the protocol to value types only  
+b. It provides optional behavior for conforming types  
+c. It eliminates inheritance entirely  
+d. It forces all conformers to override every method
+
+Question  
+In Swift, what happens when you pass a value type like a struct to a function and modify it inside that function?  
+
+Select one:  
+a. The struct becomes optional  
+b. The function throws a runtime error  
+c. A copy is modified, leaving the original unchanged  
+d. The original struct is modified  
+
+Question  
+What design principle emphasizes aligning elements to create a cohesive and organized UI layout?  
+
+Select one:  
+a. Proximity  
+b. Contrast  
+c. Alignment  
+d. Repetition  
+
+Question  
+In Swift’s OOP, what is the consequence of marking a class as `final` when it has no subclasses yet?  
+
+Select one:  
+a. It enforces static methods only  
+b. It prohibits future subclassing  
+c. It prevents instantiation of the class  
+d. It restricts all properties to private access  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should be the primary focus when designing a first-launch experience?  
+
+Select one:  
+a. Using complex animations to impress users  
+b. Guiding users clearly to understand core functionality  
+c. Displaying all features immediately  
+d. Requiring immediate account creation  
+
+Question  
+In Swift, what is the output of this code: `let x = [1, 2, 3]; let y = x.map { $0 * 2 }; print(y[1])`?  
+
+Select one:  
+a. 6  
+b. 4  
+c. 1  
+d. 2  
+
+Question  
+In user-centered design, what is a key benefit of using paper sketches over digital tools in the initial ideation phase?  
+
+Select one:  
+a. They finalize the visual style early  
+b. They ensure pixel-perfect designs  
+c. They allow rapid iteration without technical constraints  
+d. They provide immediate usability feedback  
+
+Question  
+Which Swift design pattern would you use to create a system where a single object notifies multiple dependents of changes, like a weather app updating displays?  
+
+Select one:  
+a. Strategy  
+b. Factory Method  
+c. Observer  
+d. Command  
+
+Question  
+In design theory, what does using a "triadic" color scheme typically achieve in a Swift interface?  
+
+Select one:  
+a. Random color variation for excitement  
+b. High contrast between two opposing colors  
+c. Balanced vibrancy with three distinct hues  
+d. A monochromatic, subdued look  
+
+Question  
+In Swift, what is the effect of declaring a variable with `let` inside a loop that iterates five times?  
+
+Select one:  
+a. It becomes mutable within the loop scope  
+b. It creates a new constant for each iteration  
+c. It retains its last value after the loop  
+d. It causes a compilation error due to redeclaration  
+
+Question  
+In responsive design for Swift, what is the advantage of using a percentage-based layout over a fixed-point layout?  
+
+Select one:  
+a. It locks elements in a static position  
+b. It ensures identical rendering across all devices  
+c. It scales proportionally to screen size  
+d. It reduces memory usage significantly  
+
+Question  
+What is the output of this Swift code: `let a = 7; let b = 3; let c = a % b + b; print(c)`?  
+
+Select one:  
+a. 7  
+b. 3  
+c. 4  
+d. 1  
+
+Question  
+In Swift’s OOP, what happens if a protocol requires a property but doesn’t specify whether it’s get-only or get-set?  
+
+Select one:  
+a. It defaults to a stored property with a setter  
+b. Conformers must implement it as get-only  
+c. Conformers can choose to make it get-only or get-set  
+d. A compilation error occurs due to ambiguity  
+
+Question  
+According to Apple’s Human Interface Guidelines, why should you avoid using tiny touch targets in an app?  
+
+Select one:  
+a. They require more memory  
+b. They increase rendering speed  
+c. They make interaction harder, especially for accessibility  
+d. They conflict with dark mode settings  
+
+Question  
+In user-centered design, what distinguishes a wireframe from a high-fidelity prototype?  
+
+Select one:  
+a. A wireframe replaces user testing  
+b. A wireframe focuses on basic layout, not polished visuals  
+c. A wireframe includes detailed interactions and visuals  
+d. A wireframe tests backend functionality  
+
+Question  
+Which Swift design pattern would you use to encapsulate construction logic for an object with many optional attributes, like a custom meal order?  
+
+Select one:  
+a. Prototype  
+b. Decorator  
+c. Builder  
+d. Singleton  
+
+Question  
+In design theory, what does adjusting "tracking" in typography affect in a Swift app’s text display?  
+
+Select one:  
+a. Alignment of text blocks  
+b. Font weight for emphasis  
+c. Uniform spacing between all characters  
+d. Vertical spacing between lines  
+
+Question  
+In Swift, what is the result of this expression: `let x = "hello"; let y = x.uppercased().hasPrefix("H")`?  
+
+Select one:  
+a. A runtime error  
+b. nil  
+c. True  
+d. False  
+
+Question  
+In adaptive design for Swift, what does testing across multiple screen sizes primarily validate?  
+
+Select one:  
+a. Elimination of layout constraints  
+b. Fixed element positioning  
+c. Consistent usability across devices  
+d. Uniform color schemes  
+
+Question  
+In Swift’s OOP, what is the benefit of using an `enum` with associated values over a class hierarchy?  
+
+Select one:  
+a. It simplifies memory management  
+b. It allows unlimited subclassing  
+c. It provides type-safe, finite state representation  
+d. It supports reference semantics automatically  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for handling a failed network request?  
+
+Select one:  
+a. Log the error for developers only  
+b. Display a blank screen until resolved  
+c. Provide a clear error message with a retry option  
+d. Retry silently without user input  
+
+Question  
+In Swift, what is the output of this code: `let x = 4; let y = 2; let z = x / y * y; print(z)`?  
+
+Select one:  
+a. 1  
+b. 8  
+c. 4  
+d. 2  
+
+Question  
+In user-centered design, what is the primary purpose of an interaction specification over a static mockup?  
+
+Select one:  
+a. To test backend integration  
+b. To select typography styles  
+c. To define dynamic user actions and system behavior  
+d. To finalize the app’s branding  
+
+Question  
+Which Swift design pattern allows you to wrap an existing object with additional functionality, like adding caching to a data fetcher?  
+
+Select one:  
+a. Mediator  
+b. Adapter  
+c. Decorator  
+d. Proxy  
+
+Question  
+In design theory, what does a "cool" color palette (blues, greens) typically evoke in a Swift interface?  
+
+Select one:  
+a. High contrast and tension  
+b. Random visual noise  
+c. Calmness and professionalism  
+d. Urgency and excitement  
+
+Question  
+In Swift, what happens if you attempt to modify a `let` constant declared as an array after initialization?  
+
+Select one:  
+a. It converts the constant to a variable  
+b. It creates a new array copy  
+c. It causes a compilation error  
+d. It silently allows the change  
+
+Question  
+In responsive design for Swift, what is a key benefit of using SwiftUI’s `.frame(maxWidth: .infinity)` over a fixed width?  
+
+Select one:  
+a. It locks the view to a minimum size  
+b. It reduces rendering time  
+c. It allows the view to expand to the available width  
+d. It ensures a static size on all devices  
+
+Question  
+What is the output of this Swift code: `let x = ["a", "b", "c"]; let y = x.joined(separator: "-"); print(y.count)`?  
+
+Select one:  
+a. 7  
+b. 1  
+c. 5  
+d. 3  
+
+Question  
+In Swift’s OOP, what is the effect of using a `private(set)` modifier on a property within a struct?  
+
+Select one:  
+a. It requires a custom initializer  
+b. It makes the property immutable everywhere  
+c. It allows reading but restricts modification outside the struct  
+d. It prevents reading the property outside the struct  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should you prioritize when designing a settings screen?  
+
+Select one:  
+a. Using random layouts for variety  
+b. Hiding settings behind gestures  
+c. Grouping related options for clarity  
+d. Including every possible option upfront  
+
+Question  
+In user-centered design, what is a key reason to involve users in the wireframing stage?  
+
+Select one:  
+a. To skip prototyping entirely  
+b. To lock in backend requirements  
+c. To validate navigation and layout early  
+d. To finalize the app’s color scheme

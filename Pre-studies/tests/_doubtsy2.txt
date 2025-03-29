@@ -1409,3 +1409,111 @@ a. Binding
 b. Capturing  
 c. Retention  
 d. Wrapping  
+
+Question  
+In Swift’s OOP, what is the outcome if a subclass overrides a property with a different type than its superclass?  
+
+Select one:  
+a. It silently reverts to the superclass’s implementation  
+b. The superclass type is enforced at runtime  
+c. A compilation error occurs due to type mismatch  
+d. The code compiles and uses the subclass type  
+
+Question  
+In Swift’s OOP, what is the effect of marking a class method with static instead of class?  
+
+Select one:  
+a. It makes the method instance-specific  
+b. It restricts the method to private access  
+c. It prevents overriding in subclasses  
+d. It allows overriding in subclasses  
+
+Question  
+Which Swift design pattern would you use to simplify a complex subsystem, such as wrapping a legacy payment API?  
+
+Select one:  
+a. Composite  
+b. Decorator  
+c. Facade  
+d. Proxy  
+
+Question  
+In Swift’s OOP, what happens if a protocol defines an associatedtype and a conforming type fails to specify it?  
+
+Select one:  
+a. It defaults to Any at runtime  
+b. The protocol ignores the requirement  
+c. A compilation error occurs  
+d. The type infers it automatically
+
+Question  
+In Swift, what happens when you declare a variable with an optional type and assign it a value without unwrapping it later?  
+
+Select one:  
+a. A runtime error occurs due to implicit unwrapping  
+b. The value is discarded, and the variable becomes nil  
+c. The variable remains optional and requires explicit unwrapping to access the value  
+d. The variable automatically unwraps when accessed  
+
+Question  
+In Swift’s object-oriented programming, what is the outcome if a subclass overrides an inherited method with a more restrictive access level?  
+
+Select one:  
+a. The subclass method silently adopts the superclass’s access level  
+b. A compilation error occurs because access cannot be more restrictive than the superclass  
+c. The method becomes private by default  
+d. The compiler allows it as long as the method is still callable  
+
+Question  
+In Swift, what is the result of this expression: `let x = [1, 2, 3]; let y = x; y.append(4); print(x.count)`?  
+
+Select one:  
+a. 0  
+b. A compilation error occurs  
+c. 4  
+d. 3  
+
+Question  
+What is the output of this Swift code: `let a = 5; let b = 2; let c = a / b * b; print(c)`?  
+
+Select one:  
+a. 2  
+b. 6  
+c. 5  
+d. 4  
+
+Question  
+In Swift’s OOP, what happens if you declare a property as `private var` in a class and try to access it from an extension in the same file?  
+
+Select one:  
+a. The property becomes implicitly public in the extension  
+b. A compilation error occurs due to private restrictions  
+c. Access is allowed because extensions share file scope  
+d. The extension can only read, not modify, the property  
+
+Question  
+In adaptive design for Swift, what does testing on multiple device simulators primarily ensure?  
+
+Select one:  
+a. Elimination of the need for Auto Layout  
+b. Uniform performance across all devices  
+c. Compatibility and usability across varied hardware  
+d. Consistent layouts regardless of screen size  
+
+Question  
+In Swift, what happens when you pass a value type like a struct to a function and modify it inside that function?  
+
+Select one:  
+a. The struct becomes optional  
+b. The function throws a runtime error  
+c. A copy is modified, leaving the original unchanged  
+d. The original struct is modified  
+
+Question  
+In Swift’s OOP, what happens if a protocol requires a property but doesn’t specify whether it’s get-only or get-set?  
+
+Select one:  
+a. It defaults to a stored property with a setter  
+b. Conformers must implement it as get-only  
+c. Conformers can choose to make it get-only or get-set  
+d. A compilation error occurs due to ambiguity  

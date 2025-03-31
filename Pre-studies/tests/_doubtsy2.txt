@@ -1544,3 +1544,66 @@ a. It stretches views to fill the entire screen
 b. It forces content to align with fixed margins  
 c. It disables Auto Layout constraints  
 d. It adds padding to respect device safe areas  
+
+Question
+What is the 'x-height' in typography?
+
+Select one:
+a. The total height of the font from ascender to descender
+b. The height of the lowercase letter 'x' for a given typeface
+c. The width of the letter 'x'
+d. A measurement used only for script fonts
+
+Question
+Which element defines the boundaries of objects and separates areas within a design?
+
+Select one:
+a. Texture
+b. Color
+c. Line
+d. Shape
+
+Question
+The relative lightness or darkness of a color is referred to as its:
+
+Select one:
+a. Hue
+b. Saturation
+c. Value
+d. Chroma
+
+Question
+The Gestalt principle that describes our tendency to perceive incomplete objects as complete is known as:
+
+Select one:
+a. Similarity
+b. Proximity
+c. Closure
+d. Continuity
+
+Question
+Which term describes the intensity or purity of a color?
+
+Select one:
+a. Hue
+b. Saturation
+c. Value
+d. Tint
+
+Question
+In typography, what does the term 'leading' refer to?
+
+Select one:
+a. The space between specific pairs of letters
+b. The thickness of the font strokes
+c. The vertical space between lines of text
+d. The alignment of text to the left margin
+
+Question
+Which type of balance is achieved when elements are distributed unevenly around a central axis but still create a sense of equilibrium?
+
+Select one:
+a. Symmetrical balance
+b. Radial balance
+c. Asymmetrical balance
+d. Crystallographic balance

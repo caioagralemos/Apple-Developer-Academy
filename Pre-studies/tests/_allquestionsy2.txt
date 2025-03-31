@@ -11292,3 +11292,273 @@ a. Use .frame(maxWidth: 300) for all screens
 b. Disable scaling with a static frame  
 c. Hardcode padding for each device type  
 d. Apply .if-else with GeometryReader to adjust sizes  
+
+Question
+Which color model is typically used for designing websites and digital screen displays?
+
+Select one:
+a. CMYK
+b. RGB
+c. Pantone
+d. HSL
+
+Question
+In typography, what does the term 'leading' refer to?
+
+Select one:
+a. The space between specific pairs of letters
+b. The thickness of the font strokes
+c. The vertical space between lines of text
+d. The alignment of text to the left margin
+
+Question
+Which design principle suggests that elements related to each other should be placed close together?
+
+Select one:
+a. Contrast
+b. Repetition
+c. Proximity
+d. Alignment
+
+Question
+What is the primary difference between a serif and a sans-serif font?
+
+Select one:
+a. Serif fonts have small decorative strokes at the ends of characters, sans-serif fonts do not.
+b. Sans-serif fonts are always bolder than serif fonts.
+c. Serif fonts are only used for headlines, sans-serif for body text.
+d. Sans-serif fonts have variable widths, serif fonts have fixed widths.
+
+Question
+A color scheme created using variations in lightness and saturation of a single color is called:
+
+Select one:
+a. Complementary
+b. Analogous
+c. Triadic
+d. Monochromatic
+
+Question
+What is the main purpose of using a grid system in layout design?
+
+Select one:
+a. To make the design look more colorful
+b. To provide structure, order, and consistency
+c. To ensure all text is the same size
+d. To automatically choose fonts for the project
+
+Question
+Which term describes the intensity or purity of a color?
+
+Select one:
+a. Hue
+b. Saturation
+c. Value
+d. Tint
+
+Question
+In the context of visual design, 'white space' refers to:
+
+Select one:
+a. The background color, only if it is white
+b. The unmarked areas in a design, regardless of color
+c. The margins around the edges of the page
+d. The space specifically used for text characters
+
+Question
+Which image file type uses mathematical equations to define shapes and lines, allowing for infinite scalability without losing quality?
+
+Select one:
+a. JPG
+b. GIF
+c. PNG
+d. SVG
+
+Question
+The Gestalt principle that describes our tendency to perceive incomplete objects as complete is known as:
+
+Select one:
+a. Similarity
+b. Proximity
+c. Closure
+d. Continuity
+
+Question
+What does 'visual hierarchy' aim to achieve in a design?
+
+Select one:
+a. To make all elements appear equally important
+b. To guide the viewer's eye through the content in order of importance
+c. To use as many different fonts as possible
+d. To ensure perfect symmetry in the layout
+
+Question
+Adjusting the space between specific pairs of letters to improve visual appeal and readability is called:
+
+Select one:
+a. Tracking
+b. Leading
+c. Kerning
+d. Scaling
+
+Question
+Which of the following is considered a 'cool' color?
+
+Select one:
+a. Red
+b. Orange
+c. Yellow
+d. Blue
+
+Question
+What is the 'Rule of Thirds' primarily used for in composition?
+
+Select one:
+a. Dividing the layout into exactly three equal columns
+b. Choosing three primary colors for a design
+c. Placing key focal points off-center for better visual interest
+d. Ensuring text is always one-third the height of images
+
+Question
+The relative lightness or darkness of a color is referred to as its:
+
+Select one:
+a. Hue
+b. Saturation
+c. Value
+d. Chroma
+
+Question
+Which principle involves repeating visual elements like colors, fonts, or shapes throughout a design?
+
+Select one:
+a. Contrast
+b. Alignment
+c. Repetition
+d. Proximity
+
+Question
+What does 'PPI' stand for and what is it typically used to measure?
+
+Select one:
+a. Points Per Inch - measuring font size
+b. Pixels Per Inch - measuring screen resolution
+c. Parts Per Image - measuring file compression
+d. Picas Per Inch - measuring print column width
+
+Question
+An analogous color scheme consists of:
+
+Select one:
+a. Colors directly opposite each other on the color wheel
+b. Colors that are next to each other on the color wheel
+c. Variations of a single hue
+d. Three colors evenly spaced on the color wheel
+
+Question
+Which design element is crucial for differentiating between items and creating emphasis?
+
+Select one:
+a. Unity
+b. Balance
+c. Contrast
+d. Scale
+
+Question
+In typography, the imaginary line upon which most letters sit is called the:
+
+Select one:
+a. Cap height
+b. X-height
+c. Baseline
+d. Ascender line
+
+Question
+Which type of balance is achieved when elements are distributed unevenly around a central axis but still create a sense of equilibrium?
+
+Select one:
+a. Symmetrical balance
+b. Radial balance
+c. Asymmetrical balance
+d. Crystallographic balance
+
+Question
+What are secondary colors (like green, orange, purple) made from?
+
+Select one:
+a. Mixing a primary color with black
+b. Mixing a primary color with white
+c. Mixing two primary colors
+d. Mixing a primary color with a tertiary color
+
+Question
+The term 'legibility' in typography primarily refers to:
+
+Select one:
+a. How easy it is to read long blocks of text
+b. How easily individual characters can be distinguished from one another
+c. The overall aesthetic appeal of the font
+d. The number of styles available in a font family (bold, italic, etc.)
+
+Question
+Which element defines the boundaries of objects and separates areas within a design?
+
+Select one:
+a. Texture
+b. Color
+c. Line
+d. Shape
+
+Question
+What is a potential drawback of using raster images (like JPGs or PNGs) compared to vector images?
+
+Select one:
+a. They cannot be easily used on the web
+b. They lose quality when scaled up significantly
+c. They typically have smaller file sizes
+d. They cannot represent complex colors
+
+Question
+The principle of 'Alignment' helps to:
+
+Select one:
+a. Create a more unified and cohesive look by connecting elements visually
+b. Make elements stand out by placing them randomly
+c. Ensure all elements are the exact same size
+d. Introduce texture into the design
+
+Question
+Which color is often associated with energy, passion, and urgency in Western cultures?
+
+Select one:
+a. Green
+b. Blue
+c. Purple
+d. Red
+
+Question
+What is the 'x-height' in typography?
+
+Select one:
+a. The total height of the font from ascender to descender
+b. The height of the lowercase letter 'x' for a given typeface
+c. The width of the letter 'x'
+d. A measurement used only for script fonts
+
+Question
+The Gestalt principle stating that elements moving in the same direction are perceived as a group is:
+
+Select one:
+a. Figure-Ground
+b. Common Fate
+c. Proximity
+d. Closure
+
+Question
+A design that feels stable and harmonious because the visual weight is evenly distributed is said to have good:
+
+Select one:
+a. Contrast
+b. Hierarchy
+c. Balance
+d. Repetition

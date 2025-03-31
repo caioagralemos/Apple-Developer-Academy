@@ -1517,3 +1517,30 @@ a. It defaults to a stored property with a setter
 b. Conformers must implement it as get-only  
 c. Conformers can choose to make it get-only or get-set  
 d. A compilation error occurs due to ambiguity  
+
+Question  
+In SwiftUI, what does the .layoutPriority modifier do when arranging views in a stack?
+
+Select one:  
+a. It ensures high-priority views get more space  
+b. It disables responsive adjustments  
+c. It forces views to overlap completely  
+d. It reverses the stacking order  
+
+Question  
+What does design theory indicate about using high contrast in a Swift app’s navigation bar?
+
+Select one:  
+a. It can overwhelm users with visual noise  
+b. It draws attention and improves accessibility  
+c. It reduces the need for clear icons  
+d. It should be avoided for a minimalist aesthetic  
+
+Question  
+In Swift, how does the .safeAreaInset modifier enhance responsive design?
+
+Select one:  
+a. It stretches views to fill the entire screen  
+b. It forces content to align with fixed margins  
+c. It disables Auto Layout constraints  
+d. It adds padding to respect device safe areas  

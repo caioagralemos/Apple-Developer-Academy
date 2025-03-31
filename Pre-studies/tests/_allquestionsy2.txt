@@ -11022,3 +11022,273 @@ a. To skip prototyping entirely
 b. To lock in backend requirements  
 c. To validate navigation and layout early  
 d. To finalize the app’s color scheme
+
+Question  
+When choosing a color scheme for a Swift app, what does design theory suggest about using a monochromatic palette?
+
+Select one:  
+a. It creates a vibrant, attention-grabbing contrast  
+b. It maximizes accessibility for colorblind users  
+c. It ensures a cohesive and harmonious look  
+d. It emphasizes hierarchy through bold differences  
+
+Question  
+In SwiftUI, how can you ensure a view adapts to larger text sizes set by the user via Dynamic Type?
+
+Select one:  
+a. Use .font(.body) to automatically scale with system settings  
+b. Hardcode the frame size to prevent text overflow  
+c. Use a fixed font size with .font(.system(size: 16))  
+d. Apply the .minimumScaleFactor modifier with a high value  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the recommended approach for designing a modal view?
+
+Select one:  
+a. Include a clear, visible way to dismiss it  
+b. Use it for all navigation transitions  
+c. Allow dismissal only via a hidden gesture  
+d. Make it full-screen to maximize information display  
+
+Question  
+In user-centered design, what is a key advantage of testing a low-fidelity prototype with users early on?
+
+Select one:  
+a. It reveals usability issues before heavy development  
+b. It provides detailed feedback on visual polish  
+c. It confirms the final color scheme  
+d. It locks in the backend architecture  
+
+Question  
+What does design theory suggest about using tight kerning in a Swift app’s button labels?
+
+Select one:  
+a. It ensures text fits within smaller frames automatically  
+b. It creates a more professional, spaced-out look  
+c. It improves readability by spacing letters evenly  
+d. It can make text feel cramped and harder to read  
+
+Question  
+In Swift, how does the .safeAreaInset modifier enhance responsive design?
+
+Select one:  
+a. It stretches views to fill the entire screen  
+b. It forces content to align with fixed margins  
+c. It disables Auto Layout constraints  
+d. It adds padding to respect device safe areas  
+
+Question  
+What does Apple’s Human Interface Guidelines recommend about using custom fonts in an iOS app?
+
+Select one:  
+a. Pair them with system fonts for readability and familiarity  
+b. Use them freely to differentiate your app  
+c. Make them the default for all text elements  
+d. Avoid them to ensure consistency with system fonts  
+
+Question  
+In design theory, how does increasing line height (leading) affect a paragraph in a Swift app?
+
+Select one:  
+a. It tightens the text for a compact layout  
+b. It reduces contrast between text and background  
+c. It improves legibility by adding vertical space  
+d. It emphasizes bold elements automatically  
+
+Question  
+When sketching an app’s layout, what is the primary focus from a user-centered design perspective?
+
+Select one:  
+a. Defining the exact typography styles  
+b. Exploring user navigation and flow  
+c. Testing high-fidelity interactions  
+d. Finalizing pixel-perfect dimensions  
+
+Question  
+In SwiftUI, what happens if you apply .frame(width: 100, height: 100) to a Text view with long content?
+
+Select one:  
+a. The text is truncated unless modified further  
+b. The frame expands to fit the full text  
+c. The text wraps within the 100x100 frame  
+d. The text scales down to fit automatically  
+
+Question  
+What does design theory indicate about using high contrast in a Swift app’s navigation bar?
+
+Select one:  
+a. It can overwhelm users with visual noise  
+b. It draws attention and improves accessibility  
+c. It reduces the need for clear icons  
+d. It should be avoided for a minimalist aesthetic  
+
+Question  
+According to Apple’s Human Interface Guidelines, how should you handle a critical alert in an app?
+
+Select one:  
+a. Require immediate user action with clear options  
+b. Display it subtly in the background  
+c. Dismiss it automatically after 5 seconds  
+d. Use a generic message with no context  
+
+Question  
+In responsive design for Swift, why might you prefer a relative constraint (e.g., 50% of superview) over a fixed 200-point width?
+
+Select one:  
+a. It locks the layout for predictable rendering  
+b. It scales better across varying screen sizes  
+c. It ensures consistent padding on all devices  
+d. It simplifies debugging on small screens  
+
+Question  
+In design theory, what does an analogous color scheme (e.g., blue, teal, green) typically evoke in a UI?
+
+Select one:  
+a. A jarring, high-energy feel  
+b. A calm, unified aesthetic  
+c. A stark, high-contrast look  
+d. A random, unpredictable vibe  
+
+Question  
+When creating an interaction specification for a Swift app, what should it primarily detail?
+
+Select one:  
+a. How users trigger actions and the app responds  
+b. The backend database structure  
+c. The final animation durations  
+d. The exact color codes for each element  
+
+Question  
+In Swift, how can you ensure a view adapts to both portrait and landscape orientations effectively?
+
+Select one:  
+a. Use fixed frames for consistent positioning  
+b. Disable rotation support in the app  
+c. Leverage .geometryReader to adjust based on size  
+d. Apply a static aspect ratio to all views  
+
+Question  
+What does Apple’s Human Interface Guidelines suggest about using animations for button presses?
+
+Select one:  
+a. Use subtle effects to confirm the action  
+b. Make them elaborate to impress users  
+c. Avoid them to improve performance  
+d. Apply them only to destructive actions  
+
+Question  
+In user-centered design, why might you prioritize wireframes over high-fidelity prototypes in the early stages?
+
+Select one:  
+a. They allow rapid iteration on structure  
+b. They test complex backend logic  
+c. They confirm the app’s final branding  
+d. They provide detailed visual feedback  
+
+Question  
+In design theory, what is the primary purpose of using a bold typeface for a Swift app’s title?
+
+Select one:  
+a. To establish hierarchy and draw focus  
+b. To align with minimalist principles  
+c. To reduce readability for a subtle effect  
+d. To fill empty space aesthetically  
+
+Question  
+In SwiftUI, what does the .layoutPriority modifier do when arranging views in a stack?
+
+Select one:  
+a. It ensures high-priority views get more space  
+b. It disables responsive adjustments  
+c. It forces views to overlap completely  
+d. It reverses the stacking order  
+
+Question  
+What does Apple’s Human Interface Guidelines recommend about designing for accessibility with colors?
+
+Select one:  
+a. Ensure sufficient contrast for legibility  
+b. Avoid color adjustments for simplicity  
+c. Use low-contrast colors for a modern look  
+d. Rely solely on color to convey meaning  
+
+Question  
+In design theory, what does adjusting tracking (letter spacing) achieve in a Swift app’s UI?
+
+Select one:  
+a. It alters spacing between lines of text  
+b. It shifts text alignment horizontally  
+c. It changes the font weight for emphasis  
+d. It affects spacing between all characters  
+
+Question  
+In adaptive design for Swift, how does using trait collections improve an app’s layout?
+
+Select one:  
+a. It enforces a single layout across all devices  
+b. It adjusts UI based on device size and orientation  
+c. It fixes elements to absolute positions  
+d. It eliminates the need for Auto Layout  
+
+Question  
+When creating a high-fidelity prototype for a Swift app, what is the main goal from a UI/UX perspective?
+
+Select one:  
+a. To define the app’s backend logic  
+b. To explore initial layout sketches  
+c. To simulate near-final visuals and interactions  
+d. To test basic navigation flows  
+
+Question  
+In design theory, what does a complementary color scheme (e.g., blue and orange) typically achieve in a Swift UI?
+
+Select one:  
+a. A balanced, neutral tone  
+b. A striking, high-contrast effect  
+c. A subtle, low-contrast blend  
+d. A chaotic, unpredictable look  
+
+Question  
+In Swift, what happens if you apply .clipped() to a view that exceeds its frame?
+
+Select one:  
+a. The view rotates to adjust its size  
+b. Excess content is hidden outside the frame  
+c. The view scales down to fit the frame  
+d. The frame expands to show all content  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should you avoid when designing a toolbar?
+
+Select one:  
+a. Using standard icons for familiarity  
+b. Keeping it at the bottom for reachability  
+c. Providing clear labels for actions  
+d. Overloading it with too many options  
+
+Question  
+In user-centered design, what is a key reason to iterate on sketches before moving to wireframes?
+
+Select one:  
+a. To finalize the app’s typography  
+b. To confirm backend compatibility  
+c. To test high-fidelity animations  
+d. To explore multiple ideas quickly and cheaply  
+
+Question  
+In design theory, how does using warm colors (e.g., red, yellow) in a Swift app’s call-to-action button affect user perception?
+
+Select one:  
+a. It creates a calming, passive feel  
+b. It reduces visibility for emphasis  
+c. It blends into the background subtly  
+d. It suggests urgency or importance  
+
+Question  
+In SwiftUI, how can you make a layout responsive to different screen widths using a conditional modifier?
+
+Select one:  
+a. Use .frame(maxWidth: 300) for all screens  
+b. Disable scaling with a static frame  
+c. Hardcode padding for each device type  
+d. Apply .if-else with GeometryReader to adjust sizes  

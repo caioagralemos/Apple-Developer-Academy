@@ -12102,3 +12102,273 @@ a. Unnecessary complexity and over-engineering
 b. Reduced flexibility
 c. Better team communication
 d. Improved documentation
+
+Question
+What is the next number in the series: 7, 12, 19, 28, 39, ...
+
+Select one:
+a. 48
+b. 52
+c. 50
+d. 55
+
+Question
+In Swift, what is the purpose of the Codable protocol?
+
+Select one:
+a. To define user interface layouts.
+b. To enable conversion between data and external formats like JSON.
+c. To handle asynchronous operations.
+d. To manage app navigation.
+
+Question
+Which of the following is a key principle of effective visual hierarchy in UI design?
+
+Select one:
+a. Using random font sizes for creativity.
+b. Ensuring all elements have equal visual weight.
+c. Using contrast and size to indicate importance.
+d. Avoiding white space to maximize content.
+
+Question
+A bag contains 4 green balls and 6 yellow balls. What is the probability of picking a green ball?
+
+Select one:
+a. 2/3
+b. 3/5
+c. 1/2
+d. 2/5
+
+Question
+In Swift, what does the keyword "override" do?
+
+Select one:
+a. Creates a new class.
+b. Modifies access control.
+c. Provides a new implementation of a superclass method.
+d. Declares a constant.
+
+Question
+What is the primary goal of user personas in the design process?
+
+Select one:
+a. To define the app's color scheme.
+b. To represent typical users and their needs.
+c. To outline the technical architecture.
+d. To create marketing materials.
+
+Question
+Consider the number series: 8, 24, 72, 216, ... What is the next number?
+
+Select one:
+a. 432
+b. 648
+c. 864
+d. 500
+
+Question
+Which Swift feature allows you to add new functionality to existing classes, structs, or enums?
+
+Select one:
+a. Inheritance
+b. Generics
+c. Extensions
+d. Protocols
+
+Question
+According to Apple's Human Interface Guidelines, what is important when designing for accessibility?
+
+Select one:
+a. Using complex animations.
+b. Providing sufficient color contrast.
+c. Relying solely on sound cues.
+d. Avoiding text labels on icons.
+
+Question
+If two fair dice are rolled, what is the probability that the sum of the numbers is 7?
+
+Select one:
+a. 1/9
+b. 1/6
+c. 1/12
+d. 1/8
+
+Question
+In Swift, what is a closure?
+
+Select one:
+a. A class that cannot be subclassed.
+b. A self-contained block of code that can be passed around and called.
+c. A variable that stores only integer values.
+d. A way to define a user interface element.
+
+Question
+What is the purpose of wireframing in the UI/UX design process?
+
+Select one:
+a. To create a visually appealing design.
+b. To define the layout and structure of the interface.
+c. To write the application's code.
+d. To select the final color palette.
+
+Question
+What is the next number in the sequence: 1, 8, 27, 64, 125,...
+
+Select one:
+a. 216
+b. 196
+c. 225
+d. 144
+
+Question
+Which Swift design pattern is used to create instances of classes without specifying the exact class of object to create?
+
+Select one:
+a. Singleton
+b. Factory Method
+c. Observer
+d. Decorator
+
+Question
+What does "affordance" mean in user interface design?
+
+Select one:
+a. The visual appeal of the interface.
+b. The clarity of the typography.
+c. The perceived properties of an object that suggest how it should be used.
+d. The use of animations.
+
+Question
+A card is drawn at random from a standard deck of 52 playing cards. What is the probability that the card is an ace?
+
+Select one:
+a. 1/13
+b. 1/4
+c. 1/26
+d. 3/52
+
+Question
+In Swift, what is the purpose of the defer statement?
+
+Select one:
+a. To define a constant.
+b. To execute a block of code when a scope is exited.
+c. To handle errors.
+d. To create a loop.
+
+Question
+What is the main benefit of using Auto Layout in iOS development?
+
+Select one:
+a. It simplifies code writing.
+b. It enables adaptive UI across different screen sizes.
+c. It creates 3D effects.
+d. It reduces app size.
+
+Question
+Consider the number series: 2, 6, 18, 54,... What is the next number?
+
+Select one:
+a. 108
+b. 162
+c. 81
+d. 216
+
+Question
+Which of the following is a characteristic of protocol-oriented programming in Swift?
+
+Select one:
+a. It relies heavily on class inheritance.
+b. It allows structs, enums, and classes to conform to protocols.
+c. It restricts code reuse.
+d. It eliminates the need for classes.
+
+Question
+What is the purpose of conducting usability testing?
+
+Select one:
+a. To check for syntax errors in code.
+b. To evaluate the ease of use of a product.
+c. To finalize the marketing strategy.
+d. To design the database schema.
+
+Question
+If you roll a fair six-sided die, what is the probability of getting an even number?
+
+Select one:
+a. 1/6
+b. 1/3
+c. 1/2
+d. 2/3
+
+Question
+In Swift, what is the function of a property observer?
+
+Select one:
+a. To observe changes to a property's value.
+b. To define a property's initial value.
+c. To prevent a property from being changed.
+d. To create a computed property.
+
+Question
+What is responsive design in the context of app development?
+
+Select one:
+a. Designing apps that respond quickly to user input.
+b. Designing apps that adapt to different screen sizes and orientations.
+c. Designing apps with a minimalist aesthetic.
+d. Designing apps that use haptic feedback.
+
+Question
+What is the next number in this sequence: 1, 1, 2, 3, 5, 8, 13,...
+
+Select one:
+a. 20
+b. 21
+c. 22
+d. 23
+
+Question
+Which Swift keyword is used to define a constant?
+
+Select one:
+a. var
+b. let
+c. static
+d. const
+
+Question
+What is the purpose of a style guide in UI design?
+
+Select one:
+a. To define the app's functionality.
+b. To ensure consistency in design elements.
+c. To outline the project timeline.
+d. To specify the target audience.
+
+Question
+If a fair coin is tossed twice, what is the probability of getting two heads?
+
+Select one:
+a. 1/4
+b. 1/2
+c. 3/4
+d. 1/8
+
+Question
+In Swift, what does the term "optional" mean?
+
+Select one:
+a. A variable that can only hold strings.
+b. A variable that must be initialized.
+c. A variable that can hold a value or no value (nil).
+d. A variable that is automatically released from memory.
+
+Question
+What is the main goal of prototyping in the design process?
+
+Select one:
+a. To create the final product.
+b. To test and refine design ideas.
+c. To write the production code.
+d. To select the app name.

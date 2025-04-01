@@ -1621,6 +1621,7 @@ Question
 What is the primary effect of adding gray to a color (creating a tone)?
 
 Select one:
+a. It primarily changes the hue.
 b. It primarily affects the value (lightness/darkness).
 c. It primarily reduces the saturation (intensity/purity).
 d. It always makes the color neutral.

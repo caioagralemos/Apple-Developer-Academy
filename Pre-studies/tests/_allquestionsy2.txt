@@ -12372,3 +12372,273 @@ a. To create the final product.
 b. To test and refine design ideas.
 c. To write the production code.
 d. To select the app name.
+
+Question
+Which color model is best suited for print publications like magazines and brochures?
+
+Select one:
+a. RGB
+b. CMYK
+c. HSL
+d. HEX
+
+Question
+In typography, what does 'tracking' primarily adjust?
+
+Select one:
+a. The space between specific letter pairs.
+b. The vertical space between lines of text.
+c. The uniform space between all characters in a line of text.
+d. The thickness of the font strokes.
+
+Question
+Which design principle emphasizes creating a focal point by making certain elements stand out from the rest?
+
+Select one:
+a. Proximity
+b. Contrast
+c. Alignment
+d. Repetition
+
+Question
+What is the primary visual difference between a script font and a display font?
+
+Select one:
+a. Script fonts are always sans-serif, and display fonts are always serif.
+b. Script fonts are designed to mimic handwriting, and display fonts are designed for headlines and decorative use.
+c. Display fonts are used for body text, and script fonts are used for headlines.
+d. Script fonts are only in italic, and display fonts are only in bold.
+
+Question
+A color scheme that uses colors directly opposite each other on the color wheel is called:
+
+Select one:
+a. Analogous
+b. Complementary
+c. Monochromatic
+d. Triadic
+
+Question
+What is the benefit of using a modular grid system in web design?
+
+Select one:
+a. To ensure all images are the same resolution.
+b. To maintain consistent spacing and alignment across different screen sizes.
+c. To automatically apply color palettes.
+d. To make the website load faster.
+
+Question
+What does 'hue' specifically refer to in color theory?
+
+Select one:
+a. The lightness or darkness of a color.
+b. The intensity or purity of a color.
+c. The actual color name or position on the color wheel.
+d. The transparency of a color.
+
+Question
+In design, what is the purpose of 'negative space'?
+
+Select one:
+a. To use only black and white colors.
+b. To create visual breathing room and improve composition.
+c. To fill all available space with content.
+d. To use only vector graphics.
+
+Question
+Which image file format is best for preserving transparency and is commonly used for logos and icons?
+
+Select one:
+a. JPG
+b. GIF
+c. PNG
+d. TIFF
+
+Question
+The Gestalt principle that describes our tendency to group similar objects together is known as:
+
+Select one:
+a. Closure
+b. Proximity
+c. Similarity
+d. Continuity
+
+Question
+How does 'visual hierarchy' typically guide a viewer's eye?
+
+Select one:
+a. By using random font sizes and colors.
+b. By using different alignments for each element.
+c. By using size, color, and placement to indicate importance.
+d. By using complex grid structures.
+
+Question
+What typographic adjustment is used to change the spacing between individual letter pairs?
+
+Select one:
+a. Tracking
+b. Leading
+c. Kerning
+d. Justification
+
+Question
+Which of the following colors is considered a 'warm' color?
+
+Select one:
+a. Blue
+b. Green
+c. Yellow
+d. Purple
+
+Question
+In composition, what does the 'Rule of Thirds' help achieve?
+
+Select one:
+a. Perfectly symmetrical layouts.
+b. Visually interesting and dynamic compositions.
+c. Only using three colors.
+d. Ensuring text is always one-third the size of images.
+
+Question
+What does 'value' refer to in color theory?
+
+Select one:
+a. The color's name or hue.
+b. The color's intensity or purity.
+c. The color's lightness or darkness.
+d. The color's temperature.
+
+Question
+Which principle involves using the same visual element repeatedly to create a sense of unity?
+
+Select one:
+a. Contrast
+b. Alignment
+c. Repetition
+d. Proximity
+
+Question
+What does 'DPI' stand for and what is it typically used to measure?
+
+Select one:
+a. Dots Per Inch - measuring print resolution.
+b. Digital Pixels Index - measuring image file size.
+c. Data Points Interface - measuring screen refresh rate.
+d. Display Percentage Intensity - measuring screen brightness.
+
+Question
+A triadic color scheme consists of:
+
+Select one:
+a. Colors directly opposite each other on the color wheel.
+b. Colors next to each other on the color wheel.
+c. Variations of a single hue.
+d. Three colors evenly spaced on the color wheel.
+
+Question
+Which design element is crucial for creating a sense of balance and harmony?
+
+Select one:
+a. Unity
+b. Contrast
+c. Scale
+d. Shape
+
+Question
+In typography, the height of capital letters from the baseline to the top is called the:
+
+Select one:
+a. X-height
+b. Baseline
+c. Ascender line
+d. Cap height
+
+Question
+Which type of balance is achieved by arranging elements equally around a central point?
+
+Select one:
+a. Symmetrical balance
+b. Asymmetrical balance
+c. Radial balance
+d. Sequential balance
+
+Question
+What are primary colors (like red, blue, yellow) used for?
+
+Select one:
+a. Creating tints by mixing with white.
+b. Creating shades by mixing with black.
+c. Mixing to create all other colors.
+d. Creating tones by mixing with gray.
+
+Question
+The term 'readability' in typography primarily refers to:
+
+Select one:
+a. How easily individual characters can be distinguished.
+b. How easy it is to read long blocks of text.
+c. The aesthetic appeal of the font.
+d. The number of font styles available.
+
+Question
+Which design element can be used to create depth and texture?
+
+Select one:
+a. Line
+b. Shape
+c. Color
+d. Texture
+
+Question
+What is a primary disadvantage of using raster images (like JPGs) for logos compared to vector images?
+
+Select one:
+a. Raster images are always larger file sizes.
+b. Raster images cannot display complex color gradients.
+c. Raster images lose quality when scaled.
+d. Raster images cannot be used on the web.
+
+Question
+How does 'Alignment' contribute to a design's visual coherence?
+
+Select one:
+a. By making elements stand out randomly.
+b. By creating a visual connection between elements.
+c. By using elements of the same size.
+d. By using varied textures.
+
+Question
+Which color is often associated with calmness, trust, and stability?
+
+Select one:
+a. Red
+b. Yellow
+c. Blue
+d. Orange
+
+Question
+What is the 'ascender' in typography?
+
+Select one:
+a. The part of a letter that extends below the baseline.
+b. The part of a letter that extends above the x-height.
+c. The height of capital letters.
+d. The width of lowercase letters.
+
+Question
+The Gestalt principle stating that we perceive objects close together as belonging to a group is:
+
+Select one:
+a. Similarity
+b. Closure
+c. Common Fate
+d. Proximity
+
+Question
+A design where elements have equal visual weight on either side of a central axis is said to have:
+
+Select one:
+a. Contrast
+b. Repetition
+c. Balance
+d. Hierarchy

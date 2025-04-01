@@ -1643,3 +1643,39 @@ a. Factory Method uses inheritance; Abstract Factory uses composition
 b. Factory Method creates entire systems
 c. Abstract Factory creates a single product
 d. There is no real difference
+
+Question
+The term 'readability' in typography primarily refers to:
+
+Select one:
+a. How easily individual characters can be distinguished.
+b. How easy it is to read long blocks of text.
+c. The aesthetic appeal of the font.
+d. The number of font styles available.
+
+Question
+In typography, the height of capital letters from the baseline to the top is called the:
+
+Select one:
+a. X-height
+b. Baseline
+c. Ascender line
+d. Cap height
+
+Question
+Which design element can be used to create depth and texture?
+
+Select one:
+a. Line
+b. Shape
+c. Color
+d. Texture
+
+Question
+Which principle involves using the same visual element repeatedly to create a sense of unity?
+
+Select one:
+a. Contrast
+b. Alignment
+c. Repetition
+d. Proximity

@@ -11562,3 +11562,543 @@ a. Contrast
 b. Hierarchy
 c. Balance
 d. Repetition
+
+Question
+Adding white to a pure hue creates a:
+
+Select one:
+a. Shade
+b. Tone
+c. Tint
+d. Secondary color
+
+Question
+In typography, the invisible line on which the base of characters like 'x', 'a', 'e' sit is called the:
+
+Select one:
+a. X-height
+b. Cap height
+c. Baseline
+d. Descender line
+
+Question
+Which color property refers specifically to the pure spectral color, like the distinct identity of red, blue, or yellow?
+
+Select one:
+a. Value
+b. Saturation
+c. Hue
+d. Tone
+
+Question
+A layout design features a large, visually heavy element on the left, balanced by several smaller, lighter elements scattered on the right. This describes:
+
+Select one:
+a. Symmetrical Balance
+b. Asymmetrical Balance
+c. Radial Balance
+d. No Balance
+
+Question
+The Gestalt principle demonstrated when we mentally follow a dotted line or perceive alignment among separated objects is:
+
+Select one:
+a. Proximity
+b. Closure
+c. Similarity
+d. Continuity
+
+Question
+What is created when black is added to a hue?
+
+Select one:
+a. Tint
+b. Shade
+c. Tone
+d. Tertiary Color
+
+Question
+Which typographic measurement refers to the height of the main body of lowercase letters, exemplified by the letter 'x'?
+
+Select one:
+a. Ascender height
+b. Cap height
+c. Descender height
+d. X-height
+
+Question
+A color that is described as "dull," "muted," or "desaturated" has low:
+
+Select one:
+a. Hue
+b. Value
+c. Saturation
+d. Temperature
+
+Question
+What term describes the uniform adjustment of space across a range of characters (a word, line, or paragraph)?
+
+Select one:
+a. Kerning
+b. Leading
+c. Tracking
+d. Scaling
+
+Question
+Which fundamental design element is primarily concerned with the surface quality or feel of an object (real or implied)?
+
+Select one:
+a. Line
+b. Shape
+c. Texture
+d. Value
+
+Question
+Adding gray (a mix of black and white) to a pure hue results in a:
+
+Select one:
+a. Tint
+b. Shade
+c. Tone
+d. Complementary color
+
+Question
+The part of lowercase letters like 'b', 'd', or 'h' that extends above the x-height is called the:
+
+Select one:
+a. Descender
+b. Ascender
+c. Cap height
+d. Serif
+
+Question
+Which principle explains why viewers perceive all the buttons of the same shape and color on a website as related, even if separated?
+
+Select one:
+a. Proximity
+b. Closure
+c. Similarity
+d. Figure-Ground
+
+Question
+Which term refers *only* to the relative lightness or darkness of a color, ranging from black to white?
+
+Select one:
+a. Hue
+b. Saturation
+c. Chroma
+d. Value
+
+Question
+The careful adjustment of space between *specific pairs* of letters (like 'A' and 'V') to create visually pleasing spacing is:
+
+Select one:
+a. Tracking
+b. Leading
+c. Kerning
+d. Justification
+
+Question
+In Gestalt theory, the ability to distinguish an object (figure) from its surrounding area (ground) is known as:
+
+Select one:
+a. Closure
+b. Proximity
+c. Figure-Ground
+d. Common Fate
+
+Question
+What is the primary effect of adding white to a color (creating a tint)?
+
+Select one:
+a. It changes the hue significantly.
+b. It increases the value (lightness).
+c. It increases the saturation.
+d. It makes the color warmer.
+
+Question
+A flat, enclosed area created by lines, or by changes in color or texture, is best described as a:
+
+Select one:
+a. Form
+b. Line
+c. Shape
+d. Point
+
+Question
+The part of lowercase letters like 'p', 'q', or 'y' that extends below the baseline is the:
+
+Select one:
+a. Ascender
+b. Descender
+c. Ligature
+d. X-height
+
+Question
+What is the primary effect of adding black to a color (creating a shade)?
+
+Select one:
+a. It decreases the value (darkness).
+b. It changes the fundamental hue.
+c. It increases the saturation dramatically.
+d. It makes the color cooler.
+
+Question
+If a design is perfectly mirrored across a central vertical or horizontal axis, it exhibits:
+
+Select one:
+a. Asymmetrical Balance
+b. Radial Balance
+c. Symmetrical Balance
+d. Hierarchical Balance
+
+Question
+The Gestalt principle where elements moving in the same direction are perceived as a group is called:
+
+Select one:
+a. Similarity
+b. Continuity
+c. Common Fate
+d. Proximity
+
+Question
+What is the primary effect of adding gray to a color (creating a tone)?
+
+Select one:
+a. It primarily changes the hue.
+b. It primarily affects the value (lightness/darkness).
+c. It primarily reduces the saturation (intensity/purity).
+d. It always makes the color neutral.
+
+Question
+Which element is most crucial for creating outlines, contours, and separating distinct areas in a visual composition?
+
+Select one:
+a. Color
+b. Texture
+c. Shape
+d. Line
+
+Question
+In typography, the difference between 'readability' and 'legibility' is that 'legibility' refers more to:
+
+Select one:
+a. The ease of reading long passages of text.
+b. How easily individual characters can be distinguished.
+c. The overall attractiveness of the font style.
+d. The spacing between lines (leading).
+
+Question
+A design principle that involves arranging elements such that their edges line up along common rows or columns is:
+
+Select one:
+a. Proximity
+b. Alignment
+c. Contrast
+d. Repetition
+
+Question
+A three-dimensional object possessing depth, height, and width (like a cube or sphere) represents the element of:
+
+Select one:
+a. Shape
+b. Form
+c. Space
+d. Texture
+
+Question
+Which type of balance often feels more dynamic and modern compared to its mirrored counterpart?
+
+Select one:
+a. Symmetrical Balance
+b. Asymmetrical Balance
+c. Absolute Balance
+d. Static Balance
+
+Question
+The space between columns of text or between modules in a grid layout is often called the:
+
+Select one:
+a. Margin
+b. Bleed
+c. Gutter
+d. Baseline grid
+
+Question
+When describing color, if 'Value' is lightness/darkness and 'Hue' is the color identity, 'Saturation' refers to its:
+
+Select one:
+a. Temperature (warm/cool)
+b. Opacity (transparent/opaque)
+c. Intensity or purity
+d. Position on the color wheel
+
+Question
+What is the primary goal of the Strategy pattern?
+
+Select one:
+a. To encapsulate state changes
+b. To share data across objects
+c. To create objects without specifying their exact class
+d. To define a family of algorithms and make them interchangeable
+
+Question
+Which pattern is typically used to ensure only one instance of a class is created and shared?
+
+Select one:
+a. Prototype
+b. Mediator
+c. Singleton
+d. Factory Method
+
+Question
+The Decorator pattern is mainly used to:
+
+Select one:
+a. Add responsibilities dynamically to an object
+b. Modify the structure of an object
+c. Coordinate communication between objects
+d. Create new objects from prototypes
+
+Question
+Which design pattern helps to centralize complex communication and control logic between related objects?
+
+Select one:
+a. Chain of Responsibility
+b. Observer
+c. Mediator
+d. Flyweight
+
+Question
+What is the main drawback of using the Singleton pattern?
+
+Select one:
+a. Encourages too many object instances
+b. Introduces global state, which can be hard to test
+c. Increases inheritance complexity
+d. Makes code slower to execute
+
+Question
+Which pattern would you most likely use to represent a part-whole hierarchy?
+
+Select one:
+a. Bridge
+b. Adapter
+c. Facade
+d. Composite
+
+Question
+The Command pattern encapsulates:
+
+Select one:
+a. Object instantiation
+b. Multiple implementations
+c. Communication protocols
+d. A request as an object
+
+Question
+Which pattern lets you change an object's behavior when its internal state changes?
+
+Select one:
+a. Template Method
+b. Proxy
+c. State
+d. Observer
+
+Question
+The Abstract Factory pattern:
+
+Select one:
+a. Creates products from multiple sources
+b. Provides an interface to create families of related objects
+c. Duplicates existing instances
+d. Encapsulates conditional logic
+
+Question
+What distinguishes the Factory Method from the Abstract Factory?
+
+Select one:
+a. Factory Method uses inheritance; Abstract Factory uses composition
+b. Factory Method creates entire systems
+c. Abstract Factory creates a single product
+d. There is no real difference
+
+Question
+Which of these is an example of behavioral patterns?
+
+Select one:
+a. Iterator
+b. Proxy
+c. Facade
+d. Bridge
+
+Question
+The Template Method pattern relies on:
+
+Select one:
+a. Replacing methods dynamically
+b. A method with steps defined in a base class
+c. Multiple inheritance
+d. Composition to create variation
+
+Question
+Which pattern uses caching to optimize performance for objects that are expensive to create?
+
+Select one:
+a. Decorator
+b. Proxy
+c. Prototype
+d. Flyweight
+
+Question
+Which design pattern is best for reversing operations or supporting undo functionality?
+
+Select one:
+a. Memento
+b. Chain of Responsibility
+c. Iterator
+d. Builder
+
+Question
+Which pattern defines a one-to-many relationship between objects so that when one object changes state, all dependents are notified?
+
+Select one:
+a. Decorator
+b. Adapter
+c. Bridge
+d. Observer
+
+Question
+A key benefit of the Bridge pattern is:
+
+Select one:
+a. Caching objects efficiently
+b. Facilitating UI testing
+c. Enabling lazy loading
+d. Separating abstraction from implementation
+
+Question
+What is the main role of the Adapter pattern?
+
+Select one:
+a. Reduce object creation
+b. Provide default behavior
+c. Convert one interface to another
+d. Delay object instantiation
+
+Question
+Which pattern provides a simplified interface to a complex subsystem?
+
+Select one:
+a. Facade
+b. Composite
+c. Bridge
+d. Command
+
+Question
+When would you use the Chain of Responsibility pattern?
+
+Select one:
+a. When classes need tight coupling
+b. When responsibilities cannot change at runtime
+c. When multiple objects can handle a request but the handler isn’t known in advance
+d. When an object must notify many others
+
+Question
+Which of the following is NOT a common purpose of design patterns?
+
+Select one:
+a. Enhance readability
+b. Provide reusable solutions
+c. Improve maintainability
+d. Encourage code duplication
+
+Question
+The Proxy pattern can be used for all the following EXCEPT:
+
+Select one:
+a. Logging requests
+b. Lazy instantiation
+c. Access control
+d. Iterating over collections
+
+Question
+Which pattern allows creating new objects by copying existing ones?
+
+Select one:
+a. Strategy
+b. Decorator
+c. Prototype
+d. Builder
+
+Question
+The Builder pattern is most useful when:
+
+Select one:
+a. You want to avoid inheritance
+b. Complex objects need to be created step-by-step
+c. You want to register observers
+d. Objects are simple and share many parameters
+
+Question
+Which of these patterns is most related to recursion in tree structures?
+
+Select one:
+a. Singleton
+b. Bridge
+c. Memento
+d. Composite
+
+Question
+Which pattern lets you provide a placeholder for another object to control access to it?
+
+Select one:
+a. Factory Method
+b. Strategy
+c. Observer
+d. Proxy
+
+Question
+The Interpreter pattern is commonly used in:
+
+Select one:
+a. Logging frameworks
+b. Parsing languages and expressions
+c. Object pooling
+d. Command hierarchies
+
+Question
+Which pattern defines a skeleton of an algorithm in a base class while deferring steps to subclasses?
+
+Select one:
+a. Iterator
+b. State
+c. Strategy
+d. Template Method
+
+Question
+What makes the Observer pattern loosely coupled?
+
+Select one:
+a. It uses abstract factories
+b. Subjects do not need to know specifics about observers
+c. It doesn’t instantiate new objects
+d. Observers are automatically bound
+
+Question
+Which pattern allows multiple objects to respond to a request without the sender needing to know which one handles it?
+
+Select one:
+a. Singleton
+b. Iterator
+c. Mediator
+d. Chain of Responsibility
+
+Question
+What is a typical disadvantage of using too many design patterns in a project?
+
+Select one:
+a. Unnecessary complexity and over-engineering
+b. Reduced flexibility
+c. Better team communication
+d. Improved documentation

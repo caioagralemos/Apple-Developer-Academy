@@ -1607,3 +1607,38 @@ a. Symmetrical balance
 b. Radial balance
 c. Asymmetrical balance
 d. Crystallographic balance
+
+Question
+The space between columns of text or between modules in a grid layout is often called the:
+
+Select one:
+a. Margin
+b. Bleed
+c. Gutter
+d. Baseline grid
+
+Question
+What is the primary effect of adding gray to a color (creating a tone)?
+
+Select one:
+b. It primarily affects the value (lightness/darkness).
+c. It primarily reduces the saturation (intensity/purity).
+d. It always makes the color neutral.
+
+Question
+When would you use the Chain of Responsibility pattern?
+
+Select one:
+a. When classes need tight coupling
+b. When responsibilities cannot change at runtime
+c. When multiple objects can handle a request but the handler isn’t known in advance
+d. When an object must notify many others
+
+Question
+What distinguishes the Factory Method from the Abstract Factory?
+
+Select one:
+a. Factory Method uses inheritance; Abstract Factory uses composition
+b. Factory Method creates entire systems
+c. Abstract Factory creates a single product
+d. There is no real difference

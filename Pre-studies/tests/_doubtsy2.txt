@@ -1742,3 +1742,6 @@ a. Baseline
 b. Margin
 c. Gutter
 d. Tracking
+
+Question What Swift concept allows a class to inherit methods and properties but forbids multiple inheritance of classes?
+Select one: a. Classes can implement many protocols but only one main method b. Classes must declare a final initializer c. Classes use composition only d. Classes support single inheritance but can adopt multiple protocols

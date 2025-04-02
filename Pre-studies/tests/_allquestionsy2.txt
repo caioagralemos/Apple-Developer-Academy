@@ -13452,3 +13452,273 @@ a. High contrast and visual impact.
 b. A harmonious and calming feel.
 c. A dynamic and energetic look.
 d. A completely neutral appearance.
+
+Question  
+Which keyword is used in Swift to prevent a function or variable from being overridden or modified in subclasses?
+
+Select one:  
+a. static  
+b. final  
+c. sealed  
+d. private  
+
+Question  
+When designing an app’s navigation flow, which approach best adheres to user-centered design principles?
+
+Select one:  
+a. Mimicking the navigation style of non-Apple platforms to stand out  
+b. Creating navigation flows after observing and interviewing real users  
+c. Designing navigation based on the developer’s personal usage preferences  
+d. Choosing a complex hierarchical structure for advanced customization options  
+
+Question  
+In Swift, what is a primary benefit of using a protocol for code extensibility?
+
+Select one:  
+a. Automatically generates default function implementations  
+b. Encourages multiple conformances without a single inheritance limit  
+c. Allows cyclical inheritance chains  
+d. Forces a class to have only one method  
+
+Question  
+According to Apple’s Human Interface Guidelines, which principle should most influence the visual hierarchy in an app’s interface?
+
+Select one:  
+a. Minimizing color to avoid distraction  
+b. Use of placeholders for all content  
+c. Aligning all elements to the left for consistency  
+d. Emphasizing key interactive elements for clarity  
+
+Question  
+Which Swift feature allows you to define a fallback behavior if a variable unwrapping fails at runtime?
+
+Select one:  
+a. Using try-catch blocks  
+b. Nil coalescing operator (??)  
+c. Safe casting with as?  
+d. Initializing with init()  
+
+Question  
+Which design pattern is primarily responsible for separating the creation logic of objects from their usage, allowing the same construction process to create different representations?
+
+Select one:  
+a. Observer  
+b. Singleton  
+c. Visitor  
+d. Builder  
+
+Question  
+Which color harmony principle best ensures a balanced and visually appealing color scheme in an app’s interface?
+
+Select one:  
+a. Mixing random colors for diversity  
+b. Employing large gradients with no contrast  
+c. Applying complementary colors to create contrast  
+d. Using only shades of gray to avoid confusion  
+
+Question  
+Which feature in Swift enables you to handle potentially missing data by explicitly declaring that a variable or property may contain “no value”?
+
+Select one:  
+a. Tuples  
+b. Optionals  
+c. Enums with associated values  
+d. Completion handlers  
+
+Question  
+When adapting a layout for both compact and regular size classes, which approach typically best supports responsive design?
+
+Select one:  
+a. Using only table views without any constraints  
+b. Auto Layout constraints that adjust based on screen size  
+c. Manually computing layout in every view’s draw(_:) method  
+d. Statically coded frames for all elements  
+
+Question  
+What Swift concept allows a class to inherit methods and properties but forbids multiple inheritance of classes?
+
+Select one:  
+a. Classes must declare a final initializer  
+b. Classes use composition only  
+c. Classes can implement many protocols but only one main method  
+d. Classes support single inheritance but can adopt multiple protocols  
+
+Question  
+Which user-centered design practice involves testing an interactive version of your app concept with potential users early in the design process?
+
+Select one:  
+a. Static wireframes with no clickable elements  
+b. Rapid prototyping  
+c. Silent brainstorming  
+d. Generic color swatches  
+
+Question  
+Which design pattern in Swift is commonly used to handle system-wide state or data sharing while ensuring a single instance in memory?
+
+Select one:  
+a. Adapter  
+b. Prototype  
+c. Abstract Factory  
+d. Singleton  
+
+Question  
+Which Swift keyword allows you to handle code execution after a function finishes its asynchronous operation?
+
+Select one:  
+a. break  
+b. completion  
+c. resume  
+d. notify  
+
+Question  
+Which factor is most important when selecting color palettes for a Swift app’s interface, according to general design theory?
+
+Select one:  
+a. Restricting the entire interface to black and white  
+b. Ensuring sufficient contrast between background and foreground  
+c. Selecting colors only based on personal preference  
+d. Using neon colors for every element  
+
+Question  
+Which of the following deliverables is typically the most interactive representation of an app’s flow before actual development?
+
+Select one:  
+a. Color style guide  
+b. Mood board  
+c. High-fidelity prototype  
+d. Static layout diagram  
+
+Question  
+Which Swift feature allows you to extend existing types to add new functionalities without modifying the original source code?
+
+Select one:  
+a. Re-declaration  
+b. Extensions  
+c. Overriding  
+d. Inheritance  
+
+Question  
+According to Apple’s Human Interface Guidelines, what is the most suitable action when an operation takes longer than expected?
+
+Select one:  
+a. Cancel the operation automatically if it exceeds two seconds  
+b. Show a progress indicator or visual feedback  
+c. Lock the interface entirely to prevent user interaction  
+d. Let the user guess the current state of the operation  
+
+Question  
+Which principle is at the core of object-oriented programming in Swift to hide an object’s internal state and protect it from unauthorized access?
+
+Select one:  
+a. Inheritance  
+b. Composition  
+c. Polymorphism  
+d. Encapsulation  
+
+Question  
+Which Swift language feature allows you to group related values, such as success and error cases, in a single type for clearer code?
+
+Select one:  
+a. Dictionaries  
+b. Enums  
+c. Classes  
+d. Constants  
+
+Question  
+Which typography practice is typically considered best for readability in an iOS app interface?
+
+Select one:  
+a. Using system-recommended fonts for consistency  
+b. Reducing font size to fit more text into the display  
+c. Restricting all text to uppercase for emphasis  
+d. Mixing more than four fonts in each screen  
+
+Question  
+Which Swift collection is best suited when the exact insertion order must be maintained while allowing fast element retrieval by index?
+
+Select one:  
+a. Set  
+b. Array  
+c. Tuple  
+d. Dictionary  
+
+Question  
+Which approach best aligns with user experience guidelines when introducing a new feature to existing users?
+
+Select one:  
+a. Force a mandatory tutorial every time the app is opened  
+b. Provide a brief onboarding or tooltip explaining the feature  
+c. Hide the feature entirely unless specifically requested  
+d. Surprise them without any on-screen prompt  
+
+Question  
+Which design pattern is particularly useful for notifying multiple parts of an app of changes in state without creating tight coupling among components?
+
+Select one:  
+a. Builder  
+b. Command  
+c. Observer  
+d. Memento  
+
+Question  
+When designing adaptive layouts for different device orientations in Swift, which strategy typically provides the most flexible approach?
+
+Select one:  
+a. Relying on manual calculations for each orientation  
+b. Adopting Auto Layout constraints with size class variations  
+c. Using fixed frame dimensions that do not scale  
+d. Hardcoding different views for every device type  
+
+Question  
+What Swift OOP concept allows subclasses to provide a specific implementation for a method that is already defined in their superclass?
+
+Select one:  
+a. Automatic cloning  
+b. Overriding  
+c. Delegation  
+d. Protocol extension  
+
+Question  
+Which of the following artifacts is a low-fidelity representation focused on the arrangement of UI elements and user flow, generally without finalized visuals or branding?
+
+Select one:  
+a. Visual design board  
+b. Prototype  
+c. Live mockup  
+d. Wireframe  
+
+Question  
+Which Swift feature provides a way to handle unexpected conditions by signaling and capturing errors, preventing crashes during runtime?
+
+Select one:  
+a. guard let-else statements  
+b. do-catch error handling  
+c. Optionals as?  
+d. Switch statements  
+
+Question  
+According to Apple’s Human Interface Guidelines, which principle applies most to consistent navigation hierarchies across an app?
+
+Select one:  
+a. Overuse modals for every user action  
+b. Automatically randomize the order of screens  
+c. Force the user to confirm each tap  
+d. Maintain a logical, discoverable structure  
+
+Question  
+Which design pattern in Swift provides a clean way to separate an object’s state from how it is presented, allowing multiple presentations or views of the same data?
+
+Select one:  
+a. Iterator  
+b. Model-View-ViewModel (MVVM)  
+c. Chain of Responsibility  
+d. Singleton  
+
+Question  
+Which method of validating a design concept involves observing real users in a practical environment as they interact with your wireframes or prototypes?
+
+Select one:  
+a. Gathering analytics data after deployment  
+b. A/B testing with random guesses  
+c. Usability testing sessions  
+d. Brainstorming within the design team only  

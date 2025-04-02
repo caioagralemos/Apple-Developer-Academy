@@ -12642,3 +12642,273 @@ a. Contrast
 b. Repetition
 c. Balance
 d. Hierarchy
+
+Question
+In Swift, what is the primary purpose of the defer statement?
+
+Select one:
+a. To delay the execution of a code block until the network is available.
+b. To execute a block of code just before the current scope (function, loop, etc.) is exited, regardless of how it's exited (e.g., return, throw, or normal completion).
+c. To declare a variable whose initialization is deferred until its first use.
+d. To mark a function as asynchronous, deferring its execution to a background thread.
+
+Question
+According to Apple's Human Interface Guidelines, what does "Clarity" primarily refer to in UI design?
+
+Select one:
+a. Using the brightest possible colors.
+b. Ensuring text is legible and icons are easily understandable.
+c. Making sure all animations are extremely fast.
+d. Providing extensive documentation within the app.
+
+Question
+Which Swift keyword is used to prevent a class method or property from being overridden in a subclass?
+
+Select one:
+a. static
+b. private
+c. final
+d. internal
+
+Question
+What is the core idea behind "Progressive Disclosure" in UI/UX design?
+
+Select one:
+a. Gradually revealing user interface elements or information as the user needs them, rather than overwhelming them upfront.
+b. Showing a progress bar for every background task.
+c. Disclosing all features and options in the initial view.
+d. Progressively increasing the font size as the user scrolls.
+
+Question
+In Swift's Object-Oriented Programming, what distinguishes a struct from a class regarding inheritance?
+
+Select one:
+a. Structs support multiple inheritance, while classes only support single inheritance.
+b. Classes can inherit from other classes, whereas structs cannot inherit from other structs or classes.
+c. Structs inherit automatically from a universal base struct, unlike classes.
+d. Inheritance works identically for both structs and classes.
+
+Question
+Which design principle involves arranging elements so that their edges line up along common rows or columns?
+
+Select one:
+a. Contrast
+b. Repetition
+c. Alignment
+d. Proximity
+
+Question
+What does the ?? operator (nil-coalescing operator) do in Swift?
+
+Select one:
+a. It performs a logical OR operation between two optional Booleans.
+b. It unwraps an optional if it contains a value, or provides a default value if the optional is nil.
+c. It forces unwrapping of an optional, crashing if it's nil.
+d. It checks if two optional values are equal.
+
+Question
+In user-centered design, what is a "Persona"?
+
+Select one:
+a. The actual code profile used for performance testing.
+b. A legally binding document outlining user rights.
+c. A fictional character created to represent a primary user type and their goals/needs.
+d. A specific screen layout within an application.
+
+Question
+What is the purpose of the associatedtype keyword when defining a Swift protocol?
+
+Select one:
+a. To define a nested type within the protocol.
+b. To specify the type of the delegate object.
+c. To declare a placeholder type name that conforming types will specify.
+d. To link the protocol to a specific class implementation.
+
+Question
+What is a "Wireframe" in the context of UI/UX design?
+
+Select one:
+a. A high-fidelity, pixel-perfect representation of the final user interface.
+b. A basic visual guide or blueprint that outlines the structure and layout of a screen, focusing on content and functionality, not aesthetics.
+c. The final codebase submitted to the App Store.
+d. A detailed color palette and typography specification document.
+
+Question
+How does Swift handle memory management for class instances?
+
+Select one:
+a. Manual memory management using retain and release calls.
+b. Garbage Collection (GC) running periodically in the background.
+c. Automatic Reference Counting (ARC), which tracks references and deallocates memory when an instance has no strong references.
+d. No memory management is needed for class instances.
+
+Question
+Which Apple Human Interface Guideline principle emphasizes making controls and information discoverable and easy to locate?
+
+Select one:
+a. Aesthetic Integrity
+b. Consistency
+c. Feedback
+d. Findability (often discussed under Clarity or Navigation)
+
+Question
+In Swift, what does the mutating keyword signify when used in a method declaration within a struct or enum?
+
+Select one:
+a. The method can change the underlying data type of the instance.
+b. The method is allowed to modify the properties of the value type instance it's called on.
+c. The method mutates the global application state.
+d. The method can only be called once during the lifetime of the instance.
+
+Question
+What is the primary goal of creating "User Flow Diagrams" during the design process?
+
+Select one:
+a. To decide on the final color scheme.
+b. To map out the paths a user takes through an application to complete a specific task.
+c. To document the code structure and class relationships.
+d. To choose the fonts for the application.
+
+Question
+Which access control level in Swift restricts the use of an entity (class, struct, func, etc.) to the defining source file?
+
+Select one:
+a. internal
+b. public
+c. private
+d. fileprivate
+
+Question
+Designing an interface that adjusts gracefully to different screen sizes and orientations (e.g., iPhone portrait vs. iPad landscape) is known as:
+
+Select one:
+a. Skeuomorphic Design
+b. Flat Design
+c. Responsive / Adaptive Design
+d. Material Design
+
+Question
+What is the Decorator design pattern primarily used for in Swift?
+
+Select one:
+a. Restricting the instantiation of a class to a single object.
+b. Defining a family of algorithms and making them interchangeable.
+c. Attaching additional responsibilities or behaviors to an object dynamically without altering its class.
+d. Providing a simplified interface to a complex subsystem.
+
+Question
+In typography, what does "Kerning" refer to?
+
+Select one:
+a. The vertical space between lines of text (leading).
+b. The adjustment of space between specific pairs of characters to improve visual appeal.
+c. The overall width of a character.
+d. The height of the main body of lowercase letters (x-height).
+
+Question
+What is the purpose of a protocol in Swift?
+
+Select one:
+a. To provide a concrete implementation of methods and properties.
+b. To define a blueprint of methods, properties, and other requirements that a class, struct, or enum can adopt.
+c. To manage network communication protocols like HTTP or FTP.
+d. To store user preferences and settings securely.
+
+Question
+Which design artifact typically includes clickable areas to simulate navigation between different screens, but without full functionality or visual polish?
+
+Select one:
+a. Sketch
+b. Wireframe
+c. Interactive Prototype
+d. Specification Document
+
+Question
+What does "Type Safety" mean in the context of Swift?
+
+Select one:
+a. Swift prevents you from using more than 10 distinct data types in one project.
+b. Swift encourages the use of implicitly unwrapped optionals for safety.
+c. Swift prevents you from assigning a value of one type to a variable of a different, incompatible type without explicit conversion, reducing runtime errors.
+d. Swift automatically converts all types to Any for maximum flexibility.
+
+Question
+What basic design theory principle involves repeating visual elements like colors, fonts, or shapes throughout a design?
+
+Select one:
+a. Contrast
+b. Balance
+c. Hierarchy
+d. Repetition
+
+Question
+In Swift, if you want to ensure a variable can hold either a specific type of value or no value at all, what feature would you use?
+
+Select one:
+a. Generics
+b. Tuples
+c. Optionals
+d. Type Aliases
+
+Question
+What is the primary benefit of conducting Usability Testing?
+
+Select one:
+a. To generate marketing slogans for the app.
+b. To observe real users interacting with the design to identify pain points, confusion, and areas for improvement.
+c. To check the code for syntax errors.
+d. To finalize the app's icon design.
+
+Question
+Which design pattern involves defining an interface for creating an object, but letting subclasses decide which class to instantiate?
+
+Select one:
+a. Singleton
+b. Observer
+c. Factory Method
+d. Facade
+
+Question
+According to Apple's HIG, why is "Consistency" important in an app's interface?
+
+Select one:
+a. It makes the app look visually identical to all other apps on the platform.
+b. It allows users to transfer their knowledge and skills from one part of the app (or OS) to another, making it easier to learn and use.
+c. It ensures the app uses the exact same code libraries as other popular apps.
+d. It primarily relates to using a consistent internet connection speed.
+
+Question
+What is the role of the self keyword inside a Swift method?
+
+Select one:
+a. It refers to the superclass instance.
+b. It refers to the specific instance of the type that the method is being called on.
+c. It is used to declare static properties.
+d. It explicitly indicates that a method is recursive.
+
+Question
+What does "Hierarchy" in visual design help achieve?
+
+Select one:
+a. It makes all elements appear equally important.
+b. It uses only black and white colors.
+c. It guides the viewer's eye by making the most important elements stand out.
+d. It ensures perfect symmetry in the layout.
+
+Question
+In Swift error handling, what is the purpose of the try? keyword?
+
+Select one:
+a. It forces the error to be thrown, crashing the app if an error occurs.
+b. It calls the function, and if it throws an error, the result is nil; otherwise, the result is an optional containing the returned value.
+c. It automatically retries the function call if an error is thrown.
+d. It converts any thrown error into a descriptive String.
+
+Question
+What concept describes designing digital products that are accessible and usable by people with the widest range of abilities, including disabilities?
+
+Select one:
+a. User-Centered Design
+b. Gamification
+c. Accessibility (A11y)
+d. Internationalization (i18n)

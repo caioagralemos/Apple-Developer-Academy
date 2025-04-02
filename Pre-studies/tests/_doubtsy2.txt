@@ -1679,3 +1679,12 @@ a. Contrast
 b. Alignment
 c. Repetition
 d. Proximity
+
+Question
+In Swift's Object-Oriented Programming, what distinguishes a struct from a class regarding inheritance?
+
+Select one:
+a. Structs support multiple inheritance, while classes only support single inheritance.
+b. Classes can inherit from other classes, whereas structs cannot inherit from other structs or classes.
+c. Structs inherit automatically from a universal base struct, unlike classes.
+d. Inheritance works identically for both structs and classes.

@@ -1715,3 +1715,30 @@ a. Prevents the enum from being subclassed
 b. Guarantees the enum’s cases won’t change in future library updates  
 c. Makes the enum immutable after initialization  
 d. Restricts the enum to only numeric raw values  
+
+Question
+Which of the following is a common unit of measurement for web typography?
+
+Select one:
+a. Points (pt)
+b. Pixels (px)
+c. Inches (in)
+d. Centimeters (cm)
+
+Question
+Which design principle focuses on creating a sense of movement and visual flow?
+
+Select one:
+a. Balance
+b. Rhythm
+c. Proximity
+d. Unity
+
+Question
+What is the term for the space between columns in a multi-column layout?
+
+Select one:
+a. Baseline
+b. Margin
+c. Gutter
+d. Tracking

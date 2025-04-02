@@ -13182,3 +13182,273 @@ a. A sketch is digital; a wireframe is paper-based
 b. A sketch is a rough, freehand idea; a wireframe is a structured layout  
 c. A sketch includes interactivity; a wireframe does not  
 d. A sketch defines colors; a wireframe defines navigation 
+
+Question
+What is the primary function of leading in typography?
+
+Select one:
+a. Adjusting the space between individual characters.
+b. Adjusting the space between lines of text.
+c. Adjusting the width of characters within a word.
+d. Adjusting the overall size of the typeface.
+
+Question
+Which color model is primarily used for print design?
+
+Select one:
+a. RGB
+b. CMYK
+c. HSL
+d. HEX
+
+Question
+What is the term for the visual hierarchy created through the arrangement of elements in a design?
+
+Select one:
+a. Kerning
+b. Composition
+c. Tracking
+d. Leading
+
+Question
+In color theory, what are colors located directly opposite each other on the color wheel called?
+
+Select one:
+a. Analogous colors
+b. Complementary colors
+c. Triadic colors
+d. Monochromatic colors
+
+Question
+Which of the following is an example of a sans-serif typeface?
+
+Select one:
+a. Times New Roman
+b. Helvetica
+c. Garamond
+d. Courier New
+
+Question
+What is the purpose of using a grid system in layout design?
+
+Select one:
+a. To randomly place elements on a page.
+b. To create a structured and consistent layout.
+c. To increase the number of colors in a design.
+d. To eliminate the need for white space.
+
+Question
+What is the term for the empty space surrounding elements in a design?
+
+Select one:
+a. Kerning
+b. Tracking
+c. Leading
+d. White space
+
+Question
+Which design principle focuses on the visual weight and balance of elements?
+
+Select one:
+a. Unity
+b. Balance
+c. Rhythm
+d. Emphasis
+
+Question
+What is the term for adjusting the space between individual characters in a word?
+
+Select one:
+a. Tracking
+b. Kerning
+c. Leading
+d. Alignment
+
+Question
+Which file format is best for preserving transparency in a logo design?
+
+Select one:
+a. JPEG
+b. PNG
+c. TIFF
+d. BMP
+
+Question
+What is the primary goal of creating a mood board in the design process?
+
+Select one:
+a. To finalize the color palette.
+b. To establish the visual direction and inspiration.
+c. To determine the exact dimensions of the layout.
+d. To write the copy for the design.
+
+Question
+Which of the following refers to the overall style and personality of a typeface?
+
+Select one:
+a. Leading
+b. Font family
+c. Tracking
+d. Kerning
+
+Question
+In layout design, what is the term for the imaginary line on which text sits?
+
+Select one:
+a. Baseline
+b. Margin
+c. Gutter
+d. Column
+
+Question
+What is the effect of using a high contrast color scheme?
+
+Select one:
+a. It creates a harmonious and calming effect.
+b. It draws attention and creates visual impact.
+c. It makes the design appear washed out.
+d. It blends the elements together seamlessly.
+
+Question
+Which principle suggests that similar elements should be visually grouped?
+
+Select one:
+a. Contrast
+b. Proximity
+c. Repetition
+d. Alignment
+
+Question
+What is the term for the space between columns in a multi-column layout?
+
+Select one:
+a. Baseline
+b. Margin
+c. Gutter
+d. Tracking
+
+Question
+Which of the following is a common unit of measurement for web typography?
+
+Select one:
+a. Points (pt)
+b. Pixels (px)
+c. Inches (in)
+d. Centimeters (cm)
+
+Question
+What is the purpose of a style guide in design?
+
+Select one:
+a. To dictate the emotional response to a design.
+b. To ensure consistency across all design materials.
+c. To select the most expensive design tools.
+d. To limit the creative process.
+
+Question
+Which design principle involves creating a focal point to draw the viewer’s eye?
+
+Select one:
+a. Unity
+b. Emphasis
+c. Balance
+d. Rhythm
+
+Question
+What is the term for the repetition of visual elements throughout a design?
+
+Select one:
+a. Contrast
+b. Proximity
+c. Repetition
+d. Alignment
+
+Question
+In web design, what is the concept of responsive design?
+
+Select one:
+a. Designing for maximum brightness.
+b. Designing websites that adapt to different screen sizes.
+c. Designing websites with static layouts.
+d. Designing websites with only one color.
+
+Question
+What does the term "visual hierarchy" refer to?
+
+Select one:
+a. The arrangement of colors in a gradient.
+b. The order in which the eye perceives visual elements.
+c. The use of specific font sizes.
+d. The overall brightness of the design.
+
+Question
+Which of the following is a key consideration when choosing a typeface for body text?
+
+Select one:
+a. Decorative flourishes.
+b. Readability.
+c. Unusual character shapes.
+d. Extremely large sizes.
+
+Question
+What is the purpose of using a wireframe in the design process?
+
+Select one:
+a. To create a high-fidelity mockup.
+b. To plan the layout and functionality of a design.
+c. To apply final colors and textures.
+d. To write the content for the design.
+
+Question
+What is the term for a design that uses variations of a single color?
+
+Select one:
+a. Complementary
+b. Monochromatic
+c. Analogous
+d. Triadic
+
+Question
+Which design principle focuses on creating a sense of movement and visual flow?
+
+Select one:
+a. Balance
+b. Rhythm
+c. Proximity
+d. Unity
+
+Question
+What is the primary function of a logo in branding?
+
+Select one:
+a. To provide detailed information about a product.
+b. To create a visual representation of a brand's identity.
+c. To display all the products a company sells.
+d. To list the company's address and phone number.
+
+Question
+What is the term for the process of arranging elements to achieve visual harmony?
+
+Select one:
+a. Kerning
+b. Composition
+c. Tracking
+d. Leading
+
+Question
+Which file format is generally best for photographs on the web?
+
+Select one:
+a. PNG
+b. JPEG
+c. GIF
+d. TIFF
+
+Question
+What is the effect of using analogous colors in a design?
+
+Select one:
+a. High contrast and visual impact.
+b. A harmonious and calming feel.
+c. A dynamic and energetic look.
+d. A completely neutral appearance.

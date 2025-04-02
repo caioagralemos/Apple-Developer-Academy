@@ -12912,3 +12912,273 @@ a. User-Centered Design
 b. Gamification
 c. Accessibility (A11y)
 d. Internationalization (i18n)
+
+Question
+In Swift, what happens if you declare a variable with `let` and then attempt to reassign it later in the code?  
+
+Select one:  
+a. The reassignment is silently ignored  
+b. The compiler throws an error  
+c. The variable becomes optional  
+d. The value is updated only if it’s of the same type  
+
+Question
+What is the primary purpose of using a monochromatic color scheme in a Swift app’s UI design?  
+
+Select one:  
+a. To maximize contrast between elements  
+b. To create a cohesive and harmonious look  
+c. To ensure accessibility for colorblind users  
+d. To reduce the app’s memory footprint  
+
+Question 
+In Swift’s OOP, what is the key difference between overriding a method and overloading it?  
+
+Select one:  
+a. Overriding changes parameter types; overloading redefines the method body  
+b. Overriding replaces a superclass method; overloading creates multiple methods with the same name but different parameters  
+c. Overriding is only for structs; overloading is for classes  
+d. Overriding requires protocol conformance; overloading does not  
+
+Question  
+According to Apple’s Human Interface Guidelines, what should you prioritize when designing a navigation structure?  
+
+Select one:  
+a. Using as many animations as possible  
+b. Keeping it intuitive and predictable for users  
+c. Hiding options to simplify the interface  
+d. Adding complex gestures for advanced users  
+
+Question 
+What does the Swift `guard` statement primarily provide in a function?  
+
+Select one:  
+a. A way to loop over optional values  
+b. An early exit if conditions aren’t met, improving readability  
+c. A mechanism to force unwrap all optionals  
+d. A delayed execution block like `defer`  
+
+Question
+In user-centered design, what is the main advantage of sketching multiple layout ideas before wireframing?  
+
+Select one:  
+a. It finalizes the app’s visual style  
+b. It allows quick exploration of concepts with minimal investment  
+c. It ensures pixel-perfect accuracy  
+d. It replaces the need for user testing  
+
+Question  
+Which Swift design pattern would you use to encapsulate a complex object creation process with multiple steps?  
+
+Select one:  
+a. Singleton  
+b. Builder  
+c. Observer  
+d. Strategy  
+
+Question 
+In design theory, what does increasing the kerning of a font typically achieve in a Swift app’s title?  
+
+Select one:  
+a. It reduces the font’s weight  
+b. It improves readability by spacing letters further apart  
+c. It tightens the text for a compact look  
+d. It adjusts the vertical line spacing  
+
+Question  
+What is the result of the Swift expression `let x = 10; let y = x / 3`?  
+
+Select one:  
+a. 3.333… (a Double)  
+b. 3 (an Int)  
+c. 3.0 (a Float)  
+d. A compiler error due to type mismatch  
+
+Question  
+In responsive design for Swift, why is it beneficial to use percentage-based constraints over fixed values?  
+
+Select one:  
+a. They ensure elements stay in fixed positions  
+b. They adapt better to varying screen sizes  
+c. They reduce the need for Auto Layout  
+d. They improve rendering speed  
+
+Question 
+In Swift, what does the `@frozen` attribute do when applied to an enum?  
+
+Select one:  
+a. Prevents the enum from being subclassed  
+b. Guarantees the enum’s cases won’t change in future library updates  
+c. Makes the enum immutable after initialization  
+d. Restricts the enum to only numeric raw values  
+
+Question  
+According to Apple’s HIG, what is a key reason to avoid using overly subtle color differences in a UI?  
+
+Select one:  
+a. It increases app loading time  
+b. It can reduce accessibility for visually impaired users  
+c. It conflicts with dark mode settings  
+d. It requires more processing power  
+
+Question 
+Which Swift feature allows you to define a method that must be implemented by any conforming type, without providing a default?  
+
+Select one:  
+a. Protocol extension  
+b. Generic function  
+c. Protocol requirement  
+d. Class inheritance  
+
+Question  
+In UI/UX, what does a high-fidelity prototype primarily test that a wireframe cannot?  
+
+Select one:  
+a. Basic navigation flow  
+b. Detailed visual design and interactions  
+c. Backend data integration  
+d. Initial layout structure  
+
+Question 
+What is the output of this Swift code: `let array = [1, 2, 3]; print(array[3])`?  
+
+Select one:  
+a. 3  
+b. nil  
+c. A runtime crash due to index out of bounds  
+d. 0 (default value)  
+
+Question 
+In design theory, what does a complementary color scheme (e.g., red and green) typically create in a Swift app’s UI?  
+
+Select one:  
+a. A subtle, low-energy feel  
+b. A high-contrast, vibrant effect  
+c. A monochromatic, unified look  
+d. A random, chaotic aesthetic  
+
+Question 
+In Swift’s OOP, what happens if a subclass does not provide an initializer and the superclass has a designated initializer?  
+
+Select one:  
+a. The subclass inherits it automatically  
+b. The subclass cannot be instantiated  
+c. A default empty initializer is generated  
+d. The compiler requires an explicit override  
+
+Question 
+What is the primary goal of creating an interaction specification for a Swift app?  
+
+Select one:  
+a. To define the database schema  
+b. To detail how users interact with UI elements and the app’s responses  
+c. To finalize the app’s color palette  
+d. To outline the app’s marketing strategy  
+
+Question
+Which Swift keyword allows a closure to capture and modify variables from its surrounding scope?  
+
+Select one:  
+a. weak  
+b. unowned  
+c. capture  
+d. No keyword is needed; it’s automatic  
+
+Question 
+According to Apple’s HIG, why should you provide immediate feedback for user actions?  
+
+Select one:  
+a. To increase app complexity  
+b. To confirm the action and reduce user uncertainty  
+c. To delay the next possible interaction  
+d. To enforce a consistent animation style  
+
+Question  
+What is the purpose of the `inout` parameter in a Swift function?  
+
+Select one:  
+a. To make the parameter optional  
+b. To allow the function to modify the original value passed in  
+c. To restrict the parameter to constant values  
+d. To enforce type inference  
+
+Question
+In user-centered design, what is a key benefit of conducting iterative testing on prototypes?  
+
+Select one:  
+a. It locks in the final design early  
+b. It refines the product based on real user feedback  
+c. It eliminates the need for sketches  
+d. It focuses solely on visual polish  
+
+Question  
+Which Swift design pattern would you use to allow multiple objects to react to a single object’s state change?  
+
+Select one:  
+a. Factory Method  
+b. Singleton  
+c. Observer  
+d. Decorator  
+
+Question
+In design theory, what does adjusting the leading (line spacing) of text in a Swift app typically improve?  
+
+Select one:  
+a. Character spacing  
+b. Text legibility and readability  
+c. Font weight  
+d. Color contrast  
+
+Question
+What is the type of the variable in this Swift declaration: `var value: String? = nil`?  
+
+Select one:  
+a. String  
+b. Optional<String>  
+c. Nil  
+d. Any  
+
+Question
+In adaptive design for Swift, what is the benefit of using size classes over hardcoding layouts?  
+
+Select one:  
+a. They enforce a single layout for all devices  
+b. They allow dynamic adjustments based on device traits  
+c. They simplify color scheme selection  
+d. They reduce the app’s file size  
+
+Question  
+In Swift, what does the `rethrows` keyword indicate about a function?  
+
+Select one:  
+a. It can throw errors only if its closure parameter throws  
+b. It retries execution on error automatically  
+c. It throws errors unconditionally  
+d. It prevents any error handling  
+
+Question
+What does Apple’s HIG suggest about using custom gestures in a Swift app?  
+
+Select one:  
+a. Use them extensively to replace buttons  
+b. Avoid them unless they enhance a common task  
+c. Make them the primary navigation method  
+d. Reserve them for decorative purposes  
+
+Question  
+Which Swift feature allows you to define a type that can work with any data type, as long as it meets certain constraints?  
+
+Select one:  
+a. Protocols  
+b. Generics  
+c. Extensions  
+d. Tuples  
+
+Question  
+In UI/UX, what is the primary difference between a sketch and a wireframe?  
+
+Select one:  
+a. A sketch is digital; a wireframe is paper-based  
+b. A sketch is a rough, freehand idea; a wireframe is a structured layout  
+c. A sketch includes interactivity; a wireframe does not  
+d. A sketch defines colors; a wireframe defines navigation 

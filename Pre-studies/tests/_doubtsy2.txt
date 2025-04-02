@@ -1688,3 +1688,30 @@ a. Structs support multiple inheritance, while classes only support single inher
 b. Classes can inherit from other classes, whereas structs cannot inherit from other structs or classes.
 c. Structs inherit automatically from a universal base struct, unlike classes.
 d. Inheritance works identically for both structs and classes.
+
+Question  
+In Swift, what does the `rethrows` keyword indicate about a function?  
+
+Select one:  
+a. It can throw errors only if its closure parameter throws  
+b. It retries execution on error automatically  
+c. It throws errors unconditionally  
+d. It prevents any error handling  
+
+Question 
+In Swift’s OOP, what happens if a subclass does not provide an initializer and the superclass has a designated initializer?  
+
+Select one:  
+a. The subclass inherits it automatically  
+b. The subclass cannot be instantiated  
+c. A default empty initializer is generated  
+d. The compiler requires an explicit override  
+
+Question 
+In Swift, what does the `@frozen` attribute do when applied to an enum?  
+
+Select one:  
+a. Prevents the enum from being subclassed  
+b. Guarantees the enum’s cases won’t change in future library updates  
+c. Makes the enum immutable after initialization  
+d. Restricts the enum to only numeric raw values  

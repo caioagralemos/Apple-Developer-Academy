@@ -1808,3 +1808,21 @@ a. Factory Method
 b. Abstract Factory  
 c. Prototype  
 d. Builder  
+
+Question  
+In layout design, what does the term "bleed" refer to?  
+
+Select one:  
+a. The fading effect applied to text edges  
+b. The extension of design elements beyond the trim edge  
+c. The space between two adjacent columns  
+d. The area where text overlaps images  
+
+Question  
+Why might a designer choose a low saturation color palette for a professional interface?  
+
+Select one:  
+a. To mimic a retro aesthetic  
+b. To ensure maximum contrast with text  
+c. To convey subtlety and sophistication  
+d. To increase visual fatigue for emphasis  

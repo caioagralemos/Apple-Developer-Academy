@@ -13992,3 +13992,273 @@ a. It relies solely on inheritance rather than composition
 b. It tends to result in thinner View Controllers and improved testability of presentation logic  
 c. It makes the View responsible for all business logic  
 d. It completely eliminates the need for a Model
+
+Question  
+What is the primary purpose of using a serif typeface in a design layout?  
+
+Select one:  
+a. To reduce the need for increased leading  
+b. To create a modern, minimalist aesthetic  
+c. To enhance readability in long passages of text  
+d. To emphasize decorative elements over legibility  
+
+Question  
+Which color harmony uses three colors that form a triangle on the color wheel, ensuring vibrant yet balanced contrast?  
+
+Select one:  
+a. Tetradic  
+b. Split-complementary  
+c. Complementary  
+d. Triadic  
+
+Question  
+In layout design, what does the term "bleed" refer to?  
+
+Select one:  
+a. The fading effect applied to text edges  
+b. The extension of design elements beyond the trim edge  
+c. The space between two adjacent columns  
+d. The area where text overlaps images  
+
+Question  
+Why might a designer choose a low saturation color palette for a professional interface?  
+
+Select one:  
+a. To mimic a retro aesthetic  
+b. To ensure maximum contrast with text  
+c. To convey subtlety and sophistication  
+d. To increase visual fatigue for emphasis  
+
+Question  
+What typographic feature is most likely to improve the legibility of a dense paragraph on a small screen?  
+
+Select one:  
+a. Condensed font width  
+b. Tight kerning  
+c. Adequate leading  
+d. Bold weight across all text  
+
+Question  
+Which design principle suggests that elements with a shared purpose should be visually distinct from unrelated items?  
+
+Select one:  
+a. Contrast  
+b. Repetition  
+c. Grouping  
+d. Alignment  
+
+Question  
+In color theory, what happens when you mix a hue with its complementary color in equal parts?  
+
+Select one:  
+a. The mixture produces a tertiary color  
+b. The result is a neutral gray or brown tone  
+c. The hue becomes fully desaturated but retains its value  
+d. The result is a brighter version of the original hue  
+
+Question  
+What is the main advantage of using a modular grid over a single-column layout?  
+
+Select one:  
+a. It ensures all elements are centered automatically  
+b. It eliminates the need for gutters between elements  
+c. It allows for flexible and consistent placement of varied content  
+d. It simplifies the design process by reducing alignment options  
+
+Question  
+Which of these typographic adjustments would most likely disrupt the flow of a headline?  
+
+Select one:  
+a. Slightly increased leading  
+b. Uniform font weight  
+c. Excessive kerning between random letter pairs  
+d. Consistent tracking  
+
+Question  
+What does the term "golden ratio" refer to in design composition?  
+
+Select one:  
+a. A grid system with exactly five columns  
+b. A proportional relationship often used for aesthetically pleasing layouts  
+c. A fixed color contrast ratio of 1:1.618  
+d. A typography scale limiting fonts to two sizes  
+
+Question  
+Why might a designer avoid using pure black (#000000) for text on a white background?  
+
+Select one:  
+a. It prevents text from being scalable  
+b. It reduces file size in digital formats  
+c. It can create overly harsh contrast, straining the eyes  
+d. It conflicts with modern color trends  
+
+Question  
+Which layout technique uses overlapping elements to suggest depth?  
+
+Select one:  
+a. Layering  
+b. Flat stacking  
+c. Symmetrical balance  
+d. Baseline alignment  
+
+Question  
+In typography, what does a high x-height typically indicate about a typeface?  
+
+Select one:  
+a. It requires tighter leading to maintain balance  
+b. It has exaggerated ascenders and descenders  
+c. It appears larger and more readable at smaller sizes  
+d. It is designed exclusively for display purposes  
+
+Question  
+Which color model is best suited for designing interfaces that will transition between digital screens and physical prints?  
+
+Select one:  
+a. RGB for its additive properties  
+b. A hybrid model combining RGB and CMYK  
+c. HSL for its intuitive adjustments  
+d. CMYK for its subtractive consistency  
+
+Question  
+What is the primary risk of using a highly decorative font for body text?  
+
+Select one:  
+a. It forces designers to use fewer colors  
+b. It increases rendering time on screens  
+c. It reduces legibility and comprehension  
+d. It conflicts with accessibility guidelines  
+
+Question  
+Which design principle is violated if a layout has no clear starting point for the viewer’s eye?  
+
+Select one:  
+a. Contrast  
+b. Balance  
+c. Hierarchy  
+d. Proximity  
+
+Question  
+In a triadic color scheme, what is the angular separation between the three colors on the color wheel?  
+
+Select one:  
+a. 60 degrees  
+b. 180 degrees  
+c. 120 degrees  
+d. 90 degrees  
+
+Question  
+What is the effect of reducing tracking in a block of text?  
+
+Select one:  
+a. It improves vertical alignment  
+b. It increases the space between lines  
+c. It makes the text appear more compact horizontally  
+d. It emphasizes individual letterforms  
+
+Question  
+Which layout approach is most effective for guiding a user through a sequence of steps?  
+
+Select one:  
+a. Grid-based scattering  
+b. Asymmetrical clustering  
+c. Linear progression  
+d. Radial balance  
+
+Question  
+Why might a designer opt for a split-complementary color scheme over a standard complementary one?  
+
+Select one:  
+a. It ensures all colors are equally saturated  
+b. It eliminates the need for a third color  
+c. It offers more variety while maintaining harmony  
+d. It provides less contrast for a subtler effect  
+
+Question  
+In typography, what does the term "counter" refer to?  
+
+Select one:  
+a. The adjustment of space between letter pairs  
+b. The thickness of a stroke in a letter  
+c. The enclosed or partially enclosed space within a letter  
+d. The height difference between ascenders and descenders  
+
+Question  
+Which design choice would most likely make a layout feel unstable or dynamic?  
+
+Select one:  
+a. Consistent repetition of circular shapes  
+b. Symmetrical balance with even spacing  
+c. Asymmetrical balance with varied weights  
+d. Uniform alignment along a central axis  
+
+Question  
+What is the main purpose of using a baseline grid in typography?  
+
+Select one:  
+a. To ensure consistent vertical rhythm and alignment  
+b. To create equal spacing between columns  
+c. To limit the number of font sizes used  
+d. To automatically adjust kerning across text  
+
+Question  
+Which of these is a common trap when selecting a color palette for accessibility?  
+
+Select one:  
+a. Testing colors in both light and dark modes  
+b. Incorporating a range of hues for variety  
+c. Relying solely on color to convey critical information  
+d. Using high-contrast pairings for text and background  
+
+Question  
+What does increasing the leading in a paragraph typically achieve?  
+
+Select one:  
+a. It aligns the text more closely with the baseline  
+b. It compresses the text for a denser look  
+c. It improves readability by adding vertical space  
+d. It reduces the need for kerning adjustments  
+
+Question  
+In layout design, what is the primary function of a "focal point"?  
+
+Select one:  
+a. To minimize the use of white space  
+b. To evenly distribute all elements across the page  
+c. To draw immediate attention to a key area or element  
+d. To balance the design with symmetrical repetition  
+
+Question  
+Which color attribute directly affects how vivid or dull a hue appears?  
+
+Select one:  
+a. Tint  
+b. Hue  
+c. Saturation  
+d. Value  
+
+Question  
+What might happen if a designer uses too many conflicting typefaces in a single layout?  
+
+Select one:  
+a. It improves readability across all screen sizes  
+b. It creates confusion and weakens cohesion  
+c. It ensures the design feels modern and trendy  
+d. It enhances visual hierarchy automatically  
+
+Question  
+Which composition technique divides a layout into nine equal parts to place key elements at intersections?  
+
+Select one:  
+a. Central alignment  
+b. Fibonacci sequence  
+c. Rule of thirds  
+d. Golden spiral  
+
+Question  
+Why might a designer choose PNG over JPEG for an image with sharp edges and text?  
+
+Select one:  
+a. PNG reduces file size more efficiently than JPEG  
+b. JPEG preserves color accuracy more effectively  
+c. PNG supports transparency and maintains crispness  
+d. JPEG offers better compression for detailed textures

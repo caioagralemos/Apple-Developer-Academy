@@ -1745,3 +1745,66 @@ d. Tracking
 
 Question What Swift concept allows a class to inherit methods and properties but forbids multiple inheritance of classes?
 Select one: a. Classes can implement many protocols but only one main method b. Classes must declare a final initializer c. Classes use composition only d. Classes support single inheritance but can adopt multiple protocols
+
+Question  
+When considering MVVM vs MVC, a key benefit often cited for MVVM is:  
+
+Select one:  
+a. It relies solely on inheritance rather than composition  
+b. It tends to result in thinner View Controllers and improved testability of presentation logic  
+c. It makes the View responsible for all business logic  
+d. It completely eliminates the need for a Model
+
+Question  
+In Swift, design patterns like Strategy, Delegate, and Factory Method often heavily rely on which language feature for defining contracts and enabling polymorphism?  
+
+Select one:  
+a. Structs and value semantics  
+b. Protocols  
+c. Enums with associated values  
+d. Class inheritance hierarchies  
+
+Question  
+Which pattern defines the skeleton of an algorithm in an operation, deferring some steps to subclasses (or protocol conformers), allowing them to redefine certain steps without changing the algorithm's structure?  
+
+Select one:  
+a. Template Method  
+b. Factory Method  
+c. Strategy  
+d. Builder  
+
+Question  
+The Coordinator pattern, often used in iOS development, primarily helps to manage what aspect of an application?  
+
+Select one:  
+a. Network requests and responses  
+b. Application navigation flow and decoupling View Controllers  
+c. User interface layout and styling  
+d. Data persistence and storage  
+
+Question  
+In the Model-View-ViewModel (MVVM) pattern, the ViewModel primarily:  
+
+Select one:  
+a. Owns the navigation flow between different screens  
+b. Prepares and provides data formatted for display by the View and handles presentation logic  
+c. Directly manipulates UI elements in the View  
+d. Holds the raw application data and business logic (like the Model in MVC)  
+
+Question  
+In the Model-View-Controller (MVC) pattern, what is the primary responsibility of the Controller?  
+
+Select one:  
+a. Displaying data to the user and handling user input directly  
+b. Acting as an intermediary between the Model and the View, interpreting user actions and updating the View  
+c. Managing the application's data and business logic  
+d. Encapsulating the application's state for undo functionality  
+
+Question  
+Which pattern allows you to create families of related objects without specifying their concrete classes, often using a protocol to define methods for creating each object type?  
+
+Select one:  
+a. Factory Method  
+b. Abstract Factory  
+c. Prototype  
+d. Builder  

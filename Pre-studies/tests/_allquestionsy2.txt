@@ -13722,3 +13722,273 @@ a. Gathering analytics data after deployment
 b. A/B testing with random guesses  
 c. Usability testing sessions  
 d. Brainstorming within the design team only  
+
+Question  
+Which design pattern is most suitable for ensuring that a class has only one instance and provides a global point of access to it, often used for managing shared resources like configuration or logging?  
+
+Select one:  
+a. Builder  
+b. Singleton  
+c. Factory Method  
+d. Facade  
+
+Question  
+You need to allow an object (the delegate) to act on behalf of, or in coordination with, another object (the delegator) when specific events occur. Which pattern best fits this requirement, especially common in Cocoa Touch frameworks?  
+
+Select one:  
+a. Memento  
+b. Observer  
+c. Command  
+d. Delegate  
+
+Question  
+Which pattern allows you to create families of related objects without specifying their concrete classes, often using a protocol to define methods for creating each object type?  
+
+Select one:  
+a. Factory Method  
+b. Abstract Factory  
+c. Prototype  
+d. Builder  
+
+Question  
+You want to add new responsibilities or behaviors to an object dynamically without altering its original class structure. Which structural pattern wraps the original object?  
+
+Select one:  
+a. Composite  
+b. Adapter  
+c. Decorator  
+d. Facade  
+
+Question  
+Which pattern defines a one-to-many dependency between objects so that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically?  
+
+Select one:  
+a. Chain of Responsibility  
+b. Mediator  
+c. Delegate  
+d. Observer  
+
+Question  
+What is the primary goal of the Facade pattern?  
+
+Select one:  
+a. To compose objects into tree structures to represent part-whole hierarchies  
+b. To allow objects with incompatible interfaces to collaborate  
+c. To provide a simplified, high-level interface to a complex subsystem of classes  
+d. To adapt the interface of one class to match the interface expected by a client  
+
+Question  
+The Strategy pattern is primarily used to:  
+
+Select one:  
+a. Ensure a class only has one instance  
+b. Define a family of algorithms, encapsulate each one, and make them interchangeable at runtime  
+c. Separate the construction of a complex object from its representation  
+d. Attach additional responsibilities to an object dynamically  
+
+Question  
+In the Model-View-Controller (MVC) pattern, what is the primary responsibility of the Controller?  
+
+Select one:  
+a. Displaying data to the user and handling user input directly  
+b. Acting as an intermediary between the Model and the View, interpreting user actions and updating the View  
+c. Managing the application's data and business logic  
+d. Encapsulating the application's state for undo functionality  
+
+Question  
+Which pattern allows you to decouple the sender of a request from its receiver by encapsulating the request as an object, letting you parameterize clients with different requests?  
+
+Select one:  
+a. Mediator  
+b. Command  
+c. State  
+d. Memento  
+
+Question  
+The Builder pattern is particularly useful when:  
+
+Select one:  
+a. You need to define a skeleton of an algorithm, deferring some steps to subclasses  
+b. You need to ensure only one instance of a class exists  
+c. The construction of a complex object involves multiple steps or optional configurations  
+d. An object needs to represent the state of another object  
+
+Question  
+Which pattern converts the interface of a class into another interface clients expect, making classes work together that couldn't otherwise because of incompatible interfaces?  
+
+Select one:  
+a. Proxy  
+b. Adapter  
+c. Bridge  
+d. Facade  
+
+Question  
+In the Model-View-ViewModel (MVVM) pattern, the ViewModel primarily:  
+
+Select one:  
+a. Owns the navigation flow between different screens  
+b. Prepares and provides data formatted for display by the View and handles presentation logic  
+c. Directly manipulates UI elements in the View  
+d. Holds the raw application data and business logic (like the Model in MVC)  
+
+Question  
+The Memento pattern is used to capture and externalize an object's internal state so that the object can be restored to this state later. What is a common application of this pattern?  
+
+Select one:  
+a. Creating objects without specifying the exact class  
+b. Implementing undo/redo functionality  
+c. Notifying multiple objects about state changes  
+d. Simplifying access to a complex library  
+
+Question  
+Which creational pattern involves defining an interface (often a protocol in Swift) for creating an object, but letting subclasses (or conforming types) decide which class to instantiate?  
+
+Select one:  
+a. Builder  
+b. Factory Method  
+c. Singleton  
+d. Abstract Factory  
+
+Question  
+You have a complex system with many interacting parts. You want to reduce coupling by introducing an object that centralizes communication between these parts, preventing them from referring to each other directly. Which pattern fits this scenario?  
+
+Select one:  
+a. Command  
+b. Observer  
+c. Mediator  
+d. Facade  
+
+Question  
+The Prototype pattern creates new objects by:  
+
+Select one:  
+a. Ensuring only a single instance is ever created  
+b. Copying or cloning an existing object instance  
+c. Requesting an instance from a factory method  
+d. Following a step-by-step construction process defined by a builder  
+
+Question  
+Which pattern allows an object's behavior to change when its internal state changes, making the object appear to change its class?  
+
+Select one:  
+a. Observer  
+b. State  
+c. Command  
+d. Strategy  
+
+Question  
+The Coordinator pattern, often used in iOS development, primarily helps to manage what aspect of an application?  
+
+Select one:  
+a. Network requests and responses  
+b. Application navigation flow and decoupling View Controllers  
+c. User interface layout and styling  
+d. Data persistence and storage  
+
+Question  
+How does the Delegate pattern typically prevent retain cycles in Swift?  
+
+Select one:  
+a. By using NotificationCenter instead  
+b. By declaring the delegate property with the weak keyword  
+c. By ensuring the delegate is always a struct (value type)  
+d. By using a static shared instance for the delegate  
+
+Question  
+What key problem does the Composite pattern solve?  
+
+Select one:  
+a. It allows clients to treat individual objects and compositions of objects uniformly  
+b. It provides a way to access elements of an aggregate object sequentially  
+c. It simplifies the interface to a complex system  
+d. It decouples an abstraction from its implementation so they can vary independently  
+
+Question  
+Which pattern defines the skeleton of an algorithm in an operation, deferring some steps to subclasses (or protocol conformers), allowing them to redefine certain steps without changing the algorithm's structure?  
+
+Select one:  
+a. Template Method  
+b. Factory Method  
+c. Strategy  
+d. Builder  
+
+Question  
+When comparing Observer and Delegate patterns, a key difference is:  
+
+Select one:  
+a. Delegate helps avoid retain cycles, whereas Observer often causes them  
+b. Observer typically involves a one-to-many relationship, while Delegate is usually one-to-one  
+c. Delegate uses protocols, whereas Observer never does  
+d. Observer is for creating objects, while Delegate is for behavior  
+
+Question  
+The Proxy pattern provides a surrogate or placeholder for another object to:  
+
+Select one:  
+a. Allow algorithms to be swapped at runtime  
+b. Define a simplified interface to a set of objects  
+c. Control access to the original object, potentially adding logic before or after access  
+d. Add responsibilities dynamically to the object  
+
+Question  
+In Swift, design patterns like Strategy, Delegate, and Factory Method often heavily rely on which language feature for defining contracts and enabling polymorphism?  
+
+Select one:  
+a. Structs and value semantics  
+b. Protocols  
+c. Enums with associated values  
+d. Class inheritance hierarchies  
+
+Question  
+Which pattern would be most appropriate for managing different ways to sort a list of items, allowing the sorting algorithm to be chosen at runtime?  
+
+Select one:  
+a. Builder  
+b. Strategy  
+c. Decorator  
+d. Facade  
+
+Question  
+A potential drawback of the Singleton pattern is:  
+
+Select one:  
+a. It requires defining a complex hierarchy of classes  
+b. It cannot be implemented using Swift structs  
+c. It makes unit testing harder due to its global state and hidden dependencies  
+d. It increases the complexity of object creation  
+
+Question  
+The purpose of the Iterator pattern is to:  
+
+Select one:  
+a. Allow an object to change its behavior based on its state  
+b. Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation  
+c. Define a simplified interface for a complex system  
+d. Encapsulate a request as an object  
+
+Question  
+What is a common use case for the Adapter pattern in Swift/iOS development?  
+
+Select one:  
+a. Ensuring only one instance of a network manager exists  
+b. Making a class conform to a protocol it wasn't originally designed for, like UITableViewDataSource  
+c. Centralizing navigation logic  
+d. Implementing undo functionality for user actions  
+
+Question  
+The Chain of Responsibility pattern allows:  
+
+Select one:  
+a. Multiple objects to handle a request without the sender knowing which object will handle it  
+b. Algorithms to be swapped dynamically  
+c. An object's state to be saved and restored  
+d. A simplified interface to be presented for a complex subsystem  
+
+Question  
+When considering MVVM vs MVC, a key benefit often cited for MVVM is:  
+
+Select one:  
+a. It relies solely on inheritance rather than composition  
+b. It tends to result in thinner View Controllers and improved testability of presentation logic  
+c. It makes the View responsible for all business logic  
+d. It completely eliminates the need for a Model

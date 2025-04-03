@@ -14262,3 +14262,273 @@ a. PNG reduces file size more efficiently than JPEG
 b. JPEG preserves color accuracy more effectively  
 c. PNG supports transparency and maintains crispness  
 d. JPEG offers better compression for detailed textures
+
+Question  
+Which keyword in Swift prevents a property from being changed once it’s assigned a value?  
+
+Select one:  
+a. final  
+b. static  
+c. let  
+d. var  
+
+Question  
+When designing for touch interfaces on Apple platforms, which factor is most critical for tap targets?  
+
+Select one:  
+a. Color contrast  
+b. Minimum hit area for fingertip touch  
+c. The device model  
+d. Border thickness  
+
+Question  
+Which Swift feature allows you to provide default behavior or implementations in your types without subclassing?  
+
+Select one:  
+a. Subscripts  
+b. Enumerations  
+c. Protocol extensions  
+d. Type aliases  
+
+Question  
+In responsive iOS design, what is the primary reason to use constraints rather than fixed frame sizes?  
+
+Select one:  
+a. To simplify manual resizing in code  
+b. To reduce code overhead  
+c. To adapt layouts to different screen sizes  
+d. To automatically translate text  
+
+Question  
+What is a key benefit of using guard statements in Swift?  
+
+Select one:  
+a. It restricts the use of extensions  
+b. It exits early, improving code clarity  
+c. It disables runtime checks for array bounds  
+d. It automatically unwraps all optional types globally  
+
+Question  
+According to Apple’s Human Interface Guidelines, which design principle best describes ensuring consistent placement of similar elements throughout your app?  
+
+Select one:  
+a. Redundancy elimination  
+b. Visual delight  
+c. Aesthetic integrity  
+d. Feature grouping  
+
+Question  
+Which design pattern emphasizes one-to-many relationships where a change in one object notifies dependents automatically?  
+
+Select one:  
+a. Memento  
+b. Strategy  
+c. Observer  
+d. Singleton  
+
+Question  
+In Swift, which concept allows classes to share behavior without requiring strict inheritance from a single parent class?  
+
+Select one:  
+a. Strong references  
+b. Protocols  
+c. Global variables  
+d. Inheritance trees  
+
+Question  
+Which design element primarily involves selecting and pairing typefaces to convey the right tone and readability?  
+
+Select one:  
+a. Grid layout  
+b. Whitespace management  
+c. Typography  
+d. Skeuomorphism  
+
+Question  
+Which Swift statement is used to transform one type to another safely, returning nil if the cast fails?  
+
+Select one:  
+a. switch-case  
+b. as?  
+c. try?  
+d. as!  
+
+Question  
+Which Swift keyword is used to define a custom error that can be thrown?  
+
+Select one:  
+a. case  
+b. enum  
+c. extension  
+d. associatedtype  
+
+Question  
+When developing user-centered design solutions, what should designers and developers do first?  
+
+Select one:  
+a. Focus exclusively on business goals  
+b. Conduct user research to identify needs  
+c. Create final high-fidelity mockups  
+d. Begin coding the most complex features  
+
+Question  
+What is the core advantage of making your app’s layout adapt to variations in device orientation?  
+
+Select one:  
+a. It allows ignoring safe area guides  
+b. It eliminates the need for image assets  
+c. It provides a consistent user experience across orientations  
+d. It speeds up app launch time  
+
+Question  
+Which color property primarily focuses on balancing color intensity and brightness for better on-screen readability?  
+
+Select one:  
+a. Dissonance  
+b. Gradation  
+c. Contrast  
+d. Contrivance  
+
+Question  
+When discussing app design in Swift, which process helps to ensure your interface is tested with realistic data and usage scenarios early?  
+
+Select one:  
+a. Code obfuscation  
+b. Keyword optimization  
+c. Prototyping with real content  
+d. Deployment to the App Store  
+
+Question  
+Which design pattern in Swift organizes code by separating data from presentation logic?  
+
+Select one:  
+a. Facade  
+b. Model-View-ViewModel (MVVM)  
+c. Builder  
+d. Adapter  
+
+Question  
+Which artifact focuses on visualizing major screen elements and navigation but omits detailed aesthetics?  
+
+Select one:  
+a. A color palette  
+b. A final mockup  
+c. A wireframe  
+d. A style guide  
+
+Question  
+In Swift, which principle is best demonstrated when you ensure each class has only one core responsibility?  
+
+Select one:  
+a. KISS principle  
+b. Extension principle  
+c. Single Responsibility Principle  
+d. Decorator principle  
+
+Question  
+Which Swift type provides guaranteed non-null behavior and can store a value without optional unwrapping?  
+
+Select one:  
+a. AutoreleasingUnsafeMutablePointer  
+b. A non-optional type  
+c. UnsafeMutableBufferPointer  
+d. Optional  
+
+Question  
+When creating an accessible app interface, which factor is most crucial for inclusive design?  
+
+Select one:  
+a. Minimal function calls  
+b. High color contrast and readable text  
+c. Quick animations only  
+d. User login speed  
+
+Question  
+What should developers do first when integrating user-centered design practices into a new Swift project?  
+
+Select one:  
+a. Implement advanced animations  
+b. Use only default system fonts  
+c. Interview representative users  
+d. Hard-code layout sizes  
+
+Question  
+Within the Apple Human Interface Guidelines, which aspect describes using motion in a way that is intuitive and not overwhelming?  
+
+Select one:  
+a. Overriding user preferences  
+b. Balanced transitions and animations  
+c. Prioritizing system-level logs  
+d. Minimizing code complexity  
+
+Question  
+In Swift, which approach allows you to limit external visibility of properties or functions?  
+
+Select one:  
+a. Declaring placeholders in a protocol  
+b. Relying on bridging headers  
+c. Applying access control modifiers  
+d. Using typealias  
+
+Question  
+Which pattern is characterized by creating objects through method calls rather than direct instantiation, often concealing the creation logic?  
+
+Select one:  
+a. Composite  
+b. Factory  
+c. Iterator  
+d. Observer  
+
+Question  
+Which Swift concept ensures that subclasses can inherit properties and methods from a parent class?  
+
+Select one:  
+a. Encapsulation  
+b. Enumeration  
+c. Inheritance  
+d. Composition  
+
+Question  
+Which artifact provides a tangible but simplified way to test an app’s flow and interaction before final production design?  
+
+Select one:  
+a. A Gantt chart  
+b. A comprehensive design specification  
+c. A clickable prototype  
+d. A final design system  
+
+Question  
+When declaring an optional property in Swift, which symbol is used to indicate that the property may be nil?  
+
+Select one:  
+a. #  
+b. ?  
+c. +  
+d. -  
+
+Question  
+During a design review, which feedback aligns with making an app layout responsive on multiple device sizes?  
+
+Select one:  
+a. “Avoid all margins for simplicity.”  
+b. “Implement flexible constraints and adapt to safe areas.”  
+c. “Fix all UI elements at screen center.”  
+d. “Use only single fixed width for minimal complexity.”  
+
+Question  
+Which Swift technique involves breaking complex tasks into smaller, testable units of code while avoiding large monolithic files?  
+
+Select one:  
+a. Using the default global scope  
+b. Organizing code into multiple modules  
+c. Storing everything in one ViewController  
+d. Relying on nested do-try blocks  
+
+Question  
+In Swift, which statement is used to safely unwrap an optional only if it has a value?  
+
+Select one:  
+a. repeat-while  
+b. if let  
+c. for-in  
+d. fallback default

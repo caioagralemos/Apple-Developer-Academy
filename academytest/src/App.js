@@ -14,7 +14,7 @@ function App() {
   const [minutes, setMinutes] = useState(20)
   const [seconds, setSeconds] = useState(0)
   const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GEMINI_KEY);
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
 
   const getResponseForGivenPrompt = async () => {
     const result = await model.generateContent(

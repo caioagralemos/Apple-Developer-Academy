@@ -1,0 +1,34 @@
+// Genre Picker Labels - AddBookModal
+"genre.adventureAction" = "Action / Adventure";
+"genre.biography" = "Biography";
+"genre.comedy" = "Comedy";
+"genre.comic" = "Comic";
+"genre.drama" = "Drama";
+"genre.education" = "Education";
+"genre.fantasy" = "Fantasy";
+"genre.fiction" = "Fiction";
+"genre.historicalFiction" = "Historical Fiction";
+"genre.horror" = "Horror";
+"genre.kids" = "Kids";
+"genre.mysteryThriller" = "Mystery / Thriller";
+"genre.nonFiction" = "Non-Fiction";
+"genre.personalDevelopment" = "Personal Development";
+"genre.philosophySpiritual" = "Philosophy / Spiritual";
+"genre.poetry" = "Poetry";
+"genre.psychology" = "Psychology";
+"genre.romance" = "Romance";
+"genre.scienceFiction" = "Sci-Fi";
+"genre.travel" = "Travel";
+
+// AddBookModal UI Labels
+"addBook.title" = "Title";
+"addBook.author" = "Author";
+"addBook.genre" = "Genre";
+"addBook.enterTitle" = "Enter title";
+"addBook.enterAuthor" = "Enter author";
+"addBook.addBookInfo" = "Add your book's information";
+"addBook.editBookInfo" = "Edit your book's information";
+"addBook.addBook" = "Add Book";
+"addBook.editBook" = "Edit Book";
+"addBook.cancel" = "Cancel";
+"addBook.save" = "Save";

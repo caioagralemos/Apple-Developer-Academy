@@ -9,9 +9,6 @@ import SwiftUI
 import FamilyControls
 internal import AVFAudio
 
-
-
-
 struct FocusView: View {
     let selectedTimeInSeconds: Int
     let currentBook: Book?
@@ -19,6 +16,7 @@ struct FocusView: View {
     @Environment(\.dismiss) var dismiss
     
     @StateObject private var timerViewModel: TimerViewModel
+    @StateObject var liveActivityViewModel: SessionActivityViewModel
     @StateObject private var focusManager = FocusManager()
     @StateObject private var dataManager = DataManager.shared
     @StateObject private var environmentviewModel = EnvironmentViewModel()
@@ -40,6 +38,7 @@ struct FocusView: View {
         self.selectedTimeInSeconds = selectedTimeInSeconds
         self.currentBook = currentBook
         _timerViewModel = StateObject(wrappedValue: TimerViewModel(initialSeconds: selectedTimeInSeconds))
+        _liveActivityViewModel = StateObject(wrappedValue: SessionActivityViewModel(durationInSeconds: selectedTimeInSeconds, progress: 0, bookName: currentBook?.title ?? "Title", bookAuthor: currentBook?.author ?? "Author"))
 
         let initialsoundFileName: String
         
@@ -48,6 +47,7 @@ struct FocusView: View {
         _audioManager = StateObject(wrappedValue: AudioManager(soundFileName: initialsoundFileName, soundFileType: "mp3"))
             
         }
+    
     var body: some View {
         // Use NavigationStack if you plan to navigate *from* this view later
         NavigationStack {
@@ -131,7 +131,7 @@ struct FocusView: View {
                     }
                 }
                 
-                timerViewModel.startOrResume()
+                timerViewModel.startOrResume(viewModel: liveActivityViewModel)
                 
                 // Request authorization and load saved selection
                 focusManager.requestAuthorization()
@@ -150,17 +150,26 @@ struct FocusView: View {
             }
             .onAppear {
                 audioManager.audioPlayer?.volume = 0.4
+                liveActivityViewModel.startLiveActivity()
             }
             .onDisappear {
                 // Stop playing audio when the view disappears
                 audioManager.stop()
                 timerViewModel.pause()
-                
+
+                // End/disable Live Activity when leaving FocusView
+                // If the timer finished, mark the activity completed; otherwise, treat as canceled
+                if timerViewModel.timerState == .finished {
+                    liveActivityViewModel.endLiveActivity(success: true)
+                } else {
+                    liveActivityViewModel.endLiveActivity(success: false)
+                }
+
                 // Handle incomplete reading session
                 if let _ = currentSession?.id, timerViewModel.timerState != .finished {
                     // Calculate actual time spent (initial time - remaining time)
                     let actualTimeSpent = selectedTimeInSeconds - timerViewModel.remainingSeconds
-                    
+
                     // Create a new session with the actual time spent
                     if let book = currentBook, actualTimeSpent > 0 {
                         let _ = dataManager.createReadingSession(
@@ -171,12 +180,12 @@ struct FocusView: View {
                         print("📖 Saved partial reading session: \(actualTimeSpent)s")
                     }
                 }
-                
+
                 // Stop focus session if active
                 let hasApps = !focusManager.activitySelection.applicationTokens.isEmpty
                 let hasCategories = !focusManager.activitySelection.categoryTokens.isEmpty
                 let hasWebDomains = !focusManager.activitySelection.webDomainTokens.isEmpty
-                
+
                 if hasApps || hasCategories || hasWebDomains {
                     focusManager.stopFocusSession()
                 }

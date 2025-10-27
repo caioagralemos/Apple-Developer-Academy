@@ -127,6 +127,7 @@ struct HomeView: View {
                             }
                         }
                         .scrollContentBackground(.hidden)
+                        .padding(.bottom, 20)
                     }
                 } else {
                     Spacer()

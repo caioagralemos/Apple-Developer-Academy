@@ -42,7 +42,7 @@ class TimerViewModel: ObservableObject {
     }
 
     // Start or resume the timer
-    func startOrResume() {
+    func startOrResume(viewModel: SessionActivityViewModel) {
         guard timerState != .running else { return } // Don't start if already running
 
         // If finished, reset before starting
@@ -64,12 +64,16 @@ class TimerViewModel: ObservableObject {
 
                 if self.remainingSeconds > 0 {
                     self.remainingSeconds -= 1
+                    viewModel.durationInSeconds -= 1
+                    viewModel.progress = min(Double(viewModel.durationInSeconds / viewModel.firstDuration), 1.0)
+                    viewModel.updateLiveActivity()
                     self.formattedTime = self.formatTime(seconds: self.remainingSeconds)
                 } else {
                     // Timer finished
                     self.timerState = .finished
                     self.timerSubscription?.cancel() // Stop the timer
                     self.endBackgroundTask() // End background task
+                    viewModel.endLiveActivity(success: true)
                     print("🎉 Timer finished!")
                     
                     // Send notification

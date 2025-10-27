@@ -45,13 +45,10 @@ struct AddModalView: View {
     }
 
     var body: some View {
-        
         NavigationStack {
-           
             VStack(spacing: 24) {
-              
                     VStack(alignment: .center, spacing: 16) {
-                         Image("Mark")
+                         Image("mark")
                              .resizable()
                              .aspectRatio(contentMode: .fit) // Use .fit to avoid distortion
                              .frame(width: 80, height: 80) // Adjust size as needed

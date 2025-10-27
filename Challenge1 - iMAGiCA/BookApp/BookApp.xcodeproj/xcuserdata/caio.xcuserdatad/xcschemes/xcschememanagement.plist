@@ -14,9 +14,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ReadingSessionActivityExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>25D8D0B02EB01F9200510E25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5A29484B2E9FFC600018EF17</key>
 		<dict>
 			<key>primary</key>

@@ -11,6 +11,6 @@ import SwiftUI
 @main
 struct ReadingSessionActivityBundle: WidgetBundle {
     var body: some Widget {
-        ReadingSessionActivity()
+        ReadingSessionActivityLiveActivity()
     }
 }

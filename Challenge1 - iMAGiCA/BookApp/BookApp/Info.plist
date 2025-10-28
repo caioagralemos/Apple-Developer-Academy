@@ -7,6 +7,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Mark needs user notfications to enable live activities and keep you updated on your reading sessions.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string></string>
@@ -18,5 +20,7 @@
 		<string>audio</string>
 		<string>background-processing</string>
 	</array>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
 </dict>
 </plist>

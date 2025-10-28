@@ -5,80 +5,129 @@
 //  Created by Caio on 27/10/25.
 //
 
-import WidgetKit
+import ActivityKit
 import SwiftUI
+import WidgetKit
 
-struct Provider: TimelineProvider {
-    func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), emoji: "😀")
-    }
-
-    func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), emoji: "😀")
-        completion(entry)
-    }
-
-    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
-
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, emoji: "😀")
-            entries.append(entry)
-        }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
-    }
-
-//    func relevances() async -> WidgetRelevances<Void> {
-//        // Generate a list containing the contexts this widget is relevant in.
-//    }
-}
-
-struct SimpleEntry: TimelineEntry {
-    let date: Date
-    let emoji: String
-}
-
-struct ReadingSessionActivityEntryView : View {
-    var entry: Provider.Entry
-
-    var body: some View {
-        VStack {
-            Text("Time:")
-            Text(entry.date, style: .time)
-
-            Text("Emoji:")
-            Text(entry.emoji)
-        }
-    }
-}
-
-struct ReadingSessionActivity: Widget {
-    let kind: String = "ReadingSessionActivity"
-
+struct ReadingSessionActivityLiveActivity: Widget {
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            if #available(iOS 17.0, *) {
-                ReadingSessionActivityEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
-            } else {
-                ReadingSessionActivityEntryView(entry: entry)
-                    .padding()
-                    .background()
+        ActivityConfiguration(for: SessionAttributes.self) { context in
+            // Lock screen/banner UI - baseado no Frame 5 do Figma
+            HStack(spacing: 16) {
+                VStack(alignment: .leading, spacing: 4) {
+                    HStack {
+                        Text("📖 \(context.attributes.bookName) - \(context.attributes.bookAuthor)")
+                            .font(.system(size: 8, weight: .regular))
+                            .foregroundColor(.primary)
+                            .lineLimit(1)
+                    }
+                    .opacity(0.6)
+                    
+                    Text(formatTime(seconds: context.state.durationInSeconds))
+                        .font(.system(size: 48, weight: .regular))
+                        .foregroundColor(.primary)
+                    
+                }
+                
+                Spacer()
+                
+                Image(systemName: "pause.circle")
+                    .font(.system(size: 32))
+                    .foregroundColor(.primary)
+            }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 16)
+            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .stroke(.quaternary, lineWidth: 0.5)
+            )
+            
+        } dynamicIsland: { context in
+            DynamicIsland {
+                // Expanded UI
+                DynamicIslandExpandedRegion(.leading) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "book.fill")
+                            .font(.system(size: 16, weight: .medium))
+                            .foregroundColor(.blue)
+                        
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(context.attributes.bookName)
+                                .font(.system(size: 12, weight: .semibold))
+                                .lineLimit(1)
+                            Text(context.attributes.bookAuthor)
+                                .font(.system(size: 10, weight: .regular))
+                                .foregroundColor(.secondary)
+                                .lineLimit(1)
+                        }
+                    }
+                }
+                
+                DynamicIslandExpandedRegion(.trailing) {
+                    VStack(spacing: 4) {
+                        Text(formatTime(seconds: context.state.durationInSeconds))
+                            .font(.system(size: 18, weight: .bold, design: .monospaced))
+                        
+                        Image(systemName: "pause.circle.fill")
+                            .font(.system(size: 20))
+                            .foregroundColor(.primary)
+                    }
+                }
+                
+                DynamicIslandExpandedRegion(.bottom) {
+                    ProgressView(value: 1.0 - context.state.progress)
+                        .progressViewStyle(LinearProgressViewStyle())
+                        .tint(.blue)
+                        .padding(.horizontal)
+                }
+                
+            } compactLeading: {
+                Image(systemName: "book.fill")
+                    .font(.system(size: 14, weight: .medium))
+                    .foregroundColor(.primary)
+                    
+            } compactTrailing: {
+                Text(formatTime(seconds: context.state.durationInSeconds))
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(.primary)
+                    .minimumScaleFactor(0.8)
+                    
+            } minimal: {
+                Text(formatTime(seconds: context.state.durationInSeconds))
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(.primary)
+                    .minimumScaleFactor(0.8)
             }
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+    }
+    
+    private func formatTime(seconds: Int) -> String {
+        let minutes = seconds / 60
+        let remainingSeconds = seconds % 60
+        return String(format: "%02d:%02d", minutes, remainingSeconds)
     }
 }
 
-#Preview(as: .systemSmall) {
-    ReadingSessionActivity()
-} timeline: {
-    SimpleEntry(date: .now, emoji: "😀")
-    SimpleEntry(date: .now, emoji: "🤩")
+extension SessionAttributes {
+    fileprivate static var preview: SessionAttributes {
+        SessionAttributes(bookName: "O Alquimista", bookAuthor: "Paulo Coelho")
+    }
+}
+
+extension SessionAttributes.ContentState {
+    fileprivate static var sampleState: SessionAttributes.ContentState {
+        SessionAttributes.ContentState(durationInSeconds: 1113, progress: 0.3) // 18:33
+    }
+     
+    fileprivate static var finalState: SessionAttributes.ContentState {
+        SessionAttributes.ContentState(durationInSeconds: 0, progress: 1.0)
+    }
+}
+
+#Preview("Notification", as: .content, using: SessionAttributes.preview) {
+   ReadingSessionActivityLiveActivity()
+} contentStates: {
+    SessionAttributes.ContentState.sampleState
+    SessionAttributes.ContentState.finalState
 }

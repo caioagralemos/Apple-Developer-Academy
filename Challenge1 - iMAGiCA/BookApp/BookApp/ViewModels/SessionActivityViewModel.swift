@@ -21,8 +21,9 @@ class SessionActivityViewModel: ObservableObject {
         self.durationInSeconds = durationInSeconds
         self.firstDuration = durationInSeconds
         self.progress = progress
-        self.bookName = bookName
-        self.bookAuthor = bookAuthor
+        // Se o nome do livro estiver em branco, usar dados do exemplo
+        self.bookName = bookName.isEmpty ? "O Alquimista" : bookName
+        self.bookAuthor = bookAuthor.isEmpty ? "Paulo Coelho" : bookAuthor
         self.sessionActivity = sessionActivity
         
         print("Starting Session Activity Model")
@@ -31,18 +32,25 @@ class SessionActivityViewModel: ObservableObject {
     func startLiveActivity() {
         let attributes = SessionAttributes(bookName: bookName, bookAuthor: bookAuthor)
         let initialState = SessionAttributes.ContentState(durationInSeconds: durationInSeconds, progress: progress)
+        print("Requesting Live Activity... with duration=\(durationInSeconds), progress=\(progress)")
         do {
-            sessionActivity = try Activity.request(attributes: attributes, content: ActivityContent(state: initialState, staleDate: nil))
+            sessionActivity = try Activity.request(
+                attributes: attributes,
+                content: ActivityContent(state: initialState, staleDate: nil)
+            )
+            print("Live Activity started: \(String(describing: sessionActivity))")
         } catch {
             print("Error starting live activity: \(error)")
         }
     }
     
     func updateLiveActivity() {
-        let updatedState = SessionAttributes.ContentState(durationInSeconds: durationInSeconds, progress: Double(durationInSeconds/firstDuration))
+        let ratio = 1.0 - (Double(durationInSeconds) / Double(firstDuration))
+        let updatedState = SessionAttributes.ContentState(durationInSeconds: durationInSeconds, progress: ratio)
         
         Task {
             await sessionActivity?.update(ActivityContent(state: updatedState, staleDate: nil))
+            print("Live Activity updated: duration=\(durationInSeconds), progress=\(ratio)")
         }
     }
     

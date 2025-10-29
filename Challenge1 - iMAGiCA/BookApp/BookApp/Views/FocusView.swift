@@ -251,6 +251,7 @@ struct FocusView: View {
             }
             .navigationBarBackButtonHidden(true)
             .toolbar(.hidden, for: .tabBar)
+            .statusBarHidden()
         }
     }
     

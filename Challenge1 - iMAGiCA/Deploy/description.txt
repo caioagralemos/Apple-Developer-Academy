@@ -1,0 +1,13 @@
+Immersive reading with sound, focus, and emotion — live your story with Mark.
+
+Turn reading into a living experience. Mark creates immersive environments with sound, visuals, and total focus so you can dive into your story.
+• Scan your book cover with on-device AI (Vision + Foundation Models) to detect the genre instantly.
+• Block distractions with ScreenTime API and stay in flow.
+• Enjoy dynamic scenes — rainy days, Lo-Fi forests, or custom moods.
+• Track your session time with Live Activities.
+• Personalize your atmosphere and feel every page.
+
+Don’t just read — live the story.
+Created by Team iMAGiCA: Caio Agra Lemos, Alessandro Cacace, Giulia Guadagno, Mahsa Veysi & Aatika Khan.
+
+keywords: reading,books,focus,immersion,ambient,lofi,rain,scanner,AI,vision,parallax,relax,concentration

@@ -89,7 +89,7 @@ struct ReadingSessionActivityLiveActivity: Widget {
 
 extension SessionAttributes {
     fileprivate static var preview: SessionAttributes {
-        SessionAttributes(bookName: "O Alquimista", bookAuthor: "Paulo Coelho")
+        SessionAttributes(bookName: "1984", bookAuthor: "George Orwell")
     }
 }
 

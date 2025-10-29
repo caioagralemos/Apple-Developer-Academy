@@ -20,25 +20,21 @@ struct FocusView: View {
     @StateObject private var focusManager = FocusManager()
     @StateObject private var dataManager = DataManager.shared
     @StateObject private var environmentviewModel = EnvironmentViewModel()
-    // Audio manager to control background music
     @StateObject private var audioManager: AudioManager
     
     
-    // State variable to control the presentation of the settings modal
     @State private var showingSettings = false
     @State private var showingAppPicker = false
     @State private var currentSession: ReadingSession?
     @State private var currentEnvironment: EnvironmentModel = EnvironmentViewModel().environments.first ?? EnvironmentModel(emoji: "❓", name: .custom) 
     
-    // Observers for app lifecycle
     @Environment(\.scenePhase) private var scenePhase
     
-    // Helper function to format seconds into MM:SS string
     init(selectedTimeInSeconds: Int, currentBook: Book? = nil) {
         self.selectedTimeInSeconds = selectedTimeInSeconds
         self.currentBook = currentBook
         _timerViewModel = StateObject(wrappedValue: TimerViewModel(initialSeconds: selectedTimeInSeconds))
-        _liveActivityViewModel = StateObject(wrappedValue: SessionActivityViewModel(durationInSeconds: selectedTimeInSeconds, progress: 0, bookName: currentBook?.title ?? "Title", bookAuthor: currentBook?.author ?? "Author"))
+        _liveActivityViewModel = StateObject(wrappedValue: SessionActivityViewModel(durationInSeconds: selectedTimeInSeconds, bookName: currentBook?.title ?? "Title", bookAuthor: currentBook?.author ?? "Author"))
 
         let initialsoundFileName: String
         
@@ -49,7 +45,6 @@ struct FocusView: View {
         }
     
     var body: some View {
-        // Use NavigationStack if you plan to navigate *from* this view later
         NavigationStack {
             ZStack {
                 // Layer 1: Looping Video Background

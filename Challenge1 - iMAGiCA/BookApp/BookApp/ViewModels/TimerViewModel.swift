@@ -64,9 +64,6 @@ class TimerViewModel: ObservableObject {
 
                 if self.remainingSeconds > 0 {
                     self.remainingSeconds -= 1
-                    viewModel.durationInSeconds -= 1
-                    viewModel.progress = 1.0 - (Double(viewModel.durationInSeconds) / Double(viewModel.firstDuration))
-                    viewModel.updateLiveActivity()
                     self.formattedTime = self.formatTime(seconds: self.remainingSeconds)
                 } else {
                     // Timer finished

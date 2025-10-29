@@ -9,9 +9,10 @@ import ActivityKit
 import Foundation
 
 struct SessionAttributes: ActivityAttributes {
+    public typealias TimerStatus = ContentState
+    
     public struct ContentState: Codable, Hashable {
-        public var durationInSeconds: Int
-        public var progress: Double
+        public let endDate: Date
     }
     
     public let bookName: String

@@ -10,18 +10,13 @@ import ActivityKit
 import Combine
 
 class SessionActivityViewModel: ObservableObject {
-    @Published var durationInSeconds: Int = 36000
-    @Published var progress: Double = 0
-    let firstDuration: Int
+    let endDate: Date
     let bookName: String
     let bookAuthor: String
     @Published var sessionActivity: Activity<SessionAttributes>? = nil
     
-    init(durationInSeconds: Int, progress: Double, bookName: String, bookAuthor: String, sessionActivity: Activity<SessionAttributes>? = nil) {
-        self.durationInSeconds = durationInSeconds
-        self.firstDuration = durationInSeconds
-        self.progress = progress
-        // Se o nome do livro estiver em branco, usar dados do exemplo
+    init(durationInSeconds: Int, bookName: String, bookAuthor: String, sessionActivity: Activity<SessionAttributes>? = nil) {
+        self.endDate = Date.now.addingTimeInterval(TimeInterval(durationInSeconds))
         self.bookName = bookName.isEmpty ? "O Alquimista" : bookName
         self.bookAuthor = bookAuthor.isEmpty ? "Paulo Coelho" : bookAuthor
         self.sessionActivity = sessionActivity
@@ -31,12 +26,11 @@ class SessionActivityViewModel: ObservableObject {
     
     func startLiveActivity() {
         let attributes = SessionAttributes(bookName: bookName, bookAuthor: bookAuthor)
-        let initialState = SessionAttributes.ContentState(durationInSeconds: durationInSeconds, progress: progress)
-        print("Requesting Live Activity... with duration=\(durationInSeconds), progress=\(progress)")
+        let contentState = SessionAttributes.ContentState(endDate: endDate)
         do {
             sessionActivity = try Activity.request(
                 attributes: attributes,
-                content: ActivityContent(state: initialState, staleDate: nil)
+                content: ActivityContent(state: contentState, staleDate: Date() + 60)
             )
             print("Live Activity started: \(String(describing: sessionActivity))")
         } catch {
@@ -44,18 +38,8 @@ class SessionActivityViewModel: ObservableObject {
         }
     }
     
-    func updateLiveActivity() {
-        let ratio = 1.0 - (Double(durationInSeconds) / Double(firstDuration))
-        let updatedState = SessionAttributes.ContentState(durationInSeconds: durationInSeconds, progress: ratio)
-        
-        Task {
-            await sessionActivity?.update(ActivityContent(state: updatedState, staleDate: nil))
-            print("Live Activity updated: duration=\(durationInSeconds), progress=\(ratio)")
-        }
-    }
-    
     func endLiveActivity(success: Bool = false) {
-        let finalState = SessionAttributes.ContentState(durationInSeconds: 0, progress: 1)
+        let finalState = SessionAttributes.ContentState(endDate: endDate)
         
         Task {
             if success {

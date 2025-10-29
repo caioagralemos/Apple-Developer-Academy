@@ -44,7 +44,34 @@ struct ReadingSessionActivityLiveActivity: Widget {
         } dynamicIsland: { context in
             DynamicIsland {
                 DynamicIslandExpandedRegion(.leading) {
-                    
+                    HStack(spacing: 6) {
+                        Image("book")
+                            .resizable()
+                            .frame(width: 20, height: 25)
+                            .opacity(0.8)
+                        
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(context.attributes.bookName)
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                                .lineLimit(1)
+                            
+                            Text(context.attributes.bookAuthor)
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                                .lineLimit(1)
+                        }
+                    }.padding(.leading)
+                }
+                
+                // TRAILING - Timer grande
+                DynamicIslandExpandedRegion(.trailing) {
+                    HStack(spacing: 2) {
+                        Spacer()
+                        Text(context.state.endDate, style: .timer)
+                            .font(.system(size: 32, weight: .semibold))
+                            .monospacedDigit()
+                    }.padding(.leading)
                 }
             } compactLeading: {
                 Image(systemName: "book.fill")

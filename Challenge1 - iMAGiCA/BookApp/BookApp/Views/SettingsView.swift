@@ -9,6 +9,7 @@ struct SettingsView: View {
     @State private var hasScreenTimeAccess = false
     @State private var showingFamilyActivityPicker = false
     @State private var showingMusicCredits = false
+    @State private var editingName = ""
     
     var body: some View {
         NavigationStack {
@@ -39,6 +40,31 @@ struct SettingsView: View {
                         .contentShape(Rectangle())
                     }
                     .buttonStyle(.plain)
+                    
+                    HStack {
+                        Image(systemName: "person.fill")
+                            .foregroundColor(.primary)
+                            .frame(width: 24)
+                        
+                        Text("Name")
+                            .foregroundColor(.primary)
+                        
+                        Spacer()
+                        
+                        TextField("Reader", text: $editingName)
+                            .multilineTextAlignment(.trailing)
+                            .foregroundColor(.secondary)
+                            .onChange(of: editingName) { oldValue, newValue in
+                                let trimmed = newValue.trimmingCharacters(in: .whitespaces)
+                                if !trimmed.isEmpty {
+                                    UserDefaults.standard.set(trimmed, forKey: "name")
+                                } else {
+                                    UserDefaults.standard.set("Reader", forKey: "name")
+                                }
+                                dataManager.name = UserDefaults.standard.string(forKey: "name") ?? "Reader"
+                            }
+                    }
+
                     
                     Button {
                         showingMusicCredits = true
@@ -81,6 +107,7 @@ struct SettingsView: View {
         }
         .onAppear {
             checkScreenTimeAccess()
+            self.editingName = UserDefaults.standard.string(forKey: "name") ?? "Reader"
         }
         .familyActivityPicker(isPresented: $showingFamilyActivityPicker, selection: $focusManager.activitySelection)
         .sheet(isPresented: $showingMusicCredits) {

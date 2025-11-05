@@ -239,7 +239,7 @@ class DataManager: ObservableObject {
     // MARK: Getting Name
     func checkName() async {
             let defaults = UserDefaults.standard
-            if let existing = defaults.string(forKey: "nome"), existing != "Reader" {
+            if let existing = defaults.string(forKey: "name"), existing != "Reader" {
                 print("Name found in defaults:", existing)
                 self.name = existing
                 return
@@ -247,7 +247,7 @@ class DataManager: ObservableObject {
             let nameGuesser = NameGuesser(UIDevice.current.name)
             let value = await nameGuesser.generateInfo()
             print("Generated name:", value)
-            defaults.set(value, forKey: "nome")
+            defaults.set(value, forKey: "name")
             self.name = value
         }
 }

@@ -16,7 +16,6 @@ final class NameGuesser {
     var text: String
     var name: String?
     
-    // Lista de nomes comuns para validação (expandir conforme necessário)
     private let commonNames: Set<String> = [
         "Luigi", "Caio", "Giulia", "Maria", "João", "Ana", "Pedro", "Lucas",
         "Gabriel", "Rafael", "Bruno", "Carlos", "Diego", "Eduardo", "Felipe",
@@ -30,19 +29,16 @@ final class NameGuesser {
     }
 
     func generateInfo() async -> String {
-        // Tentar fallback primeiro (mais rápido e confiável)
         if let extracted = extractNameLocally(from: self.text) {
             self.name = extracted
             return extracted
         }
         
-        // Se falhar, tentar o modelo
         if let modelName = await tryLanguageModel() {
             self.name = modelName
             return modelName
         }
         
-        // Último recurso: Reader
         self.name = "Reader"
         return "Reader"
     }
@@ -161,12 +157,22 @@ final class NameGuesser {
             }
             
             let session = LanguageModelSession(instructions: instructions)
-            let response = try await session.respond(
-                to: self.text,
-                options: GenerationOptions(sampling: .greedy)
-            )
             
-            let content = response.content.trimmingCharacters(in: .whitespacesAndNewlines)
+            let task = Task { @MainActor in
+                let response = try await session.respond(
+                    to: self.text,
+                    options: GenerationOptions(sampling: .greedy)
+                )
+                return response.content.trimmingCharacters(in: .whitespacesAndNewlines)
+            }
+            
+            let timeout = Task {
+                try await Task.sleep(for: .seconds(10))
+                task.cancel()
+            }
+            
+            let content = try await task.value
+            timeout.cancel()
             
             if content.isEmpty || content.localizedCaseInsensitiveCompare("Reader") == .orderedSame {
                 return nil
@@ -174,6 +180,8 @@ final class NameGuesser {
             
             return validateName(content)
             
+        } catch is CancellationError {
+            return nil
         } catch {
             self.error = error
             return nil

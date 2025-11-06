@@ -8,6 +8,7 @@
 import SwiftUI
 import VisionKit
 import FamilyControls
+import FoundationModels
 
 struct FocusSetupView: View {
     
@@ -29,6 +30,7 @@ struct FocusSetupView: View {
     @State var isScanning = false
     @State var isEditing = false
     @State var allSet = false
+    @State var modelsAvailable: Bool = false
     
     let circleRadius: CGFloat = 150
     let knobRadius: CGFloat = 15
@@ -37,7 +39,7 @@ struct FocusSetupView: View {
         NavigationStack {
             ZStack {
                 VStack {
-                    if DataScannerViewController.isSupported && DataScannerViewController.isAvailable && currentBook == nil {
+                    if canUseScanFeature && currentBook == nil {
                         Spacer()
                         Spacer()
                         Spacer()
@@ -82,7 +84,7 @@ struct FocusSetupView: View {
                                         .foregroundStyle(Color.second)
                                     }
                                 }
-                            } else if DataScannerViewController.isSupported && DataScannerViewController.isAvailable {
+                            } else if canUseScanFeature {
                                 Button {
                                     isScanning = true
                                     showScanModal.toggle()
@@ -198,13 +200,13 @@ struct FocusSetupView: View {
                     
                     .padding(.bottom, 100)
                     
-                    if DataScannerViewController.isSupported && DataScannerViewController.isAvailable && currentBook == nil {
+                    if canUseScanFeature && currentBook == nil {
                         Spacer()
                         Spacer()
                         Spacer()
                     }
                     
-                    if DataScannerViewController.isSupported && DataScannerViewController.isAvailable && currentBook == nil {
+                    if canUseScanFeature && currentBook == nil {
                         Button {
                             showAddModal = true
                             isEditing = false
@@ -237,6 +239,8 @@ struct FocusSetupView: View {
                     bookGenerator?.prewarmModel()
                     
                     focusManager.requestAuthorization()
+                    
+                    checkModelsAvailability()
                 }
                 
                 .onChange(of: bookScan) {
@@ -247,21 +251,30 @@ struct FocusSetupView: View {
                     Task {
                         self.bookGenerator?.text = self.bookScan
                         await bookGenerator?.generateInfo()
-                        if let book = bookGenerator?.book, book.title.isEmpty == false {
+                        
+                        if let error = bookGenerator?.error {
+                            print("❌ BookGenerator error: \(error.localizedDescription)")
+                            
+                            modelsAvailable = false
+                            
+                            withAnimation {
+                                isScanning = false
+                                isGenerating = false
+                            }
+                        } else if let book = bookGenerator?.book, book.title.isEmpty == false {
                             withAnimation {
                                 self.currentBook = book
                             }
+                            isGenerating = false
                         } else {
-                            
+                            print("⚠️ No book identified")
+                            withAnimation {
+                                isScanning = false
+                                isGenerating = false
+                            }
                         }
-                        isGenerating = false
-                        
-                       
-                            
-                        }
-                        
-                        
                     }
+                }
                     .navigationDestination(isPresented: $allSet) {
                     FocusView(selectedTimeInSeconds: viewModel.timeInSeconds, currentBook: currentBook)
                 }
@@ -283,6 +296,36 @@ struct FocusSetupView: View {
                     FoundBookModal(book: currentBook!, isScanning: $isScanning, currentBook: $currentBook, allSet: $allSet, showAddModal: $showAddModal, isEditing: $isEditing)
                 }
             }
+        }
+    }
+    
+    private var canUseScanFeature: Bool {
+        guard DataScannerViewController.isSupported && 
+              DataScannerViewController.isAvailable else {
+            return false
+        }
+        
+        guard #available(iOS 18.2, *) else {
+            return false
+        }
+        
+        return modelsAvailable
+    }
+    
+    private func checkModelsAvailability() {
+        guard #available(iOS 18.2, *) else {
+            modelsAvailable = false
+            print("❌ iOS < 18.2")
+            return
+        }
+        
+        let model = SystemLanguageModel.default
+        modelsAvailable = model.isAvailable
+        
+        if modelsAvailable {
+            print("✅ FoundationModels available")
+        } else {
+            print("❌ FoundationModels unavailable")
         }
     }
 }

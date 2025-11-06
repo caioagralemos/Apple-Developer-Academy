@@ -5,6 +5,7 @@
 //  Created by Caio on 14/10/25.
 //
 
+import Foundation
 import FoundationModels
 import Observation
 
@@ -27,20 +28,31 @@ final class BookGenerator {
     }
 
     func generateInfo() async {
-        do {
-            // Ask the model to generate a Book from the provided text.
-            let response = try await session.respond(
+        let task = Task { @MainActor in
+            let response = try await self.session.respond(
                 to: self.text,
                 generating: Book.self,
                 includeSchemaInPrompt: false,
                 options: GenerationOptions(sampling: .greedy)
             )
-            
-            self.book = response.content
+            return response.content
+        }
+        
+        let timeout = Task {
+            try await Task.sleep(for: .seconds(15))
+            task.cancel()
+        }
+        
+        do {
+            self.book = try await task.value
+            timeout.cancel()
+        } catch is CancellationError {
+            self.error = NSError(domain: "BookGenerator", code: -1,
+                               userInfo: [NSLocalizedDescriptionKey: "Request timeout"])
         } catch {
+            timeout.cancel()
             self.error = error
         }
-         
     }
 
     func prewarmModel() {

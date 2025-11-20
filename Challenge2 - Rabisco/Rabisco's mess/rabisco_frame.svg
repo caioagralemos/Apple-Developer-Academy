@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <g fill="none" stroke="black" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer rough frame -->
+    <path d="
+      M20 30
+      L580 20
+      L590 780
+      L30 790
+      Z
+    "/>
+    <!-- Inner frame 1 -->
+    <path d="
+      M55 60
+      L545 55
+      L555 745
+      L65 750
+      Z
+    "/>
+    <!-- Inner frame 2 -->
+    <path d="
+      M80 90
+      L520 85
+      L530 720
+      L90 725
+      Z
+    "/>
+    <!-- Inner frame 3 (drawing area border) -->
+    <path d="
+      M110 120
+      L490 118
+      L495 690
+      L115 692
+      Z
+    "/>
+  </g>
+</svg>

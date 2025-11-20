@@ -1,0 +1,82 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.90507,0.96285,0.96783,1.00000",
+      "display-p3:0.87567,0.89264,0.87112,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.5,
+        "y" : 1
+      },
+      "stop" : {
+        "x" : 0.5,
+        "y" : 0.3
+      }
+    }
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name-specializations" : [
+            {
+              "value" : "icon.png"
+            },
+            {
+              "appearance" : "dark",
+              "value" : "iconn2.png"
+            }
+          ],
+          "name" : "iconn2",
+          "position" : {
+            "scale" : 0.23,
+            "translation-in-points" : [
+              12.985762018387959,
+              -11.069137845322985
+            ]
+          }
+        },
+        {
+          "blend-mode-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : "normal"
+            }
+          ],
+          "glass" : false,
+          "image-name" : "photo-1615800098779-1be32e60cca3.png",
+          "name" : "photo-1615800098779-1be32e60cca3",
+          "opacity-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : 0.05
+            }
+          ],
+          "position" : {
+            "scale" : 1.2,
+            "translation-in-points" : [
+              -22.98260352018997,
+              75.25493944726452
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
